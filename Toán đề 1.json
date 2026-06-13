@@ -2,31 +2,31 @@
   {
     "id": 1,
     "type": "TF",
-    "text": "Cho hàm số $y = \\frac{x^2 - x + 1}{x - 1}$ có đồ thị là $(C)$. Các mệnh đề sau đúng hay sai?",
+    "text": "Cho hàm số $ y = \\frac{x^2 - x + 1}{x - 1} $ có đồ thị là $ (C) $. Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "1_1",
-        "text": "1. Hàm số đã cho nghịch biến trên các khoảng $(0; 1)$ và $(1; 2)$.",
+        "text": "Hàm số đã cho nghịch biến trên các khoảng $ (0; 1) $ và $ (1; 2) $.",
         "correct": "T",
-        "solution": "Tập xác định $D = \\mathbb{R} \\setminus \\{1\\}$. Đạo hàm $y' = \\frac{x^2 - 2x}{(x-1)^2}$. Cho $y' = 0 \\Leftrightarrow x = 0$ hoặc $x = 2$. Hàm số nghịch biến trên các khoảng nơi $y' < 0$, tức là $(0; 1)$ và $(1; 2)$."
+        "solution": "Tập xác định $ D = \\mathbb{R} \\setminus \\{1\\} $. Đạo hàm $ y' = \\frac{x^2 - 2x}{(x-1)^2} $. Cho $ y' = 0 \\Leftrightarrow x = 0 $ hoặc $ x = 2 $. Hàm số nghịch biến trên các khoảng nơi $ y' < 0 $, tức là $ (0; 1) $ và $ (1; 2) $."
       },
       {
         "id": "1_2",
-        "text": "2. Hàm số đạt cực tiểu tại điểm $x = 2$.",
+        "text": "Hàm số đạt cực tiểu tại điểm $ x = 2 $.",
         "correct": "T",
-        "solution": "Qua điểm $x = 2$, đạo hàm $y'$ đổi dấu từ âm sang dương, do đó hàm số đạt cực tiểu tại $x = 2$."
+        "solution": "Qua điểm $ x = 2 $, đạo hàm $ y' $ đổi dấu từ âm sang dương, do đó hàm số đạt cực tiểu tại $ x = 2 $."
       },
       {
         "id": "1_3",
-        "text": "3. Đường thẳng $y = x$ là đường tiệm cận xiên của đồ thị hàm số.",
+        "text": "Đường thẳng $ y = x $ là đường tiệm cận xiên của đồ thị hàm số.",
         "correct": "T",
-        "solution": "Ta có $y = \\frac{x^2 - x + 1}{x - 1} = x + \\frac{1}{x - 1}$. Vì $\\lim_{x \\to \\infty} [y - x] = \\lim_{x \\to \\infty} \\frac{1}{x-1} = 0$, nên đường thẳng $y = x$ là tiệm cận xiên."
+        "solution": "Ta có $ y = \\frac{x^2 - x + 1}{x - 1} = x + \\frac{1}{x - 1} $. Vì $ \\lim_{x \\to \\infty} [y - x] = \\lim_{x \\to \\infty} \\frac{1}{x-1} = 0 $, nên đường thẳng $ y = x $ là tiệm cận xiên."
       },
       {
         "id": "1_4",
-        "text": "4. Đồ thị hàm số có tâm đối xứng là điểm $I(1; 0)$.",
+        "text": "Đồ thị hàm số có tâm đối xứng là điểm $ I(1; 0) $.",
         "correct": "F",
-        "solution": "Tâm đối xứng là giao điểm của tiệm cận đứng $x = 1$ và tiệm cận xiên $y = x$. Thay $x = 1$ vào phương trình tiệm cận xiên ta thu được $y = 1$. Do đó tâm đối xứng phải là điểm $I(1; 1)$."
+        "solution": "Tâm đối xứng là giao điểm của tiệm cận đứng $ x = 1 $ và tiệm cận xiên $ y = x $. Thay $ x = 1 $ vào phương trình tiệm cận xiên ta thu được $ y = 1 $. Do đó tâm đối xứng phải là điểm $ I(1; 1) $."
       }
     ],
     "points": 1.0
@@ -34,31 +34,31 @@
   {
     "id": 2,
     "type": "TF",
-    "text": "Trong không gian $Oxyz$, cho ba điểm $A(1; 0; 2)$, $B(2; 1; -1)$ và $C(0; 3; 1)$. Các mệnh đề sau đúng hay sai?",
+    "text": "Trong không gian $ Oxyz $, cho ba điểm $ A(1; 0; 2) $, $ B(2; 1; -1) $ và $ C(0; 3; 1) $. Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "2_1",
-        "text": "1. Tọa độ của vectơ $\\vec{AB}$ là $(1; 1; -3)$.",
+        "text": "Tọa độ của vectơ $ \\vec{AB} $ là $ (1; 1; -3) $.",
         "correct": "T",
-        "solution": "Tọa độ vectơ $\\vec{AB} = (2-1; 1-0; -1-2) = (1; 1; -3)$."
+        "solution": "Tọa độ vectơ $ \\vec{AB} = (2-1; 1-0; -1-2) = (1; 1; -3) $."
       },
       {
         "id": "2_2",
-        "text": "2. Tích vô hướng của hai vectơ $\\vec{AB}$ và \\vec{AC} có giá trị bằng 5.",
+        "text": "Tích vô hướng của hai vectơ $ \\vec{AB} $ và $ \\vec{AC} $ có giá trị bằng 5.",
         "correct": "T",
-        "solution": "Ta có $\\vec{AC} = (0-1; 3-0; 1-2) = (-1; 3; -1)$. Tích vô hướng $\\vec{AB} \\cdot \\vec{AC} = 1 \\cdot (-1) + 1 \\cdot 3 + (-3) \\cdot (-1) = -1 + 3 + 3 = 5$."
+        "solution": "Ta có $ \\vec{AC} = (0-1; 3-0; 1-2) = (-1; 3; -1) $. Tích vô hướng $ \\vec{AB} \\cdot \\vec{AC} = 1 \\cdot (-1) + 1 \\cdot 3 + (-3) \\cdot (-1) = -1 + 3 + 3 = 5 $."
       },
       {
         "id": "2_3",
-        "text": "3. Tam giác $ABC$ là tam giác vuông tại $A$.",
+        "text": "Tam giác $ ABC $ là tam giác vuông tại $ A $.",
         "correct": "F",
-        "solution": "Vì tích vô hướng $\\vec{AB} \\cdot \\vec{AC} = 5 \\neq 0$, nên góc $A$ không phải là góc vuông."
+        "solution": "Vì tích vô hướng $ \\vec{AB} \\cdot \\vec{AC} = 5 \\neq 0 $, nên góc $ A $ không phải là góc vuông."
       },
       {
         "id": "2_4",
-        "text": "4. Diện tích tam giác $ABC$ bằng $2\\sqrt{6}$.",
+        "text": "Diện tích tam giác $ ABC $ bằng $ 2\\sqrt{6} $.",
         "correct": "T",
-        "solution": "Tích có hướng $[\\vec{AB}, \\vec{AC}] = (8; 4; 4)$. Diện tích tam giác $S = \\frac{1}{2} |[\\vec{AB}, \\vec{AC}]| = \\frac{1}{2}\\sqrt{8^2+4^2+4^2} = \\frac{\\sqrt{96}}{2} = 2\\sqrt{6}$."
+        "solution": "Tích có hướng $ [\\vec{AB}, \\vec{AC}] = (8; 4; 4) $. Diện tích tam giác $ S = \\frac{1}{2} |[\\vec{AB}, \\vec{AC}]| = \\frac{1}{2}\\sqrt{8^2+4^2+4^2} = \\frac{\\sqrt{96}}{2} = 2\\sqrt{6} $."
       }
     ],
     "points": 1.0
@@ -70,27 +70,27 @@
     "parts": [
       {
         "id": "3_1",
-        "text": "1. Xác suất để một sản phẩm không bị lỗi và thiết bị không đưa ra cảnh báo là $0.9408$.",
+        "text": "Xác suất để một sản phẩm không bị lỗi và thiết bị không đưa ra cảnh báo là $ 0.9408 $.",
         "correct": "T",
-        "solution": "Tỷ lệ sản phẩm không lỗi là $1 - 0.04 = 0.96$. Khi sản phẩm không lỗi, xác suất thiết bị không cảnh báo là $1 - 0.02 = 0.98$. Xác suất đồng thời là $0.96 \\times 0.98 = 0.9408$."
+        "solution": "Tỷ lệ sản phẩm không lỗi là $ 1 - 0.04 = 0.96 $. Khi sản phẩm không lỗi, xác suất thiết bị không cảnh báo là $ 1 - 0.02 = 0.98 $. Xác suất đồng thời là $ 0.96 \\times 0.98 = 0.9408 $."
       },
       {
         "id": "3_2",
-        "text": "2. Xác suất để thiết bị đưa ra cảnh báo đối với sản phẩm được chọn là $0.0572$.",
+        "text": "Xác suất để thiết bị đưa ra cảnh báo đối với sản phẩm được chọn là $ 0.0572 $.",
         "correct": "T",
-        "solution": "Theo công thức xác suất toàn phần, xác suất cảnh báo là: $P(C) = 0.04 \\times 0.95 + 0.96 \\times 0.02 = 0.038 + 0.0192 = 0.0572$."
+        "solution": "Theo công thức xác suất toàn phần, xác suất cảnh báo là: $ P(C) = 0.04 \\times 0.95 + 0.96 \\times 0.02 = 0.038 + 0.0192 = 0.0572 $."
       },
       {
         "id": "3_3",
-        "text": "3. Nếu thiết bị đưa ra cảnh báo, xác suất sản phẩm đó thực sự bị lỗi nhỏ hơn 50%.",
+        "text": "Nếu thiết bị đưa ra cảnh báo, xác suất sản phẩm đó thực sự bị lỗi nhỏ hơn 50%.",
         "correct": "F",
-        "solution": "Theo công thức Bayes, xác suất thực sự lỗi khi có cảnh báo là $P(L|C) = \\frac{0.04 \\times 0.95}{0.0572} = \\frac{0.038}{0.0572} \\approx 66.43\\% > 50\\%$."
+        "solution": "Theo công thức Bayes, xác suất thực sự lỗi khi có cảnh báo là $ P(L|C) = \\frac{0.04 \\times 0.95}{0.0572} = \\frac{0.038}{0.0572} \\approx 66.43\\% > 50\\% $."
       },
       {
         "id": "3_4",
-        "text": "4. Xác suất thiết bị không đưa ra cảnh báo đối với một sản phẩm bị lỗi (bỏ sót lỗi) là $0.05$.",
+        "text": "Xác suất thiết bị không đưa ra cảnh báo đối với một sản phẩm bị lỗi (bỏ sót lỗi) là $ 0.05 $.",
         "correct": "T",
-        "solution": "Nếu sản phẩm lỗi, thiết bị phát hiện đúng là 95%, vậy xác suất bỏ sót lỗi là $1 - 0.95 = 0.05$."
+        "solution": "Nếu sản phẩm lỗi, thiết bị phát hiện đúng là 95%, vậy xác suất bỏ sót lỗi là $ 1 - 0.95 = 0.05 $."
       }
     ],
     "points": 1.0
@@ -98,31 +98,31 @@
   {
     "id": 4,
     "type": "TF",
-    "text": "Khảo sát số tiền (đơn vị: nghìn đồng) mà 40 học sinh đóng góp cho quỹ từ thiện trường học thu được bảng số liệu ghép nhóm sau:<table class=\"w-full text-center border-collapse border border-slate-300 mt-2 text-sm\"><tr class=\"bg-slate-100\"><th class=\"border border-slate-300 p-2\">Số tiền đóng góp (nghìn đồng)</th><th class=\"border border-slate-300 p-2\">Số học sinh</th></tr><tr><td class=\"border border-slate-300 p-2\">$[0; 20)$</td><td class=\"border border-slate-300 p-2\">6</td></tr><tr><td class=\"border border-slate-300 p-2\">$[20; 40)$</td><td class=\"border border-slate-300 p-2\">14</td></tr><tr><td class=\"border border-slate-300 p-2\">$[40; 60)$</td><td class=\"border border-slate-300 p-2\">12</td></tr><tr><td class=\"border border-slate-300 p-2\">$[60; 80)$</td><td class=\"border border-slate-300 p-2\">8</td></tr></table>Các mệnh đề sau đúng hay sai?",
+    "text": "Khảo sát số tiền (đơn vị: nghìn đồng) mà 40 học sinh đóng góp cho quỹ từ thiện trường học thu được bảng số liệu ghép nhóm sau:<table class=\"w-full text-center border-collapse border border-slate-300 mt-2 text-sm\"><tr class=\"bg-slate-100\"><th class=\"border border-slate-300 p-2\">Số tiền đóng góp (nghìn đồng)</th><th class=\"border border-slate-300 p-2\">Số học sinh</th></tr><tr><td class=\"border border-slate-300 p-2\">$ [0; 20) $</td><td class=\"border border-slate-300 p-2\">6</td></tr><tr><td class=\"border border-slate-300 p-2\">$ [20; 40) $</td><td class=\"border border-slate-300 p-2\">14</td></tr><tr><td class=\"border border-slate-300 p-2\">$ [40; 60) $</td><td class=\"border border-slate-300 p-2\">12</td></tr><tr><td class=\"border border-slate-300 p-2\">$ [60; 80) $</td><td class=\"border border-slate-300 p-2\">8</td></tr></table>Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "4_1",
-        "text": "1. Khoảng biến thiên của mẫu số liệu ghép nhóm này bằng 80 nghìn đồng.",
+        "text": "Khoảng biến thiên của mẫu số liệu ghép nhóm này bằng 80 nghìn đồng.",
         "correct": "T",
-        "solution": "Khoảng biến thiên của mẫu số liệu ghép nhóm là hiệu giữa đầu mút phải của nhóm cuối cùng và đầu mút trái của nhóm đầu tiên: $R = 80 - 0 = 80$."
+        "solution": "Khoảng biến thiên của mẫu số liệu ghép nhóm là hiệu giữa đầu mút phải của nhóm cuối cùng và đầu mút trái của nhóm đầu tiên: $ R = 80 - 0 = 80 $."
       },
       {
         "id": "4_2",
-        "text": "2. Nhóm chứa tứ phân vị thứ nhất là nhóm $[20; 40)$.",
+        "text": "Nhóm chứa tứ phân vị thứ nhất là nhóm $ [20; 40) $.",
         "correct": "T",
-        "solution": "Tổng số học sinh $n = 40$. Vị trí tìm tứ phân vị thứ nhất là $\\frac{40}{4} = 10$. Nhóm đầu tiên tích lũy 6 học sinh, nhóm thứ hai tích lũy đến $6+14=20$ học sinh. Do đó giá trị thứ 10 nằm trong nhóm $[20; 40)$."
+        "solution": "Tổng số học sinh $ n = 40 $. Vị trí tìm tứ phân vị thứ nhất là $ \\frac{40}{4} = 10 $. Nhóm đầu tiên tích lũy 6 học sinh, nhóm thứ hai tích lũy đến $ 6+14=20 $ học sinh. Do đó giá trị thứ 10 nằm trong nhóm $ [20; 40) $."
       },
       {
         "id": "4_3",
-        "text": "3. Tứ phân vị thứ ba $Q_3$ của mẫu số liệu thuộc nhóm $[60; 80)$.",
+        "text": "Tứ phân vị thứ ba $ Q_3 $ của mẫu số liệu thuộc nhóm $ [60; 80) $.",
         "correct": "F",
-        "solution": "Vị trí tìm tứ phân vị thứ ba là $\\frac{3 \\times 40}{4} = 30$. Tần số tích lũy đến nhóm hai là 20, nhóm ba tích lũy đến $20+12=32$. Vì $20 < 30 \\le 32$ nên $Q_3$ phải thuộc nhóm $[40; 60)$."
+        "solution": "Vị trí tìm tứ phân vị thứ ba là $ \\frac{3 \\times 40}{4} = 30 $. Tần số tích lũy đến nhóm hai là 20, nhóm ba tích lũy đến $ 20+12=32 $. Vì $ 20 < 30 \\le 32 $ nên $ Q_3 $ phải thuộc nhóm $ [40; 60) $."
       },
       {
         "id": "4_4",
-        "text": "4. Khoảng tứ phân vị của mẫu số liệu này lớn hơn 35 nghìn đồng.",
+        "text": "Khoảng tứ phân vị của mẫu số liệu này lớn hơn 35 nghìn đồng.",
         "correct": "F",
-        "solution": "Tính cụ thể: $Q_1 = 20 + \\frac{10-6}{14} \\times 20 \\approx 25.71$. $Q_3 = 40 + \\frac{30-20}{12} \\times 20 \\approx 56.67$. Khoảng tứ phân vị $\\Delta_Q = Q_3 - Q_1 = 56.67 - 25.71 = 30.96 < 35$."
+        "solution": "Tính cụ thể: $ Q_1 = 20 + \\frac{10-6}{14} \\times 20 \\approx 25.71 $. $ Q_3 = 40 + \\frac{30-20}{12} \\times 20 \\approx 56.67 $. Khoảng tứ phân vị $ \\Delta_Q = Q_3 - Q_1 = 56.67 - 25.71 = 30.96 < 35 $."
       }
     ],
     "points": 1.0
@@ -134,27 +134,27 @@
     "parts": [
       {
         "id": "5_1",
-        "text": "1. Hàm số $F(x) = \\ln(x^2 + 1)$ là một nguyên hàm của hàm số $f(x) = \\frac{1}{x^2 + 1}$ trên $\\mathbb{R}$.",
+        "text": "Hàm số $ F(x) = \\ln(x^2 + 1) $ là một nguyên hàm của hàm số $ f(x) = \\frac{1}{x^2 + 1} $ trên $ \\mathbb{R} $.",
         "correct": "F",
-        "solution": "Đạo hàm $F'(x) = [\\ln(x^2+1)]' = \\frac{2x}{x^2+1} \\neq \\frac{1}{x^2+1}$."
+        "solution": "Đạo hàm $ F'(x) = [\\ln(x^2+1)]' = \\frac{2x}{x^2+1} \\neq \\frac{1}{x^2+1} $."
       },
       {
         "id": "5_2",
-        "text": "2. Nếu $\\int_1^3 f(x)dx = 4$ và $\\int_1^3 g(x)dx = -2$ thì $\\int_1^3 [2f(x) - 3g(x)]dx = 14$.",
+        "text": "Nếu $ \\int_1^3 f(x)dx = 4 $ và $ \\int_1^3 g(x)dx = -2 $ thì $ \\int_1^3 [2f(x) - 3g(x)]dx = 14 $.",
         "correct": "T",
-        "solution": "Áp dụng tính chất tuyến tính: $2\\int_1^3 f(x)dx - 3\\int_1^3 g(x)dx = 2(4) - 3(-2) = 8 + 6 = 14$."
+        "solution": "Áp dụng tính chất tuyến tính: $ 2\\int_1^3 f(x)dx - 3\\int_1^3 g(x)dx = 2(4) - 3(-2) = 8 + 6 = 14 $."
       },
       {
         "id": "5_3",
-        "text": "3. Tích phân $\\int_0^{\\pi} \\sin x dx = 2$.",
+        "text": "Tích phân $ \\int_0^{\\pi} \\sin x dx = 2 $.",
         "correct": "T",
-        "solution": "Ta có $\\int_0^{\\pi} \\sin x dx = \\left.[-\\cos x]\\right|_0^{\\pi} = -\\cos\\pi - (-\\cos 0) = 1 + 1 = 2$."
+        "solution": "Ta có $ \\int_0^{\\pi} \\sin x dx = \\left.[-\\cos x]\\right|_0^{\\pi} = -\\cos\\pi - (-\\cos 0) = 1 + 1 = 2 $."
       },
       {
         "id": "5_4",
-        "text": "4. Hàm số $F(x) = x \\ln x - x$ là một nguyên hàm của hàm số $f(x) = \\ln x$ trên khoảng $(0; +\\infty)$.",
+        "text": "Hàm số $ F(x) = x \\ln x - x $ là một nguyên hàm của hàm số $ f(x) = \\ln x $ trên khoảng $ (0; +\\infty) $.",
         "correct": "T",
-        "solution": "Đạo hàm $F'(x) = (x)'\\ln x + x(\\ln x)' - (x)' = \\ln x + x \\cdot \\frac{1}{x} - 1 = \\ln x$."
+        "solution": "Đạo hàm $ F'(x) = (x)'\\ln x + x(\\ln x)' - (x)' = \\ln x + x \\cdot \\frac{1}{x} - 1 = \\ln x $."
       }
     ],
     "points": 1.0
@@ -162,31 +162,31 @@
   {
     "id": 6,
     "type": "TF",
-    "text": "Trong không gian $Oxyz$, cho mặt phẳng $(P): 2x - y + 2z - 6 = 0$ và điểm $A(1; 2; 3)$. Các mệnh đề sau đúng hay sai?",
+    "text": "Trong không gian $ Oxyz $, cho mặt phẳng $ (P): 2x - y + 2z - 6 = 0 $ và điểm $ A(1; 2; 3) $. Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "6_1",
-        "text": "1. Một vectơ pháp tuyến của mặt phẳng $(P)$ là $\\vec{n} = (2; -1; 2)$.",
+        "text": "Một vectơ pháp tuyến của mặt phẳng $ (P) $ là $ \\vec{n} = (2; -1; 2) $.",
         "correct": "T",
-        "solution": "Dựa vào hệ số trước $x, y, z$ trong phương trình tổng quát của mặt phẳng $(P)$."
+        "solution": "Dựa vào hệ số trước $ x, y, z $ trong phương trình tổng quát của mặt phẳng $ (P) $."
       },
       {
         "id": "6_2",
-        "text": "2. Điểm $A(1; 2; 3)$ thuộc mặt phẳng $(P)$.",
+        "text": "Điểm $ A(1; 2; 3) $ thuộc mặt phẳng $ (P) $.",
         "correct": "T",
-        "solution": "Thay tọa độ điểm $A$ vào phương trình mặt phẳng $(P)$: $2(1) - 2 + 2(3) - 6 = 2 - 2 + 6 - 6 = 0$ (thỏa mãn)."
+        "solution": "Thay tọa độ điểm $ A $ vào phương trình mặt phẳng $ (P) $: $ 2(1) - 2 + 2(3) - 6 = 2 - 2 + 6 - 6 = 0 $ (thỏa mãn)."
       },
       {
         "id": "6_3",
-        "text": "3. Mặt phẳng $(Q): 4x - 2y + 4z + 1 = 0$ song song với mặt phẳng $(P)$.",
+        "text": "Mặt phẳng $ (Q): 4x - 2y + 4z + 1 = 0 $ song song với mặt phẳng $ (P) $.",
         "correct": "T",
-        "solution": "Hai mặt phẳng có các véc tơ pháp tuyến cùng phương $\\vec{n}_Q = 2\\vec{n}_P$ và hệ số tự do không tỷ lệ tỷ lệ ($1 \\neq -6 \\times 2$) nên chúng song song."
+        "solution": "Hai mặt phẳng có các véc tơ pháp tuyến cùng phương $ \\vec{n}_Q = 2\\vec{n}_P $ và hệ số tự do không tỷ lệ tỷ lệ ($ 1 \\neq -6 \\times 2 $) nên chúng song song."
       },
       {
         "id": "6_4",
-        "text": "4. Phương trình mặt phẳng đi qua điểm $A$ và vuông góc với trục $Oz$ là $z - 3 = 0$.",
+        "text": "Phương trình mặt phẳng đi qua điểm $ A $ và vuông góc với trục $ Oz $ là $ z - 3 = 0 $.",
         "correct": "T",
-        "solution": "Mặt phẳng vuông góc với trục $Oz$ nhận véc tơ đơn vị $\\vec{k}(0;0;1)$ làm vectơ pháp tuyến. Đi qua $A(1;2;3)$ nên có phương trình: $0(x-1) + 0(y-2) + 1(z-3) = 0 \\Leftrightarrow z - 3 = 0$."
+        "solution": "Mặt phẳng vuông góc với trục $ Oz $ nhận véc tơ đơn vị $ \\vec{k}(0;0;1) $ làm vectơ pháp tuyến. Đi qua $ A(1;2;3) $ nên có phương trình: $ 0(x-1) + 0(y-2) + 1(z-3) = 0 \\Leftrightarrow z - 3 = 0 $."
       }
     ],
     "points": 1.0
@@ -194,31 +194,31 @@
   {
     "id": 7,
     "type": "TF",
-    "text": "Một công ty du lịch dự định kinh doanh một tour du lịch với giá ban đầu là 4 triệu đồng/người, khi đó có 200 người đăng ký. Qua khảo sát thị trường, công ty thấy rằng cứ mỗi khi giảm giá tour 100 nghìn đồng, số lượng khách hàng tham gia sẽ tăng thêm 20 người. Gọi $x$ (lần) là số lần giảm giá tour (mỗi lần giảm cố định 100 nghìn đồng). Các mệnh đề sau đúng hay sai?",
+    "text": "Một công ty du lịch dự định kinh doanh một tour du lịch với giá ban đầu là 4 triệu đồng/người, khi đó có 200 người đăng ký. Qua khảo sát thị trường, công ty thấy rằng cứ mỗi khi giảm giá tour 100 nghìn đồng, số lượng khách hàng tham gia sẽ tăng thêm 20 người. Gọi $ x $ (lần) là số lần giảm giá tour (mỗi lần giảm cố định 100 nghìn đồng). Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "7_1",
-        "text": "1. Hàm số biểu diễn tổng doanh thu của công ty theo $x$ là $R(x) = -2x^2 + 60x + 800$ (đơn vị: triệu đồng).",
+        "text": "Hàm số biểu diễn tổng doanh thu của công ty theo $ x $ là $ R(x) = -2x^2 + 60x + 800 $ (đơn vị: triệu đồng).",
         "correct": "T",
-        "solution": "Giá tour sau khi giảm là $4 - 0.1x$ (triệu đồng). Số khách tương ứng là $200 + 20x$. Doanh thu thu được: $R(x) = (4 - 0.1x)(200 + 20x) = -2x^2 + 60x + 800$."
+        "solution": "Giá tour sau khi giảm là $ 4 - 0.1x $ (triệu đồng). Số khách tương ứng là $ 200 + 20x $. Doanh thu thu được: $ R(x) = (4 - 0.1x)(200 + 20x) = -2x^2 + 60x + 800 $."
       },
       {
         "id": "7_2",
-        "text": "2. Để đạt doanh thu tối đa, công ty nên thực hiện giảm giá tour 10 lần.",
+        "text": "Để đạt doanh thu tối đa, công ty nên thực hiện giảm giá tour 10 lần.",
         "correct": "F",
-        "solution": "Xét hàm số bậc hai $R(x) = -2x^2 + 60x + 800$, đỉnh của parabol đạt tại $x = -\\frac{b}{2a} = -\\frac{60}{2(-2)} = 15$ lần."
+        "solution": "Xét hàm số bậc hai $ R(x) = -2x^2 + 60x + 800 $, đỉnh của parabol đạt tại $ x = -\\frac{b}{2a} = -\\frac{60}{2(-2)} = 15 $ lần."
       },
       {
         "id": "7_3",
-        "text": "3. Số lượng khách đăng ký tối ưu để công ty đạt doanh thu cao nhất là 500 người.",
+        "text": "Số lượng khách đăng ký tối ưu để công ty đạt doanh thu cao nhất là 500 người.",
         "correct": "T",
-        "solution": "Khi tối ưu với $x = 15$, số lượng khách hàng là $200 + 20(15) = 500$ người."
+        "solution": "Khi tối ưu với $ x = 15 $, số lượng khách hàng là $ 200 + 20(15) = 500 $ người."
       },
       {
         "id": "7_4",
-        "text": "4. Doanh thu lớn nhất mà công ty có thể đạt được từ tour này là 1.25 tỷ đồng.",
+        "text": "Doanh thu lớn nhất mà công ty có thể đạt được từ tour này là 1.25 tỷ đồng.",
         "correct": "T",
-        "solution": "Thay $x = 15$ vào hàm doanh thu: $R(15) = -2(15)^2 + 60(15) + 800 = 1250$ triệu đồng = 1.25 tỷ đồng."
+        "solution": "Thay $ x = 15 $ vào hàm doanh thu: $ R(15) = -2(15)^2 + 60(15) + 800 = 1250 $ triệu đồng = 1.25 tỷ đồng."
       }
     ],
     "points": 1.0
@@ -226,31 +226,31 @@
   {
     "id": 8,
     "type": "TF",
-    "text": "Trong không gian $Oxyz$, cho mặt cầu $(S): x^2 + y^2 + z^2 - 4x + 2y - 4 = 0$. Các mệnh đề sau đúng hay sai?",
+    "text": "Trong không gian $ Oxyz $, cho mặt cầu $ (S): x^2 + y^2 + z^2 - 4x + 2y - 4 = 0 $. Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "8_1",
-        "text": "1. Tâm của mặt cầu $(S)$ là điểm $I(2; -1; 0)$.",
+        "text": "Tâm của mặt cầu $ (S) $ là điểm $ I(2; -1; 0) $.",
         "correct": "T",
-        "solution": "Tọa độ tâm xác định bằng cách chia các hệ số trước $x, y, z$ cho $-2$, ta được $I(2; -1; 0)$."
+        "solution": "Tọa độ tâm xác định bằng cách chia các hệ số trước $ x, y, z $ cho $-2$, ta được $ I(2; -1; 0) $."
       },
       {
         "id": "8_2",
-        "text": "2. Bán kính của mặt cầu $(S)$ bằng $R = 3$.",
+        "text": "Bán kính của mặt cầu $ (S) $ bằng $ R = 3 $.",
         "correct": "T",
-        "solution": "Bán kính mặt cầu $R = \\sqrt{2^2 + (-1)^2 + 0^2 - (-4)} = \\sqrt{4 + 1 + 4} = 3$."
+        "solution": "Bán kính mặt cầu $ R = \\sqrt{2^2 + (-1)^2 + 0^2 - (-4)} = \\sqrt{4 + 1 + 4} = 3 $."
       },
       {
         "id": "8_3",
-        "text": "3. Điểm $M(2; 2; 0)$ nằm hoàn toàn phía bên trong mặt cầu $(S)$.",
+        "text": "Điểm $ M(2; 2; 0) $ nằm hoàn toàn phía bên trong mặt cầu $ (S) $.",
         "correct": "F",
-        "solution": "Khoảng cách từ tâm $I$ đến điểm $M$ là $IM = \\sqrt{(2-2)^2 + (2+1)^2 + (0-0)^2} = 3$. Vì $IM = R = 3$, nên điểm $M$ nằm trên mặt cầu chứ không nằm trong."
+        "solution": "Khoảng cách từ tâm $ I $ đến điểm $ M $ là $ IM = \\sqrt{(2-2)^2 + (2+1)^2 + (0-0)^2} = 3 $. Vì $ IM = R = 3 $, nên điểm $ M $ nằm trên mặt cầu chứ không nằm trong."
       },
       {
         "id": "8_4",
-        "text": "4. Mặt phẳng tọa độ $(Oxy)$ cắt mặt cầu $(S)$ theo giao tuyến là một đường tròn có bán kính bằng 3.",
+        "text": "Mặt phẳng tọa độ $ (Oxy) $ cắt mặt cầu $ (S) $ theo giao tuyến là một đường tròn có bán kính bằng 3.",
         "correct": "T",
-        "solution": "Tâm $I(2; -1; 0)$ có cao độ $z = 0$, điều này chứng tỏ tâm $I$ nằm ngay trên mặt phẳng $(Oxy)$. Khoảng cách từ tâm tới mặt phẳng bằng 0, do đó bán kính đường tròn giao tuyến bằng chính bán kính mặt cầu $r = R = 3$."
+        "solution": "Tâm $ I(2; -1; 0) $ có cao độ $ z = 0 $, điều này chứng tỏ tâm $ I $ nằm ngay trên mặt phẳng $ (Oxy) $. Khoảng cách từ tâm tới mặt phẳng bằng 0, do đó bán kính đường tròn giao tuyến bằng chính bán kính mặt cầu $ r = R = 3 $."
       }
     ],
     "points": 1.0
@@ -258,31 +258,31 @@
   {
     "id": 9,
     "type": "TF",
-    "text": "Cho hình phẳng giới hạn bởi đường cong $y = \\sqrt{x}$, trục hoành và hai đường thẳng $x = 1$, $x = 4$. Các mệnh đề sau đúng hay sai?",
+    "text": "Cho hình phẳng giới hạn bởi đường cong $ y = \\sqrt{x} $, trục hoành và hai đường thẳng $ x = 1 $, $ x = 4 $. Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "9_1",
-        "text": "1. Diện tích $S$ của hình phẳng được tính bởi công thức $S = \\int_1^4 \\sqrt{x} dx$.",
+        "text": "Diện tích $ S $ của hình phẳng được tính bởi công thức $ S = \\int_1^4 \\sqrt{x} dx $.",
         "correct": "T",
-        "solution": "Theo công thức ứng dụng tích phân tính diện tích hình phẳng giới hạn bởi hàm số $y=f(x)$, trục hoành và hai đường thẳng giới hạn hoành độ."
+        "solution": "Theo công thức ứng dụng tích phân tính diện tích hình phẳng giới hạn bởi hàm số $ y=f(x) $, trục hoành và hai đường thẳng giới hạn hoành độ."
       },
       {
         "id": "9_2",
-        "text": "2. Giá trị diện tích của hình phẳng này bằng $\\frac{14}{3}$.",
+        "text": "Giá trị diện tích của hình phẳng này bằng $ \\frac{14}{3} $.",
         "correct": "T",
-        "solution": "Tính tích phân: $S = \\int_1^4 x^{\\frac{1}{2}} dx = \\left.[\\frac{2}{3}x^{\\frac{3}{2}}]\\right|_1^4 = \\frac{2}{3}(4^{\\frac{3}{2}} - 1) = \\frac{2}{3}(8 - 1) = \\frac{14}{3}$."
+        "solution": "Tính tích phân: $ S = \\int_1^4 x^{\\frac{1}{2}} dx = \\left.[\\frac{2}{3}x^{\\frac{3}{2}}]\\right|_1^4 = \\frac{2}{3}(4^{\\frac{3}{2}} - 1) = \\frac{2}{3}(8 - 1) = \\frac{14}{3} $."
       },
       {
         "id": "9_3",
-        "text": "3. Thể tích $V$ của khối tròn xoay thu được khi quay hình phẳng trên quanh trục hoành là $V = \\pi \\int_1^4 x dx$.",
+        "text": "Thể tích $ V $ của khối tròn xoay thu được khi quay hình phẳng trên quanh trục hoành là $ V = \\pi \\int_1^4 x dx $.",
         "correct": "T",
-        "solution": "Theo công thức thể tích khối tròn xoay: $V = \\pi \\int_a^b [f(x)]^2 dx = \\pi \\int_1^4 (\\sqrt{x})^2 dx = \\pi \\int_1^4 x dx$."
+        "solution": "Theo công thức thể tích khối tròn xoay: $ V = \\pi \\int_a^b [f(x)]^2 dx = \\pi \\int_1^4 (\\sqrt{x})^2 dx = \\pi \\int_1^4 x dx $."
       },
       {
         "id": "9_4",
-        "text": "4. Giá trị thể tích của khối tròn xoay đó bằng $\\frac{15}{2}$.",
+        "text": "Giá trị thể tích của khối tròn xoay đó bằng $ \\frac{15}{2} $.",
         "correct": "F",
-        "solution": "Tính tích phân thể tích: $V = \\pi \\left.[\\frac{x^2}{2}]\\right|_1^4 = \\pi (\\frac{16}{2} - \\frac{1}{2}) = \\frac{15\\pi}{2}$. Giá trị thiếu hằng số $\\pi$ nên mệnh đề là sai."
+        "solution": "Tính tích phân thể tích: $ V = \\pi \\left.[\\frac{x^2}{2}]\\right|_1^4 = \\pi (\\frac{16}{2} - \\frac{1}{2}) = \\frac{15\\pi}{2} $. Giá trị thiếu hằng số $ \\pi $ nên mệnh đề là sai."
       }
     ],
     "points": 1.0
@@ -290,7 +290,7 @@
   {
     "id": 10,
     "type": "MCQ",
-    "text": "**Bối cảnh 1:** Một ô tô đang chuyển động ổn định với vận tốc $20\\text{ m/s}$ thì người lái xe bất ngờ phát hiện chướng ngại vật phía trước và quyết định đạp phanh hãm. Kể từ thời điểm đó, ô tô chuyển động chậm dần đều với vận tốc biến thiên theo thời gian được xác định bởi hàm số $v(t) = -5t + 20$ (đơn vị: $\\text{m/s}$), trong đó $t$ là khoảng thời gian tính bằng giây kể từ lúc bắt đầu đạp phanh hãm.\n\n**Câu 10:** Hỏi sau bao nhiêu giây kể từ lúc bắt đầu đạp phanh hãm thì ô tô sẽ dừng hẳn lại?",
+    "text": "Một ô tô đang chuyển động ổn định với vận tốc $ 20\\text{ m/s} $ thì người lái xe bất ngờ phát hiện chướng ngại vật phía trước và quyết định đạp phanh hãm. Kể từ thời điểm đó, ô tô chuyển động chậm dần đều với vận tốc biến thiên theo thời gian được xác định bởi hàm số $ v(t) = -5t + 20 $ (đơn vị: $ \\text{m/s} $), trong đó $ t $ là khoảng thời gian tính bằng giây kể từ lúc bắt đầu đạp phanh hãm. Hỏi sau bao nhiêu giây kể từ lúc bắt đầu đạp phanh hãm thì ô tô sẽ dừng hẳn lại?",
     "options": [
       { "key": "A", "text": "2 giây" },
       { "key": "B", "text": "3 giây" },
@@ -298,12 +298,12 @@
       { "key": "D", "text": "5 giây" }
     ],
     "correct": "C",
-    "solution": "Ô tô dừng hẳn lại khi vận tốc tiêu biến về không: $v(t) = 0 \\Leftrightarrow -5t + 20 = 0 \\Leftrightarrow t = 4$ giây."
+    "solution": "Ô tô dừng hẳn lại khi vận tốc tiêu biến về không: $ v(t) = 0 \\Leftrightarrow -5t + 20 = 0 \\Leftrightarrow t = 4 $ giây."
   },
   {
     "id": 11,
     "type": "MCQ",
-    "text": "**Bối cảnh 1 (tiếp):** Ô tô chuyển động chậm dần đều hãm phanh với vận tốc $v(t) = -5t + 20$ ($\\text{m/s}$).\n\n**Câu 11:** Giá trị gia tốc của ô tô trong suốt quá trình thực hiện hãm phanh từ lúc đạp phanh đến khi dừng hẳn là bao nhiêu?",
+    "text": "Ô tô chuyển động chậm dần đều hãm phanh với vận tốc $ v(t) = -5t + 20 $ (đơn vị: $ \\text{m/s} $). Giá trị gia tốc của ô tô trong suốt quá trình thực hiện hãm phanh từ lúc đạp phanh đến khi dừng hẳn là bao nhiêu?",
     "options": [
       { "key": "A", "text": "5 m/s²" },
       { "key": "B", "text": "-5 m/s²" },
@@ -311,12 +311,12 @@
       { "key": "D", "text": "0 m/s²" }
     ],
     "correct": "B",
-    "solution": "Gia tốc là đạo hàm bậc nhất của vận tốc theo thời gian: $a(t) = v'(t) = (-5t + 20)' = -5\\text{ m/s}^2$."
+    "solution": "Gia tốc là đạo hàm bậc nhất của vận tốc theo thời gian: $ a(t) = v'(t) = (-5t + 20)' = -5\\text{ m/s}^2 $."
   },
   {
     "id": 12,
     "type": "MCQ",
-    "text": "**Bối cảnh 1 (tiếp):** Ô tô chuyển động chậm dần đều hãm phanh với vận tốc $v(t) = -5t + 20$ ($\\text{m/s}$).\n\n**Câu 12:** Tính tổng chiều dài quãng đường (mét) ô tô di chuyển được từ lúc người lái đạp phanh hãm cho đến khi phương tiện dừng hẳn.",
+    "text": "Ô tô chuyển động chậm dần đều hãm phanh với vận tốc $ v(t) = -5t + 20 $ (đơn vị: $ \\text{m/s} $). Tính tổng chiều dài quãng đường (mét) ô tô di chuyển được từ lúc người lái đạp phanh hãm cho đến khi phương tiện dừng hẳn.",
     "options": [
       { "key": "A", "text": "20 m" },
       { "key": "B", "text": "40 m" },
@@ -324,12 +324,12 @@
       { "key": "D", "text": "80 m" }
     ],
     "correct": "B",
-    "solution": "Quãng đường di chuyển tính bằng tích phân của hàm vận tốc từ thời điểm bắt đầu $t=0$ đến khi dừng hẳn $t=4$: $s = \\int_0^4 (-5t + 20) dt = \\left.[-\\frac{5t^2}{2} + 20t]\\right|_0^4 = -40 + 80 = 40\\text{ m}$."
+    "solution": "Quãng đường di chuyển tính bằng tích phân của hàm vận tốc từ thời điểm bắt đầu $ t=0 $ đến khi dừng hẳn $ t=4 $: $ s = \\int_0^4 (-5t + 20) dt = \\left.[-\\frac{5t^2}{2} + 20t]\\right|_0^4 = -40 + 80 = 40\\text{ m} $."
   },
   {
     "id": 13,
     "type": "MCQ",
-    "text": "**Bối cảnh 2:** Một trang trại nông nghiệp lớn tiến hành đo lường năng suất bằng cách thống kê khối lượng của 50 quả xoài thu hoạch ngẫu nhiên trong đợt đầu tiên, số liệu thu được cho bởi bảng số liệu ghép nhóm sau:\n<table class=\"w-full text-center border-collapse border border-slate-300 mt-2 text-sm\"><tr class=\"bg-slate-100\"><th class=\"border border-slate-300 p-2\">Khối lượng quả xoài (gam)</th><th class=\"border border-slate-300 p-2\">Số quả (Tần số)</th></tr><tr><td class=\"border border-slate-300 p-2\">$[200; 250)$</td><td class=\"border border-slate-300 p-2\">5</td></tr><tr><td class=\"border border-slate-300 p-2\">$[250; 300)$</td><td class=\"border border-slate-300 p-2\">11</td></tr><tr><td class=\"border border-slate-300 p-2\">$[300; 350)$</td><td class=\"border border-slate-300 p-2\">18</td></tr><tr><td class=\"border border-slate-300 p-2\">$[350; 400)$</td><td class=\"border border-slate-300 p-2\">12</td></tr><tr><td class=\"border border-slate-300 p-2\">$[400; 450)$</td><td class=\"border border-slate-300 p-2\">4</td></tr></table>\n\n**Câu 13:** Xác định chính xác nhóm chứa mốt của mẫu số liệu ghép nhóm trên.",
+    "text": "Một trang trại nông nghiệp lớn tiến hành đo lường năng suất bằng cách thống kê khối lượng của 50 quả xoài thu hoạch ngẫu nhiên trong đợt đầu tiên, số liệu thu được cho bởi bảng số liệu ghép nhóm sau:<table class=\"w-full text-center border-collapse border border-slate-300 mt-2 text-sm\"><tr class=\"bg-slate-100\"><th class=\"border border-slate-300 p-2\">Khói lượng quả xoài (gam)</th><th class=\"border border-slate-300 p-2\">Số quả (Tần số)</th></tr><tr><td class=\"border border-slate-300 p-2\">$ [200; 250) $</td><td class=\"border border-slate-300 p-2\">5</td></tr><tr><td class=\"border border-slate-300 p-2\">$ [250; 300) $</td><td class=\"border border-slate-300 p-2\">11</td></tr><tr><td class=\"border border-slate-300 p-2\">$ [300; 350) $</td><td class=\"border border-slate-300 p-2\">18</td></tr><tr><td class=\"border border-slate-300 p-2\">$ [350; 400) $</td><td class=\"border border-slate-300 p-2\">12</td></tr><tr><td class=\"border border-slate-300 p-2\">$ [400; 450) $</td><td class=\"border border-slate-300 p-2\">4</td></tr></table>Xác định chính xác nhóm chứa mốt của mẫu số liệu ghép nhóm trên.",
     "options": [
       { "key": "A", "text": "[250; 300)" },
       { "key": "B", "text": "[300; 350)" },
@@ -337,12 +337,12 @@
       { "key": "D", "text": "[400; 450)" }
     ],
     "correct": "B",
-    "solution": "Nhóm chứa mốt là nhóm có tần số lớn nhất. Nhìn vào bảng, tần số lớn nhất là 18, ứng với nhóm số liệu $[300; 350)$."
+    "solution": "Nhóm chứa mốt là nhóm có tần số lớn nhất. Nhìn vào bảng, tần số lớn nhất là 18, ứng với nhóm số liệu $ [300; 350) $."
   },
   {
     "id": 14,
     "type": "MCQ",
-    "text": "**Bối cảnh 2 (tiếp):** Bảng thống kê số liệu khối lượng quả xoài thu hoạch.\n\n**Câu 14:** Tính giá trị trung bình khối lượng (gam) của một quả xoài dựa trên mẫu số liệu ghép nhóm này.",
+    "text": "Dựa trên bảng thống kê số liệu khối lượng quả xoài thu hoạch ở câu trước, hãy tính giá trị trung bình khối lượng (gam) của một quả xoài dựa trên mẫu số liệu ghép nhóm này.",
     "options": [
       { "key": "A", "text": "318 g" },
       { "key": "B", "text": "324 g" },
@@ -350,12 +350,12 @@
       { "key": "D", "text": "340 g" }
     ],
     "correct": "B",
-    "solution": "Giá trị đại diện các nhóm lần lượt là: 225, 275, 325, 375, 425. Khối lượng trung bình: $\\bar{x} = \\frac{5 \\times 225 + 11 \\times 275 + 18 \\times 325 + 12 \\times 375 + 4 \\times 425}{50} = \\frac{16200}{50} = 324\\text{ g}$."
+    "solution": "Giá trị đại diện các nhóm lần lượt là: 225, 275, 325, 375, 425. Khối lượng trung bình: $ \\bar{x} = \\frac{5 \\times 225 + 11 \\times 275 + 18 \\times 325 + 12 \\times 375 + 4 \\times 425}{50} = \\frac{16200}{50} = 324\\text{ g} $."
   },
   {
     "id": 15,
     "type": "MCQ",
-    "text": "**Bối cảnh 2 (tiếp):** Bảng thống kê số liệu khối lượng quả xoài thu hoạch.\n\n**Câu 15:** Trong 50 quả xoài được đưa vào mẫu khảo sát thống kê, có tổng cộng bao nhiêu quả xoài đạt mức khối lượng dưới $350\\text{ g}$?",
+    "text": "Dựa trên bảng thống kê số liệu khối lượng quả xoài thu hoạch, trong 50 quả xoài được đưa vào mẫu khảo sát thống kê, có tổng cộng bao nhiêu quả xoài đạt mức khối lượng dưới $ 350\\text{ g} $?",
     "options": [
       { "key": "A", "text": "16 quả" },
       { "key": "B", "text": "18 quả" },
@@ -363,17 +363,17 @@
       { "key": "D", "text": "46 quả" }
     ],
     "correct": "C",
-    "solution": "Số quả xoài có khối lượng nhỏ hơn $350\\text{ g}$ nằm trong ba nhóm đầu tiên. Tổng số quả là: $5 + 11 + 18 = 34$ quả."
+    "solution": "Số quả xoài có khối lượng nhỏ hơn $ 350\\text{ g} $ nằm trong ba nhóm đầu tiên. Tổng số quả là: $ 5 + 11 + 18 = 34 $ quả."
   },
   {
     "id": 16,
     "type": "MATCH",
-    "text": "Cho hàm số $y = x^3 - 3x + 2$ liên tục trên đoạn $[0; 2]$. Hãy thực hiện ghép nối các tính chất hàm số ở cột bên trái với giá trị số thích hợp tương ứng ở cột bên phải.",
+    "text": "Cho hàm số $ y = x^3 - 3x + 2 $ liên tục trên đoạn $ [0; 2] $. Hãy thực hiện ghép nối các tính chất hàm số ở cột bên trái với giá trị số thích hợp tương ứng ở cột bên phải.",
     "leftItems": [
-      { "id": "16_1", "text": "1. Điểm cực tiểu của hàm số là x =" },
-      { "id": "16_2", "text": "2. Giá trị cực đại của hàm số là y =" },
-      { "id": "16_3", "text": "3. Giá trị lớn nhất của hàm số trên đoạn [0; 2] là max y =" },
-      { "id": "16_4", "text": "4. Giá trị nhỏ nhất của hàm số trên đoạn [0; 2] là min y =" }
+      { "id": "16_1", "text": "Điểm cực tiểu của hàm số là x =" },
+      { "id": "16_2", "text": "Giá trị cực đại của hàm số là y =" },
+      { "id": "16_3", "text": "Giá trị lớn nhất của hàm số trên đoạn [0; 2] là max y =" },
+      { "id": "16_4", "text": "Giá trị nhỏ nhất của hàm số trên đoạn [0; 2] là min y =" }
     ],
     "rightItems": [
       { "key": "A", "text": "1" },
@@ -389,17 +389,17 @@
       "16_3": "C",
       "16_4": "D"
     },
-    "solution": "Ta có $y' = 3x^2 - 3 = 0 \\Leftrightarrow x = 1$ hoặc $x = -1$ (loại vì không thuộc đoạn $[0;2]$). Tính giá trị các đầu mút và điểm dừng: $y(0) = 2$, $y(1) = 0$, $y(2) = 4$. Hàm số đạt cực đại tại $x = -1$ (không xét) nhưng đạt cực tiểu tại điểm $x = 1 \\Rightarrow y_{ct} = 0$. Giá trị cực đại cục bộ trong khoảng khảo sát lý thuyết là $y(-1)=4$. Trên đoạn $[0;2]$, giá trị lớn nhất thu được bằng 4 và nhỏ nhất thu được bằng 0."
+    "solution": "Ta có $ y' = 3x^2 - 3 = 0 \\Leftrightarrow x = 1 $ hoặc $ x = -1 $ (loại vì không thuộc đoạn $ [0;2] $). Tính giá trị các đầu mút và điểm dừng: $ y(0) = 2 $, $ y(1) = 0 $, $ y(2) = 4 $. Hàm số đạt cực tiểu tại điểm $ x = 1 \\Rightarrow y_{ct} = 0 $. Giá trị cực đại cục bộ trong khoảng khảo sát lý thuyết là $ y(-1)=4 $. Trên đoạn $ [0;2] $, giá trị lớn nhất thu được bằng 4 và nhỏ nhất thu được bằng 0."
   },
   {
     "id": 17,
     "type": "MATCH",
-    "text": "Trong không gian hệ tọa độ $Oxyz$, cho đường thẳng $d: \\frac{x-1}{2} = \\frac{y+2}{1} = \\frac{z-3}{-1}$. Hãy ghép nối mô tả hình học phẳng đường thẳng ở cột bên trái với một tọa độ vectơ chỉ phương phù hợp ở cột bên phải.",
+    "text": "Trong không gian hệ tọa độ $ Oxyz $, cho đường thẳng $ d: \\frac{x-1}{2} = \\frac{y+2}{1} = \\frac{z-3}{-1} $. Hãy ghép nối mô tả hình học phẳng đường thẳng ở cột bên trái với một vectơ chỉ phương phù hợp ở cột bên phải.",
     "leftItems": [
-      { "id": "17_1", "text": "1. Đường thẳng song song với đường thẳng d:" },
-      { "id": "17_2", "text": "2. Đường thẳng vuông góc với mặt phẳng tọa độ (Oxy):" },
-      { "id": "17_3", "text": "3. Đường thẳng trùng với trục tung Oy:" },
-      { "id": "17_4", "text": "4. Đường thẳng song song với trục hoành Ox:" }
+      { "id": "17_1", "text": "Đường thẳng song song với đường thẳng d" },
+      { "id": "17_2", "text": "Đường thẳng vuông góc với mặt phẳng tọa độ (Oxy)" },
+      { "id": "17_3", "text": "Đường thẳng trùng với trục tung Oy" },
+      { "id": "17_4", "text": "Đường thẳng song song với trục hoành Ox" }
     ],
     "rightItems": [
       { "key": "A", "text": "(4; 2; -2)" },
@@ -415,17 +415,17 @@
       "17_3": "C",
       "17_4": "D"
     },
-    "solution": "1. Vectơ chỉ phương của đường thẳng song song phải cùng phương với $\\vec{u}_d = (2;1;-1)$, nhân đôi lên ta được $(4;2;-2)$. 2. Vuông góc mặt phẳng (Oxy) thì cùng phương trục $Oz$, véc tơ chỉ phương có dạng $(0;0;z)$, chọn $(0;0;2)$. 3. Trục tung $Oy$ nhận vectơ đơn vị $\\vec{j}(0;1;0)$ làm vectơ chỉ phương, chọn bộ tỉ lệ là $(0;3;0)$. 4. Song song trục $Ox$ nhận vectơ chỉ phương $\\vec{i}(1;0;0)$."
+    "solution": "Vectơ chỉ phương của đường thẳng song song phải cùng phương với $ \\vec{u}_d = (2;1;-1) $, nhân đôi lên ta được $ (4;2;-2) $. Vuông góc mặt phẳng (Oxy) thì cùng phương trục $ Oz $, véc tơ chỉ phương có dạng $ (0;0;z) $, chọn $ (0;0;2) $. Trục tung $ Oy $ nhận vectơ đơn vị $ \\vec{j}(0;1;0) $ làm vectơ chỉ phương, chọn bộ tỉ lệ là $ (0;3;0) $. Song song trục $ Ox $ nhận vectơ chỉ phương $ \\vec{i}(1;0;0) $."
   },
   {
     "id": 18,
     "type": "MATCH",
     "text": "Hãy thực hiện ghép nối các hàm số cho ở cột bên trái với phương trình đường tiệm cận tương ứng chính xác của nó ở cột bên phải.",
     "leftItems": [
-      { "id": "18_1", "text": "1. Hàm số $y = \\frac{3x - 1}{x - 2}$ có đường tiệm cận ngang là:" },
-      { "id": "18_2", "text": "2. Hàm số $y = \\frac{x + 1}{2x - 4}$ có đường tiệm cận đứng là:" },
-      { "id": "18_3", "text": "3. Hàm số $y = x + 1 + \\frac{2}{x}$ có đường tiệm cận xiên là:" },
-      { "id": "18_4", "text": "4. Hàm số $y = \\frac{4}{x + 3}$ có đường tiệm cận đứng là:" }
+      { "id": "18_1", "text": "Hàm số $ y = \\frac{3x - 1}{x - 2} $ có đường tiệm cận ngang là" },
+      { "id": "18_2", "text": "Hàm số $ y = \\frac{x + 1}{2x - 4} $ có đường tiệm cận đứng là" },
+      { "id": "18_3", "text": "Hàm số $ y = x + 1 + \\frac{2}{x} $ có đường tiệm cận xiên là" },
+      { "id": "18_4", "text": "Hàm số $ y = \\frac{4}{x + 3} $ có đường tiệm cận đứng là" }
     ],
     "rightItems": [
       { "key": "A", "text": "y = 3" },
@@ -441,17 +441,17 @@
       "18_3": "C",
       "18_4": "D"
     },
-    "solution": "Áp dụng định nghĩa và giới hạn cơ bản: 1. $\\lim_{x \\to \\infty} y = 3 \\Rightarrow y = 3$. 2. Nghiệm của mẫu số $2x - 4 = 0 \\Leftrightarrow x = 2$. 3. Phần đa thức tách biệt tuyến tính là $x+1$, phần phân thức triệt tiêu về 0 khi $x \\to \\infty$. 4. Mẫu số $x + 3 = 0 \\Leftrightarrow x = -3$."
+    "solution": "Áp dụng định nghĩa và giới hạn cơ bản: $ \\lim_{x \\to \\infty} y = 3 \\Rightarrow y = 3 $. Nghiệm của mẫu số $ 2x - 4 = 0 \\Leftrightarrow x = 2 $. Phần đa thức tách biệt tuyến tính là $ x+1 $, phần phân thức triệt tiêu về 0 khi $ x \\to \\infty $. Mẫu số $ x + 3 = 0 \\Leftrightarrow x = -3 $."
   },
   {
     "id": 19,
     "type": "MATCH",
     "text": "Hãy thực hiện ghép nối các biểu thức tích phân xác định ở cột bên trái với giá trị số tính toán chính xác của nó ở cột bên phải.",
     "leftItems": [
-      { "id": "19_1", "text": "1. Tích phân I = \\int_0^1 (2x + 1) dx có giá trị bằng:" },
-      { "id": "19_2", "text": "2. Tích phân I = \\int_1^e \\frac{1}{x} dx có giá trị bằng:" },
-      { "id": "19_3", "text": "3. Tích phân I = \\int_0^2 3x^2 dx có giá trị bằng:" },
-      { "id": "19_4", "text": "4. Tích phân I = \\int_0^1 e^x dx có giá trị bằng:" }
+      { "id": "19_1", "text": "Tích phân $ I = \\int_0^1 (2x + 1) dx $ có giá trị bằng" },
+      { "id": "19_2", "text": "Tích phân $ I = \\int_1^e \\frac{1}{x} dx $ có giá trị bằng" },
+      { "id": "19_3", "text": "Tích phân $ I = \\int_0^2 3x^2 dx $ có giá trị bằng" },
+      { "id": "19_4", "text": "Tích phân $ I = \\int_0^1 e^x dx $ có giá trị bằng" }
     ],
     "rightItems": [
       { "key": "A", "text": "2" },
@@ -467,17 +467,17 @@
       "19_3": "C",
       "19_4": "D"
     },
-    "solution": "Tính toán cơ bản theo định lý nguyên hàm: 1. $[x^2+x]_0^1 = 2$. 2. $[\\ln|x|]_1^e = \\ln e - \\ln 1 = 1$. 3. $[x^3]_0^2 = 8$. 4. $[e^x]_0^1 = e^1 - e^0 = e - 1$."
+    "solution": "Tính toán cơ bản theo định lý nguyên hàm: $ [x^2+x]_0^1 = 2 $. $ [\\ln|x|]_1^e = \\ln e - \\ln 1 = 1 $. $ [x^3]_0^2 = 8 $. $ [e^x]_0^1 = e^1 - e^0 = e - 1 $."
   },
   {
     "id": 20,
     "type": "MATCH",
-    "text": "Trong không gian $Oxyz$, cho điểm $M(2; -1; 3)$. Hãy tiến hành ghép nối các yêu cầu xác định mặt phẳng ở cột bên trái với phương trình tổng quát tương ứng ở cột bên phải.",
+    "text": "Trong không gian $ Oxyz $, cho điểm $ M(2; -1; 3) $. Hãy tiến hành ghép nối các yêu cầu xác định mặt phẳng ở cột bên trái với phương trình tổng quát tương ứng ở cột bên phải.",
     "leftItems": [
-      { "id": "20_1", "text": "1. Mặt phẳng đi qua M và vuông góc với trục hoành Ox:" },
-      { "id": "20_2", "text": "2. Mặt phẳng đi qua M và vuông góc với trục tung Oy:" },
-      { "id": "20_3", "text": "3. Mặt phẳng đi qua M và vuông góc với trục cao Oz:" },
-      { "id": "20_4", "text": "4. Mặt phẳng đi qua M và song song với mặt phẳng (P): 2x - y + 3z = 0" }
+      { "id": "20_1", "text": "Mặt phẳng đi qua M và vuông góc với trục hoành Ox" },
+      { "id": "20_2", "text": "Mặt phẳng đi qua M và vuông góc với trục tung Oy" },
+      { "id": "20_3", "text": "Mặt phẳng đi qua M và vuông góc với trục cao Oz" },
+      { "id": "20_4", "text": "Mặt phẳng đi qua M và song song với mặt phẳng (P): 2x - y + 3z = 0" }
     ],
     "rightItems": [
       { "key": "A", "text": "x - 2 = 0" },
@@ -493,41 +493,41 @@
       "20_3": "C",
       "20_4": "D"
     },
-    "solution": "1. Vuông góc trục Ox nên có vtpt là $(1;0;0)$, phương trình qua M: $1(x-2)=0 \\Leftrightarrow x-2=0$. 2. Vuông góc Oy có vtpt $(0;1;0)$, qua M: $1(y - (-1)) = 0 \\Leftrightarrow y+1=0$. 3. Vuông góc Oz có vtpt $(0;0;1)$, qua M: $1(z-3)=0 \\Leftrightarrow z-3=0$. 4. Song song với (P) nên đồng dạng hệ số đầu $2x-y+3z+D=0$, thế điểm M vào được $2(2) - (-1) + 3(3) + D = 0 \\Leftrightarrow 4+1+9+D=0 \\Leftrightarrow D=-14$."
+    "solution": "Vuông góc trục Ox nên có vtpt là $ (1;0;0) $, phương trình qua M: $ 1(x-2)=0 \\Leftrightarrow x-2=0 $. Vuông góc Oy có vtpt $ (0;1;0) $, qua M: $ 1(y - (-1)) = 0 \\Leftrightarrow y+1=0 $. Vuông góc Oz có vtpt $ (0;0;1) $, qua M: $ 1(z-3)=0 \\Leftrightarrow z-3=0 $. Song song với (P) nên đồng dạng hệ số đầu $ 2x-y+3z+D=0 $, thế điểm M vào được $ 2(2) - (-1) + 3(3) + D = 0 \\Leftrightarrow 4+1+9+D=0 \\Leftrightarrow D=-14 $."
   },
   {
     "id": 21,
     "type": "SHORT",
-    "text": "Tìm tập nghiệm nguyên của bất phương trình $\\log_2(x^2 - 3x + 4) \\le 2$. Hỏi bất phương trình đã cho có bao nhiêu nghiệm nguyên?",
+    "text": "Tìm tập nghiệm nguyên của bất phương trình $ \\log_2(x^2 - 3x + 4) \\le 2 $. Hỏi bất phương trình đã cho có bao nhiêu nghiệm nguyên?",
     "correct": "4",
-    "solution": "Điều kiện xác định: $x^2 - 3x + 4 > 0$ (luôn đúng với mọi số thực $x$). Bất phương trình tương đương: $x^2 - 3x + 4 \\le 2^2 \\Leftrightarrow x^2 - 3x \\le 0 \\Leftrightarrow 0 \\le x \\le 3$. Các nghiệm nguyên thỏa mãn gồm: 0, 1, 2, 3. Vậy có tổng cộng 4 nghiệm nguyên."
+    "solution": "Điều kiện xác định: $ x^2 - 3x + 4 > 0 $ (luôn đúng với mọi số thực $ x $). Bất phương trình tương đương: $ x^2 - 3x + 4 \\le 2^2 \\Leftrightarrow x^2 - 3x \\le 0 \\Leftrightarrow 0 \\le x \\le 3 $. Các nghiệm nguyên thỏa mãn gồm: 0, 1, 2, 3. Vậy có tổng cộng 4 nghiệm nguyên."
   },
   {
     "id": 22,
     "type": "SHORT",
-    "text": "Tính diện tích hình phẳng giới hạn bởi đường cong parabol $y = -x^2 + 2x$ và đường thẳng $y = -x$.",
+    "text": "Tính diện tích hình phẳng giới hạn bởi đường cong parabol $ y = -x^2 + 2x $ và đường thẳng $ y = -x $.",
     "correct": "4.5",
-    "solution": "Phương trình hoành độ giao điểm: $-x^2 + 2x = -x \\Leftrightarrow -x^2 + 3x = 0 \\Leftrightarrow x = 0$ hoặc $x = 3$. Diện tích hình phẳng: $S = \\int_0^3 |(-x^2 + 2x) - (-x)| dx = \\int_0^3 (-x^2 + 3x) dx = \\left.[-\\frac{x^3}{3} + \\frac{3x^2}{2}]\\right|_0^3 = -9 + 13.5 = 4.5$."
+    "solution": "Phương trình hoành độ giao điểm: $ -x^2 + 2x = -x \\Leftrightarrow -x^2 + 3x = 0 \\Leftrightarrow x = 0$ hoặc $ x = 3 $. Diện tích hình phẳng: $ S = \\int_0^3 |(-x^2 + 2x) - (-x)| dx = \\int_0^3 (-x^2 + 3x) dx = \\left.[-\\frac{x^3}{3} + \\frac{3x^2}{2}]\\right|_0^3 = -9 + 13.5 = 4.5 $."
   },
   {
     "id": 23,
     "type": "SHORT",
-    "text": "Trong không gian với hệ tọa độ $Oxyz$, cho đường thẳng d được xác định bởi hệ phương trình tham số: $\\begin{cases} x = 1 \\\\ y = 2 \\\\ z = t \\end{cases}$ và điểm $A(4; 6; 5)$. Hãy tính khoảng cách hình học từ điểm $A$ đến đường thẳng d.",
+    "text": "Trong không gian với hệ tọa độ $ Oxyz $, cho đường thẳng d được xác định bởi hệ phương trình tham số: $ \\begin{cases} x = 1 \\\\ y = 2 \\\\ z = t \\end{cases} $ và điểm $ A(4; 6; 5) $. Hãy tính khoảng cách hình học từ điểm $ A $ đến đường thẳng d.",
     "correct": "5",
-    "solution": "Đường thẳng $d$ đi qua điểm cố định $M_0(1;2;0)$ và song song hoặc trùng với trục cao $Oz$ nên có vectơ chỉ phương là $\\vec{k}(0;0;1)$. Điểm $A$ có tọa độ $(4;6;5)$. Khoảng cách từ điểm $A$ đến đường thẳng $d$ song song trục dọc chính là khoảng cách giữa điểm $(4;6)$ và điểm $(1;2)$ trên hình chiếu mặt phẳng phẳng tọa độ $Oxy$: $d(A, d) = \\sqrt{(4-1)^2 + (6-2)^2} = \\sqrt{3^2+4^2} = 5$."
+    "solution": "Đường thẳng $ d $ đi qua điểm cố định $ M_0(1;2;0) $ và song song hoặc trùng với trục cao $ Oz $ nên có vectơ chỉ phương là $ \\vec{k}(0;0;1) $. Điểm $ A $ có tọa độ $ (4;6;5) $. Khoảng cách từ điểm $ A $ đến đường thẳng $ d $ song song trục dọc chính là khoảng cách giữa điểm $ (4;6) $ và điểm $ (1;2) $ trên hình chiếu mặt phẳng phẳng tọa độ $ Oxy $: $ d(A, d) = \\sqrt{(4-1)^2 + (6-2)^2} = \\sqrt{3^2+4^2} = 5 $."
   },
   {
     "id": 24,
     "type": "SHORT",
     "text": "Một người nông dân sở hữu một cuộn lưới rào bảo vệ dài 60 mét. Người này muốn rào thành một mảnh vườn trồng hoa hình chữ nhật nằm sát bờ tường một con kênh nước thẳng (bờ tường đá của con kênh này đóng vai trò là một cạnh vườn và không cần phải rào lưới). Hỏi diện tích lớn nhất (đơn vị: mét vuông) của mảnh vườn trồng hoa mà người đó có thể rào được là bao nhiêu?",
     "correct": "450",
-    "solution": "Gọi độ dài hai cạnh bên vuông góc với bờ tường kênh là $x$ (mét, $x > 0$). Cạnh còn lại song song với bờ tường kênh có độ dài là $60 - 2x$ (mét). Diện tích mảnh vườn hình chữ nhật được biểu diễn qua hàm số: $S(x) = x(60 - 2x) = -2x^2 + 60x$. Đây là hàm số bậc hai đạt giá trị lớn nhất tại đỉnh của parabol: $x = -\\frac{b}{2a} = -\\frac{60}{2(-2)} = 15$ mét. Khi đó, diện tích lớn nhất có thể đạt được của mảnh vườn trồng hoa là $S(15) = -2(15)^2 + 60(15) = 450\\text{ m}^2$."
+    "solution": "Gọi độ dài hai cạnh bên vuông góc với bờ tường kênh là $ x $ (mét, $ x > 0 $). Cạnh còn lại song song với bờ tường kênh có độ dài là $ 60 - 2x $ (mét). Diện tích mảnh vườn hình chữ nhật được biểu diễn qua hàm số: $ S(x) = x(60 - 2x) = -2x^2 + 60x $. Đây là hàm số bậc hai đạt giá trị lớn nhất tại đỉnh của parabol: $ x = -\\frac{b}{2a} = -\\frac{60}{2(-2)} = 15 $ mét. Khi đó, diện tích lớn nhất có thể đạt được của mảnh vườn trồng hoa là $ S(15) = -2(15)^2 + 60(15) = 450\\text{ m}^2 $."
   },
   {
     "id": 25,
     "type": "SHORT",
-    "text": "Một chiếc thùng hình trụ chuyên dụng chứa dầu có bán kính đáy bằng $30\\text{ cm}$ và chiều cao bằng $80\\text{ cm}$. Hiện tại, lượng dầu trong thùng đang chiếm đúng 60% thể tích thùng. Người ta thả ngập hoàn toàn một khối nón đặc bằng kim loại trang trí có bán kính đáy bằng $20\\text{ cm}$ và chiều cao bằng $30\\text{ cm}$ vào trong thùng. Hãy tính mức chiều cao (đơn vị: cm) của lượng dầu dâng lên thêm trong thùng (làm tròn kết quả tính toán đến một chữ số thập phân sau dấu chấm).",
+    "text": "Một chiếc thùng hình trụ chuyên dụng chứa dầu có bán kính đáy bằng $ 30\\text{ cm} $ và chiều cao bằng $ 80\\text{ cm} $. Hiện tại, lượng dầu trong thùng đang chiếm đúng 60% thể tích thùng. Người ta thả ngập hoàn toàn một khối nón đặc bằng kim loại trang trí có bán kính đáy bằng $ 20\\text{ cm} $ và chiều cao bằng $ 30\\text{ cm} $ vào trong thùng. Hãy tính mức chiều cao (đơn vị: cm) của lượng dầu dâng lên thêm trong thùng (làm tròn kết quả tính toán đến một chữ số thập phân sau dấu chấm).",
     "correct": "4.4",
-    "solution": "Thể tích của khối nón đặc kim loại được thả vào là: $V_{nón} = \\frac{1}{3} \\pi R_{nón}^2 h_{nón} = \\frac{1}{3} \\pi (20)^2 \\times 30 = 4000\\pi \\text{ cm}^3$. Do vật thể ngập hoàn toàn, phần thể tích dầu dâng thêm trong thùng hình trụ có đáy bán kính $30\\text{ cm}$ đúng bằng thể tích khối nón chìm: $V_{dâng} = \\pi R_{trụ}^2 \\Delta h = \\pi (30)^2 \\Delta h = 900\\pi \\Delta h$. Cân bằng hai giá trị thể tích, ta có: $900\\pi \\Delta h = 4000\\pi \\Rightarrow \\Delta h = \\frac{4000}{900} = \\frac{40}{9} \\approx 4.4444...\\text{ cm}$. Áp dụng quy tắc làm tròn số tự nhiên đến một chữ số phần thập phân, ta thu được đáp số điền hệ thống là 4.4 cm."
+    "solution": "Thể tích của khối nón đặc kim loại được thả vào là: $ V_{nón} = \\frac{1}{3} \\pi R_{nón}^2 h_{nón} = \\frac{1}{3} \\pi (20)^2 \\times 30 = 4000\\pi \\text{ cm}^3 $. Do vật thể ngập hoàn toàn, phần thể tích dầu dâng thêm trong thùng hình trụ có đáy bán kính $ 30\\text{ cm} $ đúng bằng thể tích khối nón chìm: $ V_{dâng} = \\pi R_{trụ}^2 \\Delta h = \\pi (30)^2 \\Delta h = 900\\pi \\Delta h $. Cân bằng hai giá trị thể tích, ta có: $ 900\\pi \\Delta h = 4000\\pi \\Rightarrow \\Delta h = \\frac{4000}{900} = \\frac{40}{9} \\approx 4.4444...\\text{ cm} $. Áp dụng quy tắc làm tròn số tự nhiên đến một chữ số phần thập phân, ta thu được đáp số điền hệ thống là 4.4 cm."
   }
 ]
