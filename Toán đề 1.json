@@ -1,5 +1,4 @@
 [
-  // ================= DẠNG 1: TRẮC NGHIỆM ĐÚNG/SAI (CÂU 1 ĐẾN 9) =================
   {
     "id": 1,
     "type": "TF",
@@ -289,7 +288,6 @@
     "points": 1.0
   },
 
-  // ================= DẠNG 2: TRẮC NGHIỆM TỰ LUẬN / BỐI CẢNH (CÂU 10 ĐẾN 15) =================
   {
     "id": 10,
     "type": "MCQ",
@@ -369,7 +367,6 @@
     "solution": "Khi cộng hoặc trừ toàn bộ các giá trị của một mẫu số liệu cho một hằng số, độ lệch chuẩn và phương sai của mẫu số liệu đó hoàn toàn không thay đổi."
   },
 
-  // ================= DẠNG 3: TRẮC NGHIỆM GHÉP HỢP (CÂU 16 ĐẾN 20) =================
   {
     "id": 16,
     "type": "MATCH",
@@ -501,7 +498,6 @@
     "solution": "1. Vectơ $(4;-2;6)$ cùng phương với $(2;-1;3)$. 2. Vuông góc Oxy nên nhận $\\\\vec{k}(0;0;1)$ làm VTCP. 3. Trục Oy có VTCP $\\\\vec{j}(0;1;0)$. 4. Gọi vtcp là $(u_x; u_y; u_z)$. Song song Oxy nên $u_z = 0$. Vuông góc với d nên $2u_x - u_y = 0 \\\\Rightarrow u_y = 2u_x$, chọn $(1;2;0)$."
   },
 
-  // ================= DẠNG 4: TRẮC NGHIỆM TRẢ LỜI NGẮN (CÂU 21 ĐẾN 25) =================
   {
     "id": 21,
     "type": "SHORT",
