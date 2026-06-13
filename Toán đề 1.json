@@ -1,4 +1,3 @@
-```json
 [
   {
     "id": 1,
@@ -532,5 +531,3 @@
     "solution": "Thể tích của khối nón đặc kim loại được thả vào là: $V_{nón} = \\frac{1}{3} \\pi R_{nón}^2 h_{nón} = \\frac{1}{3} \\pi (20)^2 \\times 30 = 4000\\pi \\text{ cm}^3$. Do vật thể ngập hoàn toàn, phần thể tích dầu dâng thêm trong thùng hình trụ có đáy bán kính $30\\text{ cm}$ đúng bằng thể tích khối nón chìm: $V_{dâng} = \\pi R_{trụ}^2 \\Delta h = \\pi (30)^2 \\Delta h = 900\\pi \\Delta h$. Cân bằng hai giá trị thể tích, ta có: $900\\pi \\Delta h = 4000\\pi \\Rightarrow \\Delta h = \\frac{4000}{900} = \\frac{40}{9} \\approx 4.4444...\\text{ cm}$. Áp dụng quy tắc làm tròn số tự nhiên đến một chữ số phần thập phân, ta thu được đáp số điền hệ thống là 4.4 cm."
   }
 ]
-
-```
