@@ -533,4 +533,4 @@
     "correct": "2.5",
     "solution": "Thể tích khối đá hình chóp đều là: $V = \\\\frac{1}{3} \\\\times S_{đáy} \\\\times h = \\\\frac{1}{3} \\\\times 600 \\\\times 30 = 6000 \\\\text{ cm}^3$. Thể tích nước dâng lên bằng đúng thể tích khối đá ngập vào: $V_{dâng} = S_{đáy bể} \\\\times \\\\Delta h \\\\Leftrightarrow 6000 = 2400 \\\\times \\\\Delta h \\\\Rightarrow \\\\Delta h = 2.5$ cm."
   }
-];
+]
