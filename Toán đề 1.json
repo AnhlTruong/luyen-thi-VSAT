@@ -1,4 +1,4 @@
-const QUESTIONS_DB = [
+[
   {
     "id": 1,
     "type": "TF",
