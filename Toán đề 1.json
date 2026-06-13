@@ -2,13 +2,13 @@
   {
     "id": 1,
     "type": "TF",
-    "text": "Cho hàm số $y = \\\\frac{x^2 + 2x + 2}{x + 1}$ có đồ thị là $(C)$. Các mệnh đề sau đúng hay sai?",
+    "text": "Cho hàm số $y = \\frac{x^2 + 2x + 2}{x + 1}$ có đồ thị là $(C)$. Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "1_1",
-        "text": "1. Hàm số đã cho đồng biến trên khoảng $(0; +\\\\infty)$.",
+        "text": "1. Hàm số đã cho đồng biến trên khoảng $(0; +\\infty)$.",
         "correct": "T",
-        "solution": "Ta có đạo hàm $y' = \\\\frac{x^2+2x}{(x+1)^2}$. Cho $y' = 0 \\\\Leftrightarrow x = 0$ hoặc $x = -2$. Khi $x > 0$, $y' > 0$ nên hàm số đồng biến trên khoảng $(0; +\\\\infty)$."
+        "solution": "Ta có đạo hàm $y' = \\frac{x^2+2x}{(x+1)^2}$. Cho $y' = 0 \\Leftrightarrow x = 0$ hoặc $x = -2$. Khi $x > 0$, $y' > 0$ nên hàm số đồng biến trên khoảng $(0; +\\infty)$."
       },
       {
         "id": "1_2",
@@ -20,7 +20,7 @@
         "id": "1_3",
         "text": "3. Đường thẳng $y = x + 1$ là đường tiệm cận xiên của đồ thị $(C)$.",
         "correct": "T",
-        "solution": "Bằng phép chia đa thức ta có $y = x + 1 + \\\\frac{1}{x+1}$. Vì $\\\\lim_{x \\\\to \\\\infty} [y - (x+1)] = 0$ nên $y = x + 1$ là tiệm cận xiên."
+        "solution": "Bằng phép chia đa thức ta có $y = x + 1 + \\frac{1}{x+1}$. Vì $\\lim_{x \\to \\infty} [y - (x+1)] = 0$ nên $y = x + 1$ là tiệm cận xiên."
       },
       {
         "id": "1_4",
@@ -38,27 +38,27 @@
     "parts": [
       {
         "id": "2_1",
-        "text": "1. Vectơ $\\\\vec{AB}$ có tọa độ là $(1; 2; -1)$.",
+        "text": "1. Vectơ $\\vec{AB}$ có tọa độ là $(1; 2; -1)$.",
         "correct": "T",
-        "solution": "Tọa độ vectơ $\\\\vec{AB} = (2-1; 3-1; 0-1) = (1; 2; -1)$."
+        "solution": "Tọa độ vectơ $\\vec{AB} = (2-1; 3-1; 0-1) = (1; 2; -1)$."
       },
       {
         "id": "2_2",
-        "text": "2. Diện tích của tam giác $ABC$ bằng $\\\\frac{\\\\sqrt{35}}{2}$.",
+        "text": "2. Diện tích của tam giác $ABC$ bằng $\\frac{\\sqrt{35}}{2}$.",
         "correct": "T",
-        "solution": "Ta có $\\\\vec{AC} = (-1; 1; 2)$. Tích có hướng $[\\\\vec{AB}, \\\\vec{AC}] = (5; -1; 3)$. Diện tích $S = \\\\frac{1}{2}|[\\\\vec{AB}, \\\\vec{AC}]| = \\\\frac{\\\\sqrt{5^2+(-1)^2+3^2}}{2} = \\\\frac{\\\\sqrt{35}}{2}$."
+        "solution": "Ta có $\\vec{AC} = (-1; 1; 2)$. Tích có hướng $[\\vec{AB}, \\vec{AC}] = (5; -1; 3)$. Diện tích $S = \\frac{1}{2}|[\\vec{AB}, \\vec{AC}]| = \\frac{\\sqrt{5^2+(-1)^2+3^2}}{2} = \\frac{\\sqrt{35}}{2}$."
       },
       {
         "id": "2_3",
         "text": "3. Phương trình mặt phẳng $(ABC)$ là $5x - y + 3z - 7 = 0$.",
         "correct": "T",
-        "solution": "Mặt phẳng qua $A(1;1;1)$ có vectơ pháp tuyến $\\\\vec{n} = (5; -1; 3)$ có phương trình: $5(x-1) - 1(y-1) + 3(z-1) = 0 \\\\Leftrightarrow 5x - y + 3z - 7 = 0$."
+        "solution": "Mặt phẳng qua $A(1;1;1)$ có vectơ pháp tuyến $\\vec{n} = (5; -1; 3)$ có phương trình: $5(x-1) - 1(y-1) + 3(z-1) = 0 \\Leftrightarrow 5x - y + 3z - 7 = 0$."
       },
       {
         "id": "2_4",
-        "text": "4. Đường thẳng $AB$ có phương trình tham số là $\\\\begin{cases} x = 1 + t \\\\ y = 1 + 2t \\\\ z = 1 + t \\\\end{cases}$.",
+        "text": "4. Đường thẳng $AB$ có phương trình tham số là $\\begin{cases} x = 1 + t \\\\ y = 1 + 2t \\\\ z = 1 - t \\end{cases}$.",
         "correct": "F",
-        "solution": "Vectơ chỉ phương của $AB$ là $\\\\vec{AB} = (1; 2; -1)$. Do đó cao độ phải có dạng $z = 1 - t$."
+        "solution": "Vectơ chỉ phương của $AB$ là $\\vec{AB} = (1; 2; -1)$. Do đó cao độ phải có dạng $z = 1 - t$."
       }
     ],
     "points": 1.0
@@ -72,25 +72,25 @@
         "id": "3_1",
         "text": "1. Xác suất để linh kiện được chọn đạt tiêu chuẩn bằng $0.93$.",
         "correct": "T",
-        "solution": "Áp dụng công thức xác suất toàn phần: $P(T) = 0.6 \\\\times 0.95 + 0.4 \\\\times 0.90 = 0.57 + 0.36 = 0.93$."
+        "solution": "Áp dụng công thức xác suất toàn phần: $P(T) = 0.6 \\times 0.95 + 0.4 \\times 0.90 = 0.57 + 0.36 = 0.93$."
       },
       {
         "id": "3_2",
         "text": "2. Xác suất để linh kiện được chọn không đạt tiêu chuẩn bằng $0.05$.",
         "correct": "F",
-        "solution": "Xác suất sản phẩm lỗi là $P(\\\\overline{T}) = 1 - P(T) = 1 - 0.93 = 0.07$."
+        "solution": "Xác suất sản phẩm lỗi là $P(\\overline{T}) = 1 - P(T) = 1 - 0.93 = 0.07$."
       },
       {
         "id": "3_3",
         "text": "3. Biết linh kiện chọn ra đạt tiêu chuẩn, xác suất nó do cơ sở I sản xuất là khoảng $61.3\\%$.",
         "correct": "T",
-        "solution": "Áp dụng công thức Bayes: $P(I|T) = \\\\frac{0.6 \\\\times 0.95}{0.93} = \\\\frac{0.57}{0.93} \\\\approx 61.29\\%$."
+        "solution": "Áp dụng công thức Bayes: $P(I|T) = \\frac{0.6 \\times 0.95}{0.93} = \\frac{0.57}{0.93} \\approx 61.29\\%$."
       },
       {
         "id": "3_4",
         "text": "4. Biết linh kiện chọn ra không đạt tiêu chuẩn, xác suất nó do cơ sở II sản xuất là khoảng $42.9\\%$.",
         "correct": "F",
-        "solution": "Ta có $P(II|\\\\overline{T}) = \\\\frac{0.4 \\\\times 0.10}{0.07} = \\\\frac{0.04}{0.07} \\\\approx 57.14\\%$."
+        "solution": "Ta có $P(II|\\overline{T}) = \\frac{0.4 \\times 0.10}{0.07} = \\frac{0.04}{0.07} \\approx 57.14\\%$."
       }
     ],
     "points": 1.0
@@ -98,31 +98,31 @@
   {
     "id": 4,
     "type": "TF",
-    "text": "Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác đều cạnh $a$. Cạnh bên $SA$ vuông góc với mặt phẳng đáy và $SA = \\frac{a\\\\sqrt{3}}{2}$. Gọi $H$ là trung điểm của $BC$. Các mệnh đề sau đúng hay sai?",
+    "text": "Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác đều cạnh $a$. Cạnh bên $SA$ vuông góc với mặt phẳng đáy và $SA = \\frac{a\\sqrt{3}}{2}$. Gọi $H$ là trung điểm của $BC$. Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "4_1",
         "text": "1. Đường thẳng $BC$ vuông góc với mặt phẳng $(SAH)$.",
         "correct": "T",
-        "solution": "Vì $\\\\triangle ABC$ đều nên $BC \\\\perp AH$. Lại có $BC \\\\perp SA$ (do $SA \\\\perp (ABC)$). Suy ra $BC \\\\perp (SAH)$."
+        "solution": "Vì $\\triangle ABC$ đều nên $BC \\perp AH$. Lại có $BC \\perp SA$ (do $SA \\perp (ABC)$). Suy ra $BC \\perp (SAH)$."
       },
       {
         "id": "4_2",
-        "text": "2. Góc phẳng nhị diện $[S, BC, A]$ bằng $45^\\\\circ$.",
+        "text": "2. Góc phẳng nhị diện $[S, BC, A]$ bằng $45^\\circ$.",
         "correct": "T",
-        "solution": "Góc phẳng nhị diện chính là góc $\\\\angle SHA$. Xét tam giác vuông $SAH$, ta có $AH = \\\\frac{a\\\\sqrt{3}}{2}$ và $SA = \\\\frac{a\\\\sqrt{3}}{2}$. Suy ra tam giác $SAH$ vuông cân tại $A$, do đó $\\\\angle SHA = 45^\\\\circ$."
+        "solution": "Góc phẳng nhị diện chính là góc $\\angle SHA$. Xét tam giác vuông $SAH$, ta có $AH = \\frac{a\\sqrt{3}}{2}$ và $SA = \\frac{a\\sqrt{3}}{2}$. Suy ra tam giác $SAH$ vuông cân tại $A$, do đó $\\angle SHA = 45^\\circ$."
       },
       {
         "id": "4_3",
-        "text": "3. Khoảng cách từ điểm $A$ đến mặt phẳng $(SBC)$ bằng $\\\\frac{a\\\\sqrt{6}}{4}$.",
+        "text": "3. Khoảng cách từ điểm $A$ đến mặt phẳng $(SBC)$ bằng $\\frac{a\\sqrt{6}}{4}$.",
         "correct": "T",
-        "solution": "Kẻ $AK \\\\perp SH$ tại $K$. Do $BC \\\\perp (SAH) \\\\Rightarrow BC \\\\perp AK \\\\Rightarrow AK \\\\perp (SBC)$. Khoảng cách là $AK = SA \\\\times \\\\sin(45^\\\\circ) = \\\\frac{a\\\\sqrt{3}}{2} \\\\times \\\\frac{\\\\sqrt{2}}{2} = \\\\frac{a\\\\sqrt{6}}{4}$."
+        "solution": "Kẻ $AK \\perp SH$ tại $K$. Do $BC \\perp (SAH) \\Rightarrow BC \\perp AK \\Rightarrow AK \\perp (SBC)$. Khoảng cách là $AK = SA \\times \\sin(45^\\circ) = \\frac{a\\sqrt{3}}{2} \\times \\frac{\\sqrt{2}}{2} = \\frac{a\\sqrt{6}}{4}$."
       },
       {
         "id": "4_4",
-        "text": "4. Thể tích của khối chóp $S.ABC$ bằng $\\\\frac{a^3\\\\sqrt{3}}{8}$.",
+        "text": "4. Thể tích của khối chóp $S.ABC$ bằng $\\frac{a^3\\sqrt{3}}{8}$.",
         "correct": "F",
-        "solution": "Diện tích đáy $S_{ABC} = \\\\frac{a^2\\\\sqrt{3}}{4}$. Thể tích $V = \\\\frac{1}{3} S_{ABC} \\\\times SA = \\\\frac{1}{3} \\\\times \\\\frac{a^2\\\\sqrt{3}}{4} \\\\times \\\\frac{a\\\\sqrt{3}}{2} = \\\\frac{a^3}{8}$."
+        "solution": "Diện tích đáy $S_{ABC} = \\frac{a^2\\sqrt{3}}{4}$. Thể tích $V = \\frac{1}{3} S_{ABC} \\times SA = \\frac{1}{3} \\times \\frac{a^2\\sqrt{3}}{4} \\times \\frac{a\\sqrt{3}}{2} = \\frac{a^3}{8}$."
       }
     ],
     "points": 1.0
@@ -134,27 +134,27 @@
     "parts": [
       {
         "id": "5_1",
-        "text": "1. Hàm số $F(x) = \\\\ln|\\\\ln x|$ là một nguyên hàm của hàm số $f(x) = \\frac{1}{x\\\\ln x}$ trên khoảng $(1; +\\\\infty)$.",
+        "text": "1. Hàm số $F(x) = \\ln|\\ln x|$ là một nguyên hàm của hàm số $f(x) = \\frac{1}{x\\ln x}$ trên khoảng $(1; +\\infty)$.",
         "correct": "T",
-        "solution": "Đạo hàm $F'(x) = (\\\\ln|\\\\ln x|)' = \\\\frac{(\\\\ln x)'}{\\\\ln x} = \\\\frac{1}{x\\\\ln x} = f(x)$."
+        "solution": "Đạo hàm $F'(x) = (\\ln|\\ln x|)' = \\frac{(\\ln x)'}{\\ln x} = \\frac{1}{x\\ln x} = f(x)$."
       },
       {
         "id": "5_2",
-        "text": "2. Tích phân $\\\\int_0^1 x e^x dx = 1$.",
+        "text": "2. Tích phân $\\int_0^1 x e^x dx = 1$.",
         "correct": "T",
-        "solution": "Sử dụng phương pháp tích phân từng phần, ta thu được kết quả $\\\\int_0^1 x e^x dx = \\\\left.(x-1)e^x\\\\right|_0^1 = 0 - (-1) = 1$."
+        "solution": "Sử dụng phương pháp tích phân từng phần, ta thu được kết quả $\\int_0^1 x e^x dx = \\left.(x-1)e^x\\right|_0^1 = 0 - (-1) = 1$."
       },
       {
         "id": "5_3",
-        "text": "3. Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y = x^2 - 2x$ và trục hoành bằng $\\\\frac{4}{3}$.",
+        "text": "3. Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y = x^2 - 2x$ và trục hoành bằng $\\frac{4}{3}$.",
         "correct": "T",
-        "solution": "Phương trình hoành độ giao điểm $x^2-2x = 0 \\\\Leftrightarrow x=0$ hoặc $x=2$. Diện tích $S = \\\\int_0^2 |x^2-2x|dx = \\\\left|\\\\frac{x^3}{3} - x^2\\\\right|_0^2 = \\\\frac{4}{3}$."
+        "solution": "Phương trình hoành độ giao điểm $x^2-2x = 0 \\Leftrightarrow x=0$ hoặc $x=2$. Diện tích $S = \\int_0^2 |x^2-2x|dx = \\left|\\frac{x^3}{3} - x^2\\right|_0^2 = \\frac{4}{3}$."
       },
       {
         "id": "5_4",
-        "text": "4. Họ nguyên hàm của hàm số $g(x) = \\\\cos^2 x$ là $G(x) = \\\\frac{x}{2} + \\\\frac{\\\\sin 2x}{4} + C$.",
+        "text": "4. Họ nguyên hàm của hàm số $g(x) = \\cos^2 x$ là $G(x) = \\frac{x}{2} + \\frac{\\sin 2x}{4} + C$.",
         "correct": "T",
-        "solution": "Hạ bậc ta có $\\\\cos^2 x = \\\\frac{1+\\\\cos 2x}{2}$. Nguyên hàm theo định lý cơ bản là $\\\\frac{x}{2} + \\\\frac{\\\\sin 2x}{4} + C$."
+        "solution": "Hạ bậc ta có $\\cos^2 x = \\frac{1+\\cos 2x}{2}$. Nguyên hàm theo định lý cơ bản là $\\frac{x}{2} + \\frac{\\sin 2x}{4} + C$."
       }
     ],
     "points": 1.0
@@ -168,25 +168,25 @@
         "id": "6_1",
         "text": "1. Kỳ vọng của biến ngẫu nhiên $X$ là $E(X) = 2.4$.",
         "correct": "T",
-        "solution": "Ta có $E(X) = 1 \\\\times 0.2 + 2 \\\\times 0.3 + 3 \\\\times 0.4 + 4 \\\\times 0.1 = 2.4$."
+        "solution": "Ta có $E(X) = 1 \\times 0.2 + 2 \\times 0.3 + 3 \\times 0.4 + 4 \\times 0.1 = 2.4$."
       },
       {
         "id": "6_2",
-        "text": "2. Xác suất để $X$ nhận giá trị lớn hơn hoặc bằng 3 là $P(X \\\\ge 3) = 0.5$.",
+        "text": "2. Xác suất để $X$ nhận giá trị lớn hơn hoặc bằng 3 là $P(X \\ge 3) = 0.5$.",
         "correct": "T",
-        "solution": "Ta có $P(X \\\\ge 3) = P(X=3) + P(X=4) = 0.4 + 0.1 = 0.5$."
+        "solution": "Ta có $P(X \\ge 3) = P(X=3) + P(X=4) = 0.4 + 0.1 = 0.5$."
       },
       {
         "id": "6_3",
         "text": "3. Phương sai của biến ngẫu nhiên $X$ là $V(X) = 0.84$.",
         "correct": "T",
-        "solution": "Tính $E(X^2) = 1^2 \\\\times 0.2 + 2^2 \\\\times 0.3 + 3^2 \\\\times 0.4 + 4^2 \\\\times 0.1 = 6.6$. Suy ra $V(X) = E(X^2) - [E(X)]^2 = 6.6 - 2.4^2 = 0.84$."
+        "solution": "Tính $E(X^2) = 1^2 \\times 0.2 + 2^2 \\times 0.3 + 3^2 \\times 0.4 + 4^2 \\times 0.1 = 6.6$. Suy ra $V(X) = E(X^2) - [E(X)]^2 = 6.6 - 2.4^2 = 0.84$."
       },
       {
         "id": "6_4",
         "text": "4. Độ lệch chuẩn của biến ngẫu nhiên $X$ có giá trị lớn hơn 1.",
         "correct": "F",
-        "solution": "Độ lệch chuẩn $\\\\sigma = \\\\sqrt{V(X)} = \\\\sqrt{0.84} \\\\approx 0.9165 < 1$."
+        "solution": "Độ lệch chuẩn $\\sigma = \\sqrt{V(X)} = \\sqrt{0.84} \\approx 0.9165 < 1$."
       }
     ],
     "points": 1.0
@@ -194,31 +194,31 @@
   {
     "id": 7,
     "type": "TF",
-    "text": "Trong không gian $Oxyz$, cho mặt cầu $(S): x^2 + y^2 + z^2 - 2x + 4y - 6z - 2 = 0$ và đường thẳng $d: \\\\frac{x-1}{2} = \\\\frac{y+2}{-1} = \\\\frac{z}{2}$. Các mệnh đề sau đúng hay sai?",
+    "text": "Trong không gian $Oxyz$, cho mặt cầu $(S): x^2 + y^2 + z^2 - 2x + 4y - 6z - 2 = 0$ và đường thẳng $d: \\frac{x-1}{2} = \\frac{y+2}{-1} = \\frac{z}{2}$. Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "7_1",
         "text": "1. Mặt cầu $(S)$ có tâm là $I(1; -2; 3)$ và bán kính $R = 4$.",
         "correct": "T",
-        "solution": "Tọa độ tâm $I(1; -2; 3)$, bán kính $R = \\\\sqrt{1^2+(-2)^2+3^2 - (-2)} = \\\\sqrt{16} = 4$."
+        "solution": "Tọa độ tâm $I(1; -2; 3)$, bán kính $R = \\sqrt{1^2+(-2)^2+3^2 - (-2)} = \\sqrt{16} = 4$."
       },
       {
         "id": "7_2",
         "text": "2. Đường thẳng $d$ đi qua tâm $I$ của mặt cầu $(S)$.",
         "correct": "F",
-        "solution": "Thay tọa độ $I(1; -2; 3)$ vào phương trình đường thẳng $d$: $\\\\frac{1-1}{2} = \\\\frac{-2+2}{-1} = 0 \\\\neq \\\\frac{3}{2}$, phương trình không thỏa mãn."
+        "solution": "Thay tọa độ $I(1; -2; 3)$ vào phương trình đường thẳng $d$: $\\frac{1-1}{2} = \\frac{-2+2}{-1} = 0 \\neq \\frac{3}{2}$, phương trình không thỏa mãn."
       },
       {
         "id": "7_3",
-        "text": "3. Khoảng cách từ tâm $I$ của mặt cầu đến đường thẳng $d$ bằng $\\\\sqrt{5}$.",
+        "text": "3. Khoảng cách từ tâm $I$ của mặt cầu đến đường thẳng $d$ bằng $\\sqrt{5}$.",
         "correct": "T",
-        "solution": "Đường thẳng $d$ qua $M_0(1; -2; 0)$ có véc tơ chỉ phương $\\\\vec{u}=(2; -1; 2)$. Ta có $\\\\vec{IM_0} = (0;0;-3)$, $[\\\\vec{IM_0}, \\\\vec{u}] = (-3; -6; 0)$. Khoảng cách từ $I$ đến $d$ là $\\\\frac{|[-3;-6;0]|}{2^2+(-1)^2+2^2} = \\\\frac{\\\\sqrt{45}}{3} = \\\\sqrt{5}$."
+        "solution": "Đường thẳng $d$ qua $M_0(1; -2; 0)$ có véc tơ chỉ phương $\\vec{u}=(2; -1; 2)$. Ta có $\\vec{IM_0} = (0;0;-3)$, suy ra tích có hướng $[\\vec{IM_0}, \\vec{u}] = (-3; -6; 0)$. Khoảng cách từ $I$ đến $d$ là $\\frac{|[\\vec{IM_0}, \\vec{u}]|}{|\\vec{u}|} = \\frac{\\sqrt{45}}{3} = \\sqrt{5}$."
       },
       {
         "id": "7_4",
         "text": "4. Đường thẳng $d$ tiếp xúc với mặt cầu $(S)$.",
         "correct": "F",
-        "solution": "Vì khoảng cách từ tâm $I$ đến $d$ bằng $\\\\sqrt{5} < R = 4$, nên đường thẳng $d$ cắt mặt cầu tại hai điểm phân biệt."
+        "solution": "Vì khoảng cách từ tâm $I$ đến $d$ bằng $\\sqrt{5} < R = 4$, nên đường thẳng $d$ cắt mặt cầu tại hai điểm phân biệt."
       }
     ],
     "points": 1.0
@@ -226,31 +226,31 @@
   {
     "id": 8,
     "type": "TF",
-    "text": "Một doanh nghiệp sản xuất lon nước ngọt dạng hình trụ có thể tích chứa cố định bằng $500\\\\text{ cm}^3$. Chi phí làm vật liệu hai mặt đáy gấp đôi chi phí làm mặt xung quanh trên mỗi đơn vị diện tích. Gọi $R$ là bán kính đường tròn đáy và $h$ là chiều cao của lon nước. Các mệnh đề sau đúng hay sai?",
+    "text": "Một doanh nghiệp sản xuất lon nước ngọt dạng hình trụ có thể tích chứa cố định bằng $500\\text{ cm}^3$. Chi phí làm vật liệu hai mặt đáy gấp đôi chi phí làm mặt xung quanh trên mỗi đơn vị diện tích. Gọi $R$ là bán kính đường tròn đáy và $h$ là chiều cao của lon nước. Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "8_1",
-        "text": "1. Diện tích toàn phần của hình trụ được tính bằng công thức $S_{tp} = 2\\\\pi R^2 + 2\\\\pi Rh$.",
+        "text": "1. Diện tích toàn phần của hình trụ được tính bằng công thức $S_{tp} = 2\\pi R^2 + 2\\pi Rh$.",
         "correct": "T",
         "solution": "Đây là công thức chuẩn của diện tích toàn phần hình trụ gồm 2 đáy và diện tích xung quanh."
       },
       {
         "id": "8_2",
-        "text": "2. Chi phí sản xuất lon nước tỉ lệ thuận với hàm số $f(R) = 4\\\\pi R^2 + \\\\frac{1000}{R}$.",
+        "text": "2. Chi phí sản xuất lon nước tỉ lệ thuận với hàm số $f(R) = 4\\pi R^2 + \\frac{1000}{R}$.",
         "correct": "T",
-        "solution": "Gọi chi phí mặt xung quanh là $k$. Chi phí đáy là $2k$. Tổng chi phí: $C = 2k(\\\\pi R^2) \\\\times 2 + k(2\\\\pi Rh) = k(4\\\\pi R^2 + 2\\\\pi Rh)$. Từ $V = \\\\pi R^2 h = 500 \\\\Rightarrow 2\\\\pi Rh = \\\\frac{1000}{R}$. Vậy $C = k(4\\\\pi R^2 + \\\\frac{1000}{R})$."
+        "solution": "Gọi chi phí mặt xung quanh là $k$. Chi phí đáy là $2k$. Tổng chi phí: $C = 2k(\\pi R^2) \\times 2 + k(2\\pi Rh) = k(4\\pi R^2 + 2\\pi Rh)$. Từ $V = \\pi R^2 h = 500 \\Rightarrow 2\\pi Rh = \\frac{1000}{R}$. Vậy $C = k(4\\pi R^2 + \\frac{1000}{R})$."
       },
       {
         "id": "8_3",
-        "text": "3. Để chi phí sản xuất lon nước thấp nhất thì bán kính đáy phải bằng $R = \\\\sqrt[3]{\\frac{125}{\\\\pi}}$ cm.",
+        "text": "3. Để chi phí sản xuất lon nước thấp nhất thì bán kính đáy phải bằng $R = \\sqrt[3]{\\frac{125}{\\pi}}$ cm.",
         "correct": "T",
-        "solution": "Khảo sát hàm số $f(R) = 4\\\\pi R^2 + \\\\frac{1000}{R}$ ta được $f'(R) = 8\\\\pi R - \\\\frac{1000}{R^2} = 0 \\\\Rightarrow R^3 = \\\\frac{125}{\\\\pi} \\\\Rightarrow R = \\\\sqrt[3]{\\\\frac{125}{\\\\pi}}$."
+        "solution": "Khảo sát hàm số $f(R) = 4\\pi R^2 + \\frac{1000}{R}$ ta được $f'(R) = 8\\pi R - \\frac{1000}{R^2} = 0 \\Rightarrow R^3 = \\frac{125}{\\pi} \\Rightarrow R = \\sqrt[3]{\\frac{125}{\\pi}}$."
       },
       {
         "id": "8_4",
-        "text": "4. Khi chi phí sản xuất tối ưu nhất, tỉ số giữa chiều cao và bán kính đáy của lon nước là $\\\\frac{h}{R} = 2$.",
+        "text": "4. Khi chi phí sản xuất tối ưu nhất, tỉ số giữa chiều cao và bán kính đáy của lon nước là $\\frac{h}{R} = 2$.",
         "correct": "F",
-        "solution": "Ta có $\\\\pi R^3 = 125$. Chiều cao $h = \\\\frac{500}{\\\\pi R^2} = \\\\frac{500 \\\\times R}{125} = 4R$. Do đó tỷ số tối ưu là $\\\\frac{h}{R} = 4$."
+        "solution": "Ta có $\\pi R^3 = 125$. Chiều cao $h = \\frac{500}{\\pi R^2} = \\frac{500 \\times R}{125} = 4R$. Do đó tỷ số tối ưu là $\\frac{h}{R} = 4$."
       }
     ],
     "points": 1.0
@@ -264,7 +264,7 @@
         "id": "9_1",
         "text": "1. Số trung bình của mẫu số liệu ghép nhóm này bằng $4.4$ giờ.",
         "correct": "T",
-        "solution": "Giá trị đại diện các nhóm lần lượt là 1, 3, 5, 7. Số trung bình $\\\\bar{x} = \\\\frac{5\\\\times1 + 15\\\\times3 + 20\\\\times5 + 10\\\\times7}{50} = 4.4$."
+        "solution": "Giá trị đại diện các nhóm lần lượt là 1, 3, 5, 7. Số trung bình $\\bar{x} = \\frac{5\\times1 + 15\\times3 + 20\\times5 + 10\\times7}{50} = 4.4$."
       },
       {
         "id": "9_2",
@@ -282,16 +282,15 @@
         "id": "9_4",
         "text": "4. Tứ phân vị thứ nhất của mẫu số liệu ghép nhóm này bằng $3.0$ giờ.",
         "correct": "T",
-        "solution": "Vị trí $Q_1$ là $\\\\frac{50}{4} = 12.5$, thuộc nhóm $[2; 4)$. Áp dụng công thức: $Q_1 = 2 + \\\\frac{12.5 - 5}{15} \\\\times (4-2) = 3.0$."
+        "solution": "Vị trí $Q_1$ là $\\frac{50}{4} = 12.5$, thuộc nhóm $[2; 4)$. Áp dụng công thức: $Q_1 = 2 + \\frac{12.5 - 5}{15} \\times (4-2) = 3.0$."
       }
     ],
     "points": 1.0
   },
-
   {
     "id": 10,
     "type": "MCQ",
-    "text": "**Bối cảnh 1:** Một thiết bị bay (flycam) bắt đầu cất cánh thẳng đứng từ mặt đất. Tại thời điểm $t$ (giây) tính từ lúc khởi hành, vận tốc hướng thẳng đứng của nó được xác định bởi hàm số $v(t) = -\\\\frac{1}{4}t^2 + 3t$ (đơn vị: $m/s$).\n\n**Câu 10:** Flycam đạt độ cao tối đa tại thời điểm nào kể từ lúc cất cánh?",
+    "text": "**Bối cảnh 1:** Một thiết bị bay (flycam) bắt đầu cất cánh thẳng đứng từ mặt đất. Tại thời điểm $t$ (giây) tính từ lúc khởi hành, vận tốc hướng thẳng đứng của nó được xác định bởi hàm số $v(t) = -\\frac{1}{4}t^2 + 3t$ (đơn vị: $m/s$).\n\n**Câu 10:** Flycam đạt độ cao tối đa tại thời điểm nào kể từ lúc cất cánh?",
     "options": [
       { "key": "A", "text": "t = 4 giây" },
       { "key": "B", "text": "t = 6 giây" },
@@ -299,12 +298,12 @@
       { "key": "D", "text": "t = 8 giây" }
     ],
     "correct": "C",
-    "solution": "Flycam đạt độ cao tối đa khi nó dừng lại tạm thời trên không, tức là khi vận tốc thẳng đứng triệt tiêu: $v(t) = 0 \\\\Leftrightarrow -\\\\frac{1}{4}t^2 + 3t = 0 \\\\Leftrightarrow t = 12$ (giây)."
+    "solution": "Flycam đạt độ cao tối đa khi nó dừng lại tạm thời trên không, tức là khi vận tốc thẳng đứng triệt tiêu: $v(t) = 0 \\Leftrightarrow -\\frac{1}{4}t^2 + 3t = 0 \\Leftrightarrow t = 12$ (giây)."
   },
   {
     "id": 11,
     "type": "MCQ",
-    "text": "**Bối cảnh 1 (tiếp):** Vận tốc flycam $v(t) = -\\\\frac{1}{4}t^2 + 3t$ ($m/s$).\n\n**Câu 11:** Gia tốc thẳng đứng ($m/s^2$) của flycam tại thời điểm vận tốc đạt giá trị lớn nhất bằng bao nhiêu?",
+    "text": "**Bối cảnh 1 (tiếp):** Vận tốc flycam $v(t) = -\\frac{1}{4}t^2 + 3t$ ($m/s$).\n\n**Câu 11:** Gia tốc thẳng đứng ($m/s^2$) của flycam tại thời điểm vận tốc đạt giá trị lớn nhất bằng bao nhiêu?",
     "options": [
       { "key": "A", "text": "3" },
       { "key": "B", "text": "0" },
@@ -317,7 +316,7 @@
   {
     "id": 12,
     "type": "MCQ",
-    "text": "**Bối cảnh 1 (tiếp):** Vận tốc flycam $v(t) = -\\\\frac{1}{4}t^2 + 3t$ ($m/s$).\n\n**Câu 12:** Độ cao tối đa (mét) mà flycam này đạt được là bao nhiêu?",
+    "text": "**Bối cảnh 1 (tiếp):** Vận tốc flycam $v(t) = -\\frac{1}{4}t^2 + 3t$ ($m/s$).\n\n**Câu 12:** Độ cao tối đa (mét) mà flycam này đạt được là bao nhiêu?",
     "options": [
       { "key": "A", "text": "36 m" },
       { "key": "B", "text": "72 m" },
@@ -325,12 +324,12 @@
       { "key": "D", "text": "48 m" }
     ],
     "correct": "B",
-    "solution": "Độ cao là tích phân của vận tốc từ thời điểm $0$ đến $12$: $s = \\\\int_0^{12} \\\\left(-\\\\frac{1}{4}t^2 + 3t\\\\right) dt = \\\\left.[-\\\\frac{t^3}{12} + \\\\frac{3t^2}{2}]\\\\right|_0^{12} = -144 + 216 = 72$ m."
+    "solution": "Độ cao là tích phân của vận tốc từ thời điểm $0$ đến $12$: $s = \\int_0^{12} \\left(-\\frac{1}{4}t^2 + 3t\\right) dt = \\left.[-\\frac{t^3}{12} + \\frac{3t^2}{2}]\\right|_0^{12} = -144 + 216 = 72$ m."
   },
   {
     "id": 13,
     "type": "MCQ",
-    "text": "**Bối cảnh 2:** Một quỹ đầu tư thống kê số tiền lãi thu được (đơn vị: triệu đồng) từ 40 dự án khởi nghiệp trong năm qua thu được bảng số liệu ghép nhóm sau:\n<table class=\"w-full text-center border-collapse border border-slate-300 mt-2 text-sm\"><tr class=\"bg-slate-100\"><th class=\"border border-slate-300 p-2\">Số tiền lãi (triệu đồng)</th><th class=\"border border-slate-300 p-2\">Số dự án</th></tr><tr><td class=\"border border-slate-300 p-2\">$[0; 20)$</td><td class=\"border border-slate-300 p-2\">4</td></tr><tr><td class=\"border border-slate-300 p-2\">$[20; 40)$</td><td class=\"border border-slate-300 p-2\">10</td></tr><tr><td class=\"border border-slate-300 p-2\">$[40; 60)$</td><td class=\"border border-slate-300 p-2\">16</td></tr><tr><td class=\"border border-slate-300 p-2\">$[60; 80)$</td><td class=\"border border-slate-300 p-2\">8</td></tr><tr><td class=\"border border-slate-300 p-2\">$[80; 100)$</td><td class=\"border border-slate-300 p-2\">2</td></tr></table>\n\n**Câu 13:** Khoảng tứ phân vị $\\\\Delta_Q = Q_3 - Q_1$ của mẫu số liệu ghép nhóm này bằng bao nhiêu?",
+    "text": "**Bối cảnh 2:** Một quỹ đầu tư thống kê số tiền lãi thu được (đơn vị: triệu đồng) từ 40 dự án khởi nghiệp trong năm qua thu được bảng số liệu ghép nhóm sau:\n<table class=\"w-full text-center border-collapse border border-slate-300 mt-2 text-sm\"><tr class=\"bg-slate-100\"><th class=\"border border-slate-300 p-2\">Số tiền lãi (triệu đồng)</th><th class=\"border border-slate-300 p-2\">Số dự án</th></tr><tr><td class=\"border border-slate-300 p-2\">$[0; 20)$</td><td class=\"border border-slate-300 p-2\">4</td></tr><tr><td class=\"border border-slate-300 p-2\">$[20; 40)$</td><td class=\"border border-slate-300 p-2\">10</td></tr><tr><td class=\"border border-slate-300 p-2\">$[40; 60)$</td><td class=\"border border-slate-300 p-2\">16</td></tr><tr><td class=\"border border-slate-300 p-2\">$[60; 80)$</td><td class=\"border border-slate-300 p-2\">8</td></tr><tr><td class=\"border border-slate-300 p-2\">$[80; 100)$</td><td class=\"border border-slate-300 p-2\">2</td></tr></table>\n\n**Câu 13:** Khoảng tứ phân vị $\\Delta_Q = Q_3 - Q_1$ của mẫu số liệu ghép nhóm này bằng bao nhiêu?",
     "options": [
       { "key": "A", "text": "24.5" },
       { "key": "B", "text": "25.8" },
@@ -338,7 +337,7 @@
       { "key": "D", "text": "28.0" }
     ],
     "correct": "D",
-    "solution": "Tìm được $Q_1 = 20 + \\\\frac{10-4}{10}\\\\times20 = 32$. Tìm được $Q_3 = 40 + \\\\frac{30-14}{16}\\\\times20 = 60$. Vậy $\\\\Delta_Q = 60 - 32 = 28.0$."
+    "solution": "Tìm được $Q_1 = 20 + \\frac{10-4}{10}\\times20 = 32$. Tìm được $Q_3 = 40 + \\frac{30-14}{16}\\times20 = 60$. Vậy $\\Delta_Q = 60 - 32 = 28.0$."
   },
   {
     "id": 14,
@@ -351,7 +350,7 @@
       { "key": "D", "text": "0.55" }
     ],
     "correct": "B",
-    "solution": "Số dự án đạt mức lãi từ 40 triệu đồng trở lên là $16 + 8 + 2 = 26$. Xác suất cần tìm: $P = \\\\frac{26}{40} = 0.65$."
+    "solution": "Số dự án đạt mức lãi từ 40 triệu đồng trở lên là $16 + 8 + 2 = 26$. Xác suất cần tìm: $P = \\frac{26}{40} = 0.65$."
   },
   {
     "id": 15,
@@ -366,7 +365,6 @@
     "correct": "B",
     "solution": "Khi cộng hoặc trừ toàn bộ các giá trị của một mẫu số liệu cho một hằng số, độ lệch chuẩn và phương sai của mẫu số liệu đó hoàn toàn không thay đổi."
   },
-
   {
     "id": 16,
     "type": "MATCH",
@@ -380,10 +378,10 @@
     "rightItems": [
       { "key": "A", "text": "0" },
       { "key": "B", "text": "3" },
-      { "key": "C", "text": "\\\\sqrt{2}" },
+      { "key": "C", "text": "\\sqrt{2}" },
       { "key": "D", "text": "-1" },
       { "key": "E", "text": "2" },
-      { "key": "F", "text": "-\\\\sqrt{2}" }
+      { "key": "F", "text": "-\\sqrt{2}" }
     ],
     "correctMap": {
       "16_1": "A",
@@ -391,7 +389,7 @@
       "16_3": "B",
       "16_4": "D"
     },
-    "solution": "Ta có $y' = 4x^3 - 8x = 0 \\\\Leftrightarrow x = 0$ hoặc $x = \\\\pm \\\\sqrt{2}$. Điểm cực đại là $x=0 \\\\Rightarrow y=3$. Điểm cực tiểu là $x = \\\\pm \\\\sqrt{2} \\\\Rightarrow y=-1$."
+    "solution": "Ta có $y' = 4x^3 - 8x = 0 \\Leftrightarrow x = 0$ hoặc $x = \\pm \\sqrt{2}$. Điểm cực đại là $x=0 \\Rightarrow y=3$. Điểm cực tiểu là $x = \\pm \\sqrt{2} \\Rightarrow y=-1$."
   },
   {
     "id": 17,
@@ -417,17 +415,17 @@
       "17_3": "C",
       "17_4": "D"
     },
-    "solution": "1. Song song với (P) nên có dạng $x-2y+2z+D=0$, qua A thu được $D=-3$. 2. Vuông góc Ox, Oy nên song song Oxy, có dạng $z=3$. 3. Qua O, A và vuông góc Oxy nên nhận $[\\\\vec{OA}, \\\\vec{k}] = (2;-1;0)$ làm VPT, tạo thành $2x-y=0$. 4. Cắt các trục và cách đều O nên $x+y+z=1+2+3=6$."
+    "solution": "1. Song song với (P) nên có dạng $x-2y+2z+D=0$, qua A thu được $D=-3$. 2. Vuông góc Ox, Oy nên song song Oxy, có dạng $z=3$. 3. Qua O, A và vuông góc Oxy nên nhận $[\\vec{OA}, \\vec{k}] = (2;-1;0)$ làm VPT, tạo thành $2x-y=0$. 4. Cắt các trục và cách đều O nên $x+y+z=1+2+3=6$."
   },
   {
     "id": 18,
     "type": "MATCH",
     "text": "Ghép các hàm số cho ở cột bên trái với đường tiệm cận tương ứng của nó ở cột bên phải.",
     "leftItems": [
-      { "id": "18_1", "text": "1. Hàm số $y = \\\\frac{2x+1}{x-1}$ có tiệm cận ngang là:" },
-      { "id": "18_2", "text": "2. Hàm số $y = \\\\frac{x-1}{2x+4}$ có tiệm cận đứng là:" },
-      { "id": "18_3", "text": "3. Hàm số $y = x - 2 + \\\\frac{1}{x+1}$ có tiệm cận xiên là:" },
-      { "id": "18_4", "text": "4. Hàm số $y = \\\\frac{3}{x}$ có tiệm cận đứng là:" }
+      { "id": "18_1", "text": "1. Hàm số $y = \\frac{2x+1}{x-1}$ có tiệm cận ngang là:" },
+      { "id": "18_2", "text": "2. Hàm số $y = \\frac{x-1}{2x+4}$ có tiệm cận đứng là:" },
+      { "id": "18_3", "text": "3. Hàm số $y = x - 2 + \\frac{1}{x+1}$ có tiệm cận xiên là:" },
+      { "id": "18_4", "text": "4. Hàm số $y = \\frac{3}{x}$ có tiệm cận đứng là:" }
     ],
     "rightItems": [
       { "key": "A", "text": "y = 2" },
@@ -469,12 +467,12 @@
       "19_3": "C",
       "19_4": "D"
     },
-    "solution": "1. $0.7 \\\\times 0.02 = 0.014$. 2. $0.3 \\\\times 0.05 = 0.015$. 3. $0.014 + 0.015 = 0.029$. 4. $0.014 / 0.029 \\\\approx 0.483$."
+    "solution": "1. $0.7 \\times 0.02 = 0.014$. 2. $0.3 \\times 0.05 = 0.015$. 3. $0.014 + 0.015 = 0.029$. 4. $0.014 / 0.029 \\approx 0.483$."
   },
   {
     "id": 20,
     "type": "MATCH",
-    "text": "Trong không gian $Oxyz$, cho đường thẳng $d: \\\\frac{x-1}{2} = \\\\frac{y+1}{-1} = \\\\frac{z-2}{3}$. Ghép đường thẳng có đặc điểm ở cột bên trái với một vectơ chỉ phương phù hợp ở cột bên phải.",
+    "text": "Trong không gian $Oxyz$, cho đường thẳng $d: \\frac{x-1}{2} = \\frac{y+1}{-1} = \\frac{z-2}{3}$. Ghép đường thẳng có đặc điểm ở cột bên trái với một vectơ chỉ phương phù hợp ở cột bên phải.",
     "leftItems": [
       { "id": "20_1", "text": "1. Đường thẳng song song với d:" },
       { "id": "20_2", "text": "2. Đường thẳng vuông góc với mặt phẳng (Oxy):" },
@@ -495,42 +493,41 @@
       "20_3": "C",
       "20_4": "D"
     },
-    "solution": "1. Vectơ $(4;-2;6)$ cùng phương với $(2;-1;3)$. 2. Vuông góc Oxy nên nhận $\\\\vec{k}(0;0;1)$ làm VTCP. 3. Trục Oy có VTCP $\\\\vec{j}(0;1;0)$. 4. Gọi vtcp là $(u_x; u_y; u_z)$. Song song Oxy nên $u_z = 0$. Vuông góc với d nên $2u_x - u_y = 0 \\\\Rightarrow u_y = 2u_x$, chọn $(1;2;0)$."
+    "solution": "1. Vectơ $(4;-2;6)$ cùng phương với $(2;-1;3)$. 2. Vuông góc Oxy nên nhận $\\vec{k}(0;0;1)$ làm VTCP. 3. Trục Oy có VTCP $\\vec{j}(0;1;0)$. 4. Gọi vtcp là $(u_x; u_y; u_z)$. Song song Oxy nên $u_z = 0$. Vuông góc với d nên $2u_x - u_y = 0 \\Rightarrow u_y = 2u_x$, chọn $(1;2;0)$."
   },
-
   {
     "id": 21,
     "type": "SHORT",
-    "text": "Tìm số nghiệm nguyên của bất phương trình $\\\\log_{0.5}(x^2 - 5x + 7) \\\\ge 0$.",
+    "text": "Tìm số nghiệm nguyên của bất phương trình $\\log_{0.5}(x^2 - 5x + 7) \\ge 0$.",
     "correct": "2",
-    "solution": "Bất phương trình tương đương: $0 < x^2 - 5x + 7 \\\\le 0.5^0 = 1$. Do $x^2-5x+7>0$ luôn đúng với mọi $x$, ta chỉ cần giải $x^2 - 5x + 6 \\\\le 0 \\\\Leftrightarrow 2 \\\\le x \\\\le 3$. Nghiệm nguyên gồm $x=2$ và $x=3$. Số nghiệm nguyên là 2."
+    "solution": "Bất phương trình tương đương: $0 < x^2 - 5x + 7 \\le 0.5^0 = 1$. Do $x^2-5x+7>0$ luôn đúng với mọi $x$, ta chỉ cần giải $x^2 - 5x + 6 \\le 0 \\Leftrightarrow 2 \\le x \\le 3$. Nghiệm nguyên gồm $x=2$ và $x=3$. Số nghiệm nguyên là 2."
   },
   {
     "id": 22,
     "type": "SHORT",
     "text": "Tính diện tích hình phẳng giới hạn bởi đồ thị hàm số $y = -x^2 + 4x$ và đường thẳng $y = x$.",
     "correct": "4.5",
-    "solution": "Phương trình hoành độ giao điểm: $-x^2 + 4x = x \\\\Leftrightarrow -x^2 + 3x = 0 \\\\Leftrightarrow x=0$ hoặc $x=3$. Diện tích hình phẳng $S = \\\\int_0^3 (-x^2+3x)dx = \\\\left.[-\\\\frac{x^3}{3} + \\\\frac{3x^2}{2}]\\\\right|_0^3 = 4.5$."
+    "solution": "Phương trình hoành độ giao điểm: $-x^2 + 4x = x \\Leftrightarrow -x^2 + 3x = 0 \\Leftrightarrow x=0$ hoặc $x=3$. Diện tích hình phẳng $S = \\int_0^3 (-x^2+3x)dx = \\left.[-\\frac{x^3}{3} + \\frac{3x^2}{2}]\\right|_0^3 = 4.5$."
   },
   {
     "id": 23,
     "type": "SHORT",
     "text": "Trong không gian $Oxyz$, cho điểm $M(1; 2; 3)$ và mặt phẳng $(P): 2x - 2y + z + 5 = 0$. Tính khoảng cách từ điểm $M$ đến mặt phẳng $(P)$.",
     "correct": "2",
-    "solution": "Áp dụng công thức khoảng cách từ điểm đến mặt phẳng: $d = \\\\frac{|2(1) - 2(2) + 3 + 5|}{\\\\sqrt{2^2+(-2)^2+1^2}} = \\\\frac{|2-4+3+5|}{3} = \\\\frac{6}{3} = 2$."
+    "solution": "Áp dụng công thức khoảng cách từ điểm đến mặt phẳng: $d = \\frac{|2(1) - 2(2) + 3 + 5|}{\\sqrt{2^2+(-2)^2+1^2}} = \\frac{|2-4+3+5|}{3} = \\frac{6}{3} = 2$."
   },
   {
     "id": 24,
     "type": "SHORT",
-    "text": "Một người nông dân muốn uốn một tấm tôn phẳng có chiều rộng 30 cm thành một máng nước có mặt cắt ngang là hình chữ nhật khuyết cạnh trên (gồm một đáy rộng $b$ cm và hai thành bên cao $x$ cm vuông góc với đáy sao cho $2x + b = 30$). Chiều dài máng nước là 200 cm. Tính thể tích chứa nước lớn nhất của chiếc máng này theo đơn vị lít (biết 1 lít = 1000 $\\\\text{cm}^3$).",
+    "text": "Một người nông dân muốn uốn một tấm tôn phẳng có chiều rộng 30 cm thành một máng nước có mặt cắt ngang là hình chữ nhật khuyết cạnh trên (gồm một đáy rộng $b$ cm và hai thành bên cao $x$ cm vuông góc với đáy sao cho $2x + b = 30$). Chiều dài máng nước là 200 cm. Tính thể tích chứa nước lớn nhất của chiếc máng này theo đơn vị lít (biết 1 lít = 1000 $\\text{cm}^3$).",
     "correct": "22.5",
-    "solution": "Diện tích mặt cắt ngang máng là $S(x) = x \\\\cdot b = x(30 - 2x) = 30x - 2x^2$. Hàm diện tích đạt cực đại tại đỉnh parabol $x = 7.5$ cm, khi đó $S_{max} = 112.5 \\\\text{ cm}^2$. Thể tích cực đại: $V = 112.5 \\\\times 200 = 22500 \\\\text{ cm}^3 = 22.5$ lít."
+    "solution": "Diện tích mặt cắt ngang máng là $S(x) = x \\cdot b = x(30 - 2x) = 30x - 2x^2$. Hàm diện tích đạt cực đại tại đỉnh parabol $x = 7.5$ cm, khi đó $S_{max} = 112.5 \\text{ cm}^2$. Thể tích cực đại: $V = 112.5 \\times 200 = 22500 \\text{ cm}^3 = 22.5$ lít."
   },
   {
     "id": 25,
     "type": "SHORT",
-    "text": "Trong một bể cá hình hộp chữ nhật có diện tích đáy phẳng bằng $2400\\\\text{ cm}^2$ đang chứa nước, người ta thả ngập hoàn toàn một khối đá trang trí có dạng hình chóp tam giác đều vào bể làm nước dâng lên thêm. Biết khối đá có chiều cao bằng 30 cm và diện tích đáy của khối đá bằng $600\\\\text{ cm}^2$. Hỏi mực nước trong bể cá đã dâng lên thêm bao nhiêu cm?",
+    "text": "Trong một bể cá hình hộp chữ nhật có diện tích đáy phẳng bằng $2400\\text{ cm}^2$ đang chứa nước, người ta thả ngập hoàn toàn một khối đá trang trí có dạng hình chóp tam giác đều vào bể làm nước dâng lên thêm. Biết khối đá có chiều cao bằng 30 cm và diện tích đáy của khối đá bằng $600\\text{ cm}^2$. Hỏi mực nước trong bể cá đã dâng lên thêm bao nhiêu cm?",
     "correct": "2.5",
-    "solution": "Thể tích khối đá hình chóp đều là: $V = \\\\frac{1}{3} \\\\times S_{đáy} \\\\times h = \\\\frac{1}{3} \\\\times 600 \\\\times 30 = 6000 \\\\text{ cm}^3$. Thể tích nước dâng lên bằng đúng thể tích khối đá ngập vào: $V_{dâng} = S_{đáy bể} \\\\times \\\\Delta h \\\\Leftrightarrow 6000 = 2400 \\\\times \\\\Delta h \\\\Rightarrow \\\\Delta h = 2.5$ cm."
+    "solution": "Thể tích khối đá hình chóp đều là: $V = \\frac{1}{3} \\times S_{đáy} \\times h = \\frac{1}{3} \\times 600 \\times 30 = 6000 \\text{ cm}^3$. Thể tích nước dâng lên bằng đúng thể tích khối đá ngập vào: $V_{dâng} = S_{đáy bể} \\times \\Delta h \\Leftrightarrow 6000 = 2400 \\times \\Delta h \\Rightarrow \\Delta h = 2.5$ cm."
   }
 ]
