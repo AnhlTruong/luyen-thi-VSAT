@@ -1,4 +1,4 @@
-const QUESTIONS_DB = [
+[
   // ================= DẠNG 1: TRẮC NGHIỆM ĐÚNG/SAI (CÂU 1 ĐẾN 9) =================
   {
     "id": 1,
