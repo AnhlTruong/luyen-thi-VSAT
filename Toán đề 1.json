@@ -2,31 +2,47 @@
   {
     "id": 1,
     "type": "TF",
-    "text": "Cho dãy số $(u_n)$ xác định bởi $u_n = 3 \\cdot 2^n - 1$, với $n \\in \\mathbb{N}^*$. Xét các mệnh đề sau:",
+    "text": "Cho hàm số $y = \\frac{x^2 - 2x + 2}{x - 1}$ có đồ thị là $(C)$. Xét các mệnh đề sau:",
+    "visual": {
+      "width": 320,
+      "height": 240,
+      "elements": [
+        {"type": "grid", "color": "#f1f5f9"},
+        {"type": "axes", "origin": [120, 120], "labels": ["x", "y"]},
+        {"type": "line", "x1": 150, "y1": 10, "x2": 150, "y2": 230, "stroke": "#ef4444", "dash": "4"},
+        {"type": "text", "x": 155, "y": 20, "text": "x=1", "color": "#ef4444", "size": 10, "weight": "bold"},
+        {"type": "line", "x1": 30, "y1": 30, "x2": 300, "y2": 300, "stroke": "#ef4444", "dash": "4"},
+        {"type": "text", "x": 260, "y": 280, "text": "y=x-1", "color": "#ef4444", "size": 10, "weight": "bold"},
+        {"type": "path", "d": "M 40,150 C 80,180 140,200 145,230", "stroke": "#3b82f6", "width": 2},
+        {"type": "path", "d": "M 155,10 C 165,50 200,80 280,90", "stroke": "#3b82f6", "width": 2},
+        {"type": "circle", "cx": 150, "cy": 120, "r": 3, "fill": "#1e293b"},
+        {"type": "text", "x": 155, "y": 115, "text": "I(1;0)", "size": 9, "color": "#334155"}
+      ]
+    },
     "parts": [
       {
         "id": "1_1",
-        "text": "1. Dãy số $(u_n)$ là một cấp số nhân.",
-        "correct": "F",
-        "solution": "Ta có $\\frac{u_{n+1}}{u_n} = \\frac{3 \\cdot 2^{n+1} - 1}{3 \\cdot 2^n - 1}$ không phải là hằng số, do đó $(u_n)$ không phải là cấp số nhân. Mệnh đề Sai."
+        "text": "1. Đồ thị $(C)$ có tiệm cận đứng là đường thẳng $x=1$ và tiệm cận xiên là $y=x-1$.",
+        "correct": "T",
+        "solution": "Ta có $y = x - 1 + \\frac{1}{x - 1}$. Khi $x \\to 1$, $y \\to \\infty$ nên $x=1$ là TCĐ. Khi $x \\to \\infty$, $y - (x-1) \\to 0$ nên $y=x-1$ là TCX. Mệnh đề Đúng."
       },
       {
         "id": "1_2",
-        "text": "2. Dãy số $(u_n)$ là dãy tăng.",
-        "correct": "T",
-        "solution": "Xét hiệu $u_{n+1} - u_n = (3 \\cdot 2^{n+1} - 1) - (3 \\cdot 2^n - 1) = 3 \\cdot 2^n > 0$ với mọi $n \\in \\mathbb{N}^*$. Do đó dãy số là dãy tăng. Mệnh đề Đúng."
+        "text": "2. Hàm số nghịch biến trên tập hợp $(-\\infty; 0) \\cup (2; +\\infty)$.",
+        "correct": "F",
+        "solution": "Hàm số có $y' = 1 - \\frac{1}{(x-1)^2}$. $y' < 0 \\Leftrightarrow (x-1)^2 < 1 \\Leftrightarrow 0 < x < 2$. Hàm số nghịch biến trên từng khoảng $(0; 1)$ và $(1; 2)$, không thể viết gộp bằng hợp. Mệnh đề Sai."
       },
       {
         "id": "1_3",
-        "text": "3. $u_{n+1} - u_n = 3 \\cdot 2^n$.",
+        "text": "3. Khoảng cách từ một điểm $M$ bất kỳ trên $(C)$ đến đường tiệm cận xiên tiến dần về $0$ khi $M$ di chuyển ra vô cực.",
         "correct": "T",
-        "solution": "Như đã chứng minh ở trên, $u_{n+1} - u_n = 3 \\cdot 2^n$. Mệnh đề Đúng."
+        "solution": "Khoảng cách từ $M(x; y)$ đến $x - y - 1 = 0$ là $d = \\frac{|x - y - 1|}{\\sqrt{2}} = \\frac{|\\frac{-1}{x-1}|}{\\sqrt{2}} = \\frac{1}{\\sqrt{2}|x-1|}$. Khi $x \\to \\infty$, $d \\to 0$. Mệnh đề Đúng."
       },
       {
         "id": "1_4",
-        "text": "4. Tổng của $n$ số hạng đầu tiên là $S_n = 3(2^{n+1}-2) - n$.",
+        "text": "4. Giao điểm của hai đường tiệm cận là tâm đối xứng của đồ thị hàm số.",
         "correct": "T",
-        "solution": "$S_n = \\sum_{k=1}^n (3 \\cdot 2^k - 1) = 3 \\sum_{k=1}^n 2^k - n = 3 \\cdot \\frac{2(2^n - 1)}{2 - 1} - n = 3(2^{n+1} - 2) - n$. Mệnh đề Đúng."
+        "solution": "Giao điểm của $x=1$ và $y=x-1$ là $I(1; 0)$. Đây chính là tâm đối xứng của đồ thị hàm phân thức hữu tỉ dạng này. Mệnh đề Đúng."
       }
     ],
     "points": 1.0
@@ -34,32 +50,31 @@
   {
     "id": 2,
     "type": "TF",
-    "text": "Cho hàm số $y = \\frac{2x-1}{x+2}$ có đồ thị là $(C)$. Xét các mệnh đề sau:",
-    "hasGraph": "C2",
+    "text": "Cho hàm số $f(x) = \\ln(x^2 - 2x + 3)$. Xét các mệnh đề sau:",
     "parts": [
       {
         "id": "2_1",
-        "text": "1. Đường thẳng $x=-2$ là tiệm cận đứng của $(C)$.",
+        "text": "1. Tập xác định của hàm số là $\\mathbb{R}$.",
         "correct": "T",
-        "solution": "Vì $\\lim_{x \\to (-2)^+} y = +\\infty$ và $\\lim_{x \\to (-2)^-} y = -\\infty$ nên $x=-2$ là tiệm cận đứng. Mệnh đề Đúng."
+        "solution": "Biểu thức trong logarit: $x^2 - 2x + 3 = (x-1)^2 + 2 > 0$ với mọi $x \\in \\mathbb{R}$. Mệnh đề Đúng."
       },
       {
         "id": "2_2",
-        "text": "2. Đường thẳng $y=2$ là tiệm cận ngang của $(C)$.",
+        "text": "2. Hàm số đạt cực tiểu tại điểm $x = 1$.",
         "correct": "T",
-        "solution": "Vì $\\lim_{x \\to \\pm\\infty} y = 2$ nên $y=2$ là tiệm cận ngang. Mệnh đề Đúng."
+        "solution": "$f'(x) = \\frac{2x - 2}{x^2 - 2x + 3}$. $f'(x) = 0 \\Leftrightarrow x = 1$. Đạo hàm đổi dấu từ âm sang dương khi qua $x=1$ nên hàm số đạt cực tiểu tại đây. Mệnh đề Đúng."
       },
       {
         "id": "2_3",
-        "text": "3. Đồ thị $(C)$ cắt đường thẳng $y=x-1$ tại hai điểm phân biệt.",
+        "text": "3. Bất phương trình $f(x) < \\ln(3)$ có tập nghiệm là khoảng $(0; 2)$.",
         "correct": "T",
-        "solution": "Phương trình hoành độ giao điểm: $\\frac{2x-1}{x+2} = x-1 \\Leftrightarrow 2x-1 = (x-1)(x+2) \\Leftrightarrow x^2 - x - 1 = 0$. Phương trình có $\\Delta = 5 > 0$ và không có nghiệm $x=-2$, nên có 2 giao điểm phân biệt. Mệnh đề Đúng."
+        "solution": "$f(x) < \\ln(3) \\Leftrightarrow x^2 - 2x + 3 < 3 \\Leftrightarrow x^2 - 2x < 0 \\Leftrightarrow x \\in (0; 2)$. Mệnh đề Đúng."
       },
       {
         "id": "2_4",
-        "text": "4. Tâm đối xứng của đồ thị $(C)$ là điểm $I(-2, 2)$.",
-        "correct": "T",
-        "solution": "Giao điểm của hai đường tiệm cận đứng và ngang là $I(-2, 2)$, đây chính là tâm đối xứng của đồ thị hàm phân thức bậc nhất. Mệnh đề Đúng."
+        "text": "4. Giá trị lớn nhất của hàm số trên đoạn $[0; 3]$ bằng $\\ln(5)$.",
+        "correct": "F",
+        "solution": "Tính $f(0) = \\ln(3)$, $f(1) = \\ln(2)$, $f(3) = \\ln(3^2 - 6 + 3) = \\ln(6)$. Giá trị lớn nhất là $\\ln(6)$. Mệnh đề Sai."
       }
     ],
     "points": 1.0
@@ -67,31 +82,31 @@
   {
     "id": 3,
     "type": "TF",
-    "text": "Trong không gian $Oxyz$, cho đường thẳng $d: \\frac{x}{1} = \\frac{y-1}{2} = \\frac{z-2}{2}$ và mặt phẳng $(P): x + 2y + 2z - 6 = 0$. Xét các mệnh đề sau:",
+    "text": "Cho hình phẳng $(H)$ được giới hạn bởi parabol $y = x^2 - 2x$, trục hoành và hai đường thẳng $x = -1, x = 2$. Xét các mệnh đề sau:",
     "parts": [
       {
         "id": "3_1",
-        "text": "1. Một vectơ chỉ phương của $d$ là $\\vec{u} = (1, 2, 2)$.",
+        "text": "1. Diện tích của hình phẳng $(H)$ được tính bởi công thức $S = \\int_{-1}^2 |x^2 - 2x| dx$.",
         "correct": "T",
-        "solution": "Từ phương trình chính tắc của $d$, ta dễ dàng suy ra một vectơ chỉ phương là $\\vec{u} = (1, 2, 2)$. Mệnh đề Đúng."
+        "solution": "Theo công thức tính diện tích hình phẳng, ta phải lấy tích phân của giá trị tuyệt đối hàm số. Mệnh đề Đúng."
       },
       {
         "id": "3_2",
-        "text": "2. Đường thẳng $d$ song song với mặt phẳng $(P)$.",
+        "text": "2. Diện tích chính xác của hình phẳng $(H)$ bằng $\\frac{10}{3}$.",
         "correct": "F",
-        "solution": "Mặt phẳng $(P)$ có vectơ pháp tuyến $\\vec{n_P} = (1, 2, 2)$. Ta thấy $\\vec{u} = \\vec{n_P}$, do đó $d$ vuông góc với $(P)$ chứ không song song. Mệnh đề Sai."
+        "solution": "$S = \\int_{-1}^0 (x^2 - 2x) dx - \\int_0^2 (x^2 - 2x) dx = \\frac{4}{3} - (-\\frac{4}{3}) = \\frac{8}{3}$. Mệnh đề Sai."
       },
       {
         "id": "3_3",
-        "text": "3. Đường thẳng $d$ cắt mặt phẳng $(P)$ tại điểm $M(0, 1, 2)$.",
+        "text": "3. Thể tích khối tròn xoay tạo thành khi cho $(H)$ quay quanh trục hoành là $V = \\pi \\int_{-1}^2 (x^2 - 2x)^2 dx$.",
         "correct": "T",
-        "solution": "Thay tọa độ $M(0, 1, 2)$ vào phương trình $(P)$: $0 + 2(1) + 2(2) - 6 = 0$ (thỏa mãn). Thay vào $d$: $\\frac{0}{1} = \\frac{1-1}{2} = \\frac{2-2}{2} = 0$ (thỏa mãn). Vậy $M$ là giao điểm. Mệnh đề Đúng."
+        "solution": "Công thức tính thể tích khối tròn xoay là $V = \\pi \\int_a^b [f(x)]^2 dx$. Mệnh đề Đúng."
       },
       {
         "id": "3_4",
-        "text": "4. Khoảng cách từ gốc tọa độ $O$ đến đường thẳng $d$ bằng $1$.",
+        "text": "4. Thể tích khối tròn xoay đó có giá trị bằng $\\frac{18\\pi}{5}$.",
         "correct": "T",
-        "solution": "Lấy điểm $A(0, 1, 2) \\in d$. Ta có $\\vec{OA} = (0, 1, 2)$. $[\\vec{OA}, \\vec{u}] = (2-4, 2-0, 0-1) = (-2, 2, -1)$. Khoảng cách $d(O, d) = \\frac{|[\\vec{OA}, \\vec{u}]|}{|\\vec{u}|} = \\frac{\\sqrt{(-2)^2+2^2+(-1)^2}}{\\sqrt{1^2+2^2+2^2}} = \\frac{\\sqrt{9}}{\\sqrt{9}} = 1$. Mệnh đề Đúng."
+        "solution": "$V = \\pi \\int_{-1}^2 (x^4 - 4x^3 + 4x^2) dx = \\pi [\\frac{x^5}{5} - x^4 + \\frac{4x^3}{3}]_{-1}^2 = \\pi (\\frac{32}{5} - 16 + \\frac{32}{3} + \\frac{1}{5} + 1 + \\frac{4}{3}) = \\frac{18\\pi}{5}$. Mệnh đề Đúng."
       }
     ],
     "points": 1.0
@@ -99,32 +114,31 @@
   {
     "id": 4,
     "type": "TF",
-    "text": "Bảng sau tóm tắt kết quả nghiên cứu về ảnh hưởng của hai loại phân bón (A và B) đến sự phát triển của 100 cây trồng:<br><table class=\"w-full text-center border-collapse border border-slate-300\"><thead><tr class=\"bg-slate-100\"><th class=\"border border-slate-300 p-2\">Loại phân</th><th class=\"border border-slate-300 p-2\">Phát triển cao</th><th class=\"border border-slate-300 p-2\">Phát triển thấp</th></tr></thead><tbody><tr><td class=\"border border-slate-300 p-2\">Phân A</td><td class=\"border border-slate-300 p-2\">30</td><td class=\"border border-slate-300 p-2\">20</td></tr><tr><td class=\"border border-slate-300 p-2\">Phân B</td><td class=\"border border-slate-300 p-2\">15</td><td class=\"border border-slate-300 p-2\">35</td></tr></tbody></table><br>Chọn ngẫu nhiên một cây trong 100 cây trên. Xét các mệnh đề sau:",
+    "text": "Trong không gian $Oxyz$, cho ba điểm $A(1; 0; -1)$, $B(2; 1; 1)$, $C(0; -1; 2)$. Xét các mệnh đề sau:",
     "parts": [
       {
         "id": "4_1",
-        "text": "1. Xác suất để chọn được cây phát triển cao là $0.45$.",
+        "text": "1. Vectơ pháp tuyến của mặt phẳng $(ABC)$ có thể chọn là $\\vec{n} = (1; -1; 0)$.",
         "correct": "T",
-        "solution": "Tổng số cây phát triển cao là $30 + 15 = 45$. Xác suất là $\\frac{45}{100} = 0.45$. Mệnh đề Đúng."
+        "solution": "$\\vec{AB} = (1; 1; 2)$, $\\vec{AC} = (-1; -1; 3)$. $[\\vec{AB}, \\vec{AC}] = (5; -5; 0) = 5(1; -1; 0)$. Mệnh đề Đúng."
       },
       {
         "id": "4_2",
-        "text": "2. Nếu biết cây được chọn sử dụng Phân A, xác suất để cây đó phát triển cao là $\\frac{2}{3}$.",
+        "text": "2. Diện tích tam giác $ABC$ bằng $\\frac{5\\sqrt{2}}{2}$.",
         "correct": "T",
-        "solution": "Tổng số cây sử dụng Phân A là $30 + 20 = 50$. Số cây Phân A phát triển cao là 30. Xác suất có điều kiện là $\\frac{30}{50} = \\frac{3}{5}$. (Chờ đã, đề ghi 2/3. 30/45 = 2/3 là P(Phân A | Phát triển cao). Vậy mệnh đề này Sai).",
-        "correct": "F"
+        "solution": "$S_{ABC} = \\frac{1}{2} |[\\vec{AB}, \\vec{AC}]| = \\frac{1}{2} \\sqrt{5^2 + (-5)^2 + 0^2} = \\frac{5\\sqrt{2}}{2}$. Mệnh đề Đúng."
       },
       {
         "id": "4_3",
-        "text": "3. Nếu biết cây được chọn phát triển thấp, xác suất để cây đó sử dụng Phân B là $\\frac{7}{11}$.",
-        "correct": "T",
-        "solution": "Tổng số cây phát triển thấp là $20 + 35 = 55$. Số cây Phân B phát triển thấp là 35. Xác suất là $\\frac{35}{55} = \\frac{7}{11}$. Mệnh đề Đúng."
+        "text": "3. Khoảng cách từ gốc tọa độ $O$ đến mặt phẳng $(ABC)$ bằng $\\sqrt{2}$.",
+        "correct": "F",
+        "solution": "Phương trình $(ABC)$: $1(x-1) - 1(y-0) + 0(z+1) = 0 \\Leftrightarrow x - y - 1 = 0$. $d(O, (ABC)) = \\frac{|-1|}{\\sqrt{1^2 + (-1)^2}} = \\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2}$. Mệnh đề Sai."
       },
       {
         "id": "4_4",
-        "text": "4. Sự phát triển của cây và loại phân bón được sử dụng là hai sự kiện độc lập.",
-        "correct": "F",
-        "solution": "Ta có $P(\\text{Cao}) = 0.45$, $P(\\text{Phân A}) = 0.5$. $P(\\text{Cao} \\cap \\text{Phân A}) = 0.3$. Vì $0.45 \\times 0.5 = 0.225 \\neq 0.3$ nên hai sự kiện không độc lập. Mệnh đề Sai."
+        "text": "4. Phương trình đường thẳng đi qua $A$ và vuông góc với mặt phẳng $(ABC)$ là $\\frac{x-1}{1} = \\frac{y}{-1} = \\frac{z+1}{0}$.",
+        "correct": "T",
+        "solution": "Đường thẳng vuông góc với $(ABC)$ nên nhận $\\vec{n} = (1; -1; 0)$ làm VTCP và đi qua $A(1; 0; -1)$. Mệnh đề Đúng."
       }
     ],
     "points": 1.0
@@ -132,31 +146,31 @@
   {
     "id": 5,
     "type": "TF",
-    "text": "Xét các mệnh đề về nguyên hàm và tích phân sau:",
+    "text": "Bảng sau thống kê điểm kiểm tra môn Toán của 40 học sinh lớp 12:<br><table class=\"w-full text-center border-collapse border border-slate-300 mt-2 text-sm\"><thead><tr class=\"bg-slate-100\"><th class=\"border border-slate-300 p-2\">Nhóm điểm</th><th class=\"border border-slate-300 p-2\">[4; 5)</th><th class=\"border border-slate-300 p-2\">[5; 6)</th><th class=\"border border-slate-300 p-2\">[6; 7)</th><th class=\"border border-slate-300 p-2\">[7; 8)</th><th class=\"border border-slate-300 p-2\">[8; 9)</th><th class=\"border border-slate-300 p-2\">[9; 10]</th></tr></thead><tbody><tr><td class=\"border border-slate-300 p-2\">Tần số</td><td class=\"border border-slate-300 p-2\">4</td><td class=\"border border-slate-300 p-2\">8</td><td class=\"border border-slate-300 p-2\">12</td><td class=\"border border-slate-300 p-2\">10</td><td class=\"border border-slate-300 p-2\">4</td><td class=\"border border-slate-300 p-2\">2</td></tr></tbody></table><br>Xét các mệnh đề sau về mẫu số liệu ghép nhóm trên:",
     "parts": [
       {
         "id": "5_1",
-        "text": "1. $\\int x e^x dx = (x-1)e^x + C$.",
+        "text": "1. Cỡ mẫu của bảng số liệu là $N = 40$.",
         "correct": "T",
-        "solution": "Sử dụng phương pháp nguyên hàm từng phần: Đặt $u=x, dv=e^x dx \\Rightarrow du=dx, v=e^x$. $\\int x e^x dx = x e^x - \\int e^x dx = x e^x - e^x + C = (x-1)e^x + C$. Mệnh đề Đúng."
+        "solution": "Tổng các tần số là $4 + 8 + 12 + 10 + 4 + 2 = 40$. Mệnh đề Đúng."
       },
       {
         "id": "5_2",
-        "text": "2. $\\int \\frac{1}{x^2+1} dx = \\arctan(x) + C$.",
+        "text": "2. Trung vị (Median) của mẫu số liệu nằm trong nhóm [6; 7).",
         "correct": "T",
-        "solution": "Đây là công thức nguyên hàm cơ bản. Mệnh đề Đúng."
+        "solution": "Vị trí trung vị là $\\frac{40}{2} = 20$. Tần số tích lũy: 4, 12, 24. Giá trị thứ 20 rơi vào nhóm [6; 7). Mệnh đề Đúng."
       },
       {
         "id": "5_3",
-        "text": "3. $\\int_0^{\\pi/2} \\sin^2(x) dx = \\frac{\\pi}{4}$.",
+        "text": "3. Số trung bình (Mean) ước lượng của mẫu số liệu bằng $6.7$.",
         "correct": "T",
-        "solution": "$\\int_0^{\\pi/2} \\sin^2(x) dx = \\int_0^{\\pi/2} \\frac{1-\\cos(2x)}{2} dx = \\left[ \\frac{x}{2} - \\frac{\\sin(2x)}{4} \\right]_0^{\\pi/2} = \\frac{\\pi}{4}$. Mệnh đề Đúng."
+        "solution": "$\\bar{x} = \\frac{4(4.5) + 8(5.5) + 12(6.5) + 10(7.5) + 4(8.5) + 2(9.5)}{40} = \\frac{268}{40} = 6.7$. Mệnh đề Đúng."
       },
       {
         "id": "5_4",
-        "text": "4. $\\int_{-1}^1 |x| dx = 0$.",
+        "text": "4. Độ lệch chuẩn (Standard Deviation) của mẫu số liệu xấp xỉ $2.50$.",
         "correct": "F",
-        "solution": "Hàm số $y=|x|$ là hàm chẵn và không âm. $\\int_{-1}^1 |x| dx = 2 \\int_0^1 x dx = 2 \\left[ \\frac{x^2}{2} \\right]_0^1 = 1 \\neq 0$. Mệnh đề Sai."
+        "solution": "Phương sai $s^2 = \\frac{1}{40} \\sum f_i (x_i - 6.7)^2 = \\frac{66.4}{40} = 1.66$. Độ lệch chuẩn $s = \\sqrt{1.66} \\approx 1.29$. Mệnh đề Sai."
       }
     ],
     "points": 1.0
@@ -164,31 +178,31 @@
   {
     "id": 6,
     "type": "TF",
-    "text": "Trong không gian $Oxyz$, cho mặt cầu $(S): x^2 + y^2 + z^2 - 2x + 4y - 6z - 2 = 0$ và mặt phẳng $(P): x - 2y + 2z - 23 = 0$. Xét các mệnh đề sau:",
+    "text": "Một nhà máy có 3 phân xưởng A, B, C lần lượt sản xuất 50%, 30% và 20% tổng số sản phẩm. Tỉ lệ sản phẩm lỗi của mỗi phân xưởng tương ứng là 2%, 5% và 8%. Chọn ngẫu nhiên một sản phẩm từ kho tổng hợp. Xét các mệnh đề sau:",
     "parts": [
       {
         "id": "6_1",
-        "text": "1. Mặt cầu $(S)$ có tâm $I(1, -2, 3)$ và bán kính $R=4$.",
+        "text": "1. Xác suất để chọn được một sản phẩm bị lỗi là $0.041$.",
         "correct": "T",
-        "solution": "Phương trình có dạng $x^2+y^2+z^2-2ax-2by-2cz+d=0$ với $a=1, b=-2, c=3, d=-2$. Tâm $I(1, -2, 3)$. Bán kính $R = \\sqrt{1^2+(-2)^2+3^2-(-2)} = \\sqrt{1+4+9+2} = \\sqrt{16} = 4$. Mệnh đề Đúng."
+        "solution": "$P(L) = 0.5(0.02) + 0.3(0.05) + 0.2(0.08) = 0.01 + 0.015 + 0.016 = 0.041$. Mệnh đề Đúng."
       },
       {
         "id": "6_2",
-        "text": "2. Mặt phẳng $(P)$ tiếp xúc với mặt cầu $(S)$.",
+        "text": "2. Nếu biết sản phẩm được chọn bị lỗi, xác suất để nó do phân xưởng B sản xuất là $\\frac{15}{41}$.",
         "correct": "T",
-        "solution": "Khoảng cách từ $I(1, -2, 3)$ đến $(P)$ là $d(I, (P)) = \\frac{|1 - 2(-2) + 2(3) - 23|}{\\sqrt{1^2+(-2)^2+2^2}} = \\frac{|1+4+6-23|}{3} = \\frac{|-12|}{3} = 4$. Vì $d(I, (P)) = R = 4$ nên $(P)$ tiếp xúc với $(S)$. Mệnh đề Đúng."
+        "solution": "Theo định lý Bayes: $P(B|L) = \\frac{0.015}{0.041} = \\frac{15}{41}$. Mệnh đề Đúng."
       },
       {
         "id": "6_3",
-        "text": "3. Giao tuyến của $(S)$ và mặt phẳng $z=3$ là một đường tròn có bán kính $r=4$.",
-        "correct": "T",
-        "solution": "Mặt phẳng $z=3$ đi qua tâm $I(1, -2, 3)$ của mặt cầu. Do đó, giao tuyến là một đường tròn lớn có bán kính bằng bán kính mặt cầu, tức là $r=4$. Mệnh đề Đúng."
+        "text": "3. Xác suất để chọn được một sản phẩm không lỗi và do phân xưởng A sản xuất là $0.48$.",
+        "correct": "F",
+        "solution": "$P(A \\cap \\bar{L}) = P(A) \\times P(\\bar{L}|A) = 0.5 \\times 0.98 = 0.49$. Mệnh đề Sai."
       },
       {
         "id": "6_4",
-        "text": "4. Thể tích của khối cầu $(S)$ là $\\frac{256\\pi}{3}$.",
+        "text": "4. Nếu chọn ngẫu nhiên không hoàn lại 2 sản phẩm từ một lô hàng 1000 sản phẩm (trong đó có đúng 41 sản phẩm lỗi), xác suất để cả 2 đều lỗi là $\\frac{41 \\times 40}{1000 \\times 999}$.",
         "correct": "T",
-        "solution": "Thể tích khối cầu $V = \\frac{4}{3}\\pi R^3 = \\frac{4}{3}\\pi (4^3) = \\frac{256\\pi}{3}$. Mệnh đề Đúng."
+        "solution": "Số cách chọn 2 sản phẩm lỗi từ 41 là $C_{41}^2$. Số cách chọn 2 sản phẩm từ 1000 là $C_{1000}^2$. Xác suất là $\\frac{41 \\times 40}{1000 \\times 999}$. Mệnh đề Đúng."
       }
     ],
     "points": 1.0
@@ -196,31 +210,48 @@
   {
     "id": 7,
     "type": "TF",
-    "text": "Dân số của một loài vi khuẩn trong môi trường nuôi cấy được mô tả bởi hàm logistic $P(t) = \\frac{5000}{1 + 4e^{-0.2t}}$, trong đó $t$ là thời gian (ngày) tính từ lúc bắt đầu nuôi cấy. Xét các mệnh đề sau:",
+    "text": "Một nông dân muốn dùng 100 mét lưới rào để quây một mảnh đất hình chữ nhật làm chuồng trại, trong đó một cạnh dựa vào một bức tường dài có sẵn (không cần rào cạnh này). Gọi $x$ (mét) là chiều dài cạnh vuông góc với bức tường. Xét các mệnh đề sau:",
+    "visual": {
+      "width": 300,
+      "height": 150,
+      "elements": [
+        {"type": "rect", "x": 0, "y": 130, "w": 300, "h": 20, "fill": "#78350f"},
+        {"type": "text", "x": 150, "y": 145, "text": "Tường (Wall)", "size": 10, "color": "#ffffff", "weight": "bold", "anchor": "middle"},
+        {"type": "rect", "x": 50, "y": 50, "w": 200, "h": 80, "fill": "#eff6ff", "stroke": "#3b82f6", "width": 2},
+        {"type": "line", "x1": 50, "y1": 50, "x2": 250, "y2": 50, "stroke": "#f59e0b", "width": 3},
+        {"type": "line", "x1": 50, "y1": 50, "x2": 50, "y2": 130, "stroke": "#10b981", "width": 3},
+        {"type": "line", "x1": 250, "y1": 50, "x2": 250, "y2": 130, "stroke": "#10b981", "width": 3},
+        {"type": "text", "x": 150, "y": 40, "text": "100 - 2x", "size": 11, "color": "#d97706", "weight": "bold", "anchor": "middle"},
+        {"type": "text", "x": 40, "y": 90, "text": "x", "size": 11, "color": "#059669", "weight": "bold", "anchor": "middle"},
+        {"type": "text", "x": 260, "y": 90, "text": "x", "size": 11, "color": "#059669", "weight": "bold", "anchor": "middle"},
+        {"type": "rect", "x": 70, "y": 70, "w": 160, "h": 40, "fill": "#ffffff", "opacity": 0.8},
+        {"type": "text", "x": 150, "y": 95, "text": "Diện tích S(x)", "size": 12, "color": "#1e40af", "weight": "bold", "anchor": "middle"}
+      ]
+    },
     "parts": [
       {
         "id": "7_1",
-        "text": "1. Dân số ban đầu (tại $t=0$) của quần thể vi khuẩn là $1000$ cá thể.",
+        "text": "1. Diện tích mảnh đất được tính bởi hàm số $S(x) = x(100 - 2x)$ với $0 < x < 50$.",
         "correct": "T",
-        "solution": "Tại $t=0$, $P(0) = \\frac{5000}{1 + 4e^0} = \\frac{5000}{5} = 1000$. Mệnh đề Đúng."
+        "solution": "Cạnh song song với tường có độ dài là $100 - 2x$. Diện tích $S(x) = x(100 - 2x)$. Mệnh đề Đúng."
       },
       {
         "id": "7_2",
-        "text": "2. Sức chứa tối đa của môi trường đối với quần thể vi khuẩn này là $5000$ cá thể.",
+        "text": "2. Diện tích mảnh đất đạt giá trị lớn nhất khi cạnh song song với bức tường có độ dài là $50$ mét.",
         "correct": "T",
-        "solution": "Khi $t \\to +\\infty$, $e^{-0.2t} \\to 0$, do đó $\\lim_{t \\to +\\infty} P(t) = 5000$. Mệnh đề Đúng."
+        "solution": "$S(x) = -2x^2 + 100x$. $S'(x) = -4x + 100 = 0 \\Leftrightarrow x = 25$. Khi đó cạnh song song với tường là $100 - 2(25) = 50$ mét. Mệnh đề Đúng."
       },
       {
         "id": "7_3",
-        "text": "3. Dân số đạt $2500$ cá thể tại thời điểm $t = 5\\ln(2)$ ngày.",
+        "text": "3. Diện tích lớn nhất của mảnh đất quây được là $2500$ $m^2$.",
         "correct": "F",
-        "solution": "Giải phương trình $\\frac{5000}{1 + 4e^{-0.2t}} = 2500 \\Leftrightarrow 1 + 4e^{-0.2t} = 2 \\Leftrightarrow e^{-0.2t} = 0.25 \\Leftrightarrow -0.2t = \\ln(1/4) = -2\\ln(2) \\Leftrightarrow t = 10\\ln(2)$. Mệnh đề ghi $5\\ln(2)$ là Sai."
+        "solution": "Diện tích lớn nhất là $S(25) = 25 \\times 50 = 1250$ $m^2$. Mệnh đề Sai."
       },
       {
         "id": "7_4",
-        "text": "4. Tốc độ tăng trưởng của quần thể đạt cực đại khi dân số bằng $2500$ cá thể.",
+        "text": "4. Nếu người nông dân đổi ý, dùng 100m lưới rào quây một nửa hình tròn (đường kính dựa vào tường), thì diện tích lớn nhất thu được là $\\frac{5000}{\\pi}$ $m^2$.",
         "correct": "T",
-        "solution": "Đối với hàm logistic $P(t) = \\frac{K}{1+Ae^{-rt}}$, đạo hàm $P'(t)$ (tốc độ tăng trưởng) đạt cực đại tại điểm uốn, tức là khi $P(t) = \\frac{K}{2} = 2500$. Mệnh đề Đúng."
+        "solution": "Chu vi nửa hình tròn là $\\pi R = 100 \\Rightarrow R = \\frac{100}{\\pi}$. Diện tích nửa hình tròn là $\\frac{1}{2} \\pi R^2 = \\frac{1}{2} \\pi \\frac{10000}{\\pi^2} = \\frac{5000}{\\pi}$ $m^2$. Mệnh đề Đúng."
       }
     ],
     "points": 1.0
@@ -228,32 +259,31 @@
   {
     "id": 8,
     "type": "TF",
-    "text": "Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác vuông cân tại $B$, $AB=a$. Cạnh bên $SA$ vuông góc với mặt phẳng đáy và $SA = a\\sqrt{2}$. Xét các mệnh đề sau:",
-    "hasGraph": "C8",
+    "text": "Cho một khối nón có đỉnh $S$, tâm đáy $O$, bán kính đáy $R = a$ và chiều cao $h = a\\sqrt{3}$. Xét các mệnh đề sau:",
     "parts": [
       {
         "id": "8_1",
-        "text": "1. Thể tích khối chóp $S.ABC$ bằng $\\frac{a^3\\sqrt{2}}{6}$.",
+        "text": "1. Đường sinh của khối nón có độ dài $l = 2a$.",
         "correct": "T",
-        "solution": "Diện tích đáy $S_{ABC} = \\frac{1}{2} AB \\cdot BC = \\frac{1}{2} a^2$. Thể tích $V = \\frac{1}{3} SA \\cdot S_{ABC} = \\frac{1}{3} a\\sqrt{2} \\cdot \\frac{1}{2} a^2 = \\frac{a^3\\sqrt{2}}{6}$. Mệnh đề Đúng."
+        "solution": "$l = \\sqrt{h^2 + R^2} = \\sqrt{3a^2 + a^2} = 2a$. Mệnh đề Đúng."
       },
       {
         "id": "8_2",
-        "text": "2. Góc giữa đường thẳng $SC$ và mặt phẳng $(ABC)$ bằng $60^\\circ$.",
+        "text": "2. Diện tích toàn phần của khối nón bằng $4\\pi a^2$.",
         "correct": "F",
-        "solution": "Hình chiếu của $SC$ lên $(ABC)$ là $AC$. Góc cần tìm là $\\angle SCA$. Ta có $AC = \\sqrt{AB^2+BC^2} = a\\sqrt{2}$. $\\tan(\\angle SCA) = \\frac{SA}{AC} = \\frac{a\\sqrt{2}}{a\\sqrt{2}} = 1 \\Rightarrow \\angle SCA = 45^\\circ$. Mệnh đề Sai."
+        "solution": "$S_{tp} = \\pi R l + \\pi R^2 = \\pi a (2a) + \\pi a^2 = 3\\pi a^2$. Mệnh đề Sai."
       },
       {
         "id": "8_3",
-        "text": "3. Khoảng cách từ điểm $A$ đến mặt phẳng $(SBC)$ bằng $\\frac{a\\sqrt{6}}{3}$.",
+        "text": "3. Góc giữa đường sinh và mặt phẳng đáy bằng $60^\\circ$.",
         "correct": "T",
-        "solution": "Kẻ $AK \\perp SB$ tại $K$. Vì $BC \\perp AB$ và $BC \\perp SA$ nên $BC \\perp (SAB)$, suy ra $BC \\perp AK$. Do đó $AK \\perp (SBC)$. Trong tam giác vuông $SAB$: $AK = \\frac{SA \\cdot AB}{\\sqrt{SA^2+AB^2}} = \\frac{a\\sqrt{2} \\cdot a}{\\sqrt{2a^2+a^2}} = \\frac{a^2\\sqrt{2}}{a\\sqrt{3}} = \\frac{a\\sqrt{6}}{3}$. Mệnh đề Đúng."
+        "solution": "$\\tan \\alpha = \\frac{h}{R} = \\frac{a\\sqrt{3}}{a} = \\sqrt{3} \\Rightarrow \\alpha = 60^\\circ$. Mệnh đề Đúng."
       },
       {
         "id": "8_4",
-        "text": "4. Bán kính mặt cầu ngoại tiếp hình chóp $S.ABC$ bằng $a$.",
+        "text": "4. Bán kính của khối cầu nội tiếp khối nón là $r = \\frac{a\\sqrt{3}}{3}$.",
         "correct": "T",
-        "solution": "Vì $\\triangle SAB$ và $\\triangle SAC$ đều là các tam giác vuông tại $A$ (do $SA \\perp (ABC)$), nên $SC$ là đường kính của mặt cầu ngoại tiếp. $SC = \\sqrt{SA^2+AC^2} = \\sqrt{2a^2 + 2a^2} = 2a$. Bán kính $R = \\frac{SC}{2} = a$. Mệnh đề Đúng."
+        "solution": "Thiết diện qua trục là tam giác đều cạnh $2a$. Bán kính đường tròn nội tiếp tam giác này là $r = \\frac{1}{3} \\times \\text{chiều cao} = \\frac{1}{3} a\\sqrt{3} = \\frac{a\\sqrt{3}}{3}$. Mệnh đề Đúng."
       }
     ],
     "points": 1.0
@@ -261,31 +291,31 @@
   {
     "id": 9,
     "type": "TF",
-    "text": "Một căn bệnh hiếm gặp có tỉ lệ mắc trong cộng đồng là $2\\%$. Một xét nghiệm sàng lọc có độ nhạy (tỉ lệ dương tính thật) là $95\\%$ và độ đặc hiệu (tỉ lệ âm tính thật) là $90\\%$. Xét các mệnh đề sau:",
+    "text": "Cho dãy số $(u_n)$ xác định bởi $u_n = \\frac{3n + 2}{n - 1}$ với mọi $n \\ge 2, n \\in \\mathbb{N}$. Xét các mệnh đề sau:",
     "parts": [
       {
         "id": "9_1",
-        "text": "1. Tỉ lệ xét nghiệm cho kết quả dương tính giả là $10\\%$.",
-        "correct": "T",
-        "solution": "Dương tính giả là xác suất bệnh nhân không mắc bệnh nhưng xét nghiệm ra dương tính. Tỉ lệ này bằng $1 - \\text{Độ đặc hiệu} = 1 - 0.90 = 0.10 = 10\\%$. Mệnh đề Đúng."
+        "text": "1. Dãy số $(u_n)$ là một dãy số tăng.",
+        "correct": "F",
+        "solution": "$u_{n+1} - u_n = \\frac{3n+5}{n} - \\frac{3n+2}{n-1} = \\frac{-5}{n(n-1)} < 0$ với mọi $n \\ge 2$. Dãy số giảm. Mệnh đề Sai."
       },
       {
         "id": "9_2",
-        "text": "2. Xác suất để một người được chọn ngẫu nhiên có kết quả xét nghiệm dương tính là $0.117$.",
+        "text": "2. Dãy số $(u_n)$ bị chặn dưới bởi $3$.",
         "correct": "T",
-        "solution": "Gọi $B$ là biến cố mắc bệnh, $D$ là biến cố dương tính. $P(D) = P(D|B)P(B) + P(D|\\bar{B})P(\\bar{B}) = 0.95 \\times 0.02 + 0.10 \\times 0.98 = 0.019 + 0.098 = 0.117$. Mệnh đề Đúng."
+        "solution": "Ta có $u_n = 3 + \\frac{5}{n-1}$. Vì $\\frac{5}{n-1} > 0$ với mọi $n \\ge 2$ nên $u_n > 3$. Mệnh đề Đúng."
       },
       {
         "id": "9_3",
-        "text": "3. Nếu một người có kết quả xét nghiệm dương tính, xác suất để người đó thực sự mắc bệnh xấp xỉ $16.2\\%$.",
+        "text": "3. $\\lim_{n \\to \\infty} [n(u_n - 3)] = 5$.",
         "correct": "T",
-        "solution": "Theo định lý Bayes: $P(B|D) = \\frac{P(D|B)P(B)}{P(D)} = \\frac{0.019}{0.117} \\approx 0.16239 \\approx 16.2\\%$. Mệnh đề Đúng."
+        "solution": "$\\lim_{n \\to \\infty} n \\left( \\frac{5}{n-1} \\right) = \\lim_{n \\to \\infty} \\frac{5n}{n-1} = 5$. Mệnh đề Đúng."
       },
       {
         "id": "9_4",
-        "text": "4. Nếu một người có kết quả xét nghiệm âm tính, xác suất để người đó không mắc bệnh nhỏ hơn $95\\%$.",
-        "correct": "F",
-        "solution": "$P(\\bar{B}|\\bar{D}) = \\frac{P(\\bar{D}|\\bar{B})P(\\bar{B})}{P(\\bar{D})} = \\frac{0.90 \\times 0.98}{1 - 0.117} = \\frac{0.882}{0.883} \\approx 0.9988 = 99.88\\%$. Giá trị này lớn hơn $95\\%$. Mệnh đề Sai."
+        "text": "4. Tồn tại số nguyên $n$ để $u_n < 3.01$.",
+        "correct": "T",
+        "solution": "$3 + \\frac{5}{n-1} < 3.01 \\Leftrightarrow \\frac{5}{n-1} < 0.01 \\Leftrightarrow n-1 > 500 \\Leftrightarrow n > 501$. Chỉ cần chọn $n = 502$. Mệnh đề Đúng."
       }
     ],
     "points": 1.0
@@ -293,468 +323,307 @@
   {
     "id": 10,
     "type": "MCQ",
-    "text": "<strong>[Bối cảnh 1 - Câu 10 đến 12]</strong><br>Một chiếc xe đua bắt đầu tăng tốc từ trạng thái đứng yên. Vận tốc của xe (tính bằng m/s) trong 10 giây đầu tiên được mô tả bởi hàm số $v(t) = 12t - 0.3t^2$ với $0 \\le t \\le 10$.",
+    "text": "<strong>[Bối cảnh 1 - Câu 10 đến 12]</strong><br>Sự lây lan của một dịch bệnh trong cộng đồng được mô hình hóa bởi hàm logistic: $I(t) = \\frac{10000}{1 + 99e^{-0.2t}}$, trong đó $I(t)$ là số ca nhiễm tích lũy tại thời điểm $t$ (ngày) kể từ khi bùng phát.",
     "options": [
-      {
-        "key": "A",
-        "text": "80 m/s."
-      },
-      {
-        "key": "B",
-        "text": "90 m/s."
-      },
-      {
-        "key": "C",
-        "text": "100 m/s."
-      },
-      {
-        "key": "D",
-        "text": "120 m/s."
-      }
+      {"key": "A", "text": "100"},
+      {"key": "B", "text": "10"},
+      {"key": "C", "text": "1000"},
+      {"key": "D", "text": "99"}
     ],
-    "correct": "B",
-    "solution": "Xét hàm số $v(t) = 12t - 0.3t^2$ trên $[0, 10]$. Đạo hàm $v'(t) = 12 - 0.6t$. $v'(t) = 0 \\Leftrightarrow t = 20$ (không thuộc đoạn $[0, 10]$). Do đó hàm số đồng biến trên $[0, 10]$. Vận tốc cực đại đạt tại $t=10$: $v(10) = 12(10) - 0.3(100) = 120 - 30 = 90$ m/s."
+    "correct": "A",
+    "solution": "Số ca nhiễm ban đầu tại $t=0$ là $I(0) = \\frac{10000}{1 + 99} = \\frac{10000}{100} = 100$."
   },
   {
     "id": 11,
     "type": "MCQ",
-    "text": "<strong>[Bối cảnh 1 - Câu 10 đến 12]</strong><br>Tính quãng đường (mét) mà xe đi được trong 10 giây đầu tiên.",
+    "text": "<strong>[Bối cảnh 1 - Câu 10 đến 12]</strong><br>Theo mô hình trên, tốc độ lây lan (số ca nhiễm mới mỗi ngày) đạt giá trị cực đại khi số ca nhiễm tích lũy là:",
     "options": [
-      {
-        "key": "A",
-        "text": "400 m."
-      },
-      {
-        "key": "B",
-        "text": "500 m."
-      },
-      {
-        "key": "C",
-        "text": "600 m."
-      },
-      {
-        "key": "D",
-        "text": "700 m."
-      }
+      {"key": "A", "text": "2500"},
+      {"key": "B", "text": "7500"},
+      {"key": "C", "text": "5000"},
+      {"key": "D", "text": "10000"}
     ],
-    "correct": "B",
-    "solution": "Quãng đường đi được là tích phân của vận tốc: $S = \\int_0^{10} (12t - 0.3t^2) dt = \\left[ 6t^2 - 0.1t^3 \\right]_0^{10} = 6(100) - 0.1(1000) = 600 - 100 = 500$ m."
+    "correct": "C",
+    "solution": "Đối với hàm logistic $I(t) = \\frac{L}{1 + Ce^{-kt}}$, tốc độ thay đổi $I'(t)$ đạt cực đại tại điểm uốn, tức là khi $I(t) = \\frac{L}{2} = \\frac{10000}{2} = 5000$."
   },
   {
     "id": 12,
     "type": "MCQ",
-    "text": "<strong>[Bối cảnh 1 - Câu 10 đến 12]</strong><br>Vận tốc trung bình (m/s) của xe trong 10 giây đầu tiên là:",
+    "text": "<strong>[Bối cảnh 1 - Câu 10 đến 12]</strong><br>Sau bao nhiêu ngày thì số ca nhiễm tích lũy đạt mốc 5000?",
     "options": [
-      {
-        "key": "A",
-        "text": "40 m/s."
-      },
-      {
-        "key": "B",
-        "text": "50 m/s."
-      },
-      {
-        "key": "C",
-        "text": "60 m/s."
-      },
-      {
-        "key": "D",
-        "text": "90 m/s."
-      }
+      {"key": "A", "text": "$5\\ln(100)$"},
+      {"key": "B", "text": "$5\\ln(99)$"},
+      {"key": "C", "text": "$-5\\ln(99)$"},
+      {"key": "D", "text": "$50\\ln(99)$"}
     ],
     "correct": "B",
-    "solution": "Vận tốc trung bình được tính bằng tổng quãng đường chia cho tổng thời gian: $v_{tb} = \\frac{S}{\\Delta t} = \\frac{500}{10} = 50$ m/s."
+    "solution": "Giải phương trình $\\frac{10000}{1 + 99e^{-0.2t}} = 5000 \\Leftrightarrow 1 + 99e^{-0.2t} = 2 \\Leftrightarrow e^{-0.2t} = \\frac{1}{99} \\Leftrightarrow -0.2t = -\\ln(99) \\Leftrightarrow t = 5\\ln(99)$."
   },
   {
     "id": 13,
     "type": "MCQ",
-    "text": "<strong>[Bối cảnh 2 - Câu 13 đến 15]</strong><br>Tuổi thọ (tính bằng giờ) của một mẫu gồm 50 bóng đèn LED được ghi lại trong bảng phân bố tần số ghép nhóm sau:<br><table class=\"w-full text-center border-collapse border border-slate-300\"><thead><tr class=\"bg-slate-100\"><th class=\"border border-slate-300 p-2\">Tuổi thọ (giờ)</th><th class=\"border border-slate-300 p-2\">Tần số</th></tr></thead><tbody><tr><td class=\"border border-slate-300 p-2\">[10; 20)</td><td class=\"border border-slate-300 p-2\">5</td></tr><tr><td class=\"border border-slate-300 p-2\">[20; 30)</td><td class=\"border border-slate-300 p-2\">12</td></tr><tr><td class=\"border border-slate-300 p-2\">[30; 40)</td><td class=\"border border-slate-300 p-2\">18</td></tr><tr><td class=\"border border-slate-300 p-2\">[40; 50)</td><td class=\"border border-slate-300 p-2\">10</td></tr><tr><td class=\"border border-slate-300 p-2\">[50; 60)</td><td class=\"border border-slate-300 p-2\">5</td></tr></tbody></table>",
+    "text": "<strong>[Bối cảnh 2 - Câu 13 đến 15]</strong><br>Một nghiên cứu về tuổi thọ (tính bằng nghìn giờ) của một loại bóng đèn LED thế hệ mới thu được bảng phân bố tần số ghép nhóm sau:<br><table class=\"w-full text-center border-collapse border border-slate-300 mt-2 text-sm\"><thead><tr class=\"bg-slate-100\"><th class=\"border border-slate-300 p-2\">Tuổi thọ</th><th class=\"border border-slate-300 p-2\">[10; 15)</th><th class=\"border border-slate-300 p-2\">[15; 20)</th><th class=\"border border-slate-300 p-2\">[20; 25)</th><th class=\"border border-slate-300 p-2\">[25; 30)</th><th class=\"border border-slate-300 p-2\">[30; 35]</th></tr></thead><tbody><tr><td class=\"border border-slate-300 p-2\">Tần số</td><td class=\"border border-slate-300 p-2\">10</td><td class=\"border border-slate-300 p-2\">25</td><td class=\"border border-slate-300 p-2\">40</td><td class=\"border border-slate-300 p-2\">20</td><td class=\"border border-slate-300 p-2\">5</td></tr></tbody></table>",
+    "visual": {
+      "width": 320,
+      "height": 200,
+      "elements": [
+        {"type": "axes", "origin": [40, 160], "labels": ["Thời gian (nghìn giờ)", "Tần số"]},
+        {"type": "rect", "x": 60, "y": 110, "w": 40, "h": 50, "fill": "#60a5fa"},
+        {"type": "rect", "x": 100, "y": 35, "w": 40, "h": 125, "fill": "#60a5fa"},
+        {"type": "rect", "x": 140, "y": 10, "w": 40, "h": 150, "fill": "#3b82f6"},
+        {"type": "rect", "x": 180, "y": 85, "w": 40, "h": 75, "fill": "#60a5fa"},
+        {"type": "rect", "x": 220, "y": 135, "w": 40, "h": 25, "fill": "#60a5fa"},
+        {"type": "text", "x": 80, "y": 175, "text": "15", "size": 9, "anchor": "middle"},
+        {"type": "text", "x": 120, "y": 175, "text": "20", "size": 9, "anchor": "middle"},
+        {"type": "text", "x": 160, "y": 175, "text": "25", "size": 9, "anchor": "middle"},
+        {"type": "text", "x": 200, "y": 175, "text": "30", "size": 9, "anchor": "middle"},
+        {"type": "text", "x": 240, "y": 175, "text": "35", "size": 9, "anchor": "middle"},
+        {"type": "text", "x": 35, "y": 115, "text": "10", "size": 9, "anchor": "end"},
+        {"type": "text", "x": 35, "y": 40, "text": "25", "size": 9, "anchor": "end"},
+        {"type": "text", "x": 35, "y": 15, "text": "40", "size": 9, "anchor": "end"}
+      ]
+    },
     "options": [
-      {
-        "key": "A",
-        "text": "33.5 giờ."
-      },
-      {
-        "key": "B",
-        "text": "34.6 giờ."
-      },
-      {
-        "key": "C",
-        "text": "35.0 giờ."
-      },
-      {
-        "key": "D",
-        "text": "36.2 giờ."
-      }
+      {"key": "A", "text": "20.50"},
+      {"key": "B", "text": "22.14"},
+      {"key": "C", "text": "22.50"},
+      {"key": "D", "text": "21.43"}
     ],
     "correct": "B",
-    "solution": "Giá trị đại diện của các lớp lần lượt là: 15, 25, 35, 45, 55.<br>Tổng $\\sum f_i x_i = 5(15) + 12(25) + 18(35) + 10(45) + 5(55) = 75 + 300 + 630 + 450 + 275 = 1730$.<br>Số trung bình $\\bar{x} = \\frac{1730}{50} = 34.6$ giờ."
+    "solution": "Mốt ($M_0$) nằm ở lớp [20; 25) có tần số lớn nhất là 40.<br>$M_0 = 20 + \\frac{40 - 25}{(40 - 25) + (40 - 20)} \\times 5 = 20 + \\frac{15}{15 + 20} \\times 5 = 20 + \\frac{75}{35} \\approx 22.14$."
   },
   {
     "id": 14,
     "type": "MCQ",
-    "text": "<strong>[Bối cảnh 2 - Câu 13 đến 15]</strong><br>Tìm trung vị (Median) của mẫu số liệu ghép nhóm trên (làm tròn đến hàng phần trăm).",
+    "text": "<strong>[Bối cảnh 2 - Câu 13 đến 15]</strong><br>Tứ phân vị thứ nhất ($Q_1$) của mẫu số liệu ghép nhóm trên là:",
     "options": [
-      {
-        "key": "A",
-        "text": "33.33 giờ."
-      },
-      {
-        "key": "B",
-        "text": "34.44 giờ."
-      },
-      {
-        "key": "C",
-        "text": "35.56 giờ."
-      },
-      {
-        "key": "D",
-        "text": "36.67 giờ."
-      }
+      {"key": "A", "text": "15.00"},
+      {"key": "B", "text": "17.50"},
+      {"key": "C", "text": "18.00"},
+      {"key": "D", "text": "19.00"}
     ],
-    "correct": "B",
-    "solution": "Cỡ mẫu $N=50$. Vị trí trung vị là $\\frac{N}{2} = 25$.<br>Tần số tích lũy: Lớp 1: 5; Lớp 2: 17; Lớp 3: 35. Vậy trung vị nằm ở lớp $[30; 40)$.<br>Áp dụng công thức: $Me = L + \\frac{\\frac{N}{2} - F}{f} \\times h = 30 + \\frac{25 - 17}{18} \\times 10 = 30 + \\frac{80}{18} \\approx 30 + 4.44 = 34.44$ giờ."
+    "correct": "C",
+    "solution": "Cỡ mẫu $N = 100$. Vị trí của $Q_1$ là $\\frac{N}{4} = 25$.<br>Tần số tích lũy: Lớp 1 (10), Lớp 2 (35). Vậy $Q_1$ nằm ở lớp [15; 20).<br>$Q_1 = 15 + \\frac{25 - 10}{25} \\times 5 = 15 + \\frac{15}{25} \\times 5 = 15 + 3 = 18.00$."
   },
   {
     "id": 15,
     "type": "MCQ",
-    "text": "<strong>[Bối cảnh 2 - Câu 13 đến 15]</strong><br>Chọn ngẫu nhiên một bóng đèn từ mẫu trên. Xác suất để bóng đèn đó có tuổi thọ từ 40 giờ trở lên là:",
+    "text": "<strong>[Bối cảnh 2 - Câu 13 đến 15]</strong><br>Nếu nhà sản xuất cải tiến công nghệ làm tăng tuổi thọ của mỗi bóng đèn thêm chính xác 2 (nghìn giờ), gọi $\\bar{x}_1, s_1$ và $\\bar{x}_2, s_2$ lần lượt là số trung bình và độ lệch chuẩn trước và sau khi cải tiến. Khẳng định nào sau đây đúng?",
     "options": [
-      {
-        "key": "A",
-        "text": "0.20."
-      },
-      {
-        "key": "B",
-        "text": "0.25."
-      },
-      {
-        "key": "C",
-        "text": "0.30."
-      },
-      {
-        "key": "D",
-        "text": "0.40."
-      }
+      {"key": "A", "text": "$\\bar{x}_2 = \\bar{x}_1 + 2$ và $s_2 = s_1 + 2$"},
+      {"key": "B", "text": "$\\bar{x}_2 = \\bar{x}_1$ và $s_2 = s_1 + 2$"},
+      {"key": "C", "text": "$\\bar{x}_2 = \\bar{x}_1$ và $s_2 = s_1$"},
+      {"key": "D", "text": "$\\bar{x}_2 = \\bar{x}_1 + 2$ và $s_2 = s_1$"}
     ],
-    "correct": "C",
-    "solution": "Số bóng đèn có tuổi thọ từ 40 giờ trở lên là tổng tần số của hai lớp cuối: $10 + 5 = 15$.<br>Xác suất cần tìm là $P = \\frac{15}{50} = 0.30$."
+    "correct": "D",
+    "solution": "Khi cộng thêm một hằng số $c$ vào tất cả các giá trị của mẫu số liệu, số trung bình sẽ tăng thêm $c$, nhưng độ phân tán của dữ liệu không đổi, do đó độ lệch chuẩn giữ nguyên."
   },
   {
     "id": 16,
     "type": "MATCH",
-    "text": "Cho hàm số $y = x^3 - 3x^2 + 2$ có đồ thị $(C)$. Hãy ghép mỗi nội dung ở cột trái với kết quả tương ứng ở cột phải.",
-    "hasGraph": "C16",
+    "text": "Cho hàm số $y = x^3 - 3x^2 + 2$ có đồ thị $(C)$. Dựa vào bảng biến thiên dưới đây, hãy ghép mỗi nội dung ở cột trái với kết quả tương ứng ở cột phải.",
+    "visual": {
+      "width": 320,
+      "height": 180,
+      "elements": [
+        {"type": "rect", "x": 10, "y": 10, "w": 300, "h": 160, "fill": "#f8fafc", "stroke": "#cbd5e1", "width": 1},
+        {"type": "line", "x1": 20, "y1": 50, "x2": 300, "y2": 50, "stroke": "#cbd5e1"},
+        {"type": "line", "x1": 20, "y1": 100, "x2": 300, "y2": 100, "stroke": "#cbd5e1"},
+        {"type": "text", "x": 30, "y": 35, "text": "x", "size": 11, "weight": "bold"},
+        {"type": "text", "x": 30, "y": 80, "text": "y'", "size": 11, "weight": "bold"},
+        {"type": "text", "x": 30, "y": 140, "text": "y", "size": 11, "weight": "bold"},
+        {"type": "text", "x": 90, "y": 35, "text": "-\\infty", "size": 11},
+        {"type": "text", "x": 150, "y": 35, "text": "0", "size": 11},
+        {"type": "text", "x": 210, "y": 35, "text": "2", "size": 11},
+        {"type": "text", "x": 270, "y": 35, "text": "+\\infty", "size": 11},
+        {"type": "text", "x": 120, "y": 80, "text": "+", "size": 12, "color": "#10b981", "weight": "bold"},
+        {"type": "text", "x": 150, "y": 80, "text": "0", "size": 11},
+        {"type": "text", "x": 180, "y": 80, "text": "-", "size": 12, "color": "#f43f5e", "weight": "bold"},
+        {"type": "text", "x": 210, "y": 80, "text": "0", "size": 11},
+        {"type": "text", "x": 240, "y": 80, "text": "+", "size": 12, "color": "#10b981", "weight": "bold"},
+        {"type": "path", "d": "M 90,155 L 140,115", "stroke": "#3b82f6", "width": 1.5},
+        {"type": "path", "d": "M 160,115 L 200,155", "stroke": "#3b82f6", "width": 1.5},
+        {"type": "path", "d": "M 220,155 L 260,115", "stroke": "#3b82f6", "width": 1.5},
+        {"type": "text", "x": 90, "y": 110, "text": "-\\infty", "size": 10, "color": "#2563eb", "weight": "bold", "anchor": "middle"},
+        {"type": "text", "x": 150, "y": 165, "text": "2", "size": 10, "color": "#2563eb", "weight": "bold", "anchor": "middle"},
+        {"type": "text", "x": 210, "y": 110, "text": "-2", "size": 10, "color": "#2563eb", "weight": "bold", "anchor": "middle"},
+        {"type": "text", "x": 270, "y": 165, "text": "+\\infty", "size": 10, "color": "#2563eb", "weight": "bold", "anchor": "middle"}
+      ]
+    },
     "leftItems": [
-      {
-        "id": "16_1",
-        "text": "1. Hàm số đạt cực đại tại điểm có hoành độ"
-      },
-      {
-        "id": "16_2",
-        "text": "2. Hàm số đạt cực tiểu tại điểm có hoành độ"
-      },
-      {
-        "id": "16_3",
-        "text": "3. Giá trị cực đại của hàm số là"
-      },
-      {
-        "id": "16_4",
-        "text": "4. Hoành độ điểm uốn của đồ thị hàm số là"
-      }
+      {"id": "16_1", "text": "1. Giá trị cực đại của hàm số là"},
+      {"id": "16_2", "text": "2. Điểm cực tiểu của hàm số có tọa độ"},
+      {"id": "16_3", "text": "3. Tọa độ điểm uốn của đồ thị hàm số"},
+      {"id": "16_4", "text": "4. Tung độ gốc của đồ thị hàm số"}
     ],
     "rightItems": [
-      {
-        "key": "A",
-        "text": "0"
-      },
-      {
-        "key": "B",
-        "text": "2"
-      },
-      {
-        "key": "C",
-        "text": "-2"
-      },
-      {
-        "key": "D",
-        "text": "1"
-      },
-      {
-        "key": "E",
-        "text": "-1"
-      },
-      {
-        "key": "F",
-        "text": "3"
-      }
+      {"key": "A", "text": "(1; 0)"},
+      {"key": "B", "text": "(2; -2)"},
+      {"key": "C", "text": "2"},
+      {"key": "D", "text": "(0; 2)"},
+      {"key": "E", "text": "0"},
+      {"key": "F", "text": "(-1; -2)"}
     ],
     "correctMap": {
-      "16_1": "A",
+      "16_1": "C",
       "16_2": "B",
-      "16_3": "C",
+      "16_3": "A",
       "16_4": "D"
     },
-    "solution": "Đạo hàm $y' = 3x^2 - 6x$. $y' = 0 \\Leftrightarrow x=0$ hoặc $x=2$.<br>Đạo hàm bậc hai $y'' = 6x - 6$. $y''(0) = -6 < 0$ nên hàm số đạt cực đại tại $x=0$. Ghép 1 - A.<br>$y''(2) = 6 > 0$ nên hàm số đạt cực tiểu tại $x=2$. Ghép 2 - B.<br>Giá trị cực đại $y(0) = 2$. (Lưu ý: Đề bài cột phải thiếu số 2, nhưng giá trị cực đại là 2. Chờ đã, cột phải có B là 2, C là -2. Giá trị cực đại là 2, giá trị cực tiểu là $y(2) = 8-12+2 = -2$. Vậy 3 ghép C là Sai, 3 phải ghép B. Nhưng B đã ghép cho 2. Hãy sửa lại đề bài: Cột phải: A. 0, B. 2, C. -2, D. 1, E. -1, F. 3. 1-A, 2-B (hoành độ cực tiểu), 3-C (giá trị cực tiểu là -2? Không, giá trị cực đại là 2, cực tiểu là -2. Nếu 1-A, 2-B, 3-B, 4-D. Mỗi mục bên phải chỉ dùng 1 lần? Đúng vậy. Vậy ta đổi lại: 1. Hoành độ CĐ -> 0 (A). 2. Hoành độ CT -> 2 (B). 3. Giá trị CT -> -2 (C). 4. Hoành độ điểm uốn -> 1 (D).)<br>Sửa lại text leftItems: 3. Giá trị cực tiểu của hàm số là."
+    "solution": "Từ BBT: Cực đại tại $x=0 \\Rightarrow y=2$. Cực tiểu tại $x=2 \\Rightarrow y=-2$. Điểm uốn có hoành độ $x=1$ (nơi $y''=0$) $\\Rightarrow y=0$. Tung độ gốc tại $x=0 \\Rightarrow y=2$."
   },
   {
     "id": 17,
     "type": "MATCH",
-    "text": "Cho một khối trụ có bán kính đáy $r=a$ và chiều cao $h=2a$. Một khối nón có đỉnh là tâm của một đáy trụ và đáy là đáy còn lại của khối trụ. Ghép các đại lượng ở cột trái với giá trị tương ứng ở cột phải.",
+    "text": "Hãy ghép mỗi tích phân ở cột trái với giá trị tương ứng của nó ở cột phải.",
     "leftItems": [
-      {
-        "id": "17_1",
-        "text": "1. Thể tích của khối trụ"
-      },
-      {
-        "id": "17_2",
-        "text": "2. Thể tích của khối nón"
-      },
-      {
-        "id": "17_3",
-        "text": "3. Diện tích xung quanh của khối trụ"
-      },
-      {
-        "id": "17_4",
-        "text": "4. Diện tích toàn phần của khối nón"
-      }
+      {"id": "17_1", "text": "1. $\\int_0^{\\pi/2} \\sin x dx$"},
+      {"id": "17_2", "text": "2. $\\int_{-1}^1 x^3 dx$"},
+      {"id": "17_3", "text": "3. $\\int_1^2 \\frac{1}{x} dx$"},
+      {"id": "17_4", "text": "4. $\\int_0^1 x^2 dx$"}
     ],
     "rightItems": [
-      {
-        "key": "A",
-        "text": "$2\\pi a^3$"
-      },
-      {
-        "key": "B",
-        "text": "$\\frac{2}{3}\\pi a^3$"
-      },
-      {
-        "key": "C",
-        "text": "$4\\pi a^2$"
-      },
-      {
-        "key": "D",
-        "text": "$\\pi a^2(\\sqrt{5}+1)$"
-      },
-      {
-        "key": "E",
-        "text": "$\\pi a^2(2+\\sqrt{5})$"
-      },
-      {
-        "key": "F",
-        "text": "$6\\pi a^2$"
-      }
+      {"key": "A", "text": "0"},
+      {"key": "B", "text": "1"},
+      {"key": "C", "text": "2"},
+      {"key": "D", "text": "1/3"},
+      {"key": "E", "text": "\\pi"},
+      {"key": "F", "text": "\\ln 2"}
     ],
     "correctMap": {
-      "17_1": "A",
-      "17_2": "B",
-      "17_3": "C",
+      "17_1": "B",
+      "17_2": "A",
+      "17_3": "F",
       "17_4": "D"
     },
-    "solution": "1. Thể tích khối trụ: $V = \\pi r^2 h = \\pi a^2 (2a) = 2\\pi a^3$. (1-A)<br>2. Thể tích khối nón: $V = \\frac{1}{3} \\pi r^2 h = \\frac{2}{3}\\pi a^3$. (2-B)<br>3. Diện tích xung quanh khối trụ: $S_{xq} = 2\\pi r h = 2\\pi a (2a) = 4\\pi a^2$. (3-C)<br>4. Diện tích toàn phần khối nón: Đường sinh $l = \\sqrt{r^2+h^2} = \\sqrt{a^2+4a^2} = a\\sqrt{5}$. $S_{tp} = \\pi r l + \\pi r^2 = \\pi a (a\\sqrt{5}) + \\pi a^2 = \\pi a^2(\\sqrt{5}+1)$. (4-D)"
+    "solution": "1. $[-\\cos x]_0^{\\pi/2} = 1$. 2. Hàm lẻ trên miền đối xứng nên bằng 0. 3. $[\\ln|x|]_1^2 = \\ln 2$. 4. $[\\frac{x^3}{3}]_0^1 = 1/3$."
   },
   {
     "id": 18,
     "type": "MATCH",
-    "text": "Trong không gian $Oxyz$, cho điểm $A(1, 2, -1)$, đường thẳng $d: \\frac{x-1}{2} = \\frac{y}{1} = \\frac{z+1}{-1}$ và mặt phẳng $(P): x - y + 2z - 3 = 0$. Ghép mỗi yêu cầu ở cột trái với phương trình hoặc kết quả đúng ở cột phải.",
+    "text": "Trong không gian $Oxyz$, cho ba điểm $A(1; 0; 0)$, $B(0; 1; 0)$, $C(0; 0; 1)$ và gốc tọa độ $O$. Hãy ghép mỗi yêu cầu ở cột trái với kết quả đúng ở cột phải.",
     "leftItems": [
-      {
-        "id": "18_1",
-        "text": "1. Phương trình mặt phẳng $(Q)$ đi qua $A$ và vuông góc với $d$"
-      },
-      {
-        "id": "18_2",
-        "text": "2. Phương trình mặt phẳng $(R)$ chứa $d$ và vuông góc với $(P)$"
-      },
-      {
-        "id": "18_3",
-        "text": "3. Tọa độ giao điểm của $d$ và $(P)$"
-      },
-      {
-        "id": "18_4",
-        "text": "4. Khoảng cách từ $A$ đến $(P)$"
-      }
+      {"id": "18_1", "text": "1. Phương trình mặt phẳng $(ABC)$"},
+      {"id": "18_2", "text": "2. Phương trình mặt cầu ngoại tiếp tứ diện $OABC$"},
+      {"id": "18_3", "text": "3. Khoảng cách từ gốc tọa độ $O$ đến mặt phẳng $(ABC)$"},
+      {"id": "18_4", "text": "4. Diện tích tam giác $ABC$"}
     ],
     "rightItems": [
-      {
-        "key": "A",
-        "text": "$2x + y - z - 5 = 0$"
-      },
-      {
-        "key": "B",
-        "text": "$(-7, -4, 3)$"
-      },
-      {
-        "key": "C",
-        "text": "$x - 5y - 3z - 4 = 0$"
-      },
-      {
-        "key": "D",
-        "text": "$\\frac{4}{\\sqrt{6}}$"
-      },
-      {
-        "key": "E",
-        "text": "$x + 2y + z - 4 = 0$"
-      },
-      {
-        "key": "F",
-        "text": "$\\sqrt{6}$"
-      }
+      {"key": "A", "text": "$x + y + z - 1 = 0$"},
+      {"key": "B", "text": "$x^2 + y^2 + z^2 - x - y - z = 0$"},
+      {"key": "C", "text": "\\frac{\\sqrt{3}}{3}"},
+      {"key": "D", "text": "\\frac{\\sqrt{3}}{2}"},
+      {"key": "E", "text": "$x^2 + y^2 + z^2 = 1$"},
+      {"key": "F", "text": "\\frac{1}{3}"}
     ],
     "correctMap": {
       "18_1": "A",
-      "18_2": "C",
-      "18_3": "B",
-      "18_4": "F"
+      "18_2": "B",
+      "18_3": "C",
+      "18_4": "D"
     },
-    "solution": "1. $(Q)$ có VTPT $\\vec{n_Q} = \\vec{u_d} = (2, 1, -1)$. PT: $2(x-1) + 1(y-2) - 1(z+1) = 0 \\Leftrightarrow 2x+y-z-5=0$. (1-A)<br>2. VTPT của $(R)$ là $\\vec{n_R} = [\\vec{u_d}, \\vec{n_P}] = (2, 1, -1) \\times (1, -1, 2) = (1, -5, -3)$. Lấy điểm $(1, 0, -1) \\in d$. PT: $1(x-1) - 5(y-0) - 3(z+1) = 0 \\Leftrightarrow x-5y-3z-4=0$. (2-C)<br>3. Tham số hóa $d$: $x=1+2t, y=t, z=-1-t$. Thay vào $(P)$: $(1+2t) - t + 2(-1-t) - 3 = 0 \\Leftrightarrow -t - 4 = 0 \\Leftrightarrow t=-4$. Tọa độ giao điểm: $(-7, -4, 3)$. (3-B)<br>4. Khoảng cách $d(A, (P)) = \\frac{|1 - 2 + 2(-1) - 3|}{\\sqrt{1^2+(-1)^2+2^2}} = \\frac{|-6|}{\\sqrt{6}} = \\sqrt{6}$. (4-F)"
+    "solution": "1. Dạng đoạn chắn $\\frac{x}{1}+\\frac{y}{1}+\\frac{z}{1}=1$. 2. Tâm mặt cầu $(1/2, 1/2, 1/2)$, bán kính $\\sqrt{3}/2$. 3. $d(O, (ABC)) = \\frac{|-1|}{\\sqrt{3}}$. 4. Tam giác đều cạnh $\\sqrt{2}$ nên $S = \\frac{\\sqrt{3}}{4}(\\sqrt{2})^2 = \\frac{\\sqrt{3}}{2}$."
   },
   {
     "id": 19,
     "type": "MATCH",
-    "text": "Cho số phức $z = 3 + 4i$. Ghép mỗi biểu thức ở cột trái với giá trị hoặc kết quả tương ứng ở cột phải.",
+    "text": "Hãy ghép mỗi bài toán tổ hợp - xác suất ở cột trái với đáp số đúng ở cột phải.",
     "leftItems": [
-      {
-        "id": "19_1",
-        "text": "1. Mô-đun của số phức $z$"
-      },
-      {
-        "id": "19_2",
-        "text": "2. Số phức liên hợp của $z$"
-      },
-      {
-        "id": "19_3",
-        "text": "3. Phần ảo của số phức $z^2$"
-      },
-      {
-        "id": "19_4",
-        "text": "4. Nghịch đảo của số phức $z$"
-      }
+      {"id": "19_1", "text": "1. Số cách chọn 2 người từ một nhóm 10 người"},
+      {"id": "19_2", "text": "2. Số số tự nhiên có 4 chữ số khác nhau lập từ tập {1, 2, 3, 4, 5}"},
+      {"id": "19_3", "text": "3. Xác suất để tổng số chấm của hai con súc sắc cân đối bằng 7"},
+      {"id": "19_4", "text": "4. Số đường chéo của một đa giác lồi 10 cạnh"}
     ],
     "rightItems": [
-      {
-        "key": "A",
-        "text": "5"
-      },
-      {
-        "key": "B",
-        "text": "$3 - 4i$"
-      },
-      {
-        "key": "C",
-        "text": "24"
-      },
-      {
-        "key": "D",
-        "text": "$\\frac{3}{25} - \\frac{4}{25}i$"
-      },
-      {
-        "key": "E",
-        "text": "7"
-      },
-      {
-        "key": "F",
-        "text": "$\\frac{3}{25} + \\frac{4}{25}i$"
-      }
+      {"key": "A", "text": "45"},
+      {"key": "B", "text": "120"},
+      {"key": "C", "text": "35"},
+      {"key": "D", "text": "1/6"},
+      {"key": "E", "text": "625"},
+      {"key": "F", "text": "5/36"}
     ],
     "correctMap": {
       "19_1": "A",
       "19_2": "B",
-      "19_3": "C",
-      "19_4": "D"
+      "19_3": "D",
+      "19_4": "C"
     },
-    "solution": "1. $|z| = \\sqrt{3^2+4^2} = 5$. (1-A)<br>2. $\\bar{z} = 3 - 4i$. (2-B)<br>3. $z^2 = (3+4i)^2 = 9 - 16 + 24i = -7 + 24i$. Phần ảo là 24. (3-C)<br>4. $\\frac{1}{z} = \\frac{\\bar{z}}{|z|^2} = \\frac{3-4i}{25} = \\frac{3}{25} - \\frac{4}{25}i$. (4-D)"
+    "solution": "1. $C_{10}^2 = 45$. 2. $A_5^4 = 120$. 3. Có 6 cặp (1,6)...(6,1) trên 36 khả năng $\\Rightarrow 1/6$. 4. $C_{10}^2 - 10 = 45 - 10 = 35$."
   },
   {
     "id": 20,
     "type": "MATCH",
-    "text": "Cho hàm số $y = \\frac{x+1}{x-2}$ có đồ thị $(C)$. Gọi $M$ là điểm thuộc $(C)$ có hoành độ $x_M = 3$. Ghép mỗi yếu tố ở cột trái với kết quả tương ứng ở cột phải.",
+    "text": "Hãy ghép mỗi phương trình/bất phương trình mũ - logarit ở cột trái với tập nghiệm hoặc số nghiệm tương ứng ở cột phải.",
     "leftItems": [
-      {
-        "id": "20_1",
-        "text": "1. Tung độ của điểm $M$"
-      },
-      {
-        "id": "20_2",
-        "text": "2. Hệ số góc của tiếp tuyến với $(C)$ tại $M$"
-      },
-      {
-        "id": "20_3",
-        "text": "3. Phương trình tiếp tuyến với $(C)$ tại $M$"
-      },
-      {
-        "id": "20_4",
-        "text": "4. Diện tích tam giác tạo bởi tiếp tuyến tại $M$ và hai đường tiệm cận"
-      }
+      {"id": "20_1", "text": "1. Số nghiệm của phương trình $4^x - 3 \\cdot 2^x + 2 = 0$"},
+      {"id": "20_2", "text": "2. Tổng các nghiệm của phương trình $x^2 - 3x + 2 = 0$"},
+      {"id": "20_3", "text": "3. Tập nghiệm của bất phương trình $3^x > 27$"},
+      {"id": "20_4", "text": "4. Nghiệm của phương trình $\\log_3(x) = -2$"}
     ],
     "rightItems": [
-      {
-        "key": "A",
-        "text": "4"
-      },
-      {
-        "key": "B",
-        "text": "-3"
-      },
-      {
-        "key": "C",
-        "text": "$y = -3x + 13$"
-      },
-      {
-        "key": "D",
-        "text": "6"
-      },
-      {
-        "key": "E",
-        "text": "-1/3"
-      },
-      {
-        "key": "F",
-        "text": "$y = -3x + 11$"
-      }
+      {"key": "A", "text": "$(3; +\\infty)$"},
+      {"key": "B", "text": "2"},
+      {"key": "C", "text": "1/9"},
+      {"key": "D", "text": "3"},
+      {"key": "E", "text": "$(-1; 4)$"},
+      {"key": "F", "text": "0"}
     ],
     "correctMap": {
-      "20_1": "A",
-      "20_2": "B",
-      "20_3": "C",
-      "20_4": "D"
+      "20_1": "B",
+      "20_2": "D",
+      "20_3": "A",
+      "20_4": "C"
     },
-    "solution": "1. $y_M = \\frac{3+1}{3-2} = 4$. (1-A)<br>2. $y' = \\frac{-3}{(x-2)^2}$. Tại $x=3$, $y'(3) = -3$. (2-B)<br>3. PT tiếp tuyến: $y - 4 = -3(x - 3) \\Leftrightarrow y = -3x + 13$. (3-C)<br>4. Hai tiệm cận là $x=2$ và $y=1$, cắt nhau tại $I(2, 1)$. Tiếp tuyến cắt $x=2$ tại $A(2, 7)$, cắt $y=1$ tại $B(4, 1)$. Tam giác $IAB$ vuông tại $I$ có $IA = 6, IB = 2$. Diện tích $S = \\frac{1}{2} \\cdot 6 \\cdot 2 = 6$. (4-D)"
+    "solution": "1. Đặt $t=2^x$, pt có 2 nghiệm $t=1, t=2 \\Rightarrow x=0, x=1$ (2 nghiệm). 2. Theo Vi-ét, tổng nghiệm bằng 3. 3. $3^x > 3^3 \\Leftrightarrow x > 3$. 4. $x = 3^{-2} = 1/9$."
   },
   {
     "id": 21,
     "type": "SHORT",
-    "text": "Giải phương trình $\\log_2(x) + \\log_2(x-2) = 3$. Ghi đáp án là nghiệm của phương trình.",
-    "correct": "4",
-    "solution": "Điều kiện: $x > 2$.<br>Phương trình tương đương: $\\log_2(x(x-2)) = 3 \\Leftrightarrow x^2 - 2x = 2^3 = 8 \\Leftrightarrow x^2 - 2x - 8 = 0$.<br>Giải phương trình bậc hai ta được $x = 4$ (thỏa mãn) hoặc $x = -2$ (loại).<br>Vậy nghiệm của phương trình là 4."
+    "text": "Cho một hình hộp chữ nhật có ba kích thước lần lượt là 3, 4 và 12. Tính độ dài đường chéo của hình hộp chữ nhật đó.",
+    "correct": "13",
+    "solution": "Độ dài đường chéo của hình hộp chữ nhật có các cạnh $a, b, c$ là $d = \\sqrt{a^2 + b^2 + c^2} = \\sqrt{3^2 + 4^2 + 12^2} = \\sqrt{9 + 16 + 144} = \\sqrt{169} = 13$."
   },
   {
     "id": 22,
     "type": "SHORT",
-    "text": "Tính giá trị của biểu thức $A = \\log_{25} 125 + \\log_{16} 32$.",
-    "correct": "2.75",
-    "solution": "Sử dụng công thức đổi cơ số logarithm:<br>$\\log_{25} 125 = \\log_{5^2} 5^3 = \\frac{3}{2}$.<br>$\\log_{16} 32 = \\log_{2^4} 2^5 = \\frac{5}{4}$.<br>$A = \\frac{3}{2} + \\frac{5}{4} = \\frac{6}{4} + \\frac{5}{4} = \\frac{11}{4} = 2.75$."
+    "text": "Một hình trụ có diện tích toàn phần bằng $24\\pi$. Gọi $V$ là thể tích lớn nhất có thể của khối trụ đó. Tính giá trị của $\\frac{V}{\\pi}$.",
+    "visual": {
+      "width": 200,
+      "height": 200,
+      "elements": [
+        {"type": "rect", "x": 50, "y": 50, "w": 100, "h": 100, "fill": "#e0f2fe", "stroke": "none"},
+        {"type": "line", "x1": 50, "y1": 50, "x2": 50, "y2": 150, "stroke": "#0284c7", "width": 2},
+        {"type": "line", "x1": 150, "y1": 50, "x2": 150, "y2": 150, "stroke": "#0284c7", "width": 2},
+        {"type": "path", "d": "M 50,150 C 50,165 150,165 150,150", "fill": "none", "stroke": "#0284c7", "width": 2, "dash": "4"},
+        {"type": "path", "d": "M 50,50 C 50,65 150,65 150,50 C 150,35 50,35 50,50 Z", "fill": "#bae6fd", "stroke": "#0284c7", "width": 2},
+        {"type": "line", "x1": 100, "y1": 50, "x2": 150, "y2": 50, "stroke": "#ef4444", "width": 1.5, "dash": "2"},
+        {"type": "text", "x": 125, "y": 45, "text": "R", "size": 11, "color": "#ef4444", "weight": "bold"},
+        {"type": "line", "x1": 150, "y1": 50, "x2": 150, "y2": 150, "stroke": "#10b981", "width": 1.5, "dash": "2"},
+        {"type": "text", "x": 160, "y": 100, "text": "h", "size": 11, "color": "#10b981", "weight": "bold"}
+      ]
+    },
+    "correct": "16",
+    "solution": "$S_{tp} = 2\\pi R^2 + 2\\pi R h = 24\\pi \\Rightarrow h = \\frac{12 - R^2}{R}$. Thể tích $V = \\pi R^2 h = \\pi R (12 - R^2)$. $V' = \\pi (12 - 3R^2) = 0 \\Rightarrow R=2, h=4$. $V_{max} = \\pi (2) (8) = 16\\pi$. Vậy $\\frac{V}{\\pi} = 16$."
   },
   {
     "id": 23,
     "type": "SHORT",
-    "text": "Một người đang chèo thuyền trên hồ, cách bờ một đoạn thẳng gần nhất là 4 km. Người này muốn đến một điểm B trên bờ, cách điểm A (điểm gần thuyền nhất trên bờ) một khoảng 10 km. Biết vận tốc chèo thuyền là 3 km/h và vận tốc đi bộ trên bờ là 5 km/h. Để đến B nhanh nhất, người đó nên cập bờ tại điểm C cách A một khoảng $x$ km. Tính thời gian tối thiểu để người đó đi từ thuyền đến B (đơn vị: phút).",
-    "hasGraph": "C23",
-    "correct": "184",
-    "solution": "Gọi $x$ là khoảng cách từ A đến C ($0 \\le x \\le 10$).<br>Quãng đường chèo thuyền là $\\sqrt{x^2+16}$, thời gian chèo là $\\frac{\\sqrt{x^2+16}}{3}$.<br>Quãng đường đi bộ là $10-x$, thời gian đi bộ là $\\frac{10-x}{5}$.<br>Hàm thời gian: $T(x) = \\frac{\\sqrt{x^2+16}}{3} + \\frac{10-x}{5}$.<br>$T'(x) = \\frac{x}{3\\sqrt{x^2+16}} - \\frac{1}{5} = 0 \\Leftrightarrow 5x = 3\\sqrt{x^2+16} \\Leftrightarrow 25x^2 = 9(x^2+16) \\Leftrightarrow 16x^2 = 144 \\Leftrightarrow x=3$.<br>Thời gian tối thiểu: $T(3) = \\frac{5}{3} + \\frac{7}{5} = \\frac{46}{15}$ giờ.<br>Đổi ra phút: $\\frac{46}{15} \\times 60 = 184$ phút."
+    "text": "Một trò chơi điện tử có cơ chế trả thưởng như sau: 20% cơ hội thắng 10 điểm, 30% cơ hội thắng 5 điểm và 50% cơ hội bị trừ 2 điểm. Tính kỳ vọng (expected value) số điểm nhận được sau một lần chơi.",
+    "correct": "2.5",
+    "solution": "Kỳ vọng $E(X) = 10(0.2) + 5(0.3) + (-2)(0.5) = 2 + 1.5 - 1 = 2.5$ điểm."
   },
   {
     "id": 24,
     "type": "SHORT",
-    "text": "Một hệ thống máy chủ có xác suất hoạt động ổn định trong ngày đầu tiên là 90%. Nếu ngày thứ $n$ hệ thống ổn định, xác suất để ngày thứ $n+1$ ổn định là 80%. Nếu ngày thứ $n$ hệ thống gặp sự cố, xác suất để ngày thứ $n+1$ ổn định là 40%. Tính xác suất để hệ thống hoạt động ổn định vào ngày thứ 3 (làm tròn đến 3 chữ số thập phân).",
-    "correct": "0.704",
-    "solution": "Gọi $O_n$ là biến cố ngày thứ $n$ hệ thống ổn định, $F_n$ là biến cố gặp sự cố.<br>$P(O_1) = 0.9 \\Rightarrow P(F_1) = 0.1$.<br>$P(O_2) = P(O_2|O_1)P(O_1) + P(O_2|F_1)P(F_1) = 0.8(0.9) + 0.4(0.1) = 0.72 + 0.04 = 0.76$.<br>$P(F_2) = 1 - 0.76 = 0.24$.<br>$P(O_3) = P(O_3|O_2)P(O_2) + P(O_3|F_2)P(F_2) = 0.8(0.76) + 0.4(0.24) = 0.608 + 0.096 = 0.704$."
+    "text": "Trong không gian $Oxyz$, cho ba điểm $A(1; 0; 0)$, $B(0; 2; 0)$, $C(0; 0; 3)$. Tính thể tích của khối tứ diện $OABC$ (với $O$ là gốc tọa độ).",
+    "correct": "1",
+    "solution": "Khối tứ diện $OABC$ có 3 cạnh $OA, OB, OC$ đôi một vuông góc. Thể tích $V = \\frac{1}{6} OA \\cdot OB \\cdot OC = \\frac{1}{6} \\cdot 1 \\cdot 2 \\cdot 3 = 1$."
   },
   {
     "id": 25,
     "type": "SHORT",
-    "text": "Trong không gian $Oxyz$, cho tứ diện $ABCD$ với tọa độ các đỉnh $A(1, 0, 0)$, $B(0, 2, 0)$, $C(0, 0, 3)$ và $D(1, 2, 3)$. Tính thể tích của khối tứ diện $ABCD$.",
-    "correct": "2",
-    "solution": "Ta có các vectơ: $\\vec{AB} = (-1, 2, 0)$, $\\vec{AC} = (-1, 0, 3)$, $\\vec{AD} = (0, 2, 3)$.<br>Tích có hướng: $[\\vec{AB}, \\vec{AC}] = (2 \\cdot 3 - 0 \\cdot 0, 0 \\cdot (-1) - (-1) \\cdot 3, (-1) \\cdot 0 - 2 \\cdot (-1)) = (6, 3, 2)$.<br>Thể tích khối tứ diện: $V = \\frac{1}{6} |[\\vec{AB}, \\vec{AC}] \\cdot \\vec{AD}| = \\frac{1}{6} |6(0) + 3(2) + 2(3)| = \\frac{1}{6} |12| = 2$."
+    "text": "Tính tổng của cấp số nhân lùi vô hạn có số hạng đầu $u_1 = 1$ và công bội $q = \\frac{1}{3}$.",
+    "correct": "1.5",
+    "solution": "Tổng của cấp số nhân lùi vô hạn là $S = \\frac{u_1}{1 - q} = \\frac{1}{1 - 1/3} = \\frac{1}{2/3} = \\frac{3}{2} = 1.5$."
   }
 ]
