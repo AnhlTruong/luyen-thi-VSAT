@@ -32,13 +32,13 @@
         "id": "1_3",
         "text": "Điểm uốn của đồ thị hàm số $f(x)$ có hoành độ $x=0.5$.",
         "correct": "T",
-        "solution": "Hoành độ điểm uốn của đồ thị $f(x)$ tương ứng với cực trị của hàm đạo hàm $f'(x)$. Parabol $f'(x)$ cắt trục hoành tại $x=-1$ và $x=2$ nên đỉnh của parabol nằm tại $x=\\frac{-1+2}{2}=0.5$."
+        "solution": "Hoành độ điểm uốn của đồ thị $f(x)$ tương ứng với cực trị của hàm đạo hàm $f'(x)$. Parabol $f'(x)$ cắt trục hoành tại $x=-1$ và $x=2$ nên đỉnh của parabol nằm tại trung điểm $x=\\frac{-1+2}{2}=0.5$."
       },
       {
         "id": "1_4",
         "text": "Giá trị cực đại của hàm số $f(x)$ lớn hơn giá trị cực tiểu của nó.",
         "correct": "T",
-        "solution": "Hàm số liên tục trên $\\mathbb{R}$, đạt cực đại tại $x=-1$ và cực tiểu tại $x=2$. Vì hàm số nghịch biến liên tục từ $x=-1$ đến $x=2$ nên $f(-1)>f(2)$."
+        "solution": "Hàm số liên tục trên $\\mathbb{R}$, đạt cực đại tại $x=-1$ và cực tiểu tại $x=2$. Vì hàm số nghịch biến liên tục từ $x=-1$ đến $x=2$ nên giá trị $f(-1) > f(2)$."
       }
     ],
     "points": 1.0
@@ -46,7 +46,7 @@
   {
     "id": 2,
     "type": "TF",
-    "text": "Biểu diễn hình học miền nghiệm của hệ bất phương trình bậc nhất hai ẩn $\\begin{cases} x \\ge 0 \\\\ y \\ge 0 \\\\ x+y \\le 4 \\\\ x+2y \\le 6 \\end{cases}$ là một đa giác lồi nằm trên mặt phẳng tọa độ $Oxy$ (như hình vẽ). Các mệnh đề sau đúng hay sai?",
+    "text": "Biểu diễn hình học miền nghiệm của hệ bất phương trình bậc nhất hai ẩn: $x \\ge 0$, $y \\ge 0$, $x+y \\le 4$ và $x+2y \\le 6$ là một đa giác lồi nằm trên mặt phẳng tọa độ $Oxy$ (như hình vẽ). Các mệnh đề sau đúng hay sai?",
     "visual": [
       { "type": "line", "x1": 30, "y1": 180, "x2": 250, "y2": 180, "stroke": "#000", "width": 1.5 },
       { "type": "line", "x1": 50, "y1": 20, "x2": 50, "y2": 200, "stroke": "#000", "width": 1.5 },
@@ -62,19 +62,19 @@
         "id": "2_1",
         "text": "Miền nghiệm của hệ bất phương trình là một tứ giác.",
         "correct": "T",
-        "solution": "Hệ tạo bởi 4 đường thẳng $x=0, y=0, x+y=4, x+2y=6$. Giao của chúng tạo ra 4 đỉnh $(0;0), (4;0), (2;2), (0;3)$, hình thành một tứ giác lồi."
+        "solution": "Hệ tạo bởi 4 đường thẳng $x=0$, $y=0$, $x+y=4$, $x+2y=6$. Giao của chúng tạo ra 4 đỉnh $(0;0)$, $(4;0)$, $(2;2)$, $(0;3)$, hình thành một tứ giác lồi."
       },
       {
         "id": "2_2",
         "text": "Điểm $K(3; 2)$ nằm trong miền nghiệm của hệ bất phương trình.",
         "correct": "F",
-        "solution": "Thay tọa độ $K(3; 2)$ vào bất phương trình thứ ba: $3+2=5$. Giá trị $5$ không thỏa mãn điều kiện $x+y \\le 4$."
+        "solution": "Thay tọa độ $K(3; 2)$ vào bất phương trình thứ ba: $3+2=5$. Giá trị 5 không thỏa mãn điều kiện $x+y \\le 4$."
       },
       {
         "id": "2_3",
         "text": "Giá trị lớn nhất của biểu thức mục tiêu $F(x;y)=2x+3y$ trên miền nghiệm bằng $10$.",
         "correct": "T",
-        "solution": "Tính giá trị hàm $F$ tại 4 đỉnh: $F(0;0)=0$, $F(4;0)=8$, $F(2;2)=10$, $F(0;3)=9$. Giá trị lớn nhất đạt được là $10$ tại đỉnh $M(2;2)$."
+        "solution": "Tính giá trị hàm $F$ tại 4 đỉnh: $F(0;0)=0$, $F(4;0)=8$, $F(2;2)=10$, $F(0;3)=9$. Giá trị lớn nhất đạt được là 10 tại đỉnh $M(2;2)$."
       },
       {
         "id": "2_4",
@@ -88,7 +88,7 @@
   {
     "id": 3,
     "type": "TF",
-    "text": "Khảo sát thời gian tự học ở nhà mỗi ngày (đơn vị: giờ) của 50 học sinh lớp 12, ta thu được bảng phân bố tần số ghép nhóm sau: $[0; 1)$ có 5 học sinh; $[1; 2)$ có 15 học sinh; $[2; 3)$ có 20 học sinh; $[3; 4)$ có 10 học sinh. Các mệnh đề sau đúng hay sai?",
+    "text": "Khảo sát thời gian tự học ở nhà mỗi ngày (đơn vị: giờ) của 50 học sinh lớp 12, ta thu được bảng phân bố tần số ghép nhóm sau: khoảng $[0; 1)$ có 5 học sinh; khoảng $[1; 2)$ có 15 học sinh; khoảng $[2; 3)$ có 20 học sinh; khoảng $[3; 4)$ có 10 học sinh. Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "3_1",
@@ -100,13 +100,13 @@
         "id": "3_2",
         "text": "Nhóm chứa trung vị của mẫu số liệu là nhóm $[1; 2)$.",
         "correct": "F",
-        "solution": "Cỡ mẫu $n=50$, vị trí trung vị là $25.5$. Tần số tích lũy của nhóm $[0; 1)$ là $5$, của nhóm $[1; 2)$ là $20$. Giá trị thứ $25$ và $26$ rơi vào nhóm thứ ba là $[2; 3)$. Do đó, nhóm chứa trung vị là $[2; 3)$."
+        "solution": "Cỡ mẫu $n=50$, vị trí trung vị là $25.5$. Tần số tích lũy của nhóm $[0; 1)$ là 5, của nhóm $[1; 2)$ là 20. Giá trị thứ 25 và 26 rơi vào nhóm thứ ba là $[2; 3)$. Do đó, nhóm chứa trung vị là $[2; 3)$."
       },
       {
         "id": "3_3",
         "text": "Nhóm chứa mốt (yếu vị) của mẫu số liệu là nhóm $[2; 3)$.",
         "correct": "T",
-        "solution": "Nhóm $[2; 3)$ có tần số lớn nhất là $20$, do đó đây chính là nhóm chứa mốt của mẫu số liệu ghép nhóm."
+        "solution": "Nhóm $[2; 3)$ có tần số lớn nhất là 20, do đó đây chính là nhóm chứa mốt của mẫu số liệu ghép nhóm."
       },
       {
         "id": "3_4",
@@ -138,7 +138,7 @@
         "id": "4_3",
         "text": "Khoảng cách từ tâm $I$ đến mặt phẳng $(P)$ bằng $3$.",
         "correct": "F",
-        "solution": "Áp dụng công thức khoảng cách từ điểm đến mặt phẳng: $d = \\frac{|1 - 2(-2) + 2(3) - 1|}{\\sqrt{1^2 + (-2)^2 + 2^2}} = \\frac{|1+4+6-1|}{3} = \\frac{10}{3}$. Giá trị $\\frac{10}{3} \\neq 3$."
+        "solution": "Áp dụng công thức khoảng cách từ điểm đến mặt phẳng: $d = \\frac{|1 - 2(-2) + 2(3) - 1|}{\\sqrt{1^2 + (-2)^2 + 2^2}} = \\frac{|1+4+6-1|}{3} = \\frac{10}{3}$."
       },
       {
         "id": "4_4",
@@ -152,25 +152,25 @@
   {
     "id": 5,
     "type": "TF",
-    "text": "Một thiết bị y tế chẩn đoán có tỷ lệ phát hiện đúng bệnh nhân mắc bệnh là $95\\%$. Tuy nhiên, nếu người khỏe mạnh đi xét nghiệm, thiết bị vẫn có tỷ lệ báo sai (dương tính giả) là $2\\%$. Tỷ lệ người thực sự mắc căn bệnh này trong cộng đồng là $1\\%$. Chọn ngẫu nhiên một người dân đi xét nghiệm. Các mệnh đề sau đúng hay sai?",
+    "text": "Một thiết bị y tế chẩn đoán có tỷ lệ phát hiện đúng bệnh nhân mắc bệnh là 95%. Tuy nhiên, nếu người khỏe mạnh đi xét nghiệm, thiết bị vẫn có tỷ lệ báo sai (dương tính giả) là 2%. Tỷ lệ người thực sự mắc căn bệnh này trong cộng đồng là 1%. Chọn ngẫu nhiên một người dân đi xét nghiệm. Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "5_1",
         "text": "Xác suất để thiết bị cho kết quả xét nghiệm dương tính là $0.0293$.",
         "correct": "T",
-        "solution": "Theo công thức xác suất toàn phần: $P(D) = 0.01\\times 0.95 + 0.99\\times 0.02 = 0.0095 + 0.0198 = 0.0293$."
+        "solution": "Theo công thức xác suất toàn phần: $P(D) = 0.01 \\times 0.95 + 0.99 \\times 0.02 = 0.0095 + 0.0198 = 0.0293$."
       },
       {
         "id": "5_2",
-        "text": "Xác suất để một người thực sự mắc bệnh khi nhận được kết quả dương tính lớn hơn $50\\%$.",
+        "text": "Xác suất để một người thực sự mắc bệnh khi nhận được kết quả dương tính lớn hơn $50$% .",
         "correct": "F",
-        "solution": "Theo định lý Bayes, $P(B|D) = \\frac{P(B \\cap D)}{P(D)} = \\frac{0.0095}{0.0293} \\approx 32.4\\%$. Tỷ lệ này nhỏ hơn $50\\%$."
+        "solution": "Theo định lý Bayes, xác suất là $\\frac{0.0095}{0.0293} \\approx 0.324$ (tức 32.4%). Tỷ lệ này nhỏ hơn 50%."
       },
       {
         "id": "5_3",
-        "text": "Xác suất thiết bị bỏ lót (âm tính giả) đối với một bệnh nhân thực sự mắc bệnh là $5\\%$.",
+        "text": "Xác suất thiết bị bỏ lót (âm tính giả) đối với một bệnh nhân thực sự mắc bệnh là 5%.",
         "correct": "T",
-        "solution": "Tỷ lệ phát hiện đúng là $95\\%$, vậy tỷ lệ âm tính giả khi đã mắc bệnh là $100\\% - 95\\% = 5\\%$."
+        "solution": "Tỷ lệ phát hiện đúng là 95%, vậy tỷ lệ âm tính giả khi đã mắc bệnh là $100% - 95% = 5$%."
       },
       {
         "id": "5_4",
@@ -234,13 +234,13 @@
         "id": "7_3",
         "text": "Đồ thị hàm số không cắt trục hoành.",
         "correct": "F",
-        "solution": "Giải phương trình hoành độ giao điểm $f(x) = 0 \\Leftrightarrow x \\ln x = 0$. Vì $x>0$ nên phương trình tương đương $\\ln x = 0 \\Leftrightarrow x = 1$. Đồ thị cắt trục hoành tại một điểm duy nhất."
+        "solution": "Giải phương trình hoành độ giao điểm $f(x) = 0 \\Leftrightarrow x \\ln x = 0$. Vì $x>0$ nên phương trình tương đương $\\ln x = 0 \\Leftrightarrow x = 1$. Đồ thị cắt trục hoành tại điểm $x = 1$."
       },
       {
         "id": "7_4",
         "text": "Diện tích hình phẳng giới hạn bởi đồ thị $f(x)$, trục hoành và đường thẳng $x=e$ bằng $\\frac{e^2+1}{4}$.",
         "correct": "T",
-        "solution": "Hàm số nhận giá trị dương trên $[1; e]$. Tích phân $S = \\int_1^e x \\ln x dx$. Dùng tích phân từng phần (đặt $u=\\ln x, dv=xdx$) ta tính được kết quả $\\frac{e^2+1}{4}$."
+        "solution": "Hàm số nhận giá trị dương trên đoạn $[1; e]$. Tích phân $S = \\int_{1}^{e} x \\ln x dx$. Dùng tích phân từng phần (đặt $u=\\ln x, dv=xdx$) ta tính được kết quả $\\frac{e^2+1}{4}$."
       }
     ],
     "points": 1.0
@@ -248,25 +248,25 @@
   {
     "id": 8,
     "type": "TF",
-    "text": "Trong không gian hệ tọa độ $Oxyz$, một drone (thiết bị bay không người lái) đang thực hiện nhiệm vụ quét cảm biến. Drone xuất phát từ vị trí $A(1; 1; 1)$ và di chuyển theo một đường thẳng với vectơ vận tốc không đổi $\\vec{v} = (1; -2; 2)$ (m/s). Thời gian di chuyển $t$ tính bằng giây. Các mệnh đề sau đúng hay sai?",
+    "text": "Trong không gian hệ tọa độ $Oxyz$, một drone đang thực hiện nhiệm vụ quét cảm biến. Drone xuất phát từ vị trí $A(1; 1; 1)$ và di chuyển theo một đường thẳng với vectơ vận tốc không đổi $\\vec{v} = (1; -2; 2)$ (m/s). Thời gian di chuyển $t$ tính bằng giây. Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "8_1",
-        "text": "Phương trình tham số quỹ đạo bay của drone là $\\begin{cases} x = 1+t \\\\ y = 1-2t \\\\ z = 1+2t \\end{cases}$.",
+        "text": "Phương trình quỹ đạo bay của drone là một đường thẳng đi qua $A(1; 1; 1)$ và có chỉ phương $\\vec{v} = (1; -2; 2)$.",
         "correct": "T",
-        "solution": "Quỹ đạo là một đường thẳng đi qua điểm xuất phát $A(1;1;1)$ và có vectơ chỉ phương là vectơ vận tốc $\\vec{v}(1;-2;2)$."
+        "solution": "Quỹ đạo chuyển động thẳng đều là đường thẳng đi qua điểm xuất phát nhận vectơ vận tốc làm vectơ chỉ phương."
       },
       {
         "id": "8_2",
-        "text": "Sau $3$ giây kể từ lúc cất cánh, drone cách điểm xuất phát một khoảng là $9$ mét.",
+        "text": "Sau 3 giây kể từ lúc cất cánh, drone cách điểm xuất phát một khoảng là $9$ mét.",
         "correct": "T",
-        "solution": "Quãng đường di chuyển sau $3$ giây là độ dài đoạn thẳng: $s = |\\vec{v}| \\times t = \\sqrt{1^2+(-2)^2+2^2} \\times 3 = 3 \\times 3 = 9$ mét."
+        "solution": "Quãng đường di chuyển sau 3 giây là độ dài đoạn thẳng: $s = |\\vec{v}| \\times t = \\sqrt{1^2+(-2)^2+2^2} \\times 3 = 3 \\times 3 = 9$ mét."
       },
       {
         "id": "8_3",
         "text": "Mặt đất được mô phỏng bởi mặt phẳng $(P): x+y+z-11=0$. Drone sẽ chạm đất tại thời điểm $t=6$ giây.",
         "correct": "F",
-        "solution": "Thế phương trình tham số vào mặt phẳng $(P)$: $(1+t) + (1-2t) + (1+2t) - 11 = 0 \\Leftrightarrow t+3-11=0 \\Leftrightarrow t=8$ giây."
+        "solution": "Thế phương trình tham số $x = 1+t, y = 1-2t, z = 1+2t$ vào mặt phẳng $(P)$: $(1+t) + (1-2t) + (1+2t) - 11 = 0 \\Leftrightarrow t+3-11=0 \\Leftrightarrow t=8$ giây."
       },
       {
         "id": "8_4",
@@ -351,28 +351,28 @@
   {
     "id": 13,
     "type": "MCQ",
-    "text": "**Bối cảnh quang học Oxyz:** Một nguồn sáng tia laser phát ra từ điểm $A(2; -1; 3)$ truyền theo hướng một đường thẳng có vectơ chỉ phương $\\vec{u} = (1; 2; -2)$. Tia laser này chiếu đến một tấm gương phẳng được đặt cố định trong không gian. Biết rằng tấm gương nằm trên mặt phẳng có phương trình tổng quát $(P): 2x + 2y - z - 5 = 0$. Hỏi tọa độ điểm chạm (giao điểm) của tia laser trên mặt gương là bao nhiêu?",
+    "text": "**Bối cảnh quang học Oxyz:** Một nguồn sáng tia laser phát ra từ điểm $A(1; 1; 1)$ truyền theo hướng một đường thẳng có vectơ chỉ phương $\\vec{u} = (2; 1; -2)$. Tia laser này chiếu đến một tấm gương phẳng được đặt cố định trong không gian. Biết rằng tấm gương nằm trên mặt phẳng có phương trình tổng quát $(P): x + 2y - 2z - 9 = 0$. Hỏi tọa độ điểm chạm (giao điểm) của tia laser trên mặt gương là bao nhiêu?",
     "options": [
-      { "key": "A", "text": "$(3; 1; 1)$" },
-      { "key": "B", "text": "$(4; 3; -1)$" },
-      { "key": "C", "text": "$(1; -3; 5)$" },
-      { "key": "D", "text": "$(2; -1; 3)$" }
+      { "key": "A", "text": "$(3; 2; -1)$" },
+      { "key": "B", "text": "$(1; 1; 1)$" },
+      { "key": "C", "text": "$(2; 1; -2)$" },
+      { "key": "D", "text": "$(5; 3; -3)$" }
     ],
     "correct": "A",
-    "solution": "Viết phương trình tham số tia sáng: $x = 2+t, y = -1+2t, z = 3-2t$. Thế tọa độ này vào phương trình mặt phẳng: $2(2+t) + 2(-1+2t) - (3-2t) - 5 = 0 \\Leftrightarrow 4+2t - 2+4t - 3+2t - 5 = 0 \\Leftrightarrow 8t - 6 = 0 \\Leftrightarrow 8t = 8 \\Leftrightarrow t = 1$. Thay $t=1$ vào phương trình tham số ta được tọa độ $(3; 1; 1)$."
+    "solution": "Viết phương trình tham số tia sáng: $x = 1+2t, y = 1+t, z = 1-2t$. Thế tọa độ này vào phương trình mặt phẳng: $(1+2t) + 2(1+t) - 2(1-2t) - 9 = 0 \\Leftrightarrow 1+2t + 2+2t - 2+4t - 9 = 0 \\Leftrightarrow 8t - 8 = 0 \\Leftrightarrow t = 1$. Thay $t=1$ vào phương trình tham số ta được tọa độ $(3; 2; -1)$."
   },
   {
     "id": 14,
     "type": "MCQ",
     "text": "Tiếp tục sử dụng thiết lập từ câu trên. Tính khoảng cách hình học ngắn nhất từ nguồn phát tia laser $A$ tới mặt gương phẳng $(P)$.",
     "options": [
-      { "key": "A", "text": "$1$" },
-      { "key": "B", "text": "$2$" },
-      { "key": "C", "text": "$\\frac{4}{3}$" },
-      { "key": "D", "text": "$\\frac{6}{\\sqrt{5}}$" }
+      { "key": "A", "text": "$\\frac{4}{3}$" },
+      { "key": "B", "text": "$\\frac{8}{3}$" },
+      { "key": "C", "text": "$3$" },
+      { "key": "D", "text": "$4$" }
     ],
     "correct": "B",
-    "solution": "Áp dụng công thức khoảng cách từ điểm đến mặt phẳng: $d = \\frac{|2(2) + 2(-1) - 3 - 5|}{\\sqrt{2^2 + 2^2 + (-1)^2}} = \\frac{|4 - 2 - 3 - 5|}{\\sqrt{9}} = \\frac{|-6|}{3} = 2$."
+    "solution": "Áp dụng công thức khoảng cách từ điểm $A(1; 1; 1)$ đến mặt phẳng $(P): x + 2y - 2z - 9 = 0$: $d = \\frac{|1(1) + 2(1) - 2(1) - 9|}{\\sqrt{1^2 + 2^2 + (-2)^2}} = \\frac{|1 + 2 - 2 - 9|}{\\sqrt{9}} = \\frac{|-8|}{3} = \\frac{8}{3}$."
   },
   {
     "id": 15,
@@ -385,7 +385,7 @@
       { "key": "D", "text": "$\\cos \\alpha = \\frac{2}{3}$" }
     ],
     "correct": "A",
-    "solution": "Góc giữa đường thẳng và mặt phẳng được tính bằng hàm sin của góc giữa vectơ chỉ phương và vectơ pháp tuyến. Vectơ chỉ phương $\\vec{u}=(1; 2; -2)$, vectơ pháp tuyến $\\vec{n}=(2; 2; -1)$. Áp dụng công thức: $\\sin \\alpha = \\frac{|\\vec{u} \\cdot \\vec{n}|}{|\\vec{u}| |\\vec{n}|} = \\frac{|1(2) + 2(2) + (-2)(-1)|}{\\sqrt{9}\\sqrt{9}} = \\frac{|2 + 4 + 2|}{3 \\times 3} = \\frac{8}{9}$."
+    "solution": "Góc giữa đường thẳng và mặt phẳng được tính bằng hàm sin của góc giữa vectơ chỉ phương và vectơ pháp tuyến. Vectơ chỉ phương $\\vec{u}=(2; 1; -2)$, vectơ pháp tuyến $\\vec{n}=(1; 2; -2)$. Áp dụng công thức: $\\sin \\alpha = \\frac{|\\vec{u} \\cdot \\vec{n}|}{|\\vec{u}| |\\vec{n}|} = \\frac{|2(1) + 1(2) + (-2)(-2)|}{3 \\times 3} = \\frac{|2 + 2 + 4|}{9} = \\frac{8}{9}$."
   },
   {
     "id": 16,
@@ -411,12 +411,12 @@
       "16_3": "B",
       "16_4": "D"
     },
-    "solution": "Khi $x \\to \\infty$, giới hạn là tỉ số hệ số bậc cao nhất $\\frac{3}{1}=3$. Khi $x \\to -2^+$, tử số tiến về $-7$, mẫu tiến về $0^+$, kết quả $-\\infty$. Khi $x \\to -2^-$, tử tiến về $-7$, mẫu $0^-$, kết quả $+\\infty$. Khi $x=0$, giá trị hàm số là $-\\frac{1}{2}$."
+    "solution": "Khi $x \\to \\infty$, giới hạn là tỉ số hệ số bậc cao nhất $\\frac{3}{1}=3$. Khi $x \\to -2^+$, tử số tiến về $-7$, mẫu tiến về $0^+$, kết quả $-\\infty$. Khi $x \\to -2^-$, tử tiến về $-7$, mẫu tiến về $0^-$, kết quả $+\\infty$. Khi $x=0$, giá trị hàm số là $-\\frac{1}{2}$."
   },
   {
     "id": 17,
     "type": "MATCH",
-    "text": "Áp dụng định lý vi tích phân cơ bản, hãy ghép nối phép tính tích phân ở cột bên trái với giá trị diện tích/thể tích tương ứng ở cột bên phải.",
+    "text": "Áp dụng định lý vi tích phân cơ bản, hãy ghép nối phép tính tích phân ở cột bên trái với giá trị diện tích hoặc thể tích tương ứng ở cột bên phải.",
     "leftItems": [
       { "id": "17_1", "text": "$\\int_{0}^{\\pi/2} \\sin x dx$" },
       { "id": "17_2", "text": "$\\int_{-1}^{1} x^3 dx$" },
@@ -437,7 +437,7 @@
       "17_3": "C",
       "17_4": "A"
     },
-    "solution": "Tích phân sin ra -cos, thay cận được $1$. Tích phân hàm đa thức lẻ trên miền đối xứng luôn bằng $0$. Tích phân $\\frac{1}{x}$ ra $\\ln|x|$, thay cận được $2\\ln(e) - 2\\ln(1) = 2$. Tích phân $3x^2$ ra $x^3$, thay cận được $8$."
+    "solution": "Tích phân $\\sin x$ ra $-\\cos x$, thay cận được $1$. Tích phân hàm đa thức lẻ trên miền đối xứng luôn bằng $0$. Tích phân $\\frac{1}{x}$ ra $\\ln|x|$, thay cận được $2\\ln(e) - 2\\ln(1) = 2$. Tích phân $3x^2$ ra $x^3$, thay cận được $8$."
   },
   {
     "id": 18,
@@ -473,13 +473,13 @@
       { "id": "19_1", "text": "Mặt phẳng vuông góc với trục hoành $Ox$" },
       { "id": "19_2", "text": "Mặt phẳng vuông góc với trục cao $Oz$" },
       { "id": "19_3", "text": "Mặt phẳng song song với mặt phẳng $x+y+z=0$" },
-      { "id": "19_4", "text": "Mặt phẳng đi qua $M$ và vuông góc với đường thẳng $y=x, z=0$" }
+      { "id": "19_4", "text": "Mặt phẳng đi qua $M$ và song song với trục $Oz$" }
     ],
     "rightItems": [
       { "key": "A", "text": "$z - 3 = 0$" },
       { "key": "B", "text": "$x - 1 = 0$" },
       { "key": "C", "text": "$x + y + z - 2 = 0$" },
-      { "key": "D", "text": "$x + y + 1 = 0$" },
+      { "key": "D", "text": "$2x + y = 0$" },
       { "key": "E", "text": "$y + 2 = 0$" },
       { "key": "F", "text": "$x - y - 3 = 0$" }
     ],
@@ -489,7 +489,7 @@
       "19_3": "C",
       "19_4": "D"
     },
-    "solution": "Vuông góc $Ox$ (pháp tuyến $\\vec{i}$) có dạng $x=c \\Rightarrow x=1$. Vuông góc $Oz$ (pháp tuyến $\\vec{k}$) có dạng $z=c \\Rightarrow z=3$. Song song $x+y+z=0$ có dạng $x+y+z+D=0$, thế $M$ tìm được $D=-2$. Đường thẳng $y=x, z=0$ có chỉ phương $(1; 1; 0)$, tạo thành mặt phẳng $1(x-1) + 1(y+2) + 0 = 0 \Leftrightarrow x+y+1=0$."
+    "solution": "Vuông góc $Ox$ (pháp tuyến $\\vec{i}$) có dạng $x=1 \\Rightarrow x-1=0$. Vuông góc $Oz$ có dạng $z=3 \\Rightarrow z-3=0$. Song song $x+y+z=0$ có dạng $x+y+z+D=0$, thế $M$ tìm được $D=-2$. Mặt phẳng song song $Oz$ sẽ khuyết biến $z$, qua $M(1; -2; 3)$ thì có thể chọn $2(x) + 1(y) = 2(1) + 1(-2) = 0 \\Rightarrow 2x+y=0$."
   },
   {
     "id": 20,
@@ -520,30 +520,30 @@
   {
     "id": 21,
     "type": "SHORT",
-    "text": "Cho hàm số đa thức bậc ba $f(x) = x^3 - 3x^2 + 2$. Xét hàm số hợp $g(x) = f(|x|)$. Hỏi đồ thị hàm số hợp $g(x)$ có tổng cộng bao nhiêu điểm cực trị cực đại và cực tiểu trên mặt phẳng tọa độ?",
+    "text": "Cho hàm số đa thức bậc ba $f(x) = x^3 - 3x^2 + 2$. Xét hàm số hợp $g(x) = f(|x|)$. Hỏi đồ thị hàm số hợp $g(x)$ có tổng cộng bao nhiêu điểm cực trị (bao gồm cả cực đại và cực tiểu) trên mặt phẳng tọa độ?",
     "correct": "3",
-    "solution": "Đạo hàm $f'(x) = 3x^2 - 6x = 0 \\Leftrightarrow x=0$ hoặc $x=2$. Hàm số gốc $f(x)$ có $2$ điểm cực trị nằm bên phải trục tung (ở $x=0$ và $x=2$). Hàm số $g(x) = f(|x|)$ là hàm chẵn, đồ thị nhận trục tung làm trục đối xứng bằng cách giữ nguyên phần đồ thị $x \\ge 0$ và lấy đối xứng phần đó qua $Oy$. Điểm cực trị tại biên $x=0$ vẫn là $1$ cực trị. Cực tiểu tại $x=2$ đối xứng sang thành cực tiểu tại $x=-2$. Tổng số cực trị là $1 + 1\\times 2 = 3$."
+    "solution": "Đạo hàm $f'(x) = 3x^2 - 6x = 0 \\Leftrightarrow x=0$ hoặc $x=2$. Hàm số gốc $f(x)$ có 1 điểm cực trị nằm chặt chẽ bên phải trục tung là $x=2$. Hàm số $g(x) = f(|x|)$ là hàm chẵn, đồ thị nhận trục tung làm trục đối xứng. Số điểm cực trị bằng $2k + 1$ với $k$ là số cực trị dương của $f(x)$. Do $k=1$, tổng số cực trị là $2(1) + 1 = 3$."
   },
   {
     "id": 22,
     "type": "SHORT",
-    "text": "Một người nông dân có tấm tôn phẳng kích thước $12\\times 12$ dm. Người này dùng kéo cắt bỏ bốn góc vuông của tấm tôn đi 4 hình vuông nhỏ bằng nhau có cạnh là $x$ (dm), sau đó bẻ gập bốn cạnh đứng lên để hàn thành một thùng chứa nước hình hộp chữ nhật không có nắp đậy. Tìm giá trị của $x$ để thùng chứa nước đạt thể tích lớn nhất.",
+    "text": "Một người nông dân có tấm tôn phẳng hình vuông kích thước $12 \\times 12$ dm. Người này dùng kéo cắt bỏ ở bốn góc của tấm tôn 4 hình vuông nhỏ bằng nhau có cạnh là $x$ (dm), sau đó bẻ gập bốn cạnh đứng lên để hàn thành một thùng chứa nước hình hộp chữ nhật không có nắp đậy. Tìm giá trị của $x$ để thùng chứa nước đạt thể tích lớn nhất.",
     "correct": "2",
     "solution": "Đáy của thùng là hình vuông có cạnh $12 - 2x$. Chiều cao của thùng chính là phần bẻ lên $x$. Thể tích $V = x(12 - 2x)^2 = 4x(6-x)^2$. Lấy đạo hàm $V' = 4(3x^2 - 24x + 36)$. Cho $V'=0 \\Leftrightarrow x=2$ hoặc $x=6$. Vì kích thước cắt phải nhỏ hơn một nửa cạnh tấm tôn ($x < 6$) nên giá trị tối ưu là cực đại tại $x=2$ dm."
   },
   {
     "id": 23,
     "type": "SHORT",
-    "text": "Trong không gian hệ trục tọa độ $Oxyz$, cho các điểm $A(2; 0; 0), B(0; 4; 0)$ và $C(0; 0; 4)$. Tính khoảng cách hình học ngắn nhất từ gốc tọa độ $O(0;0;0)$ đến mặt phẳng tổng quát đi qua ba điểm $A, B, C$. (Làm tròn kết quả đến một chữ số sau dấu chấm).",
-    "correct": "1.3",
-    "solution": "Sử dụng phương trình mặt phẳng theo đoạn chắn qua 3 trục tọa độ: $\\frac{x}{2} + \\frac{y}{4} + \\frac{z}{4} = 1$. Quy đồng với mẫu chung là 4, ta được $2x + y + z - 4 = 0$. Khoảng cách từ gốc tọa độ $O$ tới mặt phẳng là $d = \\frac{|-4|}{\\sqrt{2^2 + 1^2 + 1^2}} = \\frac{4}{\\sqrt{6}} = \\frac{4\\sqrt{6}}{6} = \\frac{2\\sqrt{6}}{3}$. Bấm máy tính $\\frac{2\\sqrt{6}}{3} \\approx 1.63...$ Wait! Cần kiểm tra lại: $\\frac{4}{\\sqrt{6}} \\approx 1.63$. Để tôi sửa lại đề sao cho kết quả là số nguyên hoặc làm tròn chính xác. Thử $A(3,0,0), B(0,3,0), C(0,0,1.5) \\Rightarrow \\frac{x}{3}+\\frac{y}{3}+\\frac{z}{1.5}=1 \\Rightarrow x+y+2z-3=0 \\Rightarrow d=\\frac{3}{\\sqrt{6}} = \\frac{\\sqrt{6}}{2} \\approx 1.22$. Thử mặt phẳng $2x+2y-z-9=0$, đi qua $A(4.5; 0; 0), B(0; 4.5; 0), C(0; 0; -9)$. Phương trình đoạn chắn: $\\frac{x}{4.5} + \\frac{y}{4.5} + \\frac{z}{-9} = 1 \\Rightarrow 2x+2y-z-9=0$. Khoảng cách $d = \\frac{|-9|}{\\sqrt{2^2+2^2+(-1)^2}} = \\frac{9}{3} = 3$. Để bài toán hay, ta đặt $A(4.5; 0; 0), B(0; 4.5; 0), C(0; 0; -9)$. Khi đó $d=3$. Sửa lại nội dung: Khoảng cách là 3 (Tôi sẽ hardcode nội dung khớp với đáp án 3)."
+    "text": "Trong không gian hệ trục tọa độ $Oxyz$, cho các điểm $A(4.5; 0; 0), B(0; 4.5; 0)$ và $C(0; 0; -9)$. Tính khoảng cách hình học ngắn nhất từ gốc tọa độ $O(0;0;0)$ đến mặt phẳng tổng quát đi qua ba điểm $A, B, C$.",
+    "correct": "3",
+    "solution": "Sử dụng phương trình mặt phẳng theo đoạn chắn qua 3 trục tọa độ: $\\frac{x}{4.5} + \\frac{y}{4.5} + \\frac{z}{-9} = 1$. Nhân cả 2 vế với 9, ta được phương trình tổng quát: $2x + 2y - z - 9 = 0$. Khoảng cách từ gốc tọa độ $O(0;0;0)$ tới mặt phẳng là $d = \\frac{|-9|}{\\sqrt{2^2 + 2^2 + (-1)^2}} = \\frac{9}{\\sqrt{9}} = 3$."
   },
   {
     "id": 24,
     "type": "SHORT",
-    "text": "Từ tập hợp các chữ số $S = \\{1, 2, 3, 4, 5, 6\\}$, một hệ thống mật mã cần tạo ra một con số nguyên dương có đúng 3 chữ số. Yêu cầu mật mã phải là một số chẵn và các chữ số cấu thành phải đôi một phân biệt. Có tất cả bao nhiêu cách tạo ra con số mật mã hợp lệ này?",
+    "text": "Từ tập hợp các chữ số $S = 1, 2, 3, 4, 5, 6$, một hệ thống mật mã cần tạo ra một con số nguyên dương có đúng 3 chữ số. Yêu cầu mật mã phải là một số chẵn và các chữ số cấu thành phải đôi một phân biệt. Có tất cả bao nhiêu cách tạo ra con số mật mã hợp lệ này?",
     "correct": "60",
-    "solution": "Số chẵn có 3 chữ số $\\overline{abc}$. Vì số là chẵn nên chữ số hàng đơn vị $c$ phải thuộc tập hợp $\\{2, 4, 6\\}$. Do đó có 3 cách chọn chữ số $c$. Sau khi đã cố định $c$, ta còn lại 5 chữ số chưa sử dụng. Việc chọn và sắp xếp vị trí cho $a$ và $b$ từ 5 chữ số này tương đương với một chỉnh hợp chập 2 của 5: $A_5^2 = 5 \\times 4 = 20$ cách. Áp dụng quy tắc nhân độc lập: Tổng số cách lập mật mã là $3 \\times 20 = 60$ cách."
+    "solution": "Số chẵn có 3 chữ số có dạng $\\overline{abc}$. Vì là số chẵn nên chữ số hàng đơn vị $c$ phải thuộc tập hợp số chẵn $2, 4, 6$. Do đó có 3 cách chọn chữ số $c$. Sau khi đã cố định $c$, ta còn lại 5 chữ số chưa sử dụng. Việc chọn và sắp xếp vị trí cho $a$ và $b$ từ 5 chữ số này tương đương với một chỉnh hợp chập 2 của 5: $A_5^2 = 5 \\times 4 = 20$ cách. Áp dụng quy tắc nhân: Tổng số cách lập là $3 \\times 20 = 60$ cách."
   },
   {
     "id": 25,
