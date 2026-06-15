@@ -26,7 +26,7 @@
 "id": "1_4",
 "text": "Việc thực thi và bảo vệ chủ quyền của Việt Nam ở Hoàng Sa và Trường Sa qua các thời kì là một quá trình liên tục, hòa bình và hoàn toàn phù hợp với luật pháp quốc tế.",
 "correct": "T",
-"solution": "Nhà nước Việt Nam qua các thời kì lịch sử đã thực thi chủ quyền thực sự, liên tục và hòa bình đối với hai quần đảo này, phù hợp với nguyên tắc thụ đắc lãnh thổ trong luật quốc tế."
+"solution": "Nhà nước Việt Nam qua các thời kì lịch sử đã thực thi chủ quyền thực sự, liên tục và hòa bình đối với hai quần đảo này, phù hợp with nguyên tắc thụ đắc lãnh thổ trong luật quốc tế."
 }
 ],
 "points": 1.0
@@ -70,15 +70,15 @@
 "parts": [
 {
 "id": "3_1",
-"text": "Kế sách "tiên phát chế nhân" của Lý Thường Kiệt trong cuộc kháng chiến chống Tống là đòn tiến công chiến lược nhằm mục đích tiêu diệt toàn bộ lực lượng quân đội nhà Tống.",
+"text": "Kế sách 'tiên phát chế nhân' của Lý Thường Kiệt trong cuộc kháng chiến chống Tống là đòn tiến công chiến lược nhằm mục đích tiêu diệt toàn bộ lực lượng quân đội nhà Tống.",
 "correct": "F",
 "solution": "Đây là đòn tấn công tự vệ nhằm tiêu diệt các căn cứ tập trung quân, lương thảo của Tống (Ung, Khâm, Liêm), làm chậm và suy yếu kế hoạch xâm lược, chứ không phải để tiêu diệt toàn bộ nhà Tống."
 },
 {
 "id": "3_2",
-"text": "In the resistance wars against foreign invaders, the art of people's warfare was always highly developed, creating a nation-wide fighting position.",
+"text": "Trong các cuộc kháng chiến chống ngoại xâm, nghệ thuật chiến tranh nhân dân luôn được phát huy cao độ, tạo thế trận cả nước đánh giặc.",
 "correct": "T",
-"solution": "Đoàn kết toàn dân, "vua tôi đồng tâm, anh em hòa mục, cả nước góp sức" là nguyên nhân cốt lõi làm nên sức mạnh trong các cuộc kháng chiến thời phong kiến."
+"solution": "Đoàn kết toàn dân, 'vua tôi đồng tâm, anh em hòa mục, cả nước góp sức' là nguyên nhân cốt lõi làm nên sức mạnh trong các cuộc kháng chiến thời phong kiến."
 },
 {
 "id": "3_3",
@@ -114,7 +114,7 @@
 },
 {
 "id": "4_3",
-"text": "Sự phát triển mạnh mẽ của Liên minh châu Âu (EU) và sự vươn lên của các nền kinh tế lớn ở châu Á là một trong những biểu hiện rõ nét của xu thế đa cực.",
+"text": "Sự phát violent mạnh mẽ của Liên minh châu Âu (EU) và sự vươn lên của các nền kinh tế lớn ở châu Á là một trong những biểu hiện rõ nét của xu thế đa cực.",
 "correct": "T",
 "solution": "Sự trỗi dậy của EU, Nhật Bản, Trung Quốc... tạo ra nhiều trung tâm quyền lực, cạnh tranh và hạn chế tham vọng đơn cực của Mỹ."
 },
@@ -168,11 +168,11 @@
 "id": "6_1",
 "text": "Việc kí kết Hiệp định Sơ bộ (6-3-1946) và Tạm ước (14-9-1946) phản ánh đường lối ngoại giao cứng rắn, không khoan nhượng của Chính phủ Việt Nam Dân chủ Cộng hòa.",
 "correct": "F",
-"solution": "Đây là biểu hiện của nguyên tắc "dĩ bất biến ứng vạn biến", nhân nhượng có nguyên tắc nhằm kéo dài thời gian hòa hoãn để chuẩn bị lực lượng, phân hóa kẻ thù."
+"solution": "Đây là biểu hiện của nguyên tắc 'dĩ bất biến ứng vạn biến', nhân nhượng có nguyên tắc nhằm kéo dài thời gian hòa hoãn để chuẩn bị lực lượng, phân hóa kẻ thù."
 },
 {
 "id": "6_2",
-"text": "Chiến dịch Việt Bắc thu - đông năm 1947 đã làm phá sản hoàn toàn chiến lược "đánh nhanh thắng nhanh", buộc thực dân Pháp phải chuyển sang "đánh lâu dài".",
+"text": "Chiến dịch Việt Bắc thu - đông năm 1947 đã làm phá sản hoàn toàn chiến lược 'đánh nhanh thắng nhanh', buộc thực dân Pháp phải chuyển sang 'đánh lâu dài'.",
 "correct": "T",
 "solution": "Thắng lợi của ta ở Việt Bắc đã đập tan gọng kìm của Pháp, bảo vệ an toàn cơ quan đầu não, làm thay đổi chiến lược cục diện chiến tranh."
 },
@@ -184,7 +184,7 @@
 },
 {
 "id": "6_4",
-"text": "Sự thay đổi phương châm tác chiến từ "đánh nhanh, thắng nhanh" sang "đánh chắc, tiến chắc" trong chiến dịch Điện Biên Phủ thể hiện sự nhạy bén và linh hoạt của tư duy quân sự.",
+"text": "Sự thay đổi phương châm tác chiến từ 'đánh nhanh, thắng nhanh' sang 'đánh chắc, tiến chắc' trong chiến dịch Điện Biên Phủ thể hiện sự nhạy bén và linh hoạt của tư duy quân sự.",
 "correct": "T",
 "solution": "Quyết định thay đổi phương châm của Đại tướng Võ Nguyên Giáp là nhân tố trực tiếp và quan trọng nhất quyết định thắng lợi của chiến dịch."
 }
@@ -204,13 +204,13 @@
 },
 {
 "id": "7_2",
-"text": "Chiến lược "Chiến tranh đặc biệt" là cuộc chiến tranh xâm lược được tiến hành bằng quân viễn chinh Mỹ, nhằm mục đích nhanh chóng bình định miền Nam.",
+"text": "Chiến lược 'Chiến tranh đặc biệt' là cuộc chiến tranh xâm lược được tiến hành bằng quân viễn chinh Mỹ, nhằm mục đích nhanh chóng bình định miền Nam.",
 "correct": "F",
-"solution": "Chiến tranh đặc biệt sử dụng lực lượng nòng cốt là quân đội Sài Gòn, dưới sự chỉ huy của cố vấn Mỹ. Quân viễn chinh Mỹ là nòng cốt trong "Chiến tranh cục bộ"."
+"solution": "Chiến tranh đặc biệt sử dụng lực lượng nòng cốt là quân đội Sài Gòn, dưới sự chỉ huy của cố vấn Mỹ. Quân viễn chinh Mỹ là nòng cốt trong 'Chiến tranh cục bộ'."
 },
 {
 "id": "7_3",
-"text": "Thắng lợi của cuộc Tổng tiến công và nổi dậy Xuân Mậu Thân 1968 đã buộc đế quốc Mỹ phải thừa nhận sự thất bại của chiến lược "Chiến tranh cục bộ".",
+"text": "Thắng lợi của cuộc Tổng tiến công và nổi dậy Xuân Mậu Thân 1968 đã buộc đế quốc Mỹ phải thừa nhận sự thất bại của chiến lược 'Chiến tranh cục bộ'.",
 "correct": "T",
 "solution": "Mậu Thân 1968 giáng một đòn bất ngờ, buộc Mỹ phải tuyên bố phi Mỹ hóa chiến tranh xâm lược, chấp nhận đàm phán tại Pa-ri."
 },
@@ -232,7 +232,7 @@
 "id": "8_1",
 "text": "Công cuộc Đổi mới được Đảng ta đề ra trong bối cảnh đất nước đang lâm vào tình trạng khủng hoảng kinh tế - xã hội trầm trọng, lạm phát tăng cao.",
 "correct": "T",
-"solution": "Trước Đại hội VI (1986), nền kinh tế Việt Nam trì trệ, sản xuất đình đốn, lạm phát có lúc lên tới ba con số, đòi hỏi bức thiết phải đổi mới."
+"solution": "Trước Đại hội VI (1986), nền kinh tế Việt Nam trì thệ, sản xuất đình đốn, lạm phát có lúc lên tới ba con số, đòi hỏi bức thiết phải đổi mới."
 },
 {
 "id": "8_2",
@@ -274,7 +274,7 @@
 },
 {
 "id": "9_3",
-"text": "Đường lối đối ngoại "đa phương hóa, đa dạng hóa" chỉ được Đảng ta đề ra và thực hiện sau khi Việt Nam chính thức gia nhập Tổ chức Thương mại Thế giới (WTO) năm 2007.",
+"text": "Đường lối đối ngoại 'đa phương hóa, đa dạng hóa' chỉ được Đảng ta đề ra và thực hiện sau khi Việt Nam chính thức gia nhập Tổ chức Thương mại Thế giới (WTO) năm 2007.",
 "correct": "F",
 "solution": "Đường lối đa phương hóa, đa dạng hóa quan hệ đối ngoại đã được Đảng chính thức đề ra từ Đại hội VII (1991), rất lâu trước khi gia nhập WTO."
 },
@@ -282,7 +282,7 @@
 "id": "9_4",
 "text": "Hội nhập quốc tế sâu rộng đã giúp Việt Nam thu hút nguồn vốn đầu tư lớn, nhưng đồng thời buộc Việt Nam phải từ bỏ nguyên tắc tự chủ về đường lối chính trị.",
 "correct": "F",
-"solution": "Việt Nam luôn giữ vững nguyên tắc bảo vệ độc lập, tự chủ về chính trị trong mọi hoàn cảnh hợp tác kinh tế quốc tế ("hòa nhập nhưng không hòa tan")."
+"solution": "Việt Nam luôn giữ vững nguyên tắc bảo vệ độc lập, tự chủ về chính trị trong mọi hoàn cảnh hợp tác kinh tế quốc tế ('hòa nhập nhưng không hòa tan')."
 }
 ],
 "points": 1.0
@@ -316,7 +316,7 @@
 {
 "id": 11,
 "type": "MCQ",
-"text": "Khẳng định "Chúng ta muốn hòa bình, chúng ta phải nhân nhượng" được minh chứng thông qua hành động lịch sử tiêu biểu nào của Chính phủ Việt Nam Dân chủ Cộng hòa trong năm 1946?",
+"text": "Khẳng định 'Chúng ta muốn hòa bình, chúng ta phải nhân nhượng' được minh chứng thông qua hành động lịch sử tiêu biểu nào của Chính phủ Việt Nam Dân chủ Cộng hòa trong năm 1946?",
 "options": [
 {
 "key": "A",
@@ -324,7 +324,7 @@
 },
 {
 "key": "B",
-"text": "Kí kết Hiệp định Sơ bộ (6-3) and Tạm ước (14-9), nhân nhượng cho Pháp một số quyền lợi."
+"text": "Kí kết Hiệp định Sơ bộ (6-3) và Tạm ước (14-9), nhân nhượng cho Pháp một số quyền lợi."
 },
 {
 "key": "C",
@@ -392,7 +392,7 @@
 {
 "id": 14,
 "type": "MCQ",
-"text": "Cụm từ "bệnh chủ quan, duy ý chí, lối suy nghĩ và hành động giản đơn, nóng vội" chủ yếu phản ánh sai lầm của Việt Nam trong việc áp dụng máy móc mô hình kinh tế nào?",
+"text": "Cụm từ 'bệnh chủ quan, duy ý chí, lối suy nghĩ và hành động giản đơn, nóng vội' chủ yếu phản ánh sai lầm của Việt Nam trong việc áp dụng máy móc mô hình kinh tế nào?",
 "options": [
 {
 "key": "A",
@@ -437,7 +437,7 @@
 }
 ],
 "correct": "B",
-"solution": "Tinh thần cốt lõi của Đại hội VI là thái độ tự phê bình nghiêm khắc, dũng cảm "nhìn thẳng vào sự thật" để tìm ra đường lối đổi mới đúng đắn cho đất nước."
+"solution": "Tinh thần cốt lõi của Đại hội VI là thái độ tự phê bình nghiêm khắc, dũng cảm 'nhìn thẳng vào sự thật' để tìm ra đường lối đổi mới đúng đắn cho đất nước."
 },
 {
 "id": 16,
@@ -502,15 +502,15 @@
 "leftItems": [
 {
 "id": "17_1",
-"text": "Chiến lược "Chiến tranh đặc biệt" (1961-1965)"
+"text": "Chiến lược 'Chiến tranh đặc biệt' (1961-1965)"
 },
 {
 "id": "17_2",
-"text": "Chiến lược "Chiến tranh cục bộ" (1965-1968)"
+"text": "Chiến lược 'Chiến tranh cục bộ' (1965-1968)"
 },
 {
 "id": "17_3",
-"text": "Chiến lược "Việt Nam hóa chiến tranh" (1969-1973)"
+"text": "Chiến lược 'Việt Nam hóa chiến tranh' (1969-1973)"
 },
 {
 "id": "17_4",
@@ -536,7 +536,7 @@
 },
 {
 "key": "E",
-"text": "mang bản chất là âm mưu xảo quyệt "dùng người Việt đánh người Việt", "dùng người Đông Dương đánh người Đông Dương"."
+"text": "mang bản chất là âm mưu xảo quyệt 'dùng người Việt đánh người Việt', 'dùng người Đông Dương đánh người Đông Dương'."
 },
 {
 "key": "F",
@@ -722,7 +722,7 @@
 {
 "id": 21,
 "type": "SHORT",
-"text": "Trong cuộc kháng chiến chống quân xâm lược Tống (1075 - 1077), Lý Thường Kiệt đã sử dụng nghệ thuật quân sự "tiên phát chế nhân" bằng cách chủ động đem quân đánh sang đất địch ở các châu Khâm, Liêm và châu nào?",
+"text": "Trong cuộc kháng chiến chống quân xâm lược Tống (1075 - 1077), Lý Thường Kiệt đã sử dụng nghệ thuật quân sự 'tiên phát chế nhân' bằng cách chủ động đem quân đánh sang đất địch ở các châu Khâm, Liêm và châu nào?",
 "correct": "Ung|Ung Châu|châu Ung",
 "solution": "Năm 1075, Lý Thường Kiệt chủ động đem quân tấn công vào các cứ điểm tập trung quân và lương thảo của nhà Tống ở Ung Châu, Khâm Châu, Liêm Châu để đập tan sự chuẩn bị xâm lược của địch."
 },
@@ -731,7 +731,7 @@
 "type": "SHORT",
 "text": "Xác định có bao nhiêu mệnh đề đúng trong các mệnh đề sau đây:\n1. Hội nghị I-an-ta (1945) đã tạo ra khuôn khổ cho việc phân chia phạm vi ảnh hưởng giữa Mỹ và Liên Xô sau chiến tranh.\n2. Một trong những mục đích tối thượng của tổ chức Liên hợp quốc là duy trì hòa bình và an ninh thế giới.\n3. Sự sụp đổ của Liên Xô năm 1991 đã đánh dấu sự kết thúc của trật tự thế giới đa cực.\n4. Hiệp ước Ba-li (1976) đánh dấu sự khởi sắc trong quá trình hoạt động của tổ chức ASEAN.",
 "correct": "3|ba|ba mệnh đề|3 mệnh đề",
-"solution": "Có 3 mệnh đề đúng là (1), (2), (4). Mệnh đề (3) sai vì sự sụp đổ của Liên Xô đánh dấu sự kết thúc của trật tự thế giới "hai cực" (I-an-ta), chứ không phải trật tự đa cực."
+"solution": "Có 3 mệnh đề đúng là (1), (2), (4). Mệnh đề (3) sai vì sự sụp đổ của Liên Xô đánh dấu sự kết thúc của trật tự thế giới 'hai cực' (I-an-ta), chứ không phải trật tự đa cực."
 },
 {
 "id": 23,
