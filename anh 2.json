@@ -1,0 +1,750 @@
+[
+  {
+    "id": 1,
+    "type": "TF",
+    "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class='text-center font-bold'>WILDFIRE EVACUATION ALERT</div>\n<div class='text-justify mt-2'>Attention all residents of Sector 4 and 5. A rapidly spreading wildfire is approaching the eastern boundary.</div>\n<div class='text-left mt-2'>- Evacuate immediately via Highway 9.</div>\n<div class='text-left'>- Do NOT use the canyon roads.</div>\n<div class='text-left'>- A temporary shelter is set up at the Central High School. Pets are allowed if kept in carriers.</div>\n<div class='text-center italic mt-2'>Stay tuned to local radio 99.5 FM for further updates. Do not return until an official 'All Clear' is issued.</div>",
+    "parts": [
+      {
+        "id": "1_1",
+        "text": "The evacuation alert applies to the entire city.",
+        "correct": "F",
+        "solution": "Cảnh báo sơ tán chỉ áp dụng cho cư dân ở Khu vực 4 và 5 ('Sector 4 and 5'), không phải toàn bộ thành phố."
+      },
+      {
+        "id": "1_2",
+        "text": "Residents are advised to take the canyon roads to escape faster.",
+        "correct": "F",
+        "solution": "Thông báo nhấn mạnh KHÔNG ĐƯỢC sử dụng đường hẻm núi ('Do NOT use the canyon roads')."
+      },
+      {
+        "id": "1_3",
+        "text": "Animals can be brought to the shelter provided they are properly contained.",
+        "correct": "T",
+        "solution": "Thú cưng được phép mang theo nếu chúng được giữ trong lồng/túi vận chuyển ('Pets are allowed if kept in carriers')."
+      },
+      {
+        "id": "1_4",
+        "text": "Residents can return to their homes safely tomorrow morning.",
+        "correct": "F",
+        "solution": "Cư dân không được quay lại cho đến khi có thông báo 'All Clear' chính thức ('Do not return until an official All Clear is issued'), không có thời gian cụ thể là sáng mai."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "TF",
+    "text": "Based on the advertisement, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class='text-center font-bold'>JOB ADVERTISEMENT: VR EXPERIENCE DESIGNER</div>\n<div class='text-justify mt-2'>Horizon Interactive is seeking a visionary designer to craft immersive virtual environments.</div>\n<div class='text-left font-bold mt-2'>Requirements:</div>\n<div class='text-left'>- Bachelor's degree in Digital Arts OR equivalent industry experience.</div>\n<div class='text-left'>- Proficiency in 3D modeling and Unity engine.</div>\n<div class='text-left font-bold mt-2'>Benefits:</div>\n<div class='text-left'>- Fully remote position with flexible working hours.</div>\n<div class='text-left'>- Generous annual equipment stipend.</div>\n<div class='text-center font-bold mt-2'>Submit your resume and a 3D portfolio to careers@horizon.com.</div>",
+    "parts": [
+      {
+        "id": "2_1",
+        "text": "A university degree is absolutely mandatory for this job.",
+        "correct": "F",
+        "solution": "Bằng đại học không bắt buộc tuyệt đối nếu ứng viên có kinh nghiệm ngành nghề tương đương ('OR equivalent industry experience')."
+      },
+      {
+        "id": "2_2",
+        "text": "The successful candidate is required to have skills in 3D modeling.",
+        "correct": "T",
+        "solution": "Công việc yêu cầu sự thành thạo trong việc mô hình hóa 3D ('Proficiency in 3D modeling')."
+      },
+      {
+        "id": "2_3",
+        "text": "The employee must commute to the company's office twice a week.",
+        "correct": "F",
+        "solution": "Đây là vị trí làm việc từ xa 100% ('Fully remote position')."
+      },
+      {
+        "id": "2_4",
+        "text": "Applicants must provide examples of their previous design work.",
+        "correct": "T",
+        "solution": "Ứng viên phải nộp kèm một hồ sơ năng lực 3D ('Submit your resume and a 3D portfolio')."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "TF",
+    "text": "Based on the policy notice, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class='text-center font-bold'>CITY LIBRARY DIGITAL SUBSCRIPTION</div>\n<div class='text-justify mt-2'>Upgrade to our Premium Digital Tier for $5/month!</div>\n<div class='text-left mt-2'>- Access over 50,000 e-books and audiobooks.</div>\n<div class='text-left'>- Borrow up to 10 digital titles simultaneously (Basic plan allows only 3).</div>\n<div class='text-left'>- Exclusive access to international academic journals.</div>\n<div class='text-center italic mt-2'>Note: The subscription renews automatically on the 1st of each month. University students get a 50% discount upon presenting a valid ID.</div>",
+    "parts": [
+      {
+        "id": "3_1",
+        "text": "The basic plan allows users to borrow exactly ten e-books at the same time.",
+        "correct": "F",
+        "solution": "Gói cơ bản (Basic plan) chỉ cho phép mượn tối đa 3 tựa sách ('Basic plan allows only 3')."
+      },
+      {
+        "id": "3_2",
+        "text": "The premium subscription includes access to global research publications.",
+        "correct": "T",
+        "solution": "Gói Premium có quyền truy cập độc quyền vào các tạp chí học thuật quốc tế ('international academic journals')."
+      },
+      {
+        "id": "3_3",
+        "text": "The monthly fee will be deducted automatically unless cancelled.",
+        "correct": "T",
+        "solution": "Đăng ký sẽ tự động gia hạn vào ngày 1 hàng tháng ('subscription renews automatically')."
+      },
+      {
+        "id": "3_4",
+        "text": "High school students are eligible for a half-price discount.",
+        "correct": "F",
+        "solution": "Giảm giá 50% chỉ áp dụng cho sinh viên đại học ('University students'), không phải học sinh trung học."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "TF",
+    "text": "Based on the email, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class='text-left font-bold'>FLIGHT CANCELLATION NOTICE</div>\n<div class='text-justify mt-2'>Dear Passenger,\nWe regret to inform you that Flight AZ404 to London has been cancelled due to severe weather conditions at the destination airport.</div>\n<div class='text-left mt-2'>- You have been automatically rebooked on the next available flight (AZ408 at 18:00).</div>\n<div class='text-left'>- If you decline the rebooking, you may request a full refund via our app.</div>\n<div class='text-left'>- Complimentary meal vouchers can be claimed at counter 5.</div>\n<div class='text-left font-bold mt-2'>We apologize for the inconvenience.</div>",
+    "parts": [
+      {
+        "id": "4_1",
+        "text": "The flight was cancelled due to a mechanical failure of the aircraft.",
+        "correct": "F",
+        "solution": "Chuyến bay bị hủy do điều kiện thời tiết khắc nghiệt ('severe weather conditions'), không phải lỗi cơ khí."
+      },
+      {
+        "id": "4_2",
+        "text": "Passengers must manually book a new flight themselves.",
+        "correct": "F",
+        "solution": "Hành khách đã được tự động đặt lại vé sang chuyến bay tiếp theo ('automatically rebooked')."
+      },
+      {
+        "id": "4_3",
+        "text": "Passengers who choose not to travel can get their money back.",
+        "correct": "T",
+        "solution": "Nếu từ chối việc đặt lại vé, hành khách có thể yêu cầu hoàn tiền toàn bộ ('request a full refund')."
+      },
+      {
+        "id": "4_4",
+        "text": "The airline is providing free food for the affected passengers.",
+        "correct": "T",
+        "solution": "Phiếu ăn miễn phí ('Complimentary meal vouchers') được cung cấp tại quầy số 5."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "TF",
+    "text": "Based on the policy notice, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class='text-center font-bold'>ACADEMIC POLICY: LATE SUBMISSIONS</div>\n<div class='text-justify mt-2'>To maintain fairness, the following rules apply to all coursework:</div>\n<div class='text-left mt-2'>- Assignments submitted within 24 hours after the deadline will incur a 10% grade penalty.</div>\n<div class='text-left'>- Assignments submitted after 24 hours will not be graded (0 marks).</div>\n<div class='text-left'>- Deadline extensions must be requested at least 48 hours prior to the due date.</div>\n<div class='text-left'>- Medical emergencies require an official doctor's note for exemptions.</div>",
+    "parts": [
+      {
+        "id": "5_1",
+        "text": "An assignment submitted 2 hours late will lose 10% of its grade.",
+        "correct": "T",
+        "solution": "2 giờ vẫn nằm trong khung 'trong vòng 24 giờ sau hạn chót', do đó sẽ bị trừ 10% điểm ('incur a 10% grade penalty')."
+      },
+      {
+        "id": "5_2",
+        "text": "Students can still get half credit if they submit their work two days late.",
+        "correct": "F",
+        "solution": "Nộp bài sau 24 giờ (tức là 1 ngày) sẽ không được chấm điểm và nhận 0 điểm tròn ('will not be graded - 0 marks')."
+      },
+      {
+        "id": "5_3",
+        "text": "You can ask for an extension on the same day the assignment is due.",
+        "correct": "F",
+        "solution": "Việc gia hạn phải được yêu cầu ít nhất 48 giờ (2 ngày) trước hạn chót ('at least 48 hours prior')."
+      },
+      {
+        "id": "5_4",
+        "text": "A medical certificate is required to avoid penalties in case of illness.",
+        "correct": "T",
+        "solution": "Các trường hợp khẩn cấp về y tế cần có giấy xác nhận chính thức của bác sĩ để được miễn trừ ('require an official doctor's note')."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "TF",
+    "text": "Based on the campaign poster, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class='text-center font-bold'>URBAN GARDENING VOLUNTEER DRIVE</div>\n<div class='text-justify mt-2'>Help us transform the vacant lot on Elm Street into a thriving community garden!</div>\n<div class='text-left mt-2'>- When: Every Sunday this month, 9 AM - 12 PM.</div>\n<div class='text-left'>- No prior gardening experience is necessary; our experts will train you.</div>\n<div class='text-left'>- All harvested vegetables will be donated to the local food bank.</div>\n<div class='text-center italic mt-2'>Safety requirement: Please wear closed-toe shoes and bring a reusable water bottle.</div>",
+    "parts": [
+      {
+        "id": "6_1",
+        "text": "The volunteering event takes place every weekend on both Saturday and Sunday.",
+        "correct": "F",
+        "solution": "Sự kiện chỉ diễn ra vào mỗi Chủ Nhật ('Every Sunday'), không bao gồm Thứ Bảy."
+      },
+      {
+        "id": "6_2",
+        "text": "Beginners are entirely welcome to participate in the gardening activities.",
+        "correct": "T",
+        "solution": "Không yêu cầu kinh nghiệm làm vườn trước đó ('No prior gardening experience is necessary')."
+      },
+      {
+        "id": "6_3",
+        "text": "The community will sell the grown vegetables to raise charity funds.",
+        "correct": "F",
+        "solution": "Toàn bộ rau thu hoạch sẽ được quyên góp trực tiếp cho ngân hàng thực phẩm địa phương ('donated to the local food bank'), không phải đem bán."
+      },
+      {
+        "id": "6_4",
+        "text": "Participants are not allowed to wear open sandals while gardening.",
+        "correct": "T",
+        "solution": "Yêu cầu an toàn bắt buộc người tham gia phải mang giày bít mũi ('wear closed-toe shoes')."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "TF",
+    "text": "Based on the email, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class='text-left'><strong>From:</strong> HR Department</div>\n<div class='text-left'><strong>To:</strong> All Staff</div>\n<div class='text-left'><strong>Subject:</strong> Office Relocation Schedule</div>\n<br>\n<div class='text-justify'>Please be informed that our corporate headquarters will move to the new Downtown Tower next weekend. To facilitate a smooth transition, all employees must pack their personal desk belongings into the provided blue crates by 5:00 PM this Friday. IT staff will handle the packing and transferring of all computers and monitors. The new office will be operational starting Monday morning.</div>",
+    "parts": [
+      {
+        "id": "7_1",
+        "text": "The company is relocating its main office to a new building.",
+        "correct": "T",
+        "solution": "Trụ sở chính của công ty sẽ chuyển đến Tòa tháp Downtown mới ('corporate headquarters will move')."
+      },
+      {
+        "id": "7_2",
+        "text": "Employees are responsible for moving their own desktop computers.",
+        "correct": "F",
+        "solution": "Nhân viên IT sẽ lo việc đóng gói và di chuyển toàn bộ máy tính và màn hình ('IT staff will handle the packing and transferring of all computers')."
+      },
+      {
+        "id": "7_3",
+        "text": "Staff members must finish packing their personal items before the weekend.",
+        "correct": "T",
+        "solution": "Nhân viên phải đóng gói đồ cá nhân trước 5:00 chiều Thứ Sáu ('by 5:00 PM this Friday')."
+      },
+      {
+        "id": "7_4",
+        "text": "The new office will be closed for the entire following week for maintenance.",
+        "correct": "F",
+        "solution": "Văn phòng mới sẽ đi vào hoạt động ngay từ sáng Thứ Hai ('operational starting Monday morning')."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "TF",
+    "text": "Question 8 is based on the information in the passage. Decide if the statements are True (T) or False (F):",
+    "passage": "<div class='text-justify'>&nbsp;&nbsp;Nature is the ultimate engineer. For billions of years, the natural world has engaged in a relentless process of trial and error, resulting in highly efficient, sustainable ecosystems. This concept forms the core of **biomimicry**—the practice of looking to nature for inspiration to solve complex human problems. Rather than viewing the environment merely as a warehouse of raw materials to be extracted, biomimicry encourages scientists to **emulate** biological designs. From the structural integrity of a spider's web to the energy efficiency of a leaf, these natural blueprints offer profound insights.</div>\n\n<br>\n\n<div class='text-justify'>&nbsp;&nbsp;One of the most celebrated examples of biomimicry involves the Japanese Shinkansen bullet train. Early versions of the train generated a deafening sonic boom when exiting tunnels, causing massive disturbances to nearby residents. Eiji Nakatsu, the chief engineer and an avid birdwatcher, redesigned the train's nose based on the beak of the kingfisher. **[A]** The kingfisher dives into water with barely a splash, seamlessly transitioning between two different fluid densities. **[B]** By mimicking this aerodynamic shape, the new train not only eliminated the sonic boom but also consumed 15% less electricity and traveled 10% faster. **[C]** This breakthrough demonstrated that copying nature could yield significant economic and environmental benefits simultaneously. **[D]**</div>\n\n<br>\n\n<div class='text-justify'>&nbsp;&nbsp;Another revolutionary application is found in healthcare. Hospitals have long battled healthcare-associated infections (HAIs), often caused by 'superbugs' that have grown resistant to chemical antibiotics. Researchers discovered that shark skin, despite its smooth appearance, is covered in microscopic, diamond-patterned ridges that mechanically deter bacteria from attaching and multiplying. By recreating this texture on a synthetic surface called Sharklet, hospitals can apply it to high-touch areas like doorknobs and bed rails. Because **it** relies on physical structure rather than toxic chemicals, bacteria cannot develop a resistance to it, offering a long-term solution to a deadly problem.</div>",
+    "parts": [
+      {
+        "id": "8_1",
+        "text": "The concept of biomimicry treats the environment primarily as a source of raw materials.",
+        "correct": "F",
+        "solution": "Bài đọc nhấn mạnh biomimicry KHÔNG coi môi trường chỉ là kho chứa nguyên liệu thô để khai thác ('Rather than viewing the environment merely as a warehouse of raw materials')."
+      },
+      {
+        "id": "8_2",
+        "text": "The natural world has perfected its designs through billions of years of evolution.",
+        "correct": "T",
+        "solution": "Thế giới tự nhiên đã trải qua quá trình thử và sai liên tục trong hàng tỷ năm để tạo ra các hệ sinh thái hiệu quả ('a relentless process of trial and error')."
+      },
+      {
+        "id": "8_3",
+        "text": "Biomimicry involves drawing inspiration from nature to address complex human challenges.",
+        "correct": "T",
+        "solution": "Định nghĩa của biomimicry chính là tìm kiếm cảm hứng từ thiên nhiên để giải quyết các vấn đề phức tạp của con người ('looking to nature for inspiration to solve complex human problems')."
+      },
+      {
+        "id": "8_4",
+        "text": "Scientists are strongly discouraged from studying natural blueprints like spider webs.",
+        "correct": "F",
+        "solution": "Ngược lại, bài đọc khẳng định các bản thiết kế tự nhiên như mạng nhện mang lại những hiểu biết sâu sắc và được khuyến khích mô phỏng ('encourages scientists to emulate biological designs')."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "type": "TF",
+    "text": "Question 9 is based on the information in the passage. Decide if the statements are True (T) or False (F):",
+    "parts": [
+      {
+        "id": "9_1",
+        "text": "The original bullet train was redesigned because it consumed too much electricity.",
+        "correct": "F",
+        "solution": "Đoàn tàu ban đầu được thiết kế lại vì tiếng nổ siêu thanh gây chói tai ('generated a deafening sonic boom'), việc tiết kiệm điện chỉ là lợi ích đi kèm sau khi thiết kế lại."
+      },
+      {
+        "id": "9_2",
+        "text": "The chief engineer's personal hobby played a crucial role in solving the noise problem.",
+        "correct": "T",
+        "solution": "Kỹ sư trưởng Eiji Nakatsu là một người đam mê ngắm chim ('avid birdwatcher'), sở thích này đã giúp ông áp dụng mỏ chim bói cá vào thiết kế."
+      },
+      {
+        "id": "9_3",
+        "text": "The kingfisher's beak allows it to enter the water with minimal physical disturbance.",
+        "correct": "T",
+        "solution": "Chim bói cá lặn xuống nước hầu như không tạo ra tia nước nào ('dives into water with barely a splash')."
+      },
+      {
+        "id": "9_4",
+        "text": "The new aerodynamic design resulted in a train that was faster but required more power.",
+        "correct": "F",
+        "solution": "Đoàn tàu mới vừa chạy nhanh hơn 10% vừa tiêu thụ ÍT HƠN 15% điện năng ('consumed 15% less electricity')."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "type": "MCQ",
+    "text": "Which of the following best summarizes the main idea of the passage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The evolution of the Japanese Shinkansen bullet train."
+      },
+      {
+        "key": "B",
+        "text": "How observing and imitating nature can solve complex human and technological challenges."
+      },
+      {
+        "key": "C",
+        "text": "The danger of superbugs in modern hospitals and the failure of chemical antibiotics."
+      },
+      {
+        "key": "D",
+        "text": "Why modern engineers should focus solely on environmental conservation."
+      }
+    ],
+    "correct": "B",
+    "solution": "Bài viết thảo luận về 'biomimicry' (phỏng sinh học) - cách con người học hỏi và mô phỏng các thiết kế từ tự nhiên để giải quyết các vấn đề phức tạp (ví dụ: tàu cao tốc, bề mặt chống vi khuẩn)."
+  },
+  {
+    "id": 11,
+    "type": "MCQ",
+    "text": "The word \"**emulate**\" in the passage is closest in meaning to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "observe"
+      },
+      {
+        "key": "B",
+        "text": "reject"
+      },
+      {
+        "key": "C",
+        "text": "imitate"
+      },
+      {
+        "key": "D",
+        "text": "extract"
+      }
+    ],
+    "correct": "C",
+    "solution": "Động từ 'emulate' có nghĩa là bắt chước, mô phỏng lại (imitate). Trong ngữ cảnh này, các nhà khoa học được khuyến khích mô phỏng lại các thiết kế sinh học."
+  },
+  {
+    "id": 12,
+    "type": "MCQ",
+    "text": "The word \"**it**\" in the passage refers to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "bacteria"
+      },
+      {
+        "key": "B",
+        "text": "Sharklet (synthetic surface)"
+      },
+      {
+        "key": "C",
+        "text": "chemical antibiotic"
+      },
+      {
+        "key": "D",
+        "text": "hospital"
+      }
+    ],
+    "correct": "B",
+    "solution": "Đại từ 'it' nằm trong câu 'Because **it** relies on physical structure rather than toxic chemicals'. Nó thay thế cho 'synthetic surface called Sharklet' (bề mặt tổng hợp Sharklet) được nhắc đến ở câu ngay trước đó."
+  },
+  {
+    "id": 13,
+    "type": "MCQ",
+    "text": "According to the passage, why can't bacteria develop a resistance to the Sharklet surface?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Because it utilizes a highly potent mixture of chemical antibiotics."
+      },
+      {
+        "key": "B",
+        "text": "Because it relies on a unique physical pattern to mechanically repel them."
+      },
+      {
+        "key": "C",
+        "text": "Because it is made directly from the real, living skin of ocean sharks."
+      },
+      {
+        "key": "D",
+        "text": "Because bacteria found in modern hospitals are not considered superbugs."
+      }
+    ],
+    "correct": "B",
+    "solution": "Vi khuẩn không thể kháng lại Sharklet vì nó dựa vào cấu trúc vật lý (những đường gờ siêu nhỏ đan chéo) để ngăn chặn vi khuẩn bám vào một cách cơ học, thay vì dùng hóa chất độc hại ('relies on physical structure rather than toxic chemicals')."
+  },
+  {
+    "id": 14,
+    "type": "MCQ",
+    "text": "In which space (marked [A], [B], [C], or [D] in the passage) will the following sentence fit?\n\n\"Consequently, it can catch its prey without alerting other fish in the area.\"",
+    "options": [
+      {
+        "key": "A",
+        "text": "[A]"
+      },
+      {
+        "key": "B",
+        "text": "[B]"
+      },
+      {
+        "key": "C",
+        "text": "[C]"
+      },
+      {
+        "key": "D",
+        "text": "[D]"
+      }
+    ],
+    "correct": "B",
+    "solution": "Câu chèn mang ý nghĩa 'Do đó, nó có thể bắt mồi mà không làm báo động các loài cá khác'. Vị trí hợp lý nhất là [B], ngay sau khi miêu tả việc chim bói cá lao xuống nước hầu như không tạo ra tia nước ('dives into water with barely a splash')."
+  },
+  {
+    "id": 15,
+    "type": "MCQ",
+    "text": "What can be logically inferred from the passage about traditional chemical antibiotics?",
+    "options": [
+      {
+        "key": "A",
+        "text": "They are currently the most effective way to eliminate all forms of superbugs."
+      },
+      {
+        "key": "B",
+        "text": "Their widespread overuse has led to bacteria adapting and becoming immune to them."
+      },
+      {
+        "key": "C",
+        "text": "They are modeled after the microscopic, diamond-patterned ridges found on shark skin."
+      },
+      {
+        "key": "D",
+        "text": "They have successfully eradicated all healthcare-associated infections globally."
+      }
+    ],
+    "correct": "B",
+    "solution": "Đoạn 3 đề cập rằng các bệnh viện chiến đấu với vi khuẩn 'superbugs' vì chúng đã phát triển khả năng kháng lại thuốc kháng sinh hóa học ('grown resistant to chemical antibiotics'). Có thể suy luận rằng vi khuẩn đã thích nghi và miễn dịch với chúng."
+  },
+  {
+    "id": 16,
+    "type": "MATCH",
+    "text": "Match the sentence beginnings (Left) with the most suitable conversational responses (Right).",
+    "leftItems": [
+      {
+        "id": "16_1",
+        "text": "Do you mind if I turn up the air conditioner?"
+      },
+      {
+        "id": "16_2",
+        "text": "I’m terribly sorry for missing the project deadline."
+      },
+      {
+        "id": "16_3",
+        "text": "What a magnificent and insightful presentation you delivered!"
+      },
+      {
+        "id": "16_4",
+        "text": "Don't forget to double-check the financial figures before submission."
+      }
+    ],
+    "rightItems": [
+      {
+        "key": "A",
+        "text": "Not at all, go ahead."
+      },
+      {
+        "key": "B",
+        "text": "Please make sure it doesn't happen again."
+      },
+      {
+        "key": "C",
+        "text": "Thank you, I'm glad you found it useful."
+      },
+      {
+        "key": "D",
+        "text": "I will definitely do that right away."
+      },
+      {
+        "key": "E",
+        "text": "Yes, the weather is quite humid today."
+      },
+      {
+        "key": "F",
+        "text": "I don't think it's entirely your fault."
+      }
+    ],
+    "correctMap": {
+      "16_1": "A",
+      "16_2": "B",
+      "16_3": "C",
+      "16_4": "D"
+    }
+  },
+  {
+    "id": 17,
+    "type": "MATCH",
+    "text": "Match the sentence beginnings featuring grammatical inversions (Left) with their correct endings (Right).",
+    "leftItems": [
+      {
+        "id": "17_1",
+        "text": "Had the company invested more in cybersecurity,"
+      },
+      {
+        "id": "17_2",
+        "text": "Not until the river became visibly toxic"
+      },
+      {
+        "id": "17_3",
+        "text": "Only by securing additional funding from angel investors"
+      },
+      {
+        "id": "17_4",
+        "text": "Were the government to lower corporate taxes,"
+      }
+    ],
+    "rightItems": [
+      {
+        "key": "A",
+        "text": "it would have prevented the massive data breach."
+      },
+      {
+        "key": "B",
+        "text": "did the local authorities take drastic action to clean it."
+      },
+      {
+        "key": "C",
+        "text": "can the tech startup survive the current economic crisis."
+      },
+      {
+        "key": "D",
+        "text": "foreign investments would likely surge into the country."
+      },
+      {
+        "key": "E",
+        "text": "than the stock market crashed unexpectedly."
+      },
+      {
+        "key": "F",
+        "text": "had the factory shut down its production lines."
+      }
+    ],
+    "correctMap": {
+      "17_1": "A",
+      "17_2": "B",
+      "17_3": "C",
+      "17_4": "D"
+    }
+  },
+  {
+    "id": 18,
+    "type": "MATCH",
+    "text": "Match the sentence beginnings featuring relative clauses or participial phrases (Left) with their logical endings (Right).",
+    "leftItems": [
+      {
+        "id": "18_1",
+        "text": "Heavily criticized for its controversial ending,"
+      },
+      {
+        "id": "18_2",
+        "text": "The tech giant is developing a revolutionary microchip,"
+      },
+      {
+        "id": "18_3",
+        "text": "The acclaimed director, whose latest film swept the awards,"
+      },
+      {
+        "id": "18_4",
+        "text": "Realizing that the deadline was rapidly approaching,"
+      }
+    ],
+    "rightItems": [
+      {
+        "key": "A",
+        "text": "the movie still grossed over a billion dollars at the box office."
+      },
+      {
+        "key": "B",
+        "text": "which promises to double the processing speed of laptops."
+      },
+      {
+        "key": "C",
+        "text": "has just announced his unexpected retirement from the industry."
+      },
+      {
+        "key": "D",
+        "text": "the entire team decided to work overtime through the weekend."
+      },
+      {
+        "key": "E",
+        "text": "who won the best actor prize at the prestigious ceremony last night."
+      },
+      {
+        "key": "F",
+        "text": "that was completely rejected by the mainstream audience."
+      }
+    ],
+    "correctMap": {
+      "18_1": "A",
+      "18_2": "B",
+      "18_3": "C",
+      "18_4": "D"
+    }
+  },
+  {
+    "id": 19,
+    "type": "MATCH",
+    "text": "Match the sentence beginnings focusing on English collocations (Left) with their appropriate endings (Right).",
+    "leftItems": [
+      {
+        "id": "19_1",
+        "text": "The unexpected resignation of the CEO will inevitably pose"
+      },
+      {
+        "id": "19_2",
+        "text": "Many working parents constantly struggle to strike"
+      },
+      {
+        "id": "19_3",
+        "text": "The newly discovered ancient manuscript sheds"
+      },
+      {
+        "id": "19_4",
+        "text": "The relentless stress of the medical profession can take"
+      }
+    ],
+    "rightItems": [
+      {
+        "key": "A",
+        "text": "a significant threat to the company's financial stability."
+      },
+      {
+        "key": "B",
+        "text": "a healthy balance between their demanding careers and families."
+      },
+      {
+        "key": "C",
+        "text": "fascinating light on the daily lives of Roman citizens."
+      },
+      {
+        "key": "D",
+        "text": "a heavy toll on a doctor's physical and mental health."
+      },
+      {
+        "key": "E",
+        "text": "a profound impact on the local marine ecosystem."
+      },
+      {
+        "key": "F",
+        "text": "a fierce competition among the qualified candidates."
+      }
+    ],
+    "correctMap": {
+      "19_1": "A",
+      "19_2": "B",
+      "19_3": "C",
+      "19_4": "D"
+    }
+  },
+  {
+    "id": 20,
+    "type": "MATCH",
+    "text": "Match the sentence beginnings focusing on transitions and complex clauses (Left) with their logical endings (Right).",
+    "leftItems": [
+      {
+        "id": "20_1",
+        "text": "Due to the unprecedented surge in global fuel prices,"
+      },
+      {
+        "id": "20_2",
+        "text": "The startup failed to secure sufficient venture capital;"
+      },
+      {
+        "id": "20_3",
+        "text": "Despite the undeniable convenience of a cashless society,"
+      },
+      {
+        "id": "20_4",
+        "text": "The new software completely automates tedious administrative tasks,"
+      }
+    ],
+    "rightItems": [
+      {
+        "key": "A",
+        "text": "many airlines have been forced to increase their ticket fares."
+      },
+      {
+        "key": "B",
+        "text": "resulting in its eventual bankruptcy and closure."
+      },
+      {
+        "key": "C",
+        "text": "numerous elderly citizens still heavily rely on physical currency."
+      },
+      {
+        "key": "D",
+        "text": "thereby allowing employees to focus on creative and strategic work."
+      },
+      {
+        "key": "E",
+        "text": "because the government imposed strict international trade tariffs."
+      },
+      {
+        "key": "F",
+        "text": "consequently, the national unemployment rate reached a record low."
+      }
+    ],
+    "correctMap": {
+      "20_1": "A",
+      "20_2": "B",
+      "20_3": "C",
+      "20_4": "D"
+    }
+  },
+  {
+    "id": 21,
+    "type": "SHORT",
+    "passage": "<div class='text-justify leading-relaxed'>&nbsp;&nbsp;The shift towards remote work has given **(21) ______** to a new breed of professionals known as digital nomads. Untethered from physical offices, they roam the globe, armed only with a laptop and a stable internet connection. However, this transient lifestyle is not for the faint of **(22) ______**. Constantly moving can take a heavy toll **(23) ______** one's mental health, leading to feelings of profound isolation. Moreover, navigating the labyrinth of international tax laws often leaves many at a **(24) ______**. Nevertheless, for those who manage to strike a balance, the world truly becomes their **(25) ______**.</div>",
+    "text": "Fill in ONE word which best fits gap (21):",
+    "correct": "rise",
+    "solution": "Thành ngữ (Idiom) 'give rise to' có nghĩa là gây ra, tạo ra, hoặc làm xuất hiện một sự việc/hiện tượng mới."
+  },
+  {
+    "id": 22,
+    "type": "SHORT",
+    "text": "Fill in ONE word which best fits gap (22):",
+    "correct": "heart",
+    "solution": "Thành ngữ 'not for the faint of heart' (không dành cho những người yếu tim) dùng để chỉ những việc đòi hỏi sự can đảm, bản lĩnh."
+  },
+  {
+    "id": 23,
+    "type": "SHORT",
+    "text": "Fill in ONE word which best fits gap (23):",
+    "correct": "on|upon",
+    "solution": "Cụm từ cố định 'take a (heavy) toll on something' mang ý nghĩa gây ra thiệt hại, tổn thất nặng nề cho cái gì (ở đây là tổn hại sức khỏe tinh thần)."
+  },
+  {
+    "id": 24,
+    "type": "SHORT",
+    "text": "Fill in ONE word which best fits gap (24):",
+    "correct": "loss",
+    "solution": "Cụm từ 'at a loss' có nghĩa là bối rối, bế tắc, không biết phải làm gì hay xử lý ra sao trước một vấn đề phức tạp (như luật thuế quốc tế)."
+  },
+  {
+    "id": 25,
+    "type": "SHORT",
+    "text": "Fill in ONE word which best fits gap (25):",
+    "correct": "oyster",
+    "solution": "Thành ngữ kinh điển 'the world is your oyster' mang nghĩa thế giới này là của bạn, bạn có thể tự do đi bất cứ đâu hoặc làm bất cứ điều gì bạn muốn nếu bạn nắm bắt được cơ hội."
+  }
+]
