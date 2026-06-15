@@ -1,0 +1,458 @@
+[
+{
+"type": "TF",
+"question": "Cho thông tin về các cuộc chiến tranh bảo vệ Tổ quốc và giải phóng dân tộc trong lịch sử Việt Nam.",
+"parts": [
+{
+"text": "Trong cuộc kháng chiến chống quân xâm lược Tống (1075 - 1077), nhà Lý đã sử dụng nghệ thuật quân sự tiên phát chế nhân nhằm chủ động phòng vệ từ xa.",
+"answer": true
+},
+{
+"text": "Trong cả ba lần kháng chiến chống Mông - Nguyên, nhà Trần đều chủ động rút khỏi kinh thành Thăng Long để bảo toàn lực lượng, thực hiện kế sách vườn không nhà trống.",
+"answer": true
+},
+{
+"text": "Khởi nghĩa Lam Sơn (1418 - 1427) kết thúc thắng lợi hoàn toàn bằng sức mạnh quân sự áp đảo, tiêu diệt toàn bộ lực lượng quân Minh tại thành Đông Quan.",
+"answer": false
+},
+{
+"text": "Thắng lợi của phong trào Tây Sơn cuối thế kỉ XVIII đã đánh bại hoàn toàn ách đô hộ của nhà Thanh, đưa Đại Việt trở thành quốc gia phong kiến hùng mạnh nhất châu Á.",
+"answer": false
+}
+]
+},
+{
+"type": "TF",
+"question": "Cho các thông tin về quá trình xác lập, bảo vệ chủ quyền của Việt Nam đối với quần đảo Hoàng Sa và quần đảo Trường Sa.",
+"parts": [
+{
+"text": "Quần đảo Hoàng Sa và Trường Sa giữ vị trí chiến lược, án ngữ tuyến đường hàng hải quốc tế nối liền Thái Bình Dương và Đại Tây Dương.",
+"answer": false
+},
+{
+"text": "Dưới thời chúa Nguyễn, đội Hoàng Sa và Bắc Hải được thành lập với nhiệm vụ ra các quần đảo để khai thác sản vật và thực thi chủ quyền biển đảo.",
+"answer": true
+},
+{
+"text": "Hiệp định Ê-ly-dê (1949) đánh dấu việc thực dân Pháp chính thức từ bỏ và trao trả hoàn toàn quyền quản lý hai quần đảo Hoàng Sa, Trường Sa cho nước Việt Nam Dân chủ Cộng hòa.",
+"answer": false
+},
+{
+"text": "Công ước của Liên hợp quốc về Luật Biển năm 1982 (UNCLOS) là một trong những cơ sở pháp lý quốc tế quan trọng nhất để Việt Nam đấu tranh bảo vệ chủ quyền ở Biển Đông.",
+"answer": true
+}
+]
+},
+{
+"type": "TF",
+"question": "Cho các thông tin về cuộc cải cách hành chính thời vua Minh Mạng (nửa đầu thế kỉ XIX).",
+"parts": [
+{
+"text": "Trọng tâm của cuộc cải cách hành chính dưới thời Minh Mạng là củng cố quyền lực tuyệt đối của nhà vua và tập trung cao độ quyền lực về trung ương.",
+"answer": true
+},
+{
+"text": "Việc bãi bỏ các chức Tổng trấn ở Bắc Thành và Gia Định Thành nhằm mục đích tăng cường quyền tự trị cho các chính quyền địa phương trên cả nước.",
+"answer": false
+},
+{
+"text": "Di sản lớn nhất và còn giữ nguyên giá trị đến ngày nay của cuộc cải cách hành chính thời Minh Mạng là việc phân chia lãnh thổ cả nước thành các đơn vị hành chính cấp tỉnh.",
+"answer": true
+},
+{
+"text": "Dưới thời Minh Mạng, các cơ quan như Nội các và Cơ mật viện được thành lập nhằm mục đích thay thế hoàn toàn vai trò hành pháp của Lục bộ.",
+"answer": false
+}
+]
+},
+{
+"type": "TF",
+"question": "Cho các thông tin về trật tự thế giới sau Chiến tranh thế giới thứ hai và cuộc Chiến tranh lạnh.",
+"parts": [
+{
+"text": "Hội nghị I-an-ta (tháng 2-1945) đã đưa ra những quyết định quan trọng, tạo khuôn khổ cho việc phân chia phạm vi ảnh hưởng giữa Mỹ và Liên Xô sau chiến tranh.",
+"answer": true
+},
+{
+"text": "Sự sụp đổ của chế độ xã hội chủ nghĩa ở Liên Xô và các nước Đông Âu đã kéo theo sự sụp đổ hoàn toàn của trật tự thế giới hai cực I-an-ta.",
+"answer": true
+},
+{
+"text": "Nguồn gốc sâu xa dẫn đến cuộc Chiến tranh lạnh là sự đối lập gay gắt về mục tiêu chiến lược và hệ tư tưởng giữa hai siêu cường Mỹ và Liên Xô.",
+"answer": true
+},
+{
+"text": "Trong thời kì Chiến tranh lạnh, các cuộc xung đột và chiến tranh cục bộ diễn ra ở khu vực Đông Nam Á, Trung Đông hoàn toàn là do sự xúi giục và tham gia trực tiếp của Liên Xô.",
+"answer": false
+}
+]
+},
+{
+"type": "TF",
+"question": "Cho các thông tin về Hiệp hội các quốc gia Đông Nam Á (ASEAN) và sự hình thành Cộng đồng ASEAN.",
+"parts": [
+{
+"text": "Một trong những nguyên nhân ra đời của ASEAN là nhu cầu hợp tác phát triển kinh tế và hạn chế sự can thiệp của các cường quốc bên ngoài vào khu vực.",
+"answer": true
+},
+{
+"text": "Tuyên bố Băng Cốc (1967) khẳng định mục tiêu cao nhất của ASEAN là xây dựng một liên minh quân sự vững mạnh để đối trọng với các khối quân sự phương Tây.",
+"answer": false
+},
+{
+"text": "Hiệp ước Ba-li (1976) đã xác định những nguyên tắc cơ bản trong quan hệ giữa các nước thành viên, trong đó có nguyên tắc không can thiệp vào công việc nội bộ của nhau.",
+"answer": true
+},
+{
+"text": "Sự kiện Cộng đồng ASEAN chính thức ra đời (2015) chứng tỏ ASEAN đã hoàn thành mục tiêu đồng nhất hóa về chính trị và xóa bỏ hoàn toàn khoảng cách kinh tế giữa các nước thành viên.",
+"answer": false
+}
+]
+},
+{
+"type": "TF",
+"question": "Cho các thông tin về lịch sử Việt Nam trong giai đoạn kháng chiến chống thực dân Pháp (1945 - 1954).",
+"parts": [
+{
+"text": "Việc kí kết Hiệp định Sơ bộ (6-3-1946) là một sách lược ngoại giao mềm dẻo của Chính phủ Việt Nam Dân chủ Cộng hòa nhằm đẩy nhanh quân Trung Hoa Dân quốc ra khỏi bờ cõi.",
+"answer": true
+},
+{
+"text": "Chiến dịch Việt Bắc thu - đông (1947) là chiến dịch tiến công quy mô lớn đầu tiên do quân đội Việt Nam chủ động mở ra trong cuộc kháng chiến chống Pháp.",
+"answer": false
+},
+{
+"text": "Chiến thắng lịch sử Điện Biên Phủ (1954) đã làm phá sản hoàn toàn kế hoạch Na-va, giáng đòn quyết định buộc thực dân Pháp phải kí Hiệp định Giơ-ne-vơ.",
+"answer": true
+},
+{
+"text": "Thắng lợi của cuộc kháng chiến chống Pháp (1945 - 1954) đã đánh dấu việc Việt Nam hoàn thành triệt để cuộc cách mạng dân tộc dân chủ nhân dân trên phạm vi cả nước.",
+"answer": false
+}
+]
+},
+{
+"type": "TF",
+"question": "Cho các thông tin về lịch sử Việt Nam trong giai đoạn kháng chiến chống Mỹ, cứu nước (1954 - 1975).",
+"parts": [
+{
+"text": "Phong trào Đồng khởi (1959 - 1960) đã đánh dấu bước phát triển của cách mạng miền Nam từ thế giữ gìn lực lượng sang thế tiến công.",
+"answer": true
+},
+{
+"text": "Trong chiến lược Chiến tranh cục bộ (1965 - 1968), Mỹ âm mưu sử dụng lực lượng quân đội Sài Gòn làm nòng cốt, dưới sự chỉ huy trực tiếp của hệ thống cố vấn Mỹ.",
+"answer": false
+},
+{
+"text": "Cuộc Tổng tiến công và nổi dậy Xuân Mậu Thân 1968 đã buộc Mỹ phải tuyên bố phi Mỹ hóa chiến tranh xâm lược, thừa nhận sự thất bại của chiến lược Chiến tranh cục bộ.",
+"answer": true
+},
+{
+"text": "Hiệp định Pa-ri (1973) đã tạo ra bước ngoặt quyết định, làm thay đổi cục diện và so sánh lực lượng trên chiến trường miền Nam hoàn toàn có lợi cho cách mạng Việt Nam.",
+"answer": true
+}
+]
+},
+{
+"type": "TF",
+"question": "Cho các thông tin về đường lối và công cuộc Đổi mới đất nước của Đảng Cộng sản Việt Nam (từ năm 1986).",
+"parts": [
+{
+"text": "Công cuộc Đổi mới toàn diện đất nước được Đảng Cộng sản Việt Nam đề ra trong bối cảnh đất nước đang lâm vào cuộc khủng hoảng kinh tế - xã hội trầm trọng.",
+"answer": true
+},
+{
+"text": "Đại hội lần thứ VI của Đảng (1986) xác định trọng tâm của đường lối Đổi mới là đổi mới về hệ thống chính trị, lấy đổi mới chính trị làm tiền đề để thúc đẩy phát triển kinh tế.",
+"answer": false
+},
+{
+"text": "Việc thực hiện đường lối Đổi mới chứng tỏ Đảng Cộng sản Việt Nam đã thay đổi mục tiêu chiến lược, từ bỏ con đường đi lên chủ nghĩa xã hội để chuyển sang phát triển tư bản chủ nghĩa.",
+"answer": false
+},
+{
+"text": "Những thành tựu to lớn của công cuộc Đổi mới đã khẳng định đường lối đổi mới của Đảng là đúng đắn, bước đi của công cuộc đổi mới là cơ bản phù hợp với thực tiễn Việt Nam.",
+"answer": true
+}
+]
+},
+{
+"type": "TF",
+"question": "Cho các thông tin về đường lối đối ngoại của Việt Nam từ năm 1975 đến nay.",
+"parts": [
+{
+"text": "Việc Việt Nam chính thức gia nhập Liên hợp quốc (1977) thể hiện sự nỗ lực hội nhập quốc tế, tranh thủ sự ủng hộ và viện trợ của cộng đồng quốc tế cho công cuộc tái thiết đất nước.",
+"answer": true
+},
+{
+"text": "Sự kiện bình thường hóa quan hệ ngoại giao với Mỹ (1995) là một bước tiến lịch sử, góp phần phá vỡ hoàn toàn thế bao vây, cấm vận của các thế lực thù địch đối với Việt Nam.",
+"answer": true
+},
+{
+"text": "Trong xu thế toàn cầu hóa hiện nay, Việt Nam chủ trương thực hiện chính sách đóng cửa, tự cung tự cấp để bảo vệ nền kinh tế nội địa trước sự cạnh tranh khốc liệt của tư bản nước ngoài.",
+"answer": false
+},
+{
+"text": "Chính sách quốc phòng Bốn không của Việt Nam hiện nay khẳng định cam kết không tham gia liên minh quân sự và không cho nước ngoài đặt căn cứ quân sự trên lãnh thổ Việt Nam.",
+"answer": true
+}
+]
+},
+{
+"type": "MCQ",
+"passage": "Bản thân Minh Mạng là một vị vua cần mẫn, có năng lực quản lý và tầm nhìn chiến lược. Nhận thấy hệ thống chính quyền từ thời Gia Long còn lỏng lẻo, phân tán, quan lại địa phương nhiều nơi chuyên quyền, ông đã quyết liệt thực hiện một cuộc cải cách hành chính toàn diện từ trung ương đến địa phương. Cuộc cải cách này không chỉ củng cố chế độ quân chủ trung ương tập quyền cao độ mà còn để lại dấu ấn lớn qua việc chia cả nước thành 30 tỉnh và 1 phủ (Thừa Thiên), đặt nền móng cho hệ thống hành chính thống nhất.",
+"question": "Nguyên nhân chủ yếu nào dẫn đến việc vua Minh Mạng quyết định tiến hành cuộc cải cách hành chính nhà nước?",
+"options": [
+{
+"text": "Sự bành trướng và đe dọa xâm lược trực tiếp của thực dân phương Tây ở Đông Nam Á.",
+"isCorrect": false
+},
+{
+"text": "Yêu cầu khắc phục tình trạng phân quyền, củng cố sự thống nhất quốc gia và tập trung quyền lực.",
+"isCorrect": true
+},
+{
+"text": "Khủng hoảng kinh tế nghiêm trọng và các cuộc khởi nghĩa của nông dân bùng nổ liên tục ở kinh thành.",
+"isCorrect": false
+},
+{
+"text": "Nhu cầu mở rộng lãnh thổ xuống phía Nam và thiết lập giao thương rộng rãi với các nước phương Tây.",
+"isCorrect": false
+}
+]
+},
+{
+"type": "MCQ",
+"passage": "Bản thân Minh Mạng là một vị vua cần mẫn, có năng lực quản lý và tầm nhìn chiến lược. Nhận thấy hệ thống chính quyền từ thời Gia Long còn lỏng lẻo, phân tán, quan lại địa phương nhiều nơi chuyên quyền, ông đã quyết liệt thực hiện một cuộc cải cách hành chính toàn diện từ trung ương đến địa phương. Cuộc cải cách này không chỉ củng cố chế độ quân chủ trung ương tập quyền cao độ mà còn để lại dấu ấn lớn qua việc chia cả nước thành 30 tỉnh và 1 phủ (Thừa Thiên), đặt nền móng cho hệ thống hành chính thống nhất.",
+"question": "Cuộc cải cách của vua Minh Mạng đã tạo ra sự thay đổi lớn nhất ở bộ máy chính quyền địa phương trên lĩnh vực nào?",
+"options": [
+{
+"text": "Xóa bỏ chế độ sở hữu ruộng đất tư nhân, thiết lập các điền trang thái ấp do quan lại quản lý.",
+"isCorrect": false
+},
+{
+"text": "Cải tổ toàn diện hệ thống giáo dục, thống nhất chương trình thi cử bằng chữ Quốc ngữ.",
+"isCorrect": false
+},
+{
+"text": "Xóa bỏ các đơn vị hành chính cấp Tổng, bãi bỏ hoàn toàn chức quan lại và hương ước cấp xã.",
+"isCorrect": false
+},
+{
+"text": "Bãi bỏ các cơ quan Bắc Thành và Gia Định Thành, phân chia và thống nhất hệ thống hành chính cấp tỉnh.",
+"isCorrect": true
+}
+]
+},
+{
+"type": "MCQ",
+"passage": "Bản thân Minh Mạng là một vị vua cần mẫn, có năng lực quản lý và tầm nhìn chiến lược. Nhận thấy hệ thống chính quyền từ thời Gia Long còn lỏng lẻo, phân tán, quan lại địa phương nhiều nơi chuyên quyền, ông đã quyết liệt thực hiện một cuộc cải cách hành chính toàn diện từ trung ương đến địa phương. Cuộc cải cách này không chỉ củng cố chế độ quân chủ trung ương tập quyền cao độ mà còn để lại dấu ấn lớn qua việc chia cả nước thành 30 tỉnh và 1 phủ (Thừa Thiên), đặt nền móng cho hệ thống hành chính thống nhất.",
+"question": "Điểm tiến bộ nổi bật mang ý nghĩa lâu dài trong cuộc cải cách hành chính thời Minh Mạng đối với tiến trình lịch sử Việt Nam là gì?",
+"options": [
+{
+"text": "Tổ chức bộ máy nhà nước tinh gọn, phân định rõ chức năng và địa giới hành chính từ trung ương đến địa phương.",
+"isCorrect": true
+},
+{
+"text": "Loại bỏ hoàn toàn tầng lớp quan lại xuất thân từ quý tộc, đề cao vai trò và quyền lợi của giai cấp nông dân.",
+"isCorrect": false
+},
+{
+"text": "Xây dựng thành công một bản hiến pháp thành văn đầu tiên, giới hạn quyền lực tuyệt đối của nhà vua.",
+"isCorrect": false
+},
+{
+"text": "Chuyển đổi hoàn toàn mô hình kinh tế nông nghiệp tự cung tự cấp sang thương nghiệp và sản xuất hàng hóa.",
+"isCorrect": false
+}
+]
+},
+{
+"type": "MCQ",
+"passage": "Đại hội đại biểu toàn quốc lần thứ VI của Đảng (tháng 12 - 1986) đã phân tích sâu sắc những sai lầm, khuyết điểm của thời kì trước, từ đó đề ra đường lối đổi mới toàn diện đất nước. Đại hội khẳng định trọng tâm là đổi mới kinh tế, thực hiện phát triển nền kinh tế hàng hóa nhiều thành phần vận động theo cơ chế thị trường có sự quản lý của Nhà nước. Đây là bước ngoặt quan trọng, mở ra thời kì phát triển mới của đất nước, đưa Việt Nam từng bước thoát khỏi khủng hoảng và hội nhập quốc tế.",
+"question": "Theo nội dung đoạn trích, Đại hội VI của Đảng (1986) đã xác định lĩnh vực nào là trọng tâm của công cuộc đổi mới toàn diện đất nước?",
+"options": [
+{
+"text": "Chính trị.",
+"isCorrect": false
+},
+{
+"text": "Kinh tế.",
+"isCorrect": true
+},
+{
+"text": "Văn hóa - Giáo dục.",
+"isCorrect": false
+},
+{
+"text": "Quốc phòng - An ninh.",
+"isCorrect": false
+}
+]
+},
+{
+"type": "MCQ",
+"passage": "Đại hội đại biểu toàn quốc lần thứ VI của Đảng (tháng 12 - 1986) đã phân tích sâu sắc những sai lầm, khuyết điểm của thời kì trước, từ đó đề ra đường lối đổi mới toàn diện đất nước. Đại hội khẳng định trọng tâm là đổi mới kinh tế, thực hiện phát triển nền kinh tế hàng hóa nhiều thành phần vận động theo cơ chế thị trường có sự quản lý của Nhà nước. Đây là bước ngoặt quan trọng, mở ra thời kì phát triển mới của đất nước, đưa Việt Nam từng bước thoát khỏi khủng hoảng và hội nhập quốc tế.",
+"question": "Việc Đại hội VI của Đảng chủ trương phát triển nền kinh tế hàng hóa nhiều thành phần nhằm mục đích chủ yếu nào sau đây?",
+"options": [
+{
+"text": "Xóa bỏ hoàn toàn sự tồn tại của khu vực kinh tế nhà nước và kinh tế tập thể.",
+"isCorrect": false
+},
+{
+"text": "Thu hút triệt để nguồn vốn đầu tư trực tiếp từ các nước tư bản chủ nghĩa phương Tây.",
+"isCorrect": false
+},
+{
+"text": "Giải phóng sức sản xuất, khơi dậy tiềm năng của mọi thành phần kinh tế trong xã hội.",
+"isCorrect": true
+},
+{
+"text": "Chuẩn bị những điều kiện vật chất để ngay lập tức hoàn thành quá trình xây dựng chủ nghĩa xã hội.",
+"isCorrect": false
+}
+]
+},
+{
+"type": "MCQ",
+"passage": "Đại hội đại biểu toàn quốc lần thứ VI của Đảng (tháng 12 - 1986) đã phân tích sâu sắc những sai lầm, khuyết điểm của thời kì trước, từ đó đề ra đường lối đổi mới toàn diện đất nước. Đại hội khẳng định trọng tâm là đổi mới kinh tế, thực hiện phát triển nền kinh tế hàng hóa nhiều thành phần vận động theo cơ chế thị trường có sự quản lý của Nhà nước. Đây là bước ngoặt quan trọng, mở ra thời kì phát triển mới của đất nước, đưa Việt Nam từng bước thoát khỏi khủng hoảng và hội nhập quốc tế.",
+"question": "Nhận thức mới của Đảng Cộng sản Việt Nam tại Đại hội VI về con đường đi lên chủ nghĩa xã hội ở Việt Nam được thể hiện rõ qua việc",
+"options": [
+{
+"text": "thừa nhận sự tồn tại khách quan của nền kinh tế thị trường trong thời kỳ quá độ lên chủ nghĩa xã hội.",
+"isCorrect": true
+},
+{
+"text": "chủ trương áp dụng máy móc, rập khuôn mô hình kinh tế kế hoạch hóa tập trung của Liên Xô.",
+"isCorrect": false
+},
+{
+"text": "nhấn mạnh việc tiến hành đấu tranh giai cấp là nhiệm vụ duy nhất và quan trọng hàng đầu.",
+"isCorrect": false
+},
+{
+"text": "tập trung ưu tiên phát triển công nghiệp nặng một cách triệt để bất chấp điều kiện thực tế của đất nước.",
+"isCorrect": false
+}
+]
+},
+{
+"type": "MATCH",
+"question": "Ghép tên các vị anh hùng dân tộc ở cột bên trái với chiến công/sự kiện tiêu biểu ở cột bên phải sao cho phù hợp.",
+"leftItems": [
+"Ngô Quyền",
+"Lý Thường Kiệt",
+"Trần Hưng Đạo",
+"Quang Trung"
+],
+"rightItems": [
+"Lãnh đạo cuộc kháng chiến chống quân Thanh (1789) thắng lợi với trận Ngọc Hồi - Đống Đa.",
+"Chỉ huy quân dân Đại Việt đánh tan quân Mông - Nguyên trên sông Bạch Đằng năm 1288.",
+"Đánh tan quân Nam Hán trên sông Bạch Đằng (938), chấm dứt thời Bắc thuộc.",
+"Lãnh đạo cuộc khởi nghĩa Lam Sơn, lật đổ ách thống trị của nhà Minh.",
+"Tổ chức cuộc kháng chiến chống Tống (1075-1077) với trận tuyến trên sông Như Nguyệt.",
+"Chỉ huy trận Rạch Gầm - Xoài Mút, đánh tan 5 vạn quân Xiêm xâm lược."
+],
+"answer": "1-C, 2-E, 3-B, 4-A"
+},
+{
+"type": "MATCH",
+"question": "Ghép các cơ quan chính của tổ chức Liên hợp quốc ở cột bên trái với chức năng, nhiệm vụ tương ứng ở cột bên phải.",
+"leftItems": [
+"Đại hội đồng",
+"Hội đồng Bảo an",
+"Ban Thư ký",
+"Tòa án Quốc tế"
+],
+"rightItems": [
+"Cơ quan hành chính, đứng đầu là Tổng Thư ký, thực hiện các công việc thường nhật của Liên hợp quốc.",
+"Cơ quan tư pháp chính của Liên hợp quốc, giải quyết các tranh chấp pháp lý giữa các quốc gia.",
+"Cơ quan giữ vai trò trọng yếu nhất trong việc duy trì hòa bình và an ninh thế giới.",
+"Cơ quan có sự tham gia đại diện của tất cả các nước thành viên, họp mỗi năm một lần để thảo luận các vấn đề chung.",
+"Tổ chức chuyên môn nhằm cung cấp tài chính và thúc đẩy hợp tác phát triển kinh tế toàn cầu.",
+"Cơ quan đảm nhận nhiệm vụ theo dõi, giám sát sự phát triển của các vùng lãnh thổ chưa tự trị."
+],
+"answer": "1-D, 2-C, 3-A, 4-B"
+},
+{
+"type": "MATCH",
+"question": "Ghép các chiến lược chiến tranh do đế quốc Mỹ thực hiện tại miền Nam Việt Nam ở cột bên trái với đặc điểm nòng cốt ở cột bên phải.",
+"leftItems": [
+"Chiến tranh đơn phương (1954-1960)",
+"Chiến tranh đặc biệt (1961-1965)",
+"Chiến tranh cục bộ (1965-1968)",
+"Việt Nam hóa chiến tranh (1969-1973)"
+],
+"rightItems": [
+"Tiến hành bằng quân đội Sài Gòn, dưới sự chỉ huy của hệ thống cố vấn Mỹ, dựa vào vũ khí và phương tiện chiến tranh của Mỹ.",
+"Sử dụng quân đội Sài Gòn là lực lượng nòng cốt, phối hợp với hỏa lực và không quân Mỹ, mở rộng chiến tranh ra toàn Đông Dương.",
+"Lực lượng nòng cốt là quân đội Mỹ và quân đồng minh, tiến hành các cuộc hành quân chiến lược tìm diệt và bình định.",
+"Sử dụng bộ máy chính quyền tay sai Ngô Đình Diệm để đàn áp phong trào cách mạng qua các đạo luật tàn bạo (như luật 10/59).",
+"Gây ra sự kiện Vịnh Bắc Bộ nhằm lấy cớ ném bom phá hoại và leo thang chiến tranh ra miền Bắc Việt Nam.",
+"Đề ra chủ trương kí Hiệp định Giơ-ne-vơ nhằm rút toàn bộ quân đội Mỹ về nước trong danh dự."
+],
+"answer": "1-D, 2-A, 3-C, 4-B"
+},
+{
+"type": "MATCH",
+"question": "Ghép tên các tổ chức yêu nước và cách mạng ở cột bên trái với đặc điểm, chủ trương tương ứng ở cột bên phải.",
+"leftItems": [
+"Hội Duy tân (1904)",
+"Đông Kinh nghĩa thục (1907)",
+"Việt Nam Quang phục hội (1912)",
+"Đảng Cộng sản Việt Nam (1930)"
+],
+"rightItems": [
+"Do Phan Bội Châu thành lập, chủ trương bạo động vũ trang đánh đuổi thực dân Pháp, khôi phục quốc gia độc lập.",
+"Tổ chức giáo dục tiến bộ do Lương Văn Can, Nguyễn Quyền sáng lập nhằm truyền bá chữ Quốc ngữ và nếp sống mới.",
+"Đội tiên phong của giai cấp công nhân, ra đời đánh dấu sự chấm dứt thời kỳ khủng hoảng sâu sắc về đường lối cứu nước.",
+"Được thành lập tại Quảng Châu, chủ trương thiết lập nước Cộng hòa Dân quốc Việt Nam theo mô hình dân chủ tư sản.",
+"Tổ chức cách mạng do Nguyễn Thái Học lãnh đạo, hướng tới thiết lập chế độ cộng hòa nhưng thất bại nhanh chóng.",
+"Tổ chức thanh niên yêu nước xuất phát từ phong trào Đông Du, chuyên dịch sách báo phương Tây lan truyền về nước."
+],
+"answer": "1-A, 2-B, 3-D, 4-C"
+},
+{
+"type": "MATCH",
+"question": "Ghép các mốc thời gian ở cột bên trái với sự kiện tiêu biểu trong tiến trình hội nhập quốc tế của Việt Nam ở cột bên phải.",
+"leftItems": [
+"Năm 1995",
+"Năm 1977",
+"Năm 2006",
+"Năm 1989"
+],
+"rightItems": [
+"Việt Nam chính thức trở thành thành viên thứ 149 của Tổ chức Thương mại Thế giới (WTO).",
+"Việt Nam hoàn thành việc rút toàn bộ quân tình nguyện khỏi Cam-pu-chia, tạo đà cải thiện quan hệ khu vực.",
+"Việt Nam chính thức bình thường hóa quan hệ ngoại giao với Mỹ và gia nhập tổ chức ASEAN.",
+"Việt Nam chính thức trở thành thành viên thứ 149 của tổ chức Liên hợp quốc.",
+"Việt Nam tham gia ký kết Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP).",
+"Việt Nam được cộng đồng quốc tế bầu làm Ủy viên không thường trực Hội đồng Bảo an Liên hợp quốc."
+],
+"answer": "1-C, 2-D, 3-A, 4-B"
+},
+{
+"type": "SHORT",
+"question": "Năm 1427, nghĩa quân Lam Sơn đã giành thắng lợi quyết định trong trận đánh nào, đập tan đạo quân viện binh của nhà Minh do Liễu Thăng chỉ huy?",
+"answer": "Chi Lăng - Xương Giang|Chi Lăng|trận Chi Lăng|trận Chi Lăng - Xương Giang|ải Chi Lăng"
+},
+{
+"type": "SHORT",
+"question": "Dưới thời chúa Nguyễn (đầu thế kỉ XVIII), đội gác biển nào đã được thành lập để kiểm soát, quản lý và khai thác sản vật tại khu vực đảo Côn Lôn, các đảo ở Hà Tiên và vùng Bắc Hải?",
+"answer": "Bắc Hải|đội Bắc Hải"
+},
+{
+"type": "SHORT",
+"question": "Xác định có bao nhiêu mệnh đề đúng trong các mệnh đề sau đây:\n1. Cách mạng tháng Tám (1945) là một cuộc cách mạng bạo lực, kết hợp nổi dậy của quần chúng và đòn tiến công của lực lượng vũ trang.\n2. Hiệp định Giơ-ne-vơ (1954) đã công nhận độc lập, chủ quyền, thống nhất và toàn vẹn lãnh thổ của ba nước Đông Dương.\n3. Thắng lợi của phong trào Đồng khởi (1959-1960) đã chấm dứt hoàn toàn sự can thiệp của đế quốc Mỹ ở miền Nam Việt Nam.\n4. Đại thắng mùa Xuân 1975 đã mở ra kỉ nguyên mới của dân tộc: kỉ nguyên đất nước độc lập, thống nhất, đi lên chủ nghĩa xã hội.",
+"answer": "3|ba|3 mệnh đề|ba mệnh đề"
+},
+{
+"type": "SHORT",
+"question": "Chiến dịch nào mở màn trong cuộc Tổng tiến công và nổi dậy Xuân 1975 đã đập tan hệ thống phòng ngự mạnh nhất của quân đội Sài Gòn ở vùng rừng núi, tạo ra bước ngoặt làm thay đổi cục diện chiến tranh?",
+"answer": "Tây Nguyên|chiến dịch Tây Nguyên|trận Tây Nguyên"
+},
+{
+"type": "SHORT",
+"question": "Tổ chức khu vực nào được thành lập ngày 8-8-1967 tại Băng Cốc (Thái Lan) với sự tham gia của 5 quốc gia sáng lập bao gồm In-đô-nê-xi-a, Ma-lai-xi-a, Phi-líp-pin, Xin-ga-po và Thái Lan?",
+"answer": "ASEAN|Hiệp hội các quốc gia Đông Nam Á|Hiệp hội các nước Đông Nam Á"
+}
+]
