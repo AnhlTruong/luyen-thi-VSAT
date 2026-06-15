@@ -3,7 +3,7 @@
     "id": 1,
     "type": "TF",
     "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "GREEN COMMUNITY INITIATIVE\nJoin us this Saturday from 8:00 AM to 11:00 AM for our monthly river clean-up at Maple Park.\n- Volunteers of all ages are welcome (under 12s must be accompanied by an adult).\n- Gloves and trash bags will be provided on-site.\n- Complimentary snacks and drinks will be served at 11:15 AM.\nPlease scan the QR code to register by Thursday so we can estimate the supplies needed.",
+    "notice": "<div class='text-center font-bold'>GREEN COMMUNITY INITIATIVE</div>\n<div class='text-center'>Join us this Saturday from 8:00 AM to 11:00 AM for our monthly river clean-up at Maple Park.</div>\n<div class='text-left'>- Volunteers of all ages are welcome (under 12s must be accompanied by an adult).</div>\n<div class='text-left'>- Gloves and trash bags will be provided on-site.</div>\n<div class='text-left'>- Complimentary snacks and drinks will be served at 11:15 AM.</div>\n<div class='text-center italic'>Please scan the QR code to register by Thursday so we can estimate the supplies needed.</div>",
     "parts": [
       {
         "id": "1_1",
@@ -36,7 +36,7 @@
     "id": 2,
     "type": "TF",
     "text": "Based on the advertisement, decide whether the following statements are True (T) or False (F):",
-    "notice": "JOB ADVERTISEMENT: JUNIOR MARKETING EXECUTIVE\nTechNova Solutions is looking for a creative individual to join our team!\nRequirements:\n- Bachelor's degree in Marketing or related field.\n- At least 1 year of experience in social media management.\n- Fluency in English; knowledge of French is a plus.\nBenefits:\n- Hybrid working model (3 days in office, 2 days remote).\n- Comprehensive health insurance.\nSend your CV to hr@technova.com before November 20th.",
+    "notice": "<div class='text-center font-bold'>JOB ADVERTISEMENT: JUNIOR MARKETING EXECUTIVE</div>\n<div class='text-center'>TechNova Solutions is looking for a creative individual to join our team!</div>\n<div class='text-left font-bold'>Requirements:</div>\n<div class='text-left'>- Bachelor's degree in Marketing or related field.</div>\n<div class='text-left'>- At least 1 year of experience in social media management.</div>\n<div class='text-left'>- Fluency in English; knowledge of French is a plus.</div>\n<div class='text-left font-bold'>Benefits:</div>\n<div class='text-left'>- Hybrid working model (3 days in office, 2 days remote).</div>\n<div class='text-left'>- Comprehensive health insurance.</div>\n<div class='text-center font-bold'>Send your CV to hr@technova.com before November 20th.</div>",
     "parts": [
       {
         "id": "2_1",
@@ -69,7 +69,7 @@
     "id": 3,
     "type": "TF",
     "text": "Based on the policy notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "SCHOOL POLICY ON GENERATIVE AI\nEffective immediately, the use of AI tools (like ChatGPT) is permitted for brainstorming and outlining purposes only. Students must not use AI to generate complete essays. Any AI assistance must be explicitly cited in the bibliography. Submitting AI-generated text as original work is considered academic dishonesty and will result in an automatic zero.",
+    "notice": "<div class='text-center font-bold'>SCHOOL POLICY ON GENERATIVE AI</div>\n<div class='text-justify'>Effective immediately, the use of AI tools (like ChatGPT) is permitted for brainstorming and outlining purposes only. Students must not use AI to generate complete essays. Any AI assistance must be explicitly cited in the bibliography. Submitting AI-generated text as original work is considered academic dishonesty and will result in an automatic zero.</div>",
     "parts": [
       {
         "id": "3_1",
@@ -102,7 +102,7 @@
     "id": 4,
     "type": "TF",
     "text": "Based on the update notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "ATTENTION: MUSIC FESTIVAL UPDATE\nDue to unexpected heavy rain forecasts, the annual Summer Vibes Festival scheduled for this weekend (June 15-16) will be relocated from the Central Stadium to the Grand Exhibition Center.\nOperating hours remain unchanged (4 PM - 11 PM).\nEntry is free for children under 10; general admission is $15.\nPlease note that all merchandise stalls will operate on a cashless basis.",
+    "notice": "<div class='text-center font-bold'>ATTENTION: MUSIC FESTIVAL UPDATE</div>\n<div class='text-justify'>Due to unexpected heavy rain forecasts, the annual Summer Vibes Festival scheduled for this weekend (June 15-16) will be relocated from the Central Stadium to the Grand Exhibition Center.</div>\n<div class='text-left'>- Operating hours remain unchanged (4 PM - 11 PM).</div>\n<div class='text-left'>- Entry is free for children under 10; general admission is $15.</div>\n<div class='text-center italic'>Please note that all merchandise stalls will operate on a cashless basis.</div>",
     "parts": [
       {
         "id": "4_1",
@@ -135,7 +135,7 @@
     "id": 5,
     "type": "TF",
     "text": "Based on the message, decide whether the following statements are True (T) or False (F):",
-    "notice": "To all Gym Members,\nStarting next month, FitLife Center will increase its monthly subscription fee from $30 to $35. This adjustment allows us to upgrade our cardio equipment and extend our operating hours to 24/7. Members who have paid for an annual plan in advance will not be affected until their current cycle expires.\nThank you for your understanding.\nManagement Team",
+    "notice": "<div class='text-left font-bold'>To all Gym Members,</div>\n<div class='text-justify'>Starting next month, FitLife Center will increase its monthly subscription fee from $30 to $35. This adjustment allows us to upgrade our cardio equipment and extend our operating hours to 24/7. Members who have paid for an annual plan in advance will not be affected until their current cycle expires.</div>\n<div class='text-left'>Thank you for your understanding.</div>\n<div class='text-right font-bold'>Management Team</div>",
     "parts": [
       {
         "id": "5_1",
@@ -168,7 +168,7 @@
     "id": 6,
     "type": "TF",
     "text": "Based on the advertisement, decide whether the following statements are True (T) or False (F):",
-    "notice": "E-WASTE RECYCLING CAMPAIGN\nDon't throw away your old gadgets! Drop them off at the Main Library parking lot from Monday to Friday next week. We accept laptops, smartphones, and chargers. (Note: Large home appliances like washing machines are prohibited). Please ensure all personal data is permanently wiped from your devices before drop-off.\nEvery participant will receive a 10% discount voucher for the City Bookstore.",
+    "notice": "<div class='text-center font-bold'>E-WASTE RECYCLING CAMPAIGN</div>\n<div class='text-justify'>Don't throw away your old gadgets! Drop them off at the Main Library parking lot from Monday to Friday next week. We accept laptops, smartphones, and chargers. (Note: Large home appliances like washing machines are prohibited). Please ensure all personal data is permanently wiped from your devices before drop-off.</div>\n<div class='text-center font-bold'>Every participant will receive a 10% discount voucher for the City Bookstore.</div>",
     "parts": [
       {
         "id": "6_1",
@@ -201,7 +201,7 @@
     "id": 7,
     "type": "TF",
     "text": "Based on the email, decide whether the following statements are True (T) or False (F):",
-    "notice": "From: David Lee\nTo: Sales Team\nSubject: Urgent: Rescheduling today's pitch\n\nHi team,\nI'm experiencing a severe internet outage in my area due to a downed cable. Consequently, I won't be able to host the client presentation via Zoom at 2:00 PM today. Let's postpone it to tomorrow at 10:00 AM. I have attached the final slide deck. Please review the sales figures on slide 10 and let me know if any numbers need tweaking.\n\nBest,\nDavid",
+    "notice": "<div class='text-left'><strong>From:</strong> David Lee</div>\n<div class='text-left'><strong>To:</strong> Sales Team</div>\n<div class='text-left'><strong>Subject:</strong> Urgent: Rescheduling today's pitch</div>\n<br>\n<div class='text-left'>Hi team,</div>\n<div class='text-justify'>I'm experiencing a severe internet outage in my area due to a downed cable. Consequently, I won't be able to host the client presentation via Zoom at 2:00 PM today. Let's postpone it to tomorrow at 10:00 AM. I have attached the final slide deck. Please review the sales figures on slide 10 and let me know if any numbers need tweaking.</div>\n<br>\n<div class='text-left'>Best,</div>\n<div class='text-left font-bold'>David</div>",
     "parts": [
       {
         "id": "7_1",
