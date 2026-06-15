@@ -1,652 +1,775 @@
 [
-  {
-    "id": 1,
-    "type": "TF",
-    "context": "GREEN NEIGHBORHOOD INITIATIVE\nJoin us this Saturday from 8:00 AM to 11:30 AM for our monthly community clean-up and tree-planting event at Riverside Park.\n- All ages are welcome! Children under 12 must be accompanied by an adult.\n- Gardening gloves and tools will be provided on-site.\n- Complimentary refreshments and snacks at 11:45 AM.\nScan the QR code to register by Thursday to help us estimate supplies.",
-    "question": "Read the notice and decide if the statements are TRUE or FALSE.",
-    "parts": [
-      {
-        "text": "The event is strictly restricted to adults and teenagers.",
-        "answer": false,
-        "explanation": "Sai. Thông báo ghi 'All ages are welcome!' (Mọi lứa tuổi đều được chào đón), trẻ em dưới 12 tuổi chỉ cần có người lớn đi kèm chứ không bị cấm."
-      },
-      {
-        "text": "Participants do not need to bring their own planting equipment.",
-        "answer": true,
-        "explanation": "Đúng. Thông báo ghi 'Gardening gloves and tools will be provided on-site' (Găng tay và dụng cụ làm vườn sẽ được cung cấp tại chỗ)."
-      },
-      {
-        "text": "Food and drinks will be served after the main activities conclude.",
-        "answer": true,
-        "explanation": "Đúng. Sự kiện kết thúc lúc 11:30 AM và 'Complimentary refreshments and snacks' (Đồ ăn nhẹ và thức uống miễn phí) được phục vụ lúc 11:45 AM."
-      },
-      {
-        "text": "You can register for the event on Friday morning.",
-        "answer": false,
-        "explanation": "Sai. Yêu cầu đăng ký hạn chót là thứ Năm ('register by Thursday')."
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "type": "TF",
-    "context": "CAREER OPPORTUNITY: REMOTE DIGITAL CONTENT CREATOR\nTechNova Solutions is seeking a creative Digital Content Creator.\nRequirements:\n- Minimum 2 years of experience in social media management.\n- Proficiency in graphic design tools (e.g., Adobe Illustrator, Canva).\n- Video editing skills are highly desirable but not mandatory.\nBenefits:\n- 100% remote work with flexible hours.\n- Health insurance and annual learning stipend.\nTo apply, send your CV and a portfolio of recent work to hr@technova.com by Nov 15th.",
-    "question": "Read the advertisement and decide if the statements are TRUE or FALSE.",
-    "parts": [
-      {
-        "text": "This position requires the employee to work at the company's headquarters.",
-        "answer": false,
-        "explanation": "Sai. Đây là công việc làm từ xa 100% ('100% remote work')."
-      },
-      {
-        "text": "Candidates must have exactly five years of experience to apply.",
-        "answer": false,
-        "explanation": "Sai. Yêu cầu là 'Minimum 2 years of experience' (Tối thiểu 2 năm kinh nghiệm)."
-      },
-      {
-        "text": "You can still be hired even if you do not know how to edit videos.",
-        "answer": true,
-        "explanation": "Đúng. Kỹ năng chỉnh sửa video là điểm cộng cao nhưng không bắt buộc ('highly desirable but not mandatory')."
-      },
-      {
-        "text": "Applicants must provide examples of their previous projects.",
-        "answer": true,
-        "explanation": "Đúng. Yêu cầu gửi kèm 'a portfolio of recent work' (hồ sơ năng lực gồm các dự án gần đây)."
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "type": "TF",
-    "context": "SCHOOL POLICY ON GENERATIVE AI\nEffective immediately, the use of AI tools (like ChatGPT) is permitted solely for brainstorming and outlining purposes. Students must not use AI to generate complete paragraphs or essays. Any AI assistance used in an assignment must be explicitly cited in the bibliography. Submitting AI-generated text as one's own original work constitutes academic dishonesty and will result in an automatic zero for the assignment.",
-    "question": "Read the policy and decide if the statements are TRUE or FALSE.",
-    "parts": [
-      {
-        "text": "The school has completely banned the use of AI platforms.",
-        "answer": false,
-        "explanation": "Sai. AI vẫn được phép sử dụng cho mục đích lên ý tưởng và dàn ý ('permitted solely for brainstorming and outlining purposes')."
-      },
-      {
-        "text": "Students are allowed to use AI to write the conclusion of their essays.",
-        "answer": false,
-        "explanation": "Sai. Học sinh không được dùng AI để viết các đoạn văn hoàn chỉnh ('must not use AI to generate complete paragraphs')."
-      },
-      {
-        "text": "If AI tools are used for ideas, students are required to declare it.",
-        "answer": true,
-        "explanation": "Đúng. Mọi sự hỗ trợ từ AI đều phải được trích dẫn rõ ràng trong tài liệu tham khảo ('must be explicitly cited')."
-      },
-      {
-        "text": "Plagiarizing from AI will lead to severe academic consequences.",
-        "answer": true,
-        "explanation": "Đúng. Việc nộp bài do AI viết sẽ bị coi là gian lận học thuật và nhận điểm 0 tự động ('result in an automatic zero')."
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "type": "TF",
-    "context": "ATTENTION: INTERNATIONAL FOOD FESTIVAL UPDATE\nDue to unexpected heavy rain forecasts, the annual International Food Festival scheduled for this weekend (Oct 20-21) will be relocated from the City Square to the Grand Exhibition Center. The operating hours remain unchanged (10 AM - 9 PM). Entry is free for high school students with valid ID; general admission is $5. Please note that all food stalls will operate on a cashless basis this year.",
-    "question": "Read the notice and decide if the statements are TRUE or FALSE.",
-    "parts": [
-      {
-        "text": "The event's location has been changed due to weather conditions.",
-        "answer": true,
-        "explanation": "Đúng. Sự kiện được dời địa điểm ('relocated') do dự báo mưa lớn ('heavy rain forecasts')."
-      },
-      {
-        "text": "The festival will take place over a period of three days.",
-        "answer": false,
-        "explanation": "Sai. Sự kiện diễn ra vào cuối tuần này gồm ngày 20 và 21 tháng 10, tức là chỉ 2 ngày."
-      },
-      {
-        "text": "Everyone must pay a $5 entrance fee to access the festival.",
-        "answer": false,
-        "explanation": "Sai. Học sinh trung học có thẻ hợp lệ sẽ được vào cửa miễn phí ('Entry is free for high school students')."
-      },
-      {
-        "text": "Visitors cannot use paper money to buy food at the stalls.",
-        "answer": true,
-        "explanation": "Đúng. Tất cả các quầy thức ăn năm nay đều không dùng tiền mặt ('operate on a cashless basis')."
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "type": "TF",
-    "context": "Dear Members,\nStarting January 1st, FitLife Gym will increase its monthly subscription fee from $30 to $35. This adjustment allows us to upgrade our cardiovascular equipment and extend our operating hours to 24/7. Members who have paid for an annual plan in advance will not be affected until their current cycle expires. We appreciate your continued support in making FitLife a premium fitness community.\nRegards,\nManagement Team",
-    "question": "Read the message and decide if the statements are TRUE or FALSE.",
-    "parts": [
-      {
-        "text": "The gym is lowering its prices to attract more members.",
-        "answer": false,
-        "explanation": "Sai. Phòng gym đang tăng phí hàng tháng ('increase its monthly subscription fee')."
-      },
-      {
-        "text": "The extra revenue will be invested in new workout machines.",
-        "answer": true,
-        "explanation": "Đúng. Sự điều chỉnh giá này giúp họ nâng cấp thiết bị tim mạch ('upgrade our cardiovascular equipment')."
-      },
-      {
-        "text": "The gym will soon be accessible at any time of the day or night.",
-        "answer": true,
-        "explanation": "Đúng. Giờ hoạt động sẽ được kéo dài thành 24/7 ('extend our operating hours to 24/7')."
-      },
-      {
-        "text": "Annual subscribers must pay the extra $5 immediately starting January 1st.",
-        "answer": false,
-        "explanation": "Sai. Những người đăng ký gói năm sẽ không bị ảnh hưởng cho đến khi chu kỳ hiện tại của họ hết hạn ('will not be affected until their current cycle expires')."
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "type": "TF",
-    "context": "E-WASTE RECYCLING DRIVE\nDon't throw away your old gadgets! Join our E-Waste Drive at the Main Library parking lot from Monday to Saturday next week. We accept laptops, smartphones, tablets, and chargers. (Note: Large appliances like washing machines or TVs are strictly prohibited). Please ensure all personal data is permanently wiped from your devices before drop-off. Every participant will receive a 10% discount voucher for the TechStore.",
-    "question": "Read the advertisement and decide if the statements are TRUE or FALSE.",
-    "parts": [
-      {
-        "text": "You can donate your old refrigerator at this event.",
-        "answer": false,
-        "explanation": "Sai. Thông báo nghiêm cấm mang đến các thiết bị gia dụng lớn ('Large appliances... are strictly prohibited')."
-      },
-      {
-        "text": "The recycling collection point is available on Sunday.",
-        "answer": false,
-        "explanation": "Sai. Sự kiện chỉ diễn ra từ thứ Hai đến thứ Bảy ('from Monday to Saturday')."
-      },
-      {
-        "text": "Participants are responsible for deleting their own information from devices.",
-        "answer": true,
-        "explanation": "Đúng. Người tham gia phải đảm bảo xóa sạch dữ liệu cá nhân trước khi nộp ('ensure all personal data is permanently wiped')."
-      },
-      {
-        "text": "Donors will be rewarded with a coupon for an electronics store.",
-        "answer": true,
-        "explanation": "Đúng. Người tham gia sẽ nhận được một phiếu giảm giá 10% cho cửa hàng TechStore."
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "type": "TF",
-    "context": "From: Sarah Jenkins\nTo: Project Team\nSubject: Urgent: Rescheduling Today's Pitch\nHi everyone,\nI'm experiencing a severe internet outage in my area due to a downed cable. Consequently, I won't be able to host the client pitch via Zoom at 2:00 PM today. Let's postpone it to tomorrow at 10:00 AM. I have attached the final slide deck to this email. Please review the financial projections on slide 12 and let me know if any numbers need tweaking before the end of the day.\nBest, Sarah",
-    "question": "Read the email and decide if the statements are TRUE or FALSE.",
-    "parts": [
-      {
-        "text": "The online meeting was cancelled because Sarah was feeling unwell.",
-        "answer": false,
-        "explanation": "Sai. Cuộc họp bị hoãn do sự cố mất mạng internet cục bộ ('severe internet outage'), không phải do vấn đề sức khỏe."
-      },
-      {
-        "text": "The presentation has been shifted to the morning of the following day.",
-        "answer": true,
-        "explanation": "Đúng. Cuộc họp được dời sang 10:00 sáng ngày mai ('postpone it to tomorrow at 10:00 AM')."
-      },
-      {
-        "text": "Sarah has sent the completed presentation slides along with the email.",
-        "answer": true,
-        "explanation": "Đúng. Cô ấy đã đính kèm bộ slide hoàn chỉnh ('attached the final slide deck')."
-      },
-      {
-        "text": "Sarah expects her team to provide feedback on the finances by tomorrow.",
-        "answer": false,
-        "explanation": "Sai. Cô ấy yêu cầu phản hồi về các con số tài chính trước khi ngày hôm nay kết thúc ('before the end of the day')."
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "type": "TF",
-    "context": "The fashion industry has long been dominated by a linear economic model—extracting raw materials to make garments that are worn briefly and then discarded. This \"take-make-dispose\" paradigm has exacted a heavy toll on the environment, rendering fashion the second most polluting industry globally. However, an urgent paradigm shift is underway as the concept of a circular economy gains traction. In a circular model, garments are designed for longevity, reuse, and eventually, regeneration, aiming to keep materials in circulation and minimize toxic landfill waste.\n\nLeading this transformation is EcoThreads, a pioneering startup that merges cutting-edge technology with sustainable practices. Instead of relying on virgin cotton, EcoThreads intercepts textile waste before it reaches incinerators. Using an advanced AI-driven sorting system, the company categorizes discarded clothes by fiber composition and color. [A] The materials are then mechanically shredded and re-spun into premium, durable yarn. [B] This upcycled fabric is subsequently utilized to craft new, trendy apparel. [C] By skipping the conventional dyeing phase, their method significantly reduces water consumption and chemical pollution. [D]\n\nBeyond environmental salvation, the circular fashion movement offers profound socioeconomic benefits. It fosters the creation of localized green jobs in recycling facilities and repair workshops, reducing reliance on exploitative sweatshops abroad. Moreover, it cultivates a cultural shift among consumers, encouraging them to view clothing as an investment rather than a disposable commodity. People are increasingly engaging in clothing swaps, renting high-end outfits, or purchasing second-hand items.\n\nDespite its undeniable potential, scaling the circular economy presents formidable hurdles. The primary bottleneck is the lack of sophisticated infrastructure to recycle mixed-fiber garments, such as poly-cotton blends, which are notoriously difficult to separate. Furthermore, there remains a psychological barrier; brands must educate consumers to accept that upcycled garments, though made from \"waste,\" possess equal or superior quality and justify a slightly higher price point. Ultimately, achieving a fully circular fashion ecosystem will demand relentless innovation and a collective commitment from both manufacturers and buyers.",
-    "question": "Question 8 is based on the information in paragraph 1. Decide if the statements are TRUE or FALSE.",
-    "parts": [
-      {
-        "text": "The traditional fashion industry prioritizes extending the lifespan of clothing.",
-        "answer": false,
-        "explanation": "Sai. Ngành công nghiệp truyền thống theo mô hình tuyến tính, nơi quần áo được mặc trong thời gian ngắn rồi vứt bỏ ('worn briefly and then discarded')."
-      },
-      {
-        "text": "The \"take-make-dispose\" model has severely damaged the natural environment.",
-        "answer": true,
-        "explanation": "Đúng. Tác giả khẳng định mô hình này đã gây ra hậu quả nặng nề cho môi trường ('exacted a heavy toll on the environment')."
-      },
-      {
-        "text": "Fashion is currently the leading cause of global pollution.",
-        "answer": false,
-        "explanation": "Sai. Bài viết nêu rõ thời trang là ngành công nghiệp ô nhiễm đứng thứ hai thế giới ('second most polluting industry globally'), không phải đứng đầu."
-      },
-      {
-        "text": "The primary goal of a circular economy is to constantly recycle materials and reduce waste.",
-        "answer": true,
-        "explanation": "Đúng. Trọng tâm của kinh tế tuần hoàn là giữ vật liệu trong vòng luân chuyển và giảm thiểu rác thải ('keep materials in circulation and minimize toxic landfill waste')."
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "type": "TF",
-    "context": "The fashion industry has long been dominated by a linear economic model—extracting raw materials to make garments that are worn briefly and then discarded. This \"take-make-dispose\" paradigm has exacted a heavy toll on the environment, rendering fashion the second most polluting industry globally. However, an urgent paradigm shift is underway as the concept of a circular economy gains traction. In a circular model, garments are designed for longevity, reuse, and eventually, regeneration, aiming to keep materials in circulation and minimize toxic landfill waste.\n\nLeading this transformation is EcoThreads, a pioneering startup that merges cutting-edge technology with sustainable practices. Instead of relying on virgin cotton, EcoThreads intercepts textile waste before it reaches incinerators. Using an advanced AI-driven sorting system, the company categorizes discarded clothes by fiber composition and color. [A] The materials are then mechanically shredded and re-spun into premium, durable yarn. [B] This upcycled fabric is subsequently utilized to craft new, trendy apparel. [C] By skipping the conventional dyeing phase, their method significantly reduces water consumption and chemical pollution. [D]\n\nBeyond environmental salvation, the circular fashion movement offers profound socioeconomic benefits. It fosters the creation of localized green jobs in recycling facilities and repair workshops, reducing reliance on exploitative sweatshops abroad. Moreover, it cultivates a cultural shift among consumers, encouraging them to view clothing as an investment rather than a disposable commodity. People are increasingly engaging in clothing swaps, renting high-end outfits, or purchasing second-hand items.\n\nDespite its undeniable potential, scaling the circular economy presents formidable hurdles. The primary bottleneck is the lack of sophisticated infrastructure to recycle mixed-fiber garments, such as poly-cotton blends, which are notoriously difficult to separate. Furthermore, there remains a psychological barrier; brands must educate consumers to accept that upcycled garments, though made from \"waste,\" possess equal or superior quality and justify a slightly higher price point. Ultimately, achieving a fully circular fashion ecosystem will demand relentless innovation and a collective commitment from both manufacturers and buyers.",
-    "question": "Question 9 is based on the information in paragraph 2. Decide if the statements are TRUE or FALSE.",
-    "parts": [
-      {
-        "text": "EcoThreads primarily uses freshly harvested cotton to produce their fabrics.",
-        "answer": false,
-        "explanation": "Sai. Công ty này không dùng bông mới ('Instead of relying on virgin cotton') mà thu gom rác thải dệt may."
-      },
-      {
-        "text": "Artificial intelligence is employed to organize the collected textile waste.",
-        "answer": true,
-        "explanation": "Đúng. Công ty sử dụng hệ thống phân loại bằng AI ('AI-driven sorting system') để phân loại quần áo cũ."
-      },
-      {
-        "text": "The mechanical shredding process reduces the final yarn into a low-quality material.",
-        "answer": false,
-        "explanation": "Sai. Vật liệu sau khi nghiền được kéo lại thành sợi cao cấp và bền bỉ ('re-spun into premium, durable yarn')."
-      },
-      {
-        "text": "The company's production process uses far more water than traditional methods.",
-        "answer": false,
-        "explanation": "Sai. Việc bỏ qua khâu nhuộm truyền thống giúp họ giảm đáng kể lượng nước tiêu thụ ('significantly reduces water consumption')."
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "type": "MC",
-    "context": "The fashion industry has long been dominated by a linear economic model—extracting raw materials to make garments that are worn briefly and then discarded. This \"take-make-dispose\" paradigm has exacted a heavy toll on the environment, rendering fashion the second most polluting industry globally. However, an urgent paradigm shift is underway as the concept of a circular economy gains traction. In a circular model, garments are designed for longevity, reuse, and eventually, regeneration, aiming to keep materials in circulation and minimize toxic landfill waste.\n\nLeading this transformation is EcoThreads, a pioneering startup that merges cutting-edge technology with sustainable practices. Instead of relying on virgin cotton, EcoThreads intercepts textile waste before it reaches incinerators. Using an advanced AI-driven sorting system, the company categorizes discarded clothes by fiber composition and color. [A] The materials are then mechanically shredded and re-spun into premium, durable yarn. [B] This upcycled fabric is subsequently utilized to craft new, trendy apparel. [C] By skipping the conventional dyeing phase, their method significantly reduces water consumption and chemical pollution. [D]\n\nBeyond environmental salvation, the circular fashion movement offers profound socioeconomic benefits. It fosters the creation of localized green jobs in recycling facilities and repair workshops, reducing reliance on exploitative sweatshops abroad. Moreover, it cultivates a cultural shift among consumers, encouraging them to view clothing as an investment rather than a disposable commodity. People are increasingly engaging in clothing swaps, renting high-end outfits, or purchasing second-hand items.\n\nDespite its undeniable potential, scaling the circular economy presents formidable hurdles. The primary bottleneck is the lack of sophisticated infrastructure to recycle mixed-fiber garments, such as poly-cotton blends, which are notoriously difficult to separate. Furthermore, there remains a psychological barrier; brands must educate consumers to accept that upcycled garments, though made from \"waste,\" possess equal or superior quality and justify a slightly higher price point. Ultimately, achieving a fully circular fashion ecosystem will demand relentless innovation and a collective commitment from both manufacturers and buyers.",
-    "question": "Which of the following best summarizes the main idea of the passage?",
-    "options": [
-      {
-        "text": "The technological advancements of AI in the modern fashion manufacturing process.",
-        "isCorrect": false,
-        "explanation": "Sai. Công nghệ AI chỉ là một chi tiết nhỏ được nhắc đến ở đoạn 2, không bao quát toàn bài."
-      },
-      {
-        "text": "The severe environmental damage caused by the \"take-make-dispose\" linear model.",
-        "isCorrect": false,
-        "explanation": "Sai. Tác hại của thời trang nhanh chỉ là phần mở đầu để dẫn dắt vấn đề, không phải chủ đề chính xuyên suốt."
-      },
-      {
-        "text": "The transition to a circular fashion economy, its benefits, and the challenges of scaling it.",
-        "isCorrect": true,
-        "explanation": "Đúng. Bài đọc trình bày tổng quan về sự chuyển dịch sang kinh tế tuần hoàn (Đoạn 1,2), lợi ích kinh tế xã hội (Đoạn 3) và các thách thức đi kèm (Đoạn 4)."
-      },
-      {
-        "text": "How consumers are changing their shopping habits to support local repair workshops.",
-        "isCorrect": false,
-        "explanation": "Sai. Đây chỉ là một trong những lợi ích kinh tế - xã hội được nêu ở đoạn 3."
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "type": "MC",
-    "context": "The fashion industry has long been dominated by a linear economic model—extracting raw materials to make garments that are worn briefly and then discarded. This \"take-make-dispose\" paradigm has exacted a heavy toll on the environment, rendering fashion the second most polluting industry globally. However, an urgent paradigm shift is underway as the concept of a circular economy gains traction. In a circular model, garments are designed for longevity, reuse, and eventually, regeneration, aiming to keep materials in circulation and minimize toxic landfill waste.\n\nLeading this transformation is EcoThreads, a pioneering startup that merges cutting-edge technology with sustainable practices. Instead of relying on virgin cotton, EcoThreads intercepts textile waste before it reaches incinerators. Using an advanced AI-driven sorting system, the company categorizes discarded clothes by fiber composition and color. [A] The materials are then mechanically shredded and re-spun into premium, durable yarn. [B] This upcycled fabric is subsequently utilized to craft new, trendy apparel. [C] By skipping the conventional dyeing phase, their method significantly reduces water consumption and chemical pollution. [D]\n\nBeyond environmental salvation, the circular fashion movement offers profound socioeconomic benefits. It fosters the creation of localized green jobs in recycling facilities and repair workshops, reducing reliance on exploitative sweatshops abroad. Moreover, it cultivates a cultural shift among consumers, encouraging them to view clothing as an investment rather than a disposable commodity. People are increasingly engaging in clothing swaps, renting high-end outfits, or purchasing second-hand items.\n\nDespite its undeniable potential, scaling the circular economy presents formidable hurdles. The primary bottleneck is the lack of sophisticated infrastructure to recycle mixed-fiber garments, such as poly-cotton blends, which are notoriously difficult to separate. Furthermore, there remains a psychological barrier; brands must educate consumers to accept that upcycled garments, though made from \"waste,\" possess equal or superior quality and justify a slightly higher price point. Ultimately, achieving a fully circular fashion ecosystem will demand relentless innovation and a collective commitment from both manufacturers and buyers.",
-    "question": "The word \"discarded\" in paragraph 2 is closest in meaning to:",
-    "options": [
-      {
-        "text": "abandoned",
-        "isCorrect": true,
-        "explanation": "Đúng. 'Discarded' có nghĩa là bị vứt bỏ, bỏ đi. Từ đồng nghĩa gần nhất trong ngữ cảnh này là 'abandoned' (bị từ bỏ/bỏ rơi)."
-      },
-      {
-        "text": "manufactured",
-        "isCorrect": false,
-        "explanation": "Sai. Nghĩa là sản xuất, trái ngược hoàn toàn với việc vứt bỏ."
-      },
-      {
-        "text": "preserved",
-        "isCorrect": false,
-        "explanation": "Sai. Nghĩa là bảo quản, giữ gìn."
-      },
-      {
-        "text": "distributed",
-        "isCorrect": false,
-        "explanation": "Sai. Nghĩa là phân phối."
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "type": "MC",
-    "context": "The fashion industry has long been dominated by a linear economic model—extracting raw materials to make garments that are worn briefly and then discarded. This \"take-make-dispose\" paradigm has exacted a heavy toll on the environment, rendering fashion the second most polluting industry globally. However, an urgent paradigm shift is underway as the concept of a circular economy gains traction. In a circular model, garments are designed for longevity, reuse, and eventually, regeneration, aiming to keep materials in circulation and minimize toxic landfill waste.\n\nLeading this transformation is EcoThreads, a pioneering startup that merges cutting-edge technology with sustainable practices. Instead of relying on virgin cotton, EcoThreads intercepts textile waste before it reaches incinerators. Using an advanced AI-driven sorting system, the company categorizes discarded clothes by fiber composition and color. [A] The materials are then mechanically shredded and re-spun into premium, durable yarn. [B] This upcycled fabric is subsequently utilized to craft new, trendy apparel. [C] By skipping the conventional dyeing phase, their method significantly reduces water consumption and chemical pollution. [D]\n\nBeyond environmental salvation, the circular fashion movement offers profound socioeconomic benefits. It fosters the creation of localized green jobs in recycling facilities and repair workshops, reducing reliance on exploitative sweatshops abroad. Moreover, it cultivates a cultural shift among consumers, encouraging them to view clothing as an investment rather than a disposable commodity. People are increasingly engaging in clothing swaps, renting high-end outfits, or purchasing second-hand items.\n\nDespite its undeniable potential, scaling the circular economy presents formidable hurdles. The primary bottleneck is the lack of sophisticated infrastructure to recycle mixed-fiber garments, such as poly-cotton blends, which are notoriously difficult to separate. Furthermore, there remains a psychological barrier; brands must educate consumers to accept that upcycled garments, though made from \"waste,\" possess equal or superior quality and justify a slightly higher price point. Ultimately, achieving a fully circular fashion ecosystem will demand relentless innovation and a collective commitment from both manufacturers and buyers.",
-    "question": "The word \"them\" in paragraph 3 refers to:",
-    "options": [
-      {
-        "text": "sweatshops",
-        "isCorrect": false,
-        "explanation": "Sai. Sweatshops (nhà xưởng bóc lột sức lao động) không hợp ngữ cảnh."
-      },
-      {
-        "text": "benefits",
-        "isCorrect": false,
-        "explanation": "Sai. Khuyến khích 'lợi ích' xem quần áo như khoản đầu tư là vô lý."
-      },
-      {
-        "text": "consumers",
-        "isCorrect": true,
-        "explanation": "Đúng. Cấu trúc 'encouraging them to view...' (khuyến khích họ xem...). 'Them' ở đây thay thế cho danh từ 'consumers' (người tiêu dùng) ở ngay trước đó."
-      },
-      {
-        "text": "workshops",
-        "isCorrect": false,
-        "explanation": "Sai. Workshops là danh từ chỉ nơi chốn, không phù hợp về nghĩa."
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "type": "MC",
-    "context": "The fashion industry has long been dominated by a linear economic model—extracting raw materials to make garments that are worn briefly and then discarded. This \"take-make-dispose\" paradigm has exacted a heavy toll on the environment, rendering fashion the second most polluting industry globally. However, an urgent paradigm shift is underway as the concept of a circular economy gains traction. In a circular model, garments are designed for longevity, reuse, and eventually, regeneration, aiming to keep materials in circulation and minimize toxic landfill waste.\n\nLeading this transformation is EcoThreads, a pioneering startup that merges cutting-edge technology with sustainable practices. Instead of relying on virgin cotton, EcoThreads intercepts textile waste before it reaches incinerators. Using an advanced AI-driven sorting system, the company categorizes discarded clothes by fiber composition and color. [A] The materials are then mechanically shredded and re-spun into premium, durable yarn. [B] This upcycled fabric is subsequently utilized to craft new, trendy apparel. [C] By skipping the conventional dyeing phase, their method significantly reduces water consumption and chemical pollution. [D]\n\nBeyond environmental salvation, the circular fashion movement offers profound socioeconomic benefits. It fosters the creation of localized green jobs in recycling facilities and repair workshops, reducing reliance on exploitative sweatshops abroad. Moreover, it cultivates a cultural shift among consumers, encouraging them to view clothing as an investment rather than a disposable commodity. People are increasingly engaging in clothing swaps, renting high-end outfits, or purchasing second-hand items.\n\nDespite its undeniable potential, scaling the circular economy presents formidable hurdles. The primary bottleneck is the lack of sophisticated infrastructure to recycle mixed-fiber garments, such as poly-cotton blends, which are notoriously difficult to separate. Furthermore, there remains a psychological barrier; brands must educate consumers to accept that upcycled garments, though made from \"waste,\" possess equal or superior quality and justify a slightly higher price point. Ultimately, achieving a fully circular fashion ecosystem will demand relentless innovation and a collective commitment from both manufacturers and buyers.",
-    "question": "According to the last paragraph, what is one of the main obstacles to expanding the circular economy?",
-    "options": [
-      {
-        "text": "A severe shortage of raw materials needed for upcycling.",
-        "isCorrect": false,
-        "explanation": "Sai. Rác thải dệt may (nguyên liệu cho upcycling) rất dồi dào, đây không phải là vấn đề."
-      },
-      {
-        "text": "The technological inability to separate mixed fabrics effectively.",
-        "isCorrect": true,
-        "explanation": "Đúng. Nút thắt chính ('primary bottleneck') là thiếu cơ sở hạ tầng phức tạp để tái chế các loại vải pha trộn ('recycle mixed-fiber garments'), vì chúng cực kỳ khó tách rời."
-      },
-      {
-        "text": "Consumers' unwillingness to buy second-hand items.",
-        "isCorrect": false,
-        "explanation": "Sai. Đoạn 3 đã khẳng định người tiêu dùng đang ngày càng tích cực tham gia mua đồ cũ ('increasingly engaging in... purchasing second-hand items')."
-      },
-      {
-        "text": "The high cost of maintaining mechanical shredding machines.",
-        "isCorrect": false,
-        "explanation": "Sai. Bài đọc không hề đề cập đến chi phí bảo trì máy móc."
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "type": "MC",
-    "context": "The fashion industry has long been dominated by a linear economic model—extracting raw materials to make garments that are worn briefly and then discarded. This \"take-make-dispose\" paradigm has exacted a heavy toll on the environment, rendering fashion the second most polluting industry globally. However, an urgent paradigm shift is underway as the concept of a circular economy gains traction. In a circular model, garments are designed for longevity, reuse, and eventually, regeneration, aiming to keep materials in circulation and minimize toxic landfill waste.\n\nLeading this transformation is EcoThreads, a pioneering startup that merges cutting-edge technology with sustainable practices. Instead of relying on virgin cotton, EcoThreads intercepts textile waste before it reaches incinerators. Using an advanced AI-driven sorting system, the company categorizes discarded clothes by fiber composition and color. [A] The materials are then mechanically shredded and re-spun into premium, durable yarn. [B] This upcycled fabric is subsequently utilized to craft new, trendy apparel. [C] By skipping the conventional dyeing phase, their method significantly reduces water consumption and chemical pollution. [D]\n\nBeyond environmental salvation, the circular fashion movement offers profound socioeconomic benefits. It fosters the creation of localized green jobs in recycling facilities and repair workshops, reducing reliance on exploitative sweatshops abroad. Moreover, it cultivates a cultural shift among consumers, encouraging them to view clothing as an investment rather than a disposable commodity. People are increasingly engaging in clothing swaps, renting high-end outfits, or purchasing second-hand items.\n\nDespite its undeniable potential, scaling the circular economy presents formidable hurdles. The primary bottleneck is the lack of sophisticated infrastructure to recycle mixed-fiber garments, such as poly-cotton blends, which are notoriously difficult to separate. Furthermore, there remains a psychological barrier; brands must educate consumers to accept that upcycled garments, though made from \"waste,\" possess equal or superior quality and justify a slightly higher price point. Ultimately, achieving a fully circular fashion ecosystem will demand relentless innovation and a collective commitment from both manufacturers and buyers.",
-    "question": "In which space (marked [A], [B], [C], or [D] in the passage) will the following sentence fit?\n\"Because the fabrics are pre-sorted by their original colors, the new threads retain those hues without needing further chemical processing.\"",
-    "options": [
-      {
-        "text": "[A]",
-        "isCorrect": false,
-        "explanation": "Sai. Vị trí [A] diễn ra ngay sau khi phân loại, lúc này vật liệu chưa được kéo thành sợi (threads) nên chưa phù hợp."
-      },
-      {
-        "text": "[B]",
-        "isCorrect": false,
-        "explanation": "Sai. Vị trí [B] mô tả quá trình cắt nhỏ và kéo sợi, nhưng mạch văn cần một ý giới thiệu về khâu tạo thành quần áo trước."
-      },
-      {
-        "text": "[C]",
-        "isCorrect": true,
-        "explanation": "Đúng. Câu này giải thích lý do vì sao họ có thể 'skipping the conventional dyeing phase' (bỏ qua khâu nhuộm truyền thống) ở câu ngay sau đó [D]. Câu chèn vào cung cấp nguyên nhân hoàn hảo: vì màu sắc nguyên bản đã được giữ lại."
-      },
-      {
-        "text": "[D]",
-        "isCorrect": false,
-        "explanation": "Sai. Đặt ở [D] sẽ làm đứt gãy tính logic nguyên nhân - kết quả giữa việc giữ màu và việc giảm ô nhiễm hóa chất."
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "type": "MC",
-    "context": "The fashion industry has long been dominated by a linear economic model—extracting raw materials to make garments that are worn briefly and then discarded. This \"take-make-dispose\" paradigm has exacted a heavy toll on the environment, rendering fashion the second most polluting industry globally. However, an urgent paradigm shift is underway as the concept of a circular economy gains traction. In a circular model, garments are designed for longevity, reuse, and eventually, regeneration, aiming to keep materials in circulation and minimize toxic landfill waste.\n\nLeading this transformation is EcoThreads, a pioneering startup that merges cutting-edge technology with sustainable practices. Instead of relying on virgin cotton, EcoThreads intercepts textile waste before it reaches incinerators. Using an advanced AI-driven sorting system, the company categorizes discarded clothes by fiber composition and color. [A] The materials are then mechanically shredded and re-spun into premium, durable yarn. [B] This upcycled fabric is subsequently utilized to craft new, trendy apparel. [C] By skipping the conventional dyeing phase, their method significantly reduces water consumption and chemical pollution. [D]\n\nBeyond environmental salvation, the circular fashion movement offers profound socioeconomic benefits. It fosters the creation of localized green jobs in recycling facilities and repair workshops, reducing reliance on exploitative sweatshops abroad. Moreover, it cultivates a cultural shift among consumers, encouraging them to view clothing as an investment rather than a disposable commodity. People are increasingly engaging in clothing swaps, renting high-end outfits, or purchasing second-hand items.\n\nDespite its undeniable potential, scaling the circular economy presents formidable hurdles. The primary bottleneck is the lack of sophisticated infrastructure to recycle mixed-fiber garments, such as poly-cotton blends, which are notoriously difficult to separate. Furthermore, there remains a psychological barrier; brands must educate consumers to accept that upcycled garments, though made from \"waste,\" possess equal or superior quality and justify a slightly higher price point. Ultimately, achieving a fully circular fashion ecosystem will demand relentless innovation and a collective commitment from both manufacturers and buyers.",
-    "question": "Which of the following can be inferred from the passage?",
-    "options": [
-      {
-        "text": "Consumers are entirely to blame for the environmental impact of the fashion industry.",
-        "isCorrect": false,
-        "explanation": "Sai. Bài viết không quy toàn bộ trách nhiệm cho người tiêu dùng mà tập trung vào mô hình tuyến tính của các nhà sản xuất."
-      },
-      {
-        "text": "Upcycled clothing is inherently cheaper to produce than garments made from virgin materials.",
-        "isCorrect": false,
-        "explanation": "Sai. Bài viết ngụ ý rằng các thương hiệu phải thuyết phục người tiêu dùng chấp nhận 'a slightly higher price point' (mức giá cao hơn một chút), cho thấy quá trình upcycle thực chất tốn kém hơn."
-      },
-      {
-        "text": "Technological innovation is indispensable for overcoming the current limitations of sustainable fashion.",
-        "isCorrect": true,
-        "explanation": "Đúng. Có thể suy luận điều này qua việc EcoThreads phải dùng AI để phân loại, và đoạn cuối nhấn mạnh việc thiếu cơ sở hạ tầng kỹ thuật là rào cản lớn, đòi hỏi 'relentless innovation' (sự đổi mới không ngừng)."
-      },
-      {
-        "text": "The circular economy will completely eradicate the need for new clothing within the next decade.",
-        "isCorrect": false,
-        "explanation": "Sai. Bài viết không hề đưa ra mốc thời gian cụ thể hay dự đoán cực đoan về việc xóa bỏ hoàn toàn nhu cầu mua quần áo mới."
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "type": "MATCHING",
-    "question": "Match the sentence beginnings (Left) with the most suitable conversational responses (Right).",
-    "leftItems": [
-      "Could you give me a hand with lifting this heavy box?",
-      "I'm terribly sorry for stepping on your foot.",
-      "What a breathtaking performance you delivered tonight!",
-      "How about going out for dinner to celebrate your promotion?"
-    ],
-    "rightItems": [
-      "Sure, I'll grab the other end.",
-      "It really doesn't matter, don't worry about it.",
-      "I'm glad you enjoyed it.",
-      "That sounds like a brilliant idea!",
-      "Yes, I completely agree with you.",
-      "I don't think that's a good excuse."
-    ],
-    "pairs": [
-      {
-        "leftIndex": 0,
-        "rightIndex": 0
-      },
-      {
-        "leftIndex": 1,
-        "rightIndex": 1
-      },
-      {
-        "leftIndex": 2,
-        "rightIndex": 2
-      },
-      {
-        "leftIndex": 3,
-        "rightIndex": 3
-      }
-    ],
-    "explanation": "1 ghép với A (Nhờ vả -> Đồng ý giúp). 2 ghép với B (Xin lỗi -> Thể hiện sự thông cảm, bỏ qua). 3 ghép với C (Khen ngợi -> Cảm ơn lịch sự). 4 ghép với D (Đề nghị/Rủ rê -> Hào hứng đồng ý). E và F là phương án nhiễu, không phù hợp với các ngữ cảnh giao tiếp trên."
-  },
-  {
-    "id": 17,
-    "type": "MATCHING",
-    "question": "Match the sentence beginnings featuring grammatical inversions (Left) with their correct endings (Right).",
-    "leftItems": [
-      "Not until the consequences of climate change became undeniably severe",
-      "Hardly had the government implemented the new environmental regulations",
-      "Only by adopting a strict circular economy model",
-      "Were it not for the rapid advancements in green technology"
-    ],
-    "rightItems": [
-      "did global leaders start taking drastic actions.",
-      "when several heavy industry factories faced closure.",
-      "can nations hope to achieve sustainable development.",
-      "the transition to renewable energy would be impossible.",
-      "than industrial emissions saw a significant drop.",
-      "had the company reduced its carbon footprint."
-    ],
-    "pairs": [
-      {
-        "leftIndex": 0,
-        "rightIndex": 0
-      },
-      {
-        "leftIndex": 1,
-        "rightIndex": 1
-      },
-      {
-        "leftIndex": 2,
-        "rightIndex": 2
-      },
-      {
-        "leftIndex": 3,
-        "rightIndex": 3
-      }
-    ],
-    "explanation": "1-A: Cấu trúc 'Not until... did + S + V' (Mãi cho đến khi... thì). 2-B: Cấu trúc 'Hardly + had + S + V3... when + S + V2' (Vừa mới... thì). Lưu ý: phương án E dùng 'than' là sai ngữ pháp (chỉ dùng No sooner... than). 3-C: Cấu trúc 'Only by + V-ing... can + S + V' (Chỉ bằng cách... thì mới có thể). 4-D: Cấu trúc câu điều kiện loại 2 đảo ngữ 'Were it not for + N... S + would + V' (Nếu không vì... thì)."
-  },
-  {
-    "id": 18,
-    "type": "MATCHING",
-    "question": "Match the sentence beginnings featuring relative clauses or participial phrases (Left) with their logical endings (Right).",
-    "leftItems": [
-      "The newly released smartphone, equipped with cutting-edge AI features,",
-      "The tech startup is developing an advanced algorithm,",
-      "Exhausted by the long hours of coding,",
-      "The software developer, whose latest app went viral globally,"
-    ],
-    "rightItems": [
-      "has quickly become the best-selling model this year.",
-      "which aims to bridge the digital divide in rural areas.",
-      "the software engineer finally decided to take a vacation.",
-      "was invited to speak at the international tech summit.",
-      "who recently won a prestigious award for innovation.",
-      "that guarantees absolute data privacy for users."
-    ],
-    "pairs": [
-      {
-        "leftIndex": 0,
-        "rightIndex": 0
-      },
-      {
-        "leftIndex": 1,
-        "rightIndex": 1
-      },
-      {
-        "leftIndex": 2,
-        "rightIndex": 2
-      },
-      {
-        "leftIndex": 3,
-        "rightIndex": 3
-      }
-    ],
-    "explanation": "1-A: Cụm phân từ rút gọn bổ nghĩa cho chủ ngữ 'smartphone', cần động từ chính 'has become'. 2-B: Mệnh đề quan hệ không xác định dùng 'which' bổ nghĩa cho 'algorithm'. 3-C: Mệnh đề phân từ V-ed chỉ nguyên nhân, chủ ngữ vế sau 'the software engineer' chỉ người phù hợp với tính từ 'Exhausted'. 4-D: Mệnh đề quan hệ 'whose...' chen giữa, cần động từ chính 'was invited' để hoàn thiện câu."
-  },
-  {
-    "id": 19,
-    "type": "MATCHING",
-    "question": "Match the sentence beginnings focusing on collocations (Left) with their appropriate endings (Right).",
-    "leftItems": [
-      "In order to stay competitive, companies must constantly upgrade",
-      "The rapid rise of automation will inevitably pose",
-      "Many teenagers today struggle to strike",
-      "Governments are launching campaigns to raise"
-    ],
-    "rightItems": [
-      "their technological infrastructure.",
-      "a significant threat to manual laborers.",
-      "a healthy balance between study and screen time.",
-      "public awareness about the dangers of cyberbullying.",
-      "the heavy burden on healthcare systems.",
-      "a profound impact on global communication."
-    ],
-    "pairs": [
-      {
-        "leftIndex": 0,
-        "rightIndex": 0
-      },
-      {
-        "leftIndex": 1,
-        "rightIndex": 1
-      },
-      {
-        "leftIndex": 2,
-        "rightIndex": 2
-      },
-      {
-        "leftIndex": 3,
-        "rightIndex": 3
-      }
-    ],
-    "explanation": "1-A: Collocation 'upgrade infrastructure' (nâng cấp cơ sở hạ tầng). 2-B: Collocation 'pose a threat to' (đặt ra mối đe dọa cho). 3-C: Collocation 'strike a balance' (tạo sự cân bằng). 4-D: Collocation 'raise awareness about' (nâng cao nhận thức về)."
-  },
-  {
-    "id": 20,
-    "type": "MATCHING",
-    "question": "Match the sentence beginnings focusing on cause-and-effect transitions (Left) with their logical endings (Right).",
-    "leftItems": [
-      "Due to the mass migration of young adults to urban centers,",
-      "The local council decided to construct more green spaces;",
-      "Despite the undeniable convenience of online shopping,",
-      "Many traditional retail stores failed to adapt to the digital era,"
-    ],
-    "rightItems": [
-      "many rural villages are experiencing an aging population.",
-      "consequently, the air quality in the city center has improved.",
-      "a large number of consumers still prefer examining products in person.",
-      "resulting in a wave of unexpected bankruptcies.",
-      "therefore, online transactions have skyrocketed.",
-      "because they lacked sufficient financial resources."
-    ],
-    "pairs": [
-      {
-        "leftIndex": 0,
-        "rightIndex": 0
-      },
-      {
-        "leftIndex": 1,
-        "rightIndex": 1
-      },
-      {
-        "leftIndex": 2,
-        "rightIndex": 2
-      },
-      {
-        "leftIndex": 3,
-        "rightIndex": 3
-      }
-    ],
-    "explanation": "1-A: Nguyên nhân - kết quả hợp lý (di cư lên phố -> nông thôn già hóa). 2-B: Dấu chấm phẩy (;) kết hợp trạng từ 'consequently' chỉ kết quả của việc xây không gian xanh. 3-C: Mệnh đề nhượng bộ 'Despite' -> Vế sau chỉ sự trái ngược (vẫn thích mua trực tiếp). 4-D: Mệnh đề phân từ V-ing 'resulting in...' chỉ hậu quả tất yếu của việc không thích nghi với kỷ nguyên số."
-  },
-  {
-    "id": 21,
-    "type": "SHORT",
-    "context": "The traditional 9-to-5 workday is no longer the only path to a successful career. Today, the gig economy is catching (21) ______ rapidly, especially among younger generations. Freelancers appreciate the flexibility to work from anywhere, yet this lifestyle is not (22) ______ its drawbacks. One major concern is the lack of job security and benefits like health insurance. Furthermore, independent contractors often find (23) ______ working longer hours to meet erratic deadlines. Despite these challenges, the appeal of being one's own boss continues to (24) ______ millions into the freelance market. Ultimately, whether this trend will completely replace traditional employment remains to be (25) ______.",
-    "question": "Fill in blank (21) with exactly ONE suitable word.",
-    "answer": "on",
-    "explanation": "Cụm động từ (Phrasal verb) 'catch on' mang nghĩa là trở nên phổ biến, thịnh hành (become popular)."
-  },
-  {
-    "id": 22,
-    "type": "SHORT",
-    "context": "The traditional 9-to-5 workday is no longer the only path to a successful career. Today, the gig economy is catching (21) ______ rapidly, especially among younger generations. Freelancers appreciate the flexibility to work from anywhere, yet this lifestyle is not (22) ______ its drawbacks. One major concern is the lack of job security and benefits like health insurance. Furthermore, independent contractors often find (23) ______ working longer hours to meet erratic deadlines. Despite these challenges, the appeal of being one's own boss continues to (24) ______ millions into the freelance market. Ultimately, whether this trend will completely replace traditional employment remains to be (25) ______.",
-    "question": "Fill in blank (22) with exactly ONE suitable word.",
-    "answer": "without",
-    "explanation": "Cụm từ cố định 'not without its drawbacks' (không phải là không có những mặt hạn chế / nhược điểm)."
-  },
-  {
-    "id": 23,
-    "type": "SHORT",
-    "context": "The traditional 9-to-5 workday is no longer the only path to a successful career. Today, the gig economy is catching (21) ______ rapidly, especially among younger generations. Freelancers appreciate the flexibility to work from anywhere, yet this lifestyle is not (22) ______ its drawbacks. One major concern is the lack of job security and benefits like health insurance. Furthermore, independent contractors often find (23) ______ working longer hours to meet erratic deadlines. Despite these challenges, the appeal of being one's own boss continues to (24) ______ millions into the freelance market. Ultimately, whether this trend will completely replace traditional employment remains to be (25) ______.",
-    "question": "Fill in blank (23) with exactly ONE suitable word.",
-    "answer": "themselves",
-    "explanation": "Cấu trúc 'find oneself doing something' (nhận ra bản thân đang làm gì). Chủ ngữ 'independent contractors' là số nhiều nên đại từ phản thân tương ứng là 'themselves'."
-  },
-  {
-    "id": 24,
-    "type": "SHORT",
-    "context": "The traditional 9-to-5 workday is no longer the only path to a successful career. Today, the gig economy is catching (21) ______ rapidly, especially among younger generations. Freelancers appreciate the flexibility to work from anywhere, yet this lifestyle is not (22) ______ its drawbacks. One major concern is the lack of job security and benefits like health insurance. Furthermore, independent contractors often find (23) ______ working longer hours to meet erratic deadlines. Despite these challenges, the appeal of being one's own boss continues to (24) ______ millions into the freelance market. Ultimately, whether this trend will completely replace traditional employment remains to be (25) ______.",
-    "question": "Fill in blank (24) with exactly ONE suitable word.",
-    "answer": "attract|draw|pull",
-    "explanation": "Cần một động từ nguyên thể đứng sau 'continues to' mang nghĩa thu hút, lôi kéo. 'Attract', 'draw', hoặc 'pull' đều được chấp nhận."
-  },
-  {
-    "id": 25,
-    "type": "SHORT",
-    "context": "The traditional 9-to-5 workday is no longer the only path to a successful career. Today, the gig economy is catching (21) ______ rapidly, especially among younger generations. Freelancers appreciate the flexibility to work from anywhere, yet this lifestyle is not (22) ______ its drawbacks. One major concern is the lack of job security and benefits like health insurance. Furthermore, independent contractors often find (23) ______ working longer hours to meet erratic deadlines. Despite these challenges, the appeal of being one's own boss continues to (24) ______ millions into the freelance market. Ultimately, whether this trend will completely replace traditional employment remains to be (25) ______.",
-    "question": "Fill in blank (25) with exactly ONE suitable word.",
-    "answer": "seen",
-    "explanation": "Thành ngữ 'it remains to be seen' có nghĩa là vẫn còn phải chờ xem (chưa thể biết chắc chắn điều gì sẽ xảy ra trong tương lai)."
-  }
+{
+"id": 1,
+"type": "TF",
+"text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
+"notice": "GREEN COMMUNITY INITIATIVE\nJoin us this Saturday from 8:00 AM to 11:00 AM for our monthly river clean-up at Maple Park.\n- Volunteers of all ages are welcome (under 12s must be accompanied by an adult).\n- Gloves and trash bags will be provided on-site.\n- Complimentary snacks and drinks will be served at 11:15 AM.\nPlease scan the QR code to register by Thursday so we can estimate the supplies needed.",
+"parts": [
+{
+"id": "1_1",
+"text": "The event is strictly limited to adults.",
+"correct": "F",
+"solution": "Thông báo ghi rõ 'Volunteers of all ages are welcome' (Tình nguyện viên mọi lứa tuổi đều được hoan nghênh), trẻ dưới 12 tuổi chỉ cần có người lớn đi kèm."
+},
+{
+"id": "1_2",
+"text": "Participants need to bring their own cleaning equipment.",
+"correct": "F",
+"solution": "Thông báo cho biết 'Gloves and trash bags will be provided on-site' (Găng tay và túi rác sẽ được cung cấp tại chỗ)."
+},
+{
+"id": "1_3",
+"text": "Food and beverages will be available after the clean-up finishes.",
+"correct": "T",
+"solution": "Sự kiện dọn dẹp kết thúc lúc 11:00 AM và đồ ăn nhẹ miễn phí sẽ được phục vụ lúc 11:15 AM."
+},
+{
+"id": "1_4",
+"text": "You can register for the event on Friday morning.",
+"correct": "F",
+"solution": "Hạn chót đăng ký là thứ Năm ('register by Thursday')."
+}
+],
+"points": 1.0
+},
+{
+"id": 2,
+"type": "TF",
+"text": "Based on the advertisement, decide whether the following statements are True (T) or False (F):",
+"notice": "JOB ADVERTISEMENT: JUNIOR MARKETING EXECUTIVE\nTechNova Solutions is looking for a creative individual to join our team!\nRequirements:\n- Bachelor’s degree in Marketing or related field.\n- At least 1 year of experience in social media management.\n- Fluency in English; knowledge of French is a plus.\nBenefits:\n- Hybrid working model (3 days in office, 2 days remote).\n- Comprehensive health insurance.\nSend your CV to hr@technova.com before November 20th.",
+"parts": [
+{
+"id": "2_1",
+"text": "Applicants must have exactly three years of experience in the related field.",
+"correct": "F",
+"solution": "Yêu cầu kinh nghiệm là 'ít nhất 1 năm' (At least 1 year), không phải đúng 3 năm."
+},
+{
+"id": "2_2",
+"text": "Knowing how to speak French is a mandatory requirement for this position.",
+"correct": "F",
+"solution": "Tiếng Pháp chỉ là một điểm cộng ('knowledge of French is a plus'), không bắt buộc."
+},
+{
+"id": "2_3",
+"text": "The successful candidate will not have to work in the office every day.",
+"correct": "T",
+"solution": "Công ty áp dụng mô hình làm việc lai (Hybrid model), chỉ cần lên văn phòng 3 ngày/tuần."
+},
+{
+"id": "2_4",
+"text": "Applications should be submitted electronically via email.",
+"correct": "T",
+"solution": "Ứng viên được yêu cầu gửi CV qua địa chỉ email hr@technova.com."
+}
+],
+"points": 1.0
+},
+{
+"id": 3,
+"type": "TF",
+"text": "Based on the policy notice, decide whether the following statements are True (T) or False (F):",
+"notice": "SCHOOL POLICY ON GENERATIVE AI\nEffective immediately, the use of AI tools (like ChatGPT) is permitted for brainstorming and outlining purposes only. Students must not use AI to generate complete essays. Any AI assistance must be explicitly cited in the bibliography. Submitting AI-generated text as original work is considered academic dishonesty and will result in an automatic zero.",
+"parts": [
+{
+"id": "3_1",
+"text": "The school has completely banned the use of AI platforms.",
+"correct": "F",
+"solution": "Việc sử dụng AI vẫn được cho phép đối với mục đích lên ý tưởng và lập dàn ý ('permitted for brainstorming and outlining purposes only')."
+},
+{
+"id": "3_2",
+"text": "Students can use AI to write the final conclusion of their essays.",
+"correct": "F",
+"solution": "Học sinh không được dùng AI để tạo ra các bài luận hoàn chỉnh hoặc các phần viết hoàn chỉnh ('must not use AI to generate complete essays')."
+},
+{
+"id": "3_3",
+"text": "If students use AI for ideas, they must declare it in their assignments.",
+"correct": "T",
+"solution": "Bất kỳ sự hỗ trợ nào từ AI cũng phải được trích dẫn rõ ràng ('must be explicitly cited')."
+},
+{
+"id": "3_4",
+"text": "Plagiarizing from AI will lead to a failing grade for the assignment.",
+"correct": "T",
+"solution": "Nộp bài do AI viết sẽ bị coi là gian lận và nhận điểm 0 tự động ('result in an automatic zero')."
+}
+],
+"points": 1.0
+},
+{
+"id": 4,
+"type": "TF",
+"text": "Based on the update notice, decide whether the following statements are True (T) or False (F):",
+"notice": "ATTENTION: MUSIC FESTIVAL UPDATE\nDue to unexpected heavy rain forecasts, the annual Summer Vibes Festival scheduled for this weekend (June 15-16) will be relocated from the Central Stadium to the Grand Exhibition Center. Operating hours remain unchanged (4 PM - 11 PM). Entry is free for children under 10; general admission is $15. Please note that all merchandise stalls will operate on a cashless basis.",
+"parts": [
+{
+"id": "4_1",
+"text": "The festival's venue has been changed because of the weather.",
+"correct": "T",
+"solution": "Sự kiện phải đổi địa điểm do dự báo mưa lớn bất ngờ ('Due to unexpected heavy rain forecasts... will be relocated')."
+},
+{
+"id": "4_2",
+"text": "The event will last for three consecutive days.",
+"correct": "F",
+"solution": "Sự kiện diễn ra vào cuối tuần này (ngày 15-16 tháng 6), tức là chỉ kéo dài 2 ngày."
+},
+{
+"id": "4_3",
+"text": "A twelve-year-old child must pay an entrance fee of $15.",
+"correct": "T",
+"solution": "Chỉ miễn phí cho trẻ dưới 10 tuổi. Trẻ 12 tuổi phải mua vé vào cổng chung (general admission) giá 15 đô la."
+},
+{
+"id": "4_4",
+"text": "Visitors can use paper money to buy souvenirs at the festival.",
+"correct": "F",
+"solution": "Tất cả các quầy bán hàng lưu niệm sẽ hoạt động không dùng tiền mặt ('cashless basis')."
+}
+],
+"points": 1.0
+},
+{
+"id": 5,
+"type": "TF",
+"text": "Based on the message, decide whether the following statements are True (T) or False (F):",
+"notice": "To all Gym Members,\nStarting next month, FitLife Center will increase its monthly subscription fee from $30 to $35. This adjustment allows us to upgrade our cardio equipment and extend our operating hours to 24/7. Members who have paid for an annual plan in advance will not be affected until their current cycle expires. Thank you for your understanding.\nManagement Team",
+"parts": [
+{
+"id": "5_1",
+"text": "The gym is reducing its prices to attract more members.",
+"correct": "F",
+"solution": "Phòng gym đang tăng phí đăng ký hàng tháng ('increase its monthly subscription fee'), không phải giảm giá."
+},
+{
+"id": "5_2",
+"text": "The additional money will be used to buy new exercise machines.",
+"correct": "T",
+"solution": "Sự điều chỉnh này giúp họ có chi phí nâng cấp thiết bị tập tim mạch ('upgrade our cardio equipment')."
+},
+{
+"id": "5_3",
+"text": "The fitness center will soon be open all day and night.",
+"correct": "T",
+"solution": "Giờ hoạt động sẽ được kéo dài thành 24/7 ('extend our operating hours to 24/7')."
+},
+{
+"id": "5_4",
+"text": "Annual subscribers must pay the extra $5 immediately next month.",
+"correct": "F",
+"solution": "Hội viên đã trả trước gói năm sẽ không bị ảnh hưởng cho đến khi chu kỳ hiện tại hết hạn ('will not be affected until their current cycle expires')."
+}
+],
+"points": 1.0
+},
+{
+"id": 6,
+"type": "TF",
+"text": "Based on the advertisement, decide whether the following statements are True (T) or False (F):",
+"notice": "E-WASTE RECYCLING CAMPAIGN\nDon't throw away your old gadgets! Drop them off at the Main Library parking lot from Monday to Friday next week. We accept laptops, smartphones, and chargers. (Note: Large home appliances like washing machines are prohibited). Please ensure all personal data is permanently wiped from your devices before drop-off. Every participant will receive a 10% discount voucher for the City Bookstore.",
+"parts": [
+{
+"id": "6_1",
+"text": "You can donate your broken refrigerator at this event.",
+"correct": "F",
+"solution": "Các thiết bị gia dụng lớn như máy giặt, tủ lạnh bị cấm mang đến ('Large home appliances... are prohibited')."
+},
+{
+"id": "6_2",
+"text": "The collection point is open on weekends.",
+"correct": "F",
+"solution": "Điểm thu gom chỉ mở từ Thứ Hai đến Thứ Sáu ('Monday to Friday')."
+},
+{
+"id": "6_3",
+"text": "Participants are responsible for deleting their own information from the devices.",
+"correct": "T",
+"solution": "Người tham gia phải tự đảm bảo xóa sạch dữ liệu cá nhân trước khi nộp ('ensure all personal data is permanently wiped')."
+},
+{
+"id": "6_4",
+"text": "Donors will be rewarded with a coupon for buying books.",
+"correct": "T",
+"solution": "Mỗi người tham gia sẽ nhận được một phiếu giảm giá 10% cho cửa hàng sách thành phố."
+}
+],
+"points": 1.0
+},
+{
+"id": 7,
+"type": "TF",
+"text": "Based on the email, decide whether the following statements are True (T) or False (F):",
+"notice": "From: David Lee\nTo: Sales Team\nSubject: Urgent: Rescheduling today's pitch\nHi team,\nI'm experiencing a severe internet outage in my area due to a downed cable. Consequently, I won't be able to host the client presentation via Zoom at 2:00 PM today. Let's postpone it to tomorrow at 10:00 AM. I have attached the final slide deck. Please review the sales figures on slide 10 and let me know if any numbers need tweaking.\nBest, David",
+"parts": [
+{
+"id": "7_1",
+"text": "The online meeting was cancelled because David was sick.",
+"correct": "F",
+"solution": "Cuộc họp bị hoãn do sự cố mất mạng internet cục bộ ('severe internet outage'), không phải do David bị ốm."
+},
+{
+"id": "7_2",
+"text": "The presentation has been shifted to the morning of the following day.",
+"correct": "T",
+"solution": "Buổi thuyết trình được dời sang 10:00 sáng ngày mai ('postpone it to tomorrow at 10:00 AM')."
+},
+{
+"id": "7_3",
+"text": "David has sent the completed presentation slides along with the email.",
+"correct": "T",
+"solution": "David đã đính kèm bộ slide hoàn chỉnh trong email ('attached the final slide deck')."
+},
+{
+"id": "7_4",
+"text": "David wants the team to completely rewrite the entire presentation.",
+"correct": "F",
+"solution": "David chỉ yêu cầu nhóm xem xét lại các số liệu bán hàng ở slide số 10 ('review the sales figures on slide 10')."
+}
+],
+"points": 1.0
+},
+{
+"id": 8,
+"type": "TF",
+"text": "Question 8 is based on the information in paragraph 1. Decide if the statements are True (T) or False (F):",
+"passage": "The integration of Artificial Intelligence (AI) into the workplace has ignited a profound transformation, shifting the paradigm from manual automation to cognitive collaboration. Unlike previous industrial revolutions that primarily replaced physical labor, the current AI wave, spearheaded by generative models, threatens to disrupt white-collar professions. Routine tasks such as data entry, basic copywriting, and preliminary coding are increasingly being outsourced to algorithms. However, economists argue that viewing AI solely as a job destroyer is a reductive stance.\n\nInstead of mass unemployment, we are witnessing a structural realignment of the workforce. The rise of AI has catalyzed the creation of entirely new professions. For instance, 'prompt engineering'—the skill of crafting precise inputs to elicit optimal outputs from AI—has emerged as a highly lucrative role. [A] Furthermore, AI acts as an augmentation tool, empowering professionals to transcend mundane tasks and focus on strategic, creative endeavors. [B] Doctors, for example, can leverage AI to rapidly analyze medical scans, allowing them more time for patient care. [C]\n\nDespite the optimistic outlook, this transition is not devoid of challenges. The most pressing issue is the widening 'skills gap.' As AI takes over routine cognitive work, the demand for advanced technical literacy and uniquely human soft skills—like emotional intelligence, complex problem-solving, and ethical judgment—is skyrocketing. [D] Educational institutions are currently struggling to update their curricula at a pace that matches technological advancement, leaving many recent graduates ill-equipped for the modern workplace.\n\nTo navigate this turbulent landscape, a culture of lifelong learning must be cultivated. Corporate retraining programs are no longer a perk but a necessity for survival. Governments, too, must intervene by providing subsidies for upskilling initiatives and implementing robust social safety nets for displaced workers. Ultimately, the future of work will not be defined by humans competing against machines, but by humans working harmoniously alongside them.",
+"parts": [
+{
+"id": "8_1",
+"text": "Previous industrial revolutions mainly replaced physical human labor.",
+"correct": "T",
+"solution": "Đoạn 1 nêu rõ: 'Unlike previous industrial revolutions that primarily replaced physical labor' (Khác với các cuộc CMCN trước đây chủ yếu thay thế lao động chân tay)."
+},
+{
+"id": "8_2",
+"text": "Generative AI models pose a significant threat to blue-collar manufacturing jobs.",
+"correct": "F",
+"solution": "Làn sóng AI hiện tại đe dọa làm gián đoạn các ngành nghề văn phòng, trí thức ('white-collar professions'), không phải công nhân nhà máy."
+},
+{
+"id": "8_3",
+"text": "Basic coding and data entry are immune to AI automation.",
+"correct": "F",
+"solution": "Những công việc này đang ngày càng bị thuê ngoài cho các thuật toán AI ('increasingly being outsourced to algorithms'), do đó chúng không hề được miễn nhiễm."
+},
+{
+"id": "8_4",
+"text": "Economists completely agree that AI is strictly a job-destroying technology.",
+"correct": "F",
+"solution": "Các nhà kinh tế cho rằng việc chỉ coi AI là kẻ hủy diệt việc làm là một quan điểm phiến diện, sai lầm ('a reductive stance')."
+}
+],
+"points": 1.0
+},
+{
+"id": 9,
+"type": "TF",
+"text": "Question 9 is based on the information in paragraph 2. Decide if the statements are True (T) or False (F):",
+"passage": "The integration of Artificial Intelligence (AI) into the workplace has ignited a profound transformation, shifting the paradigm from manual automation to cognitive collaboration. Unlike previous industrial revolutions that primarily replaced physical labor, the current AI wave, spearheaded by generative models, threatens to disrupt white-collar professions. Routine tasks such as data entry, basic copywriting, and preliminary coding are increasingly being outsourced to algorithms. However, economists argue that viewing AI solely as a job destroyer is a reductive stance.\n\nInstead of mass unemployment, we are witnessing a structural realignment of the workforce. The rise of AI has catalyzed the creation of entirely new professions. For instance, 'prompt engineering'—the skill of crafting precise inputs to elicit optimal outputs from AI—has emerged as a highly lucrative role. [A] Furthermore, AI acts as an augmentation tool, empowering professionals to transcend mundane tasks and focus on strategic, creative endeavors. [B] Doctors, for example, can leverage AI to rapidly analyze medical scans, allowing them more time for patient care. [C]\n\nDespite the optimistic outlook, this transition is not devoid of challenges. The most pressing issue is the widening 'skills gap.' As AI takes over routine cognitive work, the demand for advanced technical literacy and uniquely human soft skills—like emotional intelligence, complex problem-solving, and ethical judgment—is skyrocketing. [D] Educational institutions are currently struggling to update their curricula at a pace that matches technological advancement, leaving many recent graduates ill-equipped for the modern workplace.\n\nTo navigate this turbulent landscape, a culture of lifelong learning must be cultivated. Corporate retraining programs are no longer a perk but a necessity for survival. Governments, too, must intervene by providing subsidies for upskilling initiatives and implementing robust social safety nets for displaced workers. Ultimately, the future of work will not be defined by humans competing against machines, but by humans working harmoniously alongside them.",
+"parts": [
+{
+"id": "9_1",
+"text": "AI integration has resulted in the total elimination of the workforce.",
+"correct": "F",
+"solution": "Tác giả khẳng định thay vì thất nghiệp hàng loạt, chúng ta đang chứng kiến sự tái cấu trúc lực lượng lao động ('Instead of mass unemployment, we are witnessing a structural realignment')."
+},
+{
+"id": "9_2",
+"text": "'Prompt engineering' is a new profession created as a direct result of AI advancement.",
+"correct": "T",
+"solution": "Sự trỗi dậy của AI đã xúc tác tạo ra các nghề nghiệp hoàn toàn mới, trong đó có 'prompt engineering'."
+},
+{
+"id": "9_3",
+"text": "AI tools restrict professionals from engaging in creative work.",
+"correct": "F",
+"solution": "Ngược lại, AI trao quyền cho các chuyên gia thoát khỏi các công việc nhàm chán để tập trung vào các nỗ lực sáng tạo ('focus on strategic, creative endeavors')."
+},
+{
+"id": "9_4",
+"text": "Medical professionals can use AI to speed up the analysis of patient scans.",
+"correct": "T",
+"solution": "Bác sĩ có thể tận dụng AI để phân tích nhanh chóng các hình ảnh y khoa chụp chiếu ('rapidly analyze medical scans')."
+}
+],
+"points": 1.0
+},
+{
+"id": 10,
+"type": "MCQ",
+"text": "Which sentence best summarizes the main idea of the passage?",
+"passage": "The integration of Artificial Intelligence (AI) into the workplace has ignited a profound transformation, shifting the paradigm from manual automation to cognitive collaboration. Unlike previous industrial revolutions that primarily replaced physical labor, the current AI wave, spearheaded by generative models, threatens to disrupt white-collar professions. Routine tasks such as data entry, basic copywriting, and preliminary coding are increasingly being outsourced to algorithms. However, economists argue that viewing AI solely as a job destroyer is a reductive stance.\n\nInstead of mass unemployment, we are witnessing a structural realignment of the workforce. The rise of AI has catalyzed the creation of entirely new professions. For instance, 'prompt engineering'—the skill of crafting precise inputs to elicit optimal outputs from AI—has emerged as a highly lucrative role. [A] Furthermore, AI acts as an augmentation tool, empowering professionals to transcend mundane tasks and focus on strategic, creative endeavors. [B] Doctors, for example, can leverage AI to rapidly analyze medical scans, allowing them more time for patient care. [C]\n\nDespite the optimistic outlook, this transition is not devoid of challenges. The most pressing issue is the widening 'skills gap.' As AI takes over routine cognitive work, the demand for advanced technical literacy and uniquely human soft skills—like emotional intelligence, complex problem-solving, and ethical judgment—is skyrocketing. [D] Educational institutions are currently struggling to update their curricula at a pace that matches technological advancement, leaving many recent graduates ill-equipped for the modern workplace.\n\nTo navigate this turbulent landscape, a culture of lifelong learning must be cultivated. Corporate retraining programs are no longer a perk but a necessity for survival. Governments, too, must intervene by providing subsidies for upskilling initiatives and implementing robust social safety nets for displaced workers. Ultimately, the future of work will not be defined by humans competing against machines, but by humans working harmoniously alongside them.",
+"options": [
+{
+"key": "A",
+"text": "The technological mechanisms behind generative AI models."
+},
+{
+"key": "B",
+"text": "The impact of AI on the workplace, its challenges, and necessary adaptations."
+},
+{
+"key": "C",
+"text": "Why educational institutions are failing to teach modern technology."
+},
+{
+"key": "D",
+"text": "The history of industrial revolutions and their effect on manual labor."
+}
+],
+"correct": "B",
+"solution": "Văn bản thảo luận toàn diện về tác động của AI đối với công việc (Đoạn 1, 2), những thách thức phát sinh như khoảng trống kỹ năng (Đoạn 3), và các giải pháp thích ứng cần thiết như học tập suốt đời (Đoạn 4)."
+},
+{
+"id": 11,
+"type": "MCQ",
+"text": "The word "transcend" in paragraph 2 is closest in meaning to:",
+"passage": "The integration of Artificial Intelligence (AI) into the workplace has ignited a profound transformation, shifting the paradigm from manual automation to cognitive collaboration. Unlike previous industrial revolutions that primarily replaced physical labor, the current AI wave, spearheaded by generative models, threatens to disrupt white-collar professions. Routine tasks such as data entry, basic copywriting, and preliminary coding are increasingly being outsourced to algorithms. However, economists argue that viewing AI solely as a job destroyer is a reductive stance.\n\nInstead of mass unemployment, we are witnessing a structural realignment of the workforce. The rise of AI has catalyzed the creation of entirely new professions. For instance, 'prompt engineering'—the skill of crafting precise inputs to elicit optimal outputs from AI—has emerged as a highly lucrative role. [A] Furthermore, AI acts as an augmentation tool, empowering professionals to transcend mundane tasks and focus on strategic, creative endeavors. [B] Doctors, for example, can leverage AI to rapidly analyze medical scans, allowing them more time for patient care. [C]\n\nDespite the optimistic outlook, this transition is not devoid of challenges. The most pressing issue is the widening 'skills gap.' As AI takes over routine cognitive work, the demand for advanced technical literacy and uniquely human soft skills—like emotional intelligence, complex problem-solving, and ethical judgment—is skyrocketing. [D] Educational institutions are currently struggling to update their curricula at a pace that matches technological advancement, leaving many recent graduates ill-equipped for the modern workplace.\n\nTo navigate this turbulent landscape, a culture of lifelong learning must be cultivated. Corporate retraining programs are no longer a perk but a necessity for survival. Governments, too, must intervene by providing subsidies for upskilling initiatives and implementing robust social safety nets for displaced workers. Ultimately, the future of work will not be defined by humans competing against machines, but by humans working harmoniously alongside them.",
+"options": [
+{
+"key": "A",
+"text": "go beyond"
+},
+{
+"key": "B",
+"text": "fall behind"
+},
+{
+"key": "C",
+"text": "focus on"
+},
+{
+"key": "D",
+"text": "struggle with"
+}
+],
+"correct": "A",
+"solution": "'Transcend' có nghĩa là vượt qua, vượt lên trên giới hạn. Trong ngữ cảnh này, AI giúp con người vượt qua các công việc nhàm chán (mundane tasks). Từ đồng nghĩa phù hợp nhất là 'go beyond'."
+},
+{
+"id": 12,
+"type": "MCQ",
+"text": "The word "them" in paragraph 2 refers to:",
+"passage": "The integration of Artificial Intelligence (AI) into the workplace has ignited a profound transformation, shifting the paradigm from manual automation to cognitive collaboration. Unlike previous industrial revolutions that primarily replaced physical labor, the current AI wave, spearheaded by generative models, threatens to disrupt white-collar professions. Routine tasks such as data entry, basic copywriting, and preliminary coding are increasingly being outsourced to algorithms. However, economists argue that viewing AI solely as a job destroyer is a reductive stance.\n\nInstead of mass unemployment, we are witnessing a structural realignment of the workforce. The rise of AI has catalyzed the creation of entirely new professions. For instance, 'prompt engineering'—the skill of crafting precise inputs to elicit optimal outputs from AI—has emerged as a highly lucrative role. [A] Furthermore, AI acts as an augmentation tool, empowering professionals to transcend mundane tasks and focus on strategic, creative endeavors. [B] Doctors, for example, can leverage AI to rapidly analyze medical scans, allowing them more time for patient care. [C]\n\nDespite the optimistic outlook, this transition is not devoid of challenges. The most pressing issue is the widening 'skills gap.' As AI takes over routine cognitive work, the demand for advanced technical literacy and uniquely human soft skills—like emotional intelligence, complex problem-solving, and ethical judgment—is skyrocketing. [D] Educational institutions are currently struggling to update their curricula at a pace that matches technological advancement, leaving many recent graduates ill-equipped for the modern workplace.\n\nTo navigate this turbulent landscape, a culture of lifelong learning must be cultivated. Corporate retraining programs are no longer a perk but a necessity for survival. Governments, too, must intervene by providing subsidies for upskilling initiatives and implementing robust social safety nets for displaced workers. Ultimately, the future of work will not be defined by humans competing against machines, but by humans working harmoniously alongside them.",
+"options": [
+{
+"key": "A",
+"text": "AI models"
+},
+{
+"key": "B",
+"text": "creative endeavors"
+},
+{
+"key": "C",
+"text": "Doctors"
+},
+{
+"key": "D",
+"text": "patient care"
+}
+],
+"correct": "C",
+"solution": "Đại từ 'them' nằm trong cấu trúc 'allowing them more time'. Nó thay thế cho danh từ số nhiều chỉ người đứng ngay trước đó là 'Doctors' (Các bác sĩ)."
+},
+{
+"id": 13,
+"type": "MCQ",
+"text": "According to paragraph 3, what is the primary cause of the widening "skills gap"?",
+"passage": "The integration of Artificial Intelligence (AI) into the workplace has ignited a profound transformation, shifting the paradigm from manual automation to cognitive collaboration. Unlike previous industrial revolutions that primarily replaced physical labor, the current AI wave, spearheaded by generative models, threatens to disrupt white-collar professions. Routine tasks such as data entry, basic copywriting, and preliminary coding are increasingly being outsourced to algorithms. However, economists argue that viewing AI solely as a job destroyer is a reductive stance.\n\nInstead of mass unemployment, we are witnessing a structural realignment of the workforce. The rise of AI has catalyzed the creation of entirely new professions. For instance, 'prompt engineering'—the skill of crafting precise inputs to elicit optimal outputs from AI—has emerged as a highly lucrative role. [A] Furthermore, AI acts as an augmentation tool, empowering professionals to transcend mundane tasks and focus on strategic, creative endeavors. [B] Doctors, for example, can leverage AI to rapidly analyze medical scans, allowing them more time for patient care. [C]\n\nDespite the optimistic outlook, this transition is not devoid of challenges. The most pressing issue is the widening 'skills gap.' As AI takes over routine cognitive work, the demand for advanced technical literacy and uniquely human soft skills—like emotional intelligence, complex problem-solving, and ethical judgment—is skyrocketing. [D] Educational institutions are currently struggling to update their curricula at a pace that matches technological advancement, leaving many recent graduates ill-equipped for the modern workplace.\n\nTo navigate this turbulent landscape, a culture of lifelong learning must be cultivated. Corporate retraining programs are no longer a perk but a necessity for survival. Governments, too, must intervene by providing subsidies for upskilling initiatives and implementing robust social safety nets for displaced workers. Ultimately, the future of work will not be defined by humans competing against machines, but by humans working harmoniously alongside them.",
+"options": [
+{
+"key": "A",
+"text": "Workers are refusing to learn new soft skills."
+},
+{
+"key": "B",
+"text": "AI is taking over routine tasks, increasing the need for advanced technical and soft skills."
+},
+{
+"key": "C",
+"text": "Companies are cutting budgets for employee training programs."
+},
+{
+"key": "D",
+"text": "Recent graduates are not interested in the modern workplace."
+}
+],
+"correct": "B",
+"solution": "Đoạn 3 giải thích khoảng trống kỹ năng xảy ra do 'AI takes over routine cognitive work', dẫn đến nhu cầu về trình độ kỹ thuật cao và các kỹ năng mềm đặc trưng của con người tăng vọt."
+},
+{
+"id": 14,
+"type": "MCQ",
+"text": "In which space (marked [A], [B], [C], or [D] in the passage) will the following sentence fit?\n"This specific expertise requires a deep understanding of both linguistics and machine learning."",
+"passage": "The integration of Artificial Intelligence (AI) into the workplace has ignited a profound transformation, shifting the paradigm from manual automation to cognitive collaboration. Unlike previous industrial revolutions that primarily replaced physical labor, the current AI wave, spearheaded by generative models, threatens to disrupt white-collar professions. Routine tasks such as data entry, basic copywriting, and preliminary coding are increasingly being outsourced to algorithms. However, economists argue that viewing AI solely as a job destroyer is a reductive stance.\n\nInstead of mass unemployment, we are witnessing a structural realignment of the workforce. The rise of AI has catalyzed the creation of entirely new professions. For instance, 'prompt engineering'—the skill of crafting precise inputs to elicit optimal outputs from AI—has emerged as a highly lucrative role. [A] Furthermore, AI acts as an augmentation tool, empowering professionals to transcend mundane tasks and focus on strategic, creative endeavors. [B] Doctors, for example, can leverage AI to rapidly analyze medical scans, allowing them more time for patient care. [C]\n\nDespite the optimistic outlook, this transition is not devoid of challenges. The most pressing issue is the widening 'skills gap.' As AI takes over routine cognitive work, the demand for advanced technical literacy and uniquely human soft skills—like emotional intelligence, complex problem-solving, and ethical judgment—is skyrocketing. [D] Educational institutions are currently struggling to update their curricula at a pace that matches technological advancement, leaving many recent graduates ill-equipped for the modern workplace.\n\nTo navigate this turbulent landscape, a culture of lifelong learning must be cultivated. Corporate retraining programs are no longer a perk but a necessity for survival. Governments, too, must intervene by providing subsidies for upskilling initiatives and implementing robust social safety nets for displaced workers. Ultimately, the future of work will not be defined by humans competing against machines, but by humans working harmoniously alongside them.",
+"options": [
+{
+"key": "A",
+"text": "[A]"
+},
+{
+"key": "B",
+"text": "[B]"
+},
+{
+"key": "C",
+"text": "[C]"
+},
+{
+"key": "D",
+"text": "[D]"
+}
+],
+"correct": "A",
+"solution": "Câu cần điền nói về 'chuyên môn cụ thể này' (This specific expertise) đòi hỏi hiểu biết về ngôn ngữ học và học máy. Nó bổ nghĩa trực tiếp cho nghề 'prompt engineering' vừa được giới thiệu ở câu trước, do đó vị trí [A] là hợp lý nhất."
+},
+{
+"id": 15,
+"type": "MCQ",
+"text": "Which of the following can be inferred from the last paragraph?",
+"passage": "The integration of Artificial Intelligence (AI) into the workplace has ignited a profound transformation, shifting the paradigm from manual automation to cognitive collaboration. Unlike previous industrial revolutions that primarily replaced physical labor, the current AI wave, spearheaded by generative models, threatens to disrupt white-collar professions. Routine tasks such as data entry, basic copywriting, and preliminary coding are increasingly being outsourced to algorithms. However, economists argue that viewing AI solely as a job destroyer is a reductive stance.\n\nInstead of mass unemployment, we are witnessing a structural realignment of the workforce. The rise of AI has catalyzed the creation of entirely new professions. For instance, 'prompt engineering'—the skill of crafting precise inputs to elicit optimal outputs from AI—has emerged as a highly lucrative role. [A] Furthermore, AI acts as an augmentation tool, empowering professionals to transcend mundane tasks and focus on strategic, creative endeavors. [B] Doctors, for example, can leverage AI to rapidly analyze medical scans, allowing them more time for patient care. [C]\n\nDespite the optimistic outlook, this transition is not devoid of challenges. The most pressing issue is the widening 'skills gap.' As AI takes over routine cognitive work, the demand for advanced technical literacy and uniquely human soft skills—like emotional intelligence, complex problem-solving, and ethical judgment—is skyrocketing. [D] Educational institutions are currently struggling to update their curricula at a pace that matches technological advancement, leaving many recent graduates ill-equipped for the modern workplace.\n\nTo navigate this turbulent landscape, a culture of lifelong learning must be cultivated. Corporate retraining programs are no longer a perk but a necessity for survival. Governments, too, must intervene by providing subsidies for upskilling initiatives and implementing robust social safety nets for displaced workers. Ultimately, the future of work will not be defined by humans competing against machines, but by humans working harmoniously alongside them.",
+"options": [
+{
+"key": "A",
+"text": "Governments are currently doing too much to help displaced workers."
+},
+{
+"key": "B",
+"text": "Humans will eventually have to compete violently against machines for jobs."
+},
+{
+"key": "C",
+"text": "Relying solely on university degrees is no longer sufficient for long-term career survival."
+},
+{
+"key": "D",
+"text": "Corporate retraining programs should be optional perks for top employees."
+}
+],
+"correct": "C",
+"solution": "Đoạn cuối nhấn mạnh 'văn hóa học tập suốt đời phải được nuôi dưỡng' và các chương trình đào tạo lại là 'sự tất yếu để sinh tồn', suy ra bằng đại học ban đầu không còn đủ để bảo đảm sự nghiệp lâu dài."
+},
+{
+"id": 16,
+"type": "MATCH",
+"text": "Match the sentence beginnings (Left) with the most suitable conversational responses (Right).",
+"leftItems": [
+{
+"id": "16_1",
+"text": "Could you give me a hand with this heavy box?"
+},
+{
+"id": "16_2",
+"text": "I’m terribly sorry for stepping on your foot."
+},
+{
+"id": "16_3",
+"text": "What a breathtaking performance you delivered tonight!"
+},
+{
+"id": "16_4",
+"text": "How about going out for dinner to celebrate your promotion?"
+}
+],
+"rightItems": [
+{
+"key": "A",
+"text": "Sure, I'll grab the other end."
+},
+{
+"key": "B",
+"text": "It really doesn't matter, don't worry."
+},
+{
+"key": "C",
+"text": "I'm glad you enjoyed it."
+},
+{
+"key": "D",
+"text": "That sounds like a brilliant idea!"
+},
+{
+"key": "E",
+"text": "Yes, I completely agree with you."
+},
+{
+"key": "F",
+"text": "I don't think that's a good excuse."
+}
+],
+"correctMap": {
+"16_1": "A",
+"16_2": "B",
+"16_3": "C",
+"16_4": "D"
+},
+"solution": "1-A (Nhờ vả -> Đồng ý giúp); 2-B (Xin lỗi -> Bỏ qua, thông cảm); 3-C (Khen ngợi -> Cảm ơn lịch sự); 4-D (Đề nghị -> Hào hứng đồng ý)."
+},
+{
+"id": 17,
+"type": "MATCH",
+"text": "Match the sentence beginnings featuring grammatical inversions (Left) with their correct endings (Right).",
+"leftItems": [
+{
+"id": "17_1",
+"text": "Not until the consequences of climate change became undeniably severe"
+},
+{
+"id": "17_2",
+"text": "Hardly had the government implemented the new environmental regulations"
+},
+{
+"id": "17_3",
+"text": "Only by adopting a strict circular economy model"
+},
+{
+"id": "17_4",
+"text": "Were it not for the rapid advancements in green technology"
+}
+],
+"rightItems": [
+{
+"key": "A",
+"text": "did global leaders start taking drastic actions."
+},
+{
+"key": "B",
+"text": "when several heavy industry factories faced closure."
+},
+{
+"key": "C",
+"text": "can nations hope to achieve sustainable development."
+},
+{
+"key": "D",
+"text": "the transition to renewable energy would be impossible."
+},
+{
+"key": "E",
+"text": "than industrial emissions saw a significant drop."
+},
+{
+"key": "F",
+"text": "had the company reduced its carbon footprint."
+}
+],
+"correctMap": {
+"17_1": "A",
+"17_2": "B",
+"17_3": "C",
+"17_4": "D"
+},
+"solution": "1-A (Cấu trúc Not until... did + S + V); 2-B (Cấu trúc Hardly had + S + V3... when + S + V2); 3-C (Cấu trúc Only by + V-ing... can + S + V); 4-D (Đảo ngữ câu điều kiện loại 2: Were it not for + N... S + would + V)."
+},
+{
+"id": 18,
+"type": "MATCH",
+"text": "Match the sentence beginnings featuring relative clauses or participial phrases (Left) with their logical endings (Right).",
+"leftItems": [
+{
+"id": "18_1",
+"text": "The newly released smartphone, equipped with cutting-edge AI features,"
+},
+{
+"id": "18_2",
+"text": "The tech startup is developing an advanced algorithm,"
+},
+{
+"id": "18_3",
+"text": "Exhausted by the long hours of coding,"
+},
+{
+"id": "18_4",
+"text": "The software developer, whose latest app went viral globally,"
+}
+],
+"rightItems": [
+{
+"key": "A",
+"text": "has quickly become the best-selling model this year."
+},
+{
+"key": "B",
+"text": "which aims to bridge the digital divide in rural areas."
+},
+{
+"key": "C",
+"text": "the software engineer finally decided to take a vacation."
+},
+{
+"key": "D",
+"text": "was invited to speak at the international tech summit."
+},
+{
+"key": "E",
+"text": "who recently won a prestigious award for innovation."
+},
+{
+"key": "F",
+"text": "that guarantees absolute data privacy for users."
+}
+],
+"correctMap": {
+"18_1": "A",
+"18_2": "B",
+"18_3": "C",
+"18_4": "D"
+},
+"solution": "1-A (Chủ ngữ cần động từ chính 'has become'); 2-B (Mệnh đề quan hệ không xác định 'which' bổ sung nghĩa cho 'algorithm'); 3-C (Rút gọn mệnh đề chỉ nguyên nhân, vế sau cần chủ ngữ chỉ người 'the software engineer'); 4-D (Mệnh đề quan hệ 'whose' chen giữa, cần động từ chính 'was invited' để hoàn thành câu)."
+},
+{
+"id": 19,
+"type": "MATCH",
+"text": "Match the sentence beginnings focusing on English collocations (Left) with their appropriate endings (Right).",
+"leftItems": [
+{
+"id": "19_1",
+"text": "In order to stay competitive, companies must constantly upgrade"
+},
+{
+"id": "19_2",
+"text": "The rapid rise of automation will inevitably pose"
+},
+{
+"id": "19_3",
+"text": "Many teenagers today struggle to strike"
+},
+{
+"id": "19_4",
+"text": "Governments are launching campaigns to raise"
+}
+],
+"rightItems": [
+{
+"key": "A",
+"text": "their technological infrastructure."
+},
+{
+"key": "B",
+"text": "a significant threat to manual laborers."
+},
+{
+"key": "C",
+"text": "a healthy balance between study and screen time."
+},
+{
+"key": "D",
+"text": "public awareness about the dangers of cyberbullying."
+},
+{
+"key": "E",
+"text": "the heavy burden on healthcare systems."
+},
+{
+"key": "F",
+"text": "a profound impact on global communication."
+}
+],
+"correctMap": {
+"19_1": "A",
+"19_2": "B",
+"19_3": "C",
+"19_4": "D"
+},
+"solution": "1-A (Collocation: upgrade infrastructure - nâng cấp cơ sở hạ tầng); 2-B (Collocation: pose a threat to - đặt ra mối đe dọa); 3-C (Collocation: strike a balance - đạt được sự cân bằng); 4-D (Collocation: raise awareness - nâng cao nhận thức)."
+},
+{
+"id": 20,
+"type": "MATCH",
+"text": "Match the sentence beginnings focusing on transitions and complex clauses (Left) with their logical endings (Right).",
+"leftItems": [
+{
+"id": "20_1",
+"text": "Due to the mass migration of young adults to urban centers,"
+},
+{
+"id": "20_2",
+"text": "The local council decided to construct more green spaces;"
+},
+{
+"id": "20_3",
+"text": "Despite the undeniable convenience of online shopping,"
+},
+{
+"id": "20_4",
+"text": "Many traditional retail stores failed to adapt to the digital era,"
+}
+],
+"rightItems": [
+{
+"key": "A",
+"text": "many rural villages are experiencing an aging population."
+},
+{
+"key": "B",
+"text": "consequently, the air quality in the city center has improved."
+},
+{
+"key": "C",
+"text": "a large number of consumers still prefer examining products in person."
+},
+{
+"key": "D",
+"text": "resulting in a wave of unexpected bankruptcies."
+},
+{
+"key": "E",
+"text": "therefore, online transactions have skyrocketed."
+},
+{
+"key": "F",
+"text": "because they lacked sufficient financial resources."
+}
+],
+"correctMap": {
+"20_1": "A",
+"20_2": "B",
+"20_3": "C",
+"20_4": "D"
+},
+"solution": "1-A (Nguyên nhân - kết quả: giới trẻ rời đi làm nông thôn già hóa); 2-B (Dấu chấm phẩy kết hợp 'consequently' chỉ hệ quả trực tiếp); 3-C (Mệnh đề nhượng bộ 'Despite' kéo theo vế sau thể hiện sự trái ngược); 4-D (Mệnh đề phân từ 'resulting in...' mô tả hậu quả của việc không thích nghi được thời đại số)."
+},
+{
+"id": 21,
+"type": "SHORT",
+"passage": "The traditional 9-to-5 workday is no longer the only path to a successful career. Today, the gig economy is catching (21) ______ rapidly, especially among younger generations. Freelancers appreciate the flexibility to work from anywhere, yet this lifestyle is not (22) ______ its drawbacks. One major concern is the lack of job security and benefits like health insurance. Furthermore, independent contractors often find (23) ______ working longer hours to meet erratic deadlines. Despite these challenges, the appeal of being one's own boss continues to (24) ______ millions into the freelance market. Ultimately, whether this trend will completely replace traditional employment remains to be (25) ______.",
+"text": "Fill in ONE word which best fits gap (21):",
+"correct": "on",
+"solution": "Cụm động từ (Phrasal verb) 'catch on' có nghĩa là trở nên phổ biến, thịnh hành."
+},
+{
+"id": 22,
+"type": "SHORT",
+"passage": "The traditional 9-to-5 workday is no longer the only path to a successful career. Today, the gig economy is catching (21) ______ rapidly, especially among younger generations. Freelancers appreciate the flexibility to work from anywhere, yet this lifestyle is not (22) ______ its drawbacks. One major concern is the lack of job security and benefits like health insurance. Furthermore, independent contractors often find (23) ______ working longer hours to meet erratic deadlines. Despite these challenges, the appeal of being one's own boss continues to (24) ______ millions into the freelance market. Ultimately, whether this trend will completely replace traditional employment remains to be (25) ______.",
+"text": "Fill in ONE word which best fits gap (22):",
+"correct": "without",
+"solution": "Cụm từ cố định 'not without its drawbacks' có nghĩa là 'không phải là không có những mặt hạn chế'."
+},
+{
+"id": 23,
+"type": "SHORT",
+"passage": "The traditional 9-to-5 workday is no longer the only path to a successful career. Today, the gig economy is catching (21) ______ rapidly, especially among younger generations. Freelancers appreciate the flexibility to work from anywhere, yet this lifestyle is not (22) ______ its drawbacks. One major concern is the lack of job security and benefits like health insurance. Furthermore, independent contractors often find (23) ______ working longer hours to meet erratic deadlines. Despite these challenges, the appeal of being one's own boss continues to (24) ______ millions into the freelance market. Ultimately, whether this trend will completely replace traditional employment remains to be (25) ______.",
+"text": "Fill in ONE word which best fits gap (23):",
+"correct": "themselves",
+"solution": "Cấu trúc 'find oneself doing something' (tự nhận ra bản thân đang làm gì). Chủ ngữ 'independent contractors' là số nhiều nên đại từ phản thân tương ứng là 'themselves'."
+},
+{
+"id": 24,
+"type": "SHORT",
+"passage": "The traditional 9-to-5 workday is no longer the only path to a successful career. Today, the gig economy is catching (21) ______ rapidly, especially among younger generations. Freelancers appreciate the flexibility to work from anywhere, yet this lifestyle is not (22) ______ its drawbacks. One major concern is the lack of job security and benefits like health insurance. Furthermore, independent contractors often find (23) ______ working longer hours to meet erratic deadlines. Despite these challenges, the appeal of being one's own boss continues to (24) ______ millions into the freelance market. Ultimately, whether this trend will completely replace traditional employment remains to be (25) ______.",
+"text": "Fill in ONE word which best fits gap (24):",
+"correct": "attract|draw|pull",
+"solution": "Động từ nguyên thể đi sau 'continues to' mang nghĩa thu hút, lôi kéo. Các từ 'attract', 'draw', hoặc 'pull' đều phù hợp với ngữ cảnh."
+},
+{
+"id": 25,
+"type": "SHORT",
+"passage": "The traditional 9-to-5 workday is no longer the only path to a successful career. Today, the gig economy is catching (21) ______ rapidly, especially among younger generations. Freelancers appreciate the flexibility to work from anywhere, yet this lifestyle is not (22) ______ its drawbacks. One major concern is the lack of job security and benefits like health insurance. Furthermore, independent contractors often find (23) ______ working longer hours to meet erratic deadlines. Despite these challenges, the appeal of being one's own boss continues to (24) ______ millions into the freelance market. Ultimately, whether this trend will completely replace traditional employment remains to be (25) ______.",
+"text": "Fill in ONE word which best fits gap (25):",
+"correct": "seen",
+"solution": "Thành ngữ (Idiom) 'remains to be seen' có nghĩa là vẫn còn phải chờ xem, chưa thể biết chắc chắn điều gì sẽ xảy ra."
+}
 ]
