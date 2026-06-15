@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "type": "TF",
+    "context": "GREEN NEIGHBORHOOD INITIATIVE\nJoin us this Saturday from 8:00 AM to 11:30 AM for our monthly community clean-up and tree-planting event at Riverside Park.\n- All ages are welcome! Children under 12 must be accompanied by an adult.\n- Gardening gloves and tools will be provided on-site.\n- Complimentary refreshments and snacks at 11:45 AM.\nScan the QR code to register by Thursday to help us estimate supplies.",
+    "question": "Read the notice and decide if the statements are TRUE or FALSE.",
+    "parts": [
+      {
+        "text": "The event is strictly restricted to adults and teenagers.",
+        "answer": false,
+        "explanation": "Sai. Thông báo ghi 'All ages are welcome!' (Mọi lứa tuổi đều được chào đón), trẻ em dưới 12 tuổi chỉ cần có người lớn đi kèm chứ không bị cấm."
+      },
+      {
+        "text": "Participants do not need to bring their own planting equipment.",
+        "answer": true,
+        "explanation": "Đúng. Thông báo ghi 'Gardening gloves and tools will be provided on-site' (Găng tay và dụng cụ làm vườn sẽ được cung cấp tại chỗ)."
+      },
+      {
+        "text": "Food and drinks will be served after the main activities conclude.",
+        "answer": true,
+        "explanation": "Đúng. Sự kiện kết thúc lúc 11:30 AM và 'Complimentary refreshments and snacks' (Đồ ăn nhẹ và thức uống miễn phí) được phục vụ lúc 11:45 AM."
+      },
+      {
+        "text": "You can register for the event on Friday morning.",
+        "answer": false,
+        "explanation": "Sai. Yêu cầu đăng ký hạn chót là thứ Năm ('register by Thursday')."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "TF",
+    "context": "CAREER OPPORTUNITY: REMOTE DIGITAL CONTENT CREATOR\nTechNova Solutions is seeking a creative Digital Content Creator.\nRequirements:\n- Minimum 2 years of experience in social media management.\n- Proficiency in graphic design tools (e.g., Adobe Illustrator, Canva).\n- Video editing skills are highly desirable but not mandatory.\nBenefits:\n- 100% remote work with flexible hours.\n- Health insurance and annual learning stipend.\nTo apply, send your CV and a portfolio of recent work to hr@technova.com by Nov 15th.",
+    "question": "Read the advertisement and decide if the statements are TRUE or FALSE.",
+    "parts": [
+      {
+        "text": "This position requires the employee to work at the company's headquarters.",
+        "answer": false,
+        "explanation": "Sai. Đây là công việc làm từ xa 100% ('100% remote work')."
+      },
+      {
+        "text": "Candidates must have exactly five years of experience to apply.",
+        "answer": false,
+        "explanation": "Sai. Yêu cầu là 'Minimum 2 years of experience' (Tối thiểu 2 năm kinh nghiệm)."
+      },
+      {
+        "text": "You can still be hired even if you do not know how to edit videos.",
+        "answer": true,
+        "explanation": "Đúng. Kỹ năng chỉnh sửa video là điểm cộng cao nhưng không bắt buộc ('highly desirable but not mandatory')."
+      },
+      {
+        "text": "Applicants must provide examples of their previous projects.",
+        "answer": true,
+        "explanation": "Đúng. Yêu cầu gửi kèm 'a portfolio of recent work' (hồ sơ năng lực gồm các dự án gần đây)."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "TF",
+    "context": "SCHOOL POLICY ON GENERATIVE AI\nEffective immediately, the use of AI tools (like ChatGPT) is permitted solely for brainstorming and outlining purposes. Students must not use AI to generate complete paragraphs or essays. Any AI assistance used in an assignment must be explicitly cited in the bibliography. Submitting AI-generated text as one's own original work constitutes academic dishonesty and will result in an automatic zero for the assignment.",
+    "question": "Read the policy and decide if the statements are TRUE or FALSE.",
+    "parts": [
+      {
+        "text": "The school has completely banned the use of AI platforms.",
+        "answer": false,
+        "explanation": "Sai. AI vẫn được phép sử dụng cho mục đích lên ý tưởng và dàn ý ('permitted solely for brainstorming and outlining purposes')."
+      },
+      {
+        "text": "Students are allowed to use AI to write the conclusion of their essays.",
+        "answer": false,
+        "explanation": "Sai. Học sinh không được dùng AI để viết các đoạn văn hoàn chỉnh ('must not use AI to generate complete paragraphs')."
+      },
+      {
+        "text": "If AI tools are used for ideas, students are required to declare it.",
+        "answer": true,
+        "explanation": "Đúng. Mọi sự hỗ trợ từ AI đều phải được trích dẫn rõ ràng trong tài liệu tham khảo ('must be explicitly cited')."
+      },
+      {
+        "text": "Plagiarizing from AI will lead to severe academic consequences.",
+        "answer": true,
+        "explanation": "Đúng. Việc nộp bài do AI viết sẽ bị coi là gian lận học thuật và nhận điểm 0 tự động ('result in an automatic zero')."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "TF",
+    "context": "ATTENTION: INTERNATIONAL FOOD FESTIVAL UPDATE\nDue to unexpected heavy rain forecasts, the annual International Food Festival scheduled for this weekend (Oct 20-21) will be relocated from the City Square to the Grand Exhibition Center. The operating hours remain unchanged (10 AM - 9 PM). Entry is free for high school students with valid ID; general admission is $5. Please note that all food stalls will operate on a cashless basis this year.",
+    "question": "Read the notice and decide if the statements are TRUE or FALSE.",
+    "parts": [
+      {
+        "text": "The event's location has been changed due to weather conditions.",
+        "answer": true,
+        "explanation": "Đúng. Sự kiện được dời địa điểm ('relocated') do dự báo mưa lớn ('heavy rain forecasts')."
+      },
+      {
+        "text": "The festival will take place over a period of three days.",
+        "answer": false,
+        "explanation": "Sai. Sự kiện diễn ra vào cuối tuần này gồm ngày 20 và 21 tháng 10, tức là chỉ 2 ngày."
+      },
+      {
+        "text": "Everyone must pay a $5 entrance fee to access the festival.",
+        "answer": false,
+        "explanation": "Sai. Học sinh trung học có thẻ hợp lệ sẽ được vào cửa miễn phí ('Entry is free for high school students')."
+      },
+      {
+        "text": "Visitors cannot use paper money to buy food at the stalls.",
+        "answer": true,
+        "explanation": "Đúng. Tất cả các quầy thức ăn năm nay đều không dùng tiền mặt ('operate on a cashless basis')."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "TF",
+    "context": "Dear Members,\nStarting January 1st, FitLife Gym will increase its monthly subscription fee from $30 to $35. This adjustment allows us to upgrade our cardiovascular equipment and extend our operating hours to 24/7. Members who have paid for an annual plan in advance will not be affected until their current cycle expires. We appreciate your continued support in making FitLife a premium fitness community.\nRegards,\nManagement Team",
+    "question": "Read the message and decide if the statements are TRUE or FALSE.",
+    "parts": [
+      {
+        "text": "The gym is lowering its prices to attract more members.",
+        "answer": false,
+        "explanation": "Sai. Phòng gym đang tăng phí hàng tháng ('increase its monthly subscription fee')."
+      },
+      {
+        "text": "The extra revenue will be invested in new workout machines.",
+        "answer": true,
+        "explanation": "Đúng. Sự điều chỉnh giá này giúp họ nâng cấp thiết bị tim mạch ('upgrade our cardiovascular equipment')."
+      },
+      {
+        "text": "The gym will soon be accessible at any time of the day or night.",
+        "answer": true,
+        "explanation": "Đúng. Giờ hoạt động sẽ được kéo dài thành 24/7 ('extend our operating hours to 24/7')."
+      },
+      {
+        "text": "Annual subscribers must pay the extra $5 immediately starting January 1st.",
+        "answer": false,
+        "explanation": "Sai. Những người đăng ký gói năm sẽ không bị ảnh hưởng cho đến khi chu kỳ hiện tại của họ hết hạn ('will not be affected until their current cycle expires')."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "TF",
+    "context": "E-WASTE RECYCLING DRIVE\nDon't throw away your old gadgets! Join our E-Waste Drive at the Main Library parking lot from Monday to Saturday next week. We accept laptops, smartphones, tablets, and chargers. (Note: Large appliances like washing machines or TVs are strictly prohibited). Please ensure all personal data is permanently wiped from your devices before drop-off. Every participant will receive a 10% discount voucher for the TechStore.",
+    "question": "Read the advertisement and decide if the statements are TRUE or FALSE.",
+    "parts": [
+      {
+        "text": "You can donate your old refrigerator at this event.",
+        "answer": false,
+        "explanation": "Sai. Thông báo nghiêm cấm mang đến các thiết bị gia dụng lớn ('Large appliances... are strictly prohibited')."
+      },
+      {
+        "text": "The recycling collection point is available on Sunday.",
+        "answer": false,
+        "explanation": "Sai. Sự kiện chỉ diễn ra từ thứ Hai đến thứ Bảy ('from Monday to Saturday')."
+      },
+      {
+        "text": "Participants are responsible for deleting their own information from devices.",
+        "answer": true,
+        "explanation": "Đúng. Người tham gia phải đảm bảo xóa sạch dữ liệu cá nhân trước khi nộp ('ensure all personal data is permanently wiped')."
+      },
+      {
+        "text": "Donors will be rewarded with a coupon for an electronics store.",
+        "answer": true,
+        "explanation": "Đúng. Người tham gia sẽ nhận được một phiếu giảm giá 10% cho cửa hàng TechStore."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "TF",
+    "context": "From: Sarah Jenkins\nTo: Project Team\nSubject: Urgent: Rescheduling Today's Pitch\nHi everyone,\nI'm experiencing a severe internet outage in my area due to a downed cable. Consequently, I won't be able to host the client pitch via Zoom at 2:00 PM today. Let's postpone it to tomorrow at 10:00 AM. I have attached the final slide deck to this email. Please review the financial projections on slide 12 and let me know if any numbers need tweaking before the end of the day.\nBest, Sarah",
+    "question": "Read the email and decide if the statements are TRUE or FALSE.",
+    "parts": [
+      {
+        "text": "The online meeting was cancelled because Sarah was feeling unwell.",
+        "answer": false,
+        "explanation": "Sai. Cuộc họp bị hoãn do sự cố mất mạng internet cục bộ ('severe internet outage'), không phải do vấn đề sức khỏe."
+      },
+      {
+        "text": "The presentation has been shifted to the morning of the following day.",
+        "answer": true,
+        "explanation": "Đúng. Cuộc họp được dời sang 10:00 sáng ngày mai ('postpone it to tomorrow at 10:00 AM')."
+      },
+      {
+        "text": "Sarah has sent the completed presentation slides along with the email.",
+        "answer": true,
+        "explanation": "Đúng. Cô ấy đã đính kèm bộ slide hoàn chỉnh ('attached the final slide deck')."
+      },
+      {
+        "text": "Sarah expects her team to provide feedback on the finances by tomorrow.",
+        "answer": false,
+        "explanation": "Sai. Cô ấy yêu cầu phản hồi về các con số tài chính trước khi ngày hôm nay kết thúc ('before the end of the day')."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "TF",
+    "context": "The fashion industry has long been dominated by a linear economic model—extracting raw materials to make garments that are worn briefly and then discarded. This \"take-make-dispose\" paradigm has exacted a heavy toll on the environment, rendering fashion the second most polluting industry globally. However, an urgent paradigm shift is underway as the concept of a circular economy gains traction. In a circular model, garments are designed for longevity, reuse, and eventually, regeneration, aiming to keep materials in circulation and minimize toxic landfill waste.\n\nLeading this transformation is EcoThreads, a pioneering startup that merges cutting-edge technology with sustainable practices. Instead of relying on virgin cotton, EcoThreads intercepts textile waste before it reaches incinerators. Using an advanced AI-driven sorting system, the company categorizes discarded clothes by fiber composition and color. [A] The materials are then mechanically shredded and re-spun into premium, durable yarn. [B] This upcycled fabric is subsequently utilized to craft new, trendy apparel. [C] By skipping the conventional dyeing phase, their method significantly reduces water consumption and chemical pollution. [D]\n\nBeyond environmental salvation, the circular fashion movement offers profound socioeconomic benefits. It fosters the creation of localized green jobs in recycling facilities and repair workshops, reducing reliance on exploitative sweatshops abroad. Moreover, it cultivates a cultural shift among consumers, encouraging them to view clothing as an investment rather than a disposable commodity. People are increasingly engaging in clothing swaps, renting high-end outfits, or purchasing second-hand items.\n\nDespite its undeniable potential, scaling the circular economy presents formidable hurdles. The primary bottleneck is the lack of sophisticated infrastructure to recycle mixed-fiber garments, such as poly-cotton blends, which are notoriously difficult to separate. Furthermore, there remains a psychological barrier; brands must educate consumers to accept that upcycled garments, though made from \"waste,\" possess equal or superior quality and justify a slightly higher price point. Ultimately, achieving a fully circular fashion ecosystem will demand relentless innovation and a collective commitment from both manufacturers and buyers.",
+    "question": "Question 8 is based on the information in paragraph 1. Decide if the statements are TRUE or FALSE.",
+    "parts": [
+      {
+        "text": "The traditional fashion industry prioritizes extending the lifespan of clothing.",
+        "answer": false,
+        "explanation": "Sai. Ngành công nghiệp truyền thống theo mô hình tuyến tính, nơi quần áo được mặc trong thời gian ngắn rồi vứt bỏ ('worn briefly and then discarded')."
+      },
+      {
+        "text": "The \"take-make-dispose\" model has severely damaged the natural environment.",
+        "answer": true,
+        "explanation": "Đúng. Tác giả khẳng định mô hình này đã gây ra hậu quả nặng nề cho môi trường ('exacted a heavy toll on the environment')."
+      },
+      {
+        "text": "Fashion is currently the leading cause of global pollution.",
+        "answer": false,
+        "explanation": "Sai. Bài viết nêu rõ thời trang là ngành công nghiệp ô nhiễm đứng thứ hai thế giới ('second most polluting industry globally'), không phải đứng đầu."
+      },
+      {
+        "text": "The primary goal of a circular economy is to constantly recycle materials and reduce waste.",
+        "answer": true,
+        "explanation": "Đúng. Trọng tâm của kinh tế tuần hoàn là giữ vật liệu trong vòng luân chuyển và giảm thiểu rác thải ('keep materials in circulation and minimize toxic landfill waste')."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "type": "TF",
+    "context": "The fashion industry has long been dominated by a linear economic model—extracting raw materials to make garments that are worn briefly and then discarded. This \"take-make-dispose\" paradigm has exacted a heavy toll on the environment, rendering fashion the second most polluting industry globally. However, an urgent paradigm shift is underway as the concept of a circular economy gains traction. In a circular model, garments are designed for longevity, reuse, and eventually, regeneration, aiming to keep materials in circulation and minimize toxic landfill waste.\n\nLeading this transformation is EcoThreads, a pioneering startup that merges cutting-edge technology with sustainable practices. Instead of relying on virgin cotton, EcoThreads intercepts textile waste before it reaches incinerators. Using an advanced AI-driven sorting system, the company categorizes discarded clothes by fiber composition and color. [A] The materials are then mechanically shredded and re-spun into premium, durable yarn. [B] This upcycled fabric is subsequently utilized to craft new, trendy apparel. [C] By skipping the conventional dyeing phase, their method significantly reduces water consumption and chemical pollution. [D]\n\nBeyond environmental salvation, the circular fashion movement offers profound socioeconomic benefits. It fosters the creation of localized green jobs in recycling facilities and repair workshops, reducing reliance on exploitative sweatshops abroad. Moreover, it cultivates a cultural shift among consumers, encouraging them to view clothing as an investment rather than a disposable commodity. People are increasingly engaging in clothing swaps, renting high-end outfits, or purchasing second-hand items.\n\nDespite its undeniable potential, scaling the circular economy presents formidable hurdles. The primary bottleneck is the lack of sophisticated infrastructure to recycle mixed-fiber garments, such as poly-cotton blends, which are notoriously difficult to separate. Furthermore, there remains a psychological barrier; brands must educate consumers to accept that upcycled garments, though made from \"waste,\" possess equal or superior quality and justify a slightly higher price point. Ultimately, achieving a fully circular fashion ecosystem will demand relentless innovation and a collective commitment from both manufacturers and buyers.",
+    "question": "Question 9 is based on the information in paragraph 2. Decide if the statements are TRUE or FALSE.",
+    "parts": [
+      {
+        "text": "EcoThreads primarily uses freshly harvested cotton to produce their fabrics.",
+        "answer": false,
+        "explanation": "Sai. Công ty này không dùng bông mới ('Instead of relying on virgin cotton') mà thu gom rác thải dệt may."
+      },
+      {
+        "text": "Artificial intelligence is employed to organize the collected textile waste.",
+        "answer": true,
+        "explanation": "Đúng. Công ty sử dụng hệ thống phân loại bằng AI ('AI-driven sorting system') để phân loại quần áo cũ."
+      },
+      {
+        "text": "The mechanical shredding process reduces the final yarn into a low-quality material.",
+        "answer": false,
+        "explanation": "Sai. Vật liệu sau khi nghiền được kéo lại thành sợi cao cấp và bền bỉ ('re-spun into premium, durable yarn')."
+      },
+      {
+        "text": "The company's production process uses far more water than traditional methods.",
+        "answer": false,
+        "explanation": "Sai. Việc bỏ qua khâu nhuộm truyền thống giúp họ giảm đáng kể lượng nước tiêu thụ ('significantly reduces water consumption')."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "type": "MC",
+    "context": "The fashion industry has long been dominated by a linear economic model—extracting raw materials to make garments that are worn briefly and then discarded. This \"take-make-dispose\" paradigm has exacted a heavy toll on the environment, rendering fashion the second most polluting industry globally. However, an urgent paradigm shift is underway as the concept of a circular economy gains traction. In a circular model, garments are designed for longevity, reuse, and eventually, regeneration, aiming to keep materials in circulation and minimize toxic landfill waste.\n\nLeading this transformation is EcoThreads, a pioneering startup that merges cutting-edge technology with sustainable practices. Instead of relying on virgin cotton, EcoThreads intercepts textile waste before it reaches incinerators. Using an advanced AI-driven sorting system, the company categorizes discarded clothes by fiber composition and color. [A] The materials are then mechanically shredded and re-spun into premium, durable yarn. [B] This upcycled fabric is subsequently utilized to craft new, trendy apparel. [C] By skipping the conventional dyeing phase, their method significantly reduces water consumption and chemical pollution. [D]\n\nBeyond environmental salvation, the circular fashion movement offers profound socioeconomic benefits. It fosters the creation of localized green jobs in recycling facilities and repair workshops, reducing reliance on exploitative sweatshops abroad. Moreover, it cultivates a cultural shift among consumers, encouraging them to view clothing as an investment rather than a disposable commodity. People are increasingly engaging in clothing swaps, renting high-end outfits, or purchasing second-hand items.\n\nDespite its undeniable potential, scaling the circular economy presents formidable hurdles. The primary bottleneck is the lack of sophisticated infrastructure to recycle mixed-fiber garments, such as poly-cotton blends, which are notoriously difficult to separate. Furthermore, there remains a psychological barrier; brands must educate consumers to accept that upcycled garments, though made from \"waste,\" possess equal or superior quality and justify a slightly higher price point. Ultimately, achieving a fully circular fashion ecosystem will demand relentless innovation and a collective commitment from both manufacturers and buyers.",
+    "question": "Which of the following best summarizes the main idea of the passage?",
+    "options": [
+      {
+        "text": "The technological advancements of AI in the modern fashion manufacturing process.",
+        "isCorrect": false,
+        "explanation": "Sai. Công nghệ AI chỉ là một chi tiết nhỏ được nhắc đến ở đoạn 2, không bao quát toàn bài."
+      },
+      {
+        "text": "The severe environmental damage caused by the \"take-make-dispose\" linear model.",
+        "isCorrect": false,
+        "explanation": "Sai. Tác hại của thời trang nhanh chỉ là phần mở đầu để dẫn dắt vấn đề, không phải chủ đề chính xuyên suốt."
+      },
+      {
+        "text": "The transition to a circular fashion economy, its benefits, and the challenges of scaling it.",
+        "isCorrect": true,
+        "explanation": "Đúng. Bài đọc trình bày tổng quan về sự chuyển dịch sang kinh tế tuần hoàn (Đoạn 1,2), lợi ích kinh tế xã hội (Đoạn 3) và các thách thức đi kèm (Đoạn 4)."
+      },
+      {
+        "text": "How consumers are changing their shopping habits to support local repair workshops.",
+        "isCorrect": false,
+        "explanation": "Sai. Đây chỉ là một trong những lợi ích kinh tế - xã hội được nêu ở đoạn 3."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "type": "MC",
+    "context": "The fashion industry has long been dominated by a linear economic model—extracting raw materials to make garments that are worn briefly and then discarded. This \"take-make-dispose\" paradigm has exacted a heavy toll on the environment, rendering fashion the second most polluting industry globally. However, an urgent paradigm shift is underway as the concept of a circular economy gains traction. In a circular model, garments are designed for longevity, reuse, and eventually, regeneration, aiming to keep materials in circulation and minimize toxic landfill waste.\n\nLeading this transformation is EcoThreads, a pioneering startup that merges cutting-edge technology with sustainable practices. Instead of relying on virgin cotton, EcoThreads intercepts textile waste before it reaches incinerators. Using an advanced AI-driven sorting system, the company categorizes discarded clothes by fiber composition and color. [A] The materials are then mechanically shredded and re-spun into premium, durable yarn. [B] This upcycled fabric is subsequently utilized to craft new, trendy apparel. [C] By skipping the conventional dyeing phase, their method significantly reduces water consumption and chemical pollution. [D]\n\nBeyond environmental salvation, the circular fashion movement offers profound socioeconomic benefits. It fosters the creation of localized green jobs in recycling facilities and repair workshops, reducing reliance on exploitative sweatshops abroad. Moreover, it cultivates a cultural shift among consumers, encouraging them to view clothing as an investment rather than a disposable commodity. People are increasingly engaging in clothing swaps, renting high-end outfits, or purchasing second-hand items.\n\nDespite its undeniable potential, scaling the circular economy presents formidable hurdles. The primary bottleneck is the lack of sophisticated infrastructure to recycle mixed-fiber garments, such as poly-cotton blends, which are notoriously difficult to separate. Furthermore, there remains a psychological barrier; brands must educate consumers to accept that upcycled garments, though made from \"waste,\" possess equal or superior quality and justify a slightly higher price point. Ultimately, achieving a fully circular fashion ecosystem will demand relentless innovation and a collective commitment from both manufacturers and buyers.",
+    "question": "The word \"discarded\" in paragraph 2 is closest in meaning to:",
+    "options": [
+      {
+        "text": "abandoned",
+        "isCorrect": true,
+        "explanation": "Đúng. 'Discarded' có nghĩa là bị vứt bỏ, bỏ đi. Từ đồng nghĩa gần nhất trong ngữ cảnh này là 'abandoned' (bị từ bỏ/bỏ rơi)."
+      },
+      {
+        "text": "manufactured",
+        "isCorrect": false,
+        "explanation": "Sai. Nghĩa là sản xuất, trái ngược hoàn toàn với việc vứt bỏ."
+      },
+      {
+        "text": "preserved",
+        "isCorrect": false,
+        "explanation": "Sai. Nghĩa là bảo quản, giữ gìn."
+      },
+      {
+        "text": "distributed",
+        "isCorrect": false,
+        "explanation": "Sai. Nghĩa là phân phối."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "type": "MC",
+    "context": "The fashion industry has long been dominated by a linear economic model—extracting raw materials to make garments that are worn briefly and then discarded. This \"take-make-dispose\" paradigm has exacted a heavy toll on the environment, rendering fashion the second most polluting industry globally. However, an urgent paradigm shift is underway as the concept of a circular economy gains traction. In a circular model, garments are designed for longevity, reuse, and eventually, regeneration, aiming to keep materials in circulation and minimize toxic landfill waste.\n\nLeading this transformation is EcoThreads, a pioneering startup that merges cutting-edge technology with sustainable practices. Instead of relying on virgin cotton, EcoThreads intercepts textile waste before it reaches incinerators. Using an advanced AI-driven sorting system, the company categorizes discarded clothes by fiber composition and color. [A] The materials are then mechanically shredded and re-spun into premium, durable yarn. [B] This upcycled fabric is subsequently utilized to craft new, trendy apparel. [C] By skipping the conventional dyeing phase, their method significantly reduces water consumption and chemical pollution. [D]\n\nBeyond environmental salvation, the circular fashion movement offers profound socioeconomic benefits. It fosters the creation of localized green jobs in recycling facilities and repair workshops, reducing reliance on exploitative sweatshops abroad. Moreover, it cultivates a cultural shift among consumers, encouraging them to view clothing as an investment rather than a disposable commodity. People are increasingly engaging in clothing swaps, renting high-end outfits, or purchasing second-hand items.\n\nDespite its undeniable potential, scaling the circular economy presents formidable hurdles. The primary bottleneck is the lack of sophisticated infrastructure to recycle mixed-fiber garments, such as poly-cotton blends, which are notoriously difficult to separate. Furthermore, there remains a psychological barrier; brands must educate consumers to accept that upcycled garments, though made from \"waste,\" possess equal or superior quality and justify a slightly higher price point. Ultimately, achieving a fully circular fashion ecosystem will demand relentless innovation and a collective commitment from both manufacturers and buyers.",
+    "question": "The word \"them\" in paragraph 3 refers to:",
+    "options": [
+      {
+        "text": "sweatshops",
+        "isCorrect": false,
+        "explanation": "Sai. Sweatshops (nhà xưởng bóc lột sức lao động) không hợp ngữ cảnh."
+      },
+      {
+        "text": "benefits",
+        "isCorrect": false,
+        "explanation": "Sai. Khuyến khích 'lợi ích' xem quần áo như khoản đầu tư là vô lý."
+      },
+      {
+        "text": "consumers",
+        "isCorrect": true,
+        "explanation": "Đúng. Cấu trúc 'encouraging them to view...' (khuyến khích họ xem...). 'Them' ở đây thay thế cho danh từ 'consumers' (người tiêu dùng) ở ngay trước đó."
+      },
+      {
+        "text": "workshops",
+        "isCorrect": false,
+        "explanation": "Sai. Workshops là danh từ chỉ nơi chốn, không phù hợp về nghĩa."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "type": "MC",
+    "context": "The fashion industry has long been dominated by a linear economic model—extracting raw materials to make garments that are worn briefly and then discarded. This \"take-make-dispose\" paradigm has exacted a heavy toll on the environment, rendering fashion the second most polluting industry globally. However, an urgent paradigm shift is underway as the concept of a circular economy gains traction. In a circular model, garments are designed for longevity, reuse, and eventually, regeneration, aiming to keep materials in circulation and minimize toxic landfill waste.\n\nLeading this transformation is EcoThreads, a pioneering startup that merges cutting-edge technology with sustainable practices. Instead of relying on virgin cotton, EcoThreads intercepts textile waste before it reaches incinerators. Using an advanced AI-driven sorting system, the company categorizes discarded clothes by fiber composition and color. [A] The materials are then mechanically shredded and re-spun into premium, durable yarn. [B] This upcycled fabric is subsequently utilized to craft new, trendy apparel. [C] By skipping the conventional dyeing phase, their method significantly reduces water consumption and chemical pollution. [D]\n\nBeyond environmental salvation, the circular fashion movement offers profound socioeconomic benefits. It fosters the creation of localized green jobs in recycling facilities and repair workshops, reducing reliance on exploitative sweatshops abroad. Moreover, it cultivates a cultural shift among consumers, encouraging them to view clothing as an investment rather than a disposable commodity. People are increasingly engaging in clothing swaps, renting high-end outfits, or purchasing second-hand items.\n\nDespite its undeniable potential, scaling the circular economy presents formidable hurdles. The primary bottleneck is the lack of sophisticated infrastructure to recycle mixed-fiber garments, such as poly-cotton blends, which are notoriously difficult to separate. Furthermore, there remains a psychological barrier; brands must educate consumers to accept that upcycled garments, though made from \"waste,\" possess equal or superior quality and justify a slightly higher price point. Ultimately, achieving a fully circular fashion ecosystem will demand relentless innovation and a collective commitment from both manufacturers and buyers.",
+    "question": "According to the last paragraph, what is one of the main obstacles to expanding the circular economy?",
+    "options": [
+      {
+        "text": "A severe shortage of raw materials needed for upcycling.",
+        "isCorrect": false,
+        "explanation": "Sai. Rác thải dệt may (nguyên liệu cho upcycling) rất dồi dào, đây không phải là vấn đề."
+      },
+      {
+        "text": "The technological inability to separate mixed fabrics effectively.",
+        "isCorrect": true,
+        "explanation": "Đúng. Nút thắt chính ('primary bottleneck') là thiếu cơ sở hạ tầng phức tạp để tái chế các loại vải pha trộn ('recycle mixed-fiber garments'), vì chúng cực kỳ khó tách rời."
+      },
+      {
+        "text": "Consumers' unwillingness to buy second-hand items.",
+        "isCorrect": false,
+        "explanation": "Sai. Đoạn 3 đã khẳng định người tiêu dùng đang ngày càng tích cực tham gia mua đồ cũ ('increasingly engaging in... purchasing second-hand items')."
+      },
+      {
+        "text": "The high cost of maintaining mechanical shredding machines.",
+        "isCorrect": false,
+        "explanation": "Sai. Bài đọc không hề đề cập đến chi phí bảo trì máy móc."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "type": "MC",
+    "context": "The fashion industry has long been dominated by a linear economic model—extracting raw materials to make garments that are worn briefly and then discarded. This \"take-make-dispose\" paradigm has exacted a heavy toll on the environment, rendering fashion the second most polluting industry globally. However, an urgent paradigm shift is underway as the concept of a circular economy gains traction. In a circular model, garments are designed for longevity, reuse, and eventually, regeneration, aiming to keep materials in circulation and minimize toxic landfill waste.\n\nLeading this transformation is EcoThreads, a pioneering startup that merges cutting-edge technology with sustainable practices. Instead of relying on virgin cotton, EcoThreads intercepts textile waste before it reaches incinerators. Using an advanced AI-driven sorting system, the company categorizes discarded clothes by fiber composition and color. [A] The materials are then mechanically shredded and re-spun into premium, durable yarn. [B] This upcycled fabric is subsequently utilized to craft new, trendy apparel. [C] By skipping the conventional dyeing phase, their method significantly reduces water consumption and chemical pollution. [D]\n\nBeyond environmental salvation, the circular fashion movement offers profound socioeconomic benefits. It fosters the creation of localized green jobs in recycling facilities and repair workshops, reducing reliance on exploitative sweatshops abroad. Moreover, it cultivates a cultural shift among consumers, encouraging them to view clothing as an investment rather than a disposable commodity. People are increasingly engaging in clothing swaps, renting high-end outfits, or purchasing second-hand items.\n\nDespite its undeniable potential, scaling the circular economy presents formidable hurdles. The primary bottleneck is the lack of sophisticated infrastructure to recycle mixed-fiber garments, such as poly-cotton blends, which are notoriously difficult to separate. Furthermore, there remains a psychological barrier; brands must educate consumers to accept that upcycled garments, though made from \"waste,\" possess equal or superior quality and justify a slightly higher price point. Ultimately, achieving a fully circular fashion ecosystem will demand relentless innovation and a collective commitment from both manufacturers and buyers.",
+    "question": "In which space (marked [A], [B], [C], or [D] in the passage) will the following sentence fit?\n\"Because the fabrics are pre-sorted by their original colors, the new threads retain those hues without needing further chemical processing.\"",
+    "options": [
+      {
+        "text": "[A]",
+        "isCorrect": false,
+        "explanation": "Sai. Vị trí [A] diễn ra ngay sau khi phân loại, lúc này vật liệu chưa được kéo thành sợi (threads) nên chưa phù hợp."
+      },
+      {
+        "text": "[B]",
+        "isCorrect": false,
+        "explanation": "Sai. Vị trí [B] mô tả quá trình cắt nhỏ và kéo sợi, nhưng mạch văn cần một ý giới thiệu về khâu tạo thành quần áo trước."
+      },
+      {
+        "text": "[C]",
+        "isCorrect": true,
+        "explanation": "Đúng. Câu này giải thích lý do vì sao họ có thể 'skipping the conventional dyeing phase' (bỏ qua khâu nhuộm truyền thống) ở câu ngay sau đó [D]. Câu chèn vào cung cấp nguyên nhân hoàn hảo: vì màu sắc nguyên bản đã được giữ lại."
+      },
+      {
+        "text": "[D]",
+        "isCorrect": false,
+        "explanation": "Sai. Đặt ở [D] sẽ làm đứt gãy tính logic nguyên nhân - kết quả giữa việc giữ màu và việc giảm ô nhiễm hóa chất."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "type": "MC",
+    "context": "The fashion industry has long been dominated by a linear economic model—extracting raw materials to make garments that are worn briefly and then discarded. This \"take-make-dispose\" paradigm has exacted a heavy toll on the environment, rendering fashion the second most polluting industry globally. However, an urgent paradigm shift is underway as the concept of a circular economy gains traction. In a circular model, garments are designed for longevity, reuse, and eventually, regeneration, aiming to keep materials in circulation and minimize toxic landfill waste.\n\nLeading this transformation is EcoThreads, a pioneering startup that merges cutting-edge technology with sustainable practices. Instead of relying on virgin cotton, EcoThreads intercepts textile waste before it reaches incinerators. Using an advanced AI-driven sorting system, the company categorizes discarded clothes by fiber composition and color. [A] The materials are then mechanically shredded and re-spun into premium, durable yarn. [B] This upcycled fabric is subsequently utilized to craft new, trendy apparel. [C] By skipping the conventional dyeing phase, their method significantly reduces water consumption and chemical pollution. [D]\n\nBeyond environmental salvation, the circular fashion movement offers profound socioeconomic benefits. It fosters the creation of localized green jobs in recycling facilities and repair workshops, reducing reliance on exploitative sweatshops abroad. Moreover, it cultivates a cultural shift among consumers, encouraging them to view clothing as an investment rather than a disposable commodity. People are increasingly engaging in clothing swaps, renting high-end outfits, or purchasing second-hand items.\n\nDespite its undeniable potential, scaling the circular economy presents formidable hurdles. The primary bottleneck is the lack of sophisticated infrastructure to recycle mixed-fiber garments, such as poly-cotton blends, which are notoriously difficult to separate. Furthermore, there remains a psychological barrier; brands must educate consumers to accept that upcycled garments, though made from \"waste,\" possess equal or superior quality and justify a slightly higher price point. Ultimately, achieving a fully circular fashion ecosystem will demand relentless innovation and a collective commitment from both manufacturers and buyers.",
+    "question": "Which of the following can be inferred from the passage?",
+    "options": [
+      {
+        "text": "Consumers are entirely to blame for the environmental impact of the fashion industry.",
+        "isCorrect": false,
+        "explanation": "Sai. Bài viết không quy toàn bộ trách nhiệm cho người tiêu dùng mà tập trung vào mô hình tuyến tính của các nhà sản xuất."
+      },
+      {
+        "text": "Upcycled clothing is inherently cheaper to produce than garments made from virgin materials.",
+        "isCorrect": false,
+        "explanation": "Sai. Bài viết ngụ ý rằng các thương hiệu phải thuyết phục người tiêu dùng chấp nhận 'a slightly higher price point' (mức giá cao hơn một chút), cho thấy quá trình upcycle thực chất tốn kém hơn."
+      },
+      {
+        "text": "Technological innovation is indispensable for overcoming the current limitations of sustainable fashion.",
+        "isCorrect": true,
+        "explanation": "Đúng. Có thể suy luận điều này qua việc EcoThreads phải dùng AI để phân loại, và đoạn cuối nhấn mạnh việc thiếu cơ sở hạ tầng kỹ thuật là rào cản lớn, đòi hỏi 'relentless innovation' (sự đổi mới không ngừng)."
+      },
+      {
+        "text": "The circular economy will completely eradicate the need for new clothing within the next decade.",
+        "isCorrect": false,
+        "explanation": "Sai. Bài viết không hề đưa ra mốc thời gian cụ thể hay dự đoán cực đoan về việc xóa bỏ hoàn toàn nhu cầu mua quần áo mới."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "type": "MATCHING",
+    "question": "Match the sentence beginnings (Left) with the most suitable conversational responses (Right).",
+    "leftItems": [
+      "Could you give me a hand with lifting this heavy box?",
+      "I'm terribly sorry for stepping on your foot.",
+      "What a breathtaking performance you delivered tonight!",
+      "How about going out for dinner to celebrate your promotion?"
+    ],
+    "rightItems": [
+      "Sure, I'll grab the other end.",
+      "It really doesn't matter, don't worry about it.",
+      "I'm glad you enjoyed it.",
+      "That sounds like a brilliant idea!",
+      "Yes, I completely agree with you.",
+      "I don't think that's a good excuse."
+    ],
+    "pairs": [
+      {
+        "leftIndex": 0,
+        "rightIndex": 0
+      },
+      {
+        "leftIndex": 1,
+        "rightIndex": 1
+      },
+      {
+        "leftIndex": 2,
+        "rightIndex": 2
+      },
+      {
+        "leftIndex": 3,
+        "rightIndex": 3
+      }
+    ],
+    "explanation": "1 ghép với A (Nhờ vả -> Đồng ý giúp). 2 ghép với B (Xin lỗi -> Thể hiện sự thông cảm, bỏ qua). 3 ghép với C (Khen ngợi -> Cảm ơn lịch sự). 4 ghép với D (Đề nghị/Rủ rê -> Hào hứng đồng ý). E và F là phương án nhiễu, không phù hợp với các ngữ cảnh giao tiếp trên."
+  },
+  {
+    "id": 17,
+    "type": "MATCHING",
+    "question": "Match the sentence beginnings featuring grammatical inversions (Left) with their correct endings (Right).",
+    "leftItems": [
+      "Not until the consequences of climate change became undeniably severe",
+      "Hardly had the government implemented the new environmental regulations",
+      "Only by adopting a strict circular economy model",
+      "Were it not for the rapid advancements in green technology"
+    ],
+    "rightItems": [
+      "did global leaders start taking drastic actions.",
+      "when several heavy industry factories faced closure.",
+      "can nations hope to achieve sustainable development.",
+      "the transition to renewable energy would be impossible.",
+      "than industrial emissions saw a significant drop.",
+      "had the company reduced its carbon footprint."
+    ],
+    "pairs": [
+      {
+        "leftIndex": 0,
+        "rightIndex": 0
+      },
+      {
+        "leftIndex": 1,
+        "rightIndex": 1
+      },
+      {
+        "leftIndex": 2,
+        "rightIndex": 2
+      },
+      {
+        "leftIndex": 3,
+        "rightIndex": 3
+      }
+    ],
+    "explanation": "1-A: Cấu trúc 'Not until... did + S + V' (Mãi cho đến khi... thì). 2-B: Cấu trúc 'Hardly + had + S + V3... when + S + V2' (Vừa mới... thì). Lưu ý: phương án E dùng 'than' là sai ngữ pháp (chỉ dùng No sooner... than). 3-C: Cấu trúc 'Only by + V-ing... can + S + V' (Chỉ bằng cách... thì mới có thể). 4-D: Cấu trúc câu điều kiện loại 2 đảo ngữ 'Were it not for + N... S + would + V' (Nếu không vì... thì)."
+  },
+  {
+    "id": 18,
+    "type": "MATCHING",
+    "question": "Match the sentence beginnings featuring relative clauses or participial phrases (Left) with their logical endings (Right).",
+    "leftItems": [
+      "The newly released smartphone, equipped with cutting-edge AI features,",
+      "The tech startup is developing an advanced algorithm,",
+      "Exhausted by the long hours of coding,",
+      "The software developer, whose latest app went viral globally,"
+    ],
+    "rightItems": [
+      "has quickly become the best-selling model this year.",
+      "which aims to bridge the digital divide in rural areas.",
+      "the software engineer finally decided to take a vacation.",
+      "was invited to speak at the international tech summit.",
+      "who recently won a prestigious award for innovation.",
+      "that guarantees absolute data privacy for users."
+    ],
+    "pairs": [
+      {
+        "leftIndex": 0,
+        "rightIndex": 0
+      },
+      {
+        "leftIndex": 1,
+        "rightIndex": 1
+      },
+      {
+        "leftIndex": 2,
+        "rightIndex": 2
+      },
+      {
+        "leftIndex": 3,
+        "rightIndex": 3
+      }
+    ],
+    "explanation": "1-A: Cụm phân từ rút gọn bổ nghĩa cho chủ ngữ 'smartphone', cần động từ chính 'has become'. 2-B: Mệnh đề quan hệ không xác định dùng 'which' bổ nghĩa cho 'algorithm'. 3-C: Mệnh đề phân từ V-ed chỉ nguyên nhân, chủ ngữ vế sau 'the software engineer' chỉ người phù hợp với tính từ 'Exhausted'. 4-D: Mệnh đề quan hệ 'whose...' chen giữa, cần động từ chính 'was invited' để hoàn thiện câu."
+  },
+  {
+    "id": 19,
+    "type": "MATCHING",
+    "question": "Match the sentence beginnings focusing on collocations (Left) with their appropriate endings (Right).",
+    "leftItems": [
+      "In order to stay competitive, companies must constantly upgrade",
+      "The rapid rise of automation will inevitably pose",
+      "Many teenagers today struggle to strike",
+      "Governments are launching campaigns to raise"
+    ],
+    "rightItems": [
+      "their technological infrastructure.",
+      "a significant threat to manual laborers.",
+      "a healthy balance between study and screen time.",
+      "public awareness about the dangers of cyberbullying.",
+      "the heavy burden on healthcare systems.",
+      "a profound impact on global communication."
+    ],
+    "pairs": [
+      {
+        "leftIndex": 0,
+        "rightIndex": 0
+      },
+      {
+        "leftIndex": 1,
+        "rightIndex": 1
+      },
+      {
+        "leftIndex": 2,
+        "rightIndex": 2
+      },
+      {
+        "leftIndex": 3,
+        "rightIndex": 3
+      }
+    ],
+    "explanation": "1-A: Collocation 'upgrade infrastructure' (nâng cấp cơ sở hạ tầng). 2-B: Collocation 'pose a threat to' (đặt ra mối đe dọa cho). 3-C: Collocation 'strike a balance' (tạo sự cân bằng). 4-D: Collocation 'raise awareness about' (nâng cao nhận thức về)."
+  },
+  {
+    "id": 20,
+    "type": "MATCHING",
+    "question": "Match the sentence beginnings focusing on cause-and-effect transitions (Left) with their logical endings (Right).",
+    "leftItems": [
+      "Due to the mass migration of young adults to urban centers,",
+      "The local council decided to construct more green spaces;",
+      "Despite the undeniable convenience of online shopping,",
+      "Many traditional retail stores failed to adapt to the digital era,"
+    ],
+    "rightItems": [
+      "many rural villages are experiencing an aging population.",
+      "consequently, the air quality in the city center has improved.",
+      "a large number of consumers still prefer examining products in person.",
+      "resulting in a wave of unexpected bankruptcies.",
+      "therefore, online transactions have skyrocketed.",
+      "because they lacked sufficient financial resources."
+    ],
+    "pairs": [
+      {
+        "leftIndex": 0,
+        "rightIndex": 0
+      },
+      {
+        "leftIndex": 1,
+        "rightIndex": 1
+      },
+      {
+        "leftIndex": 2,
+        "rightIndex": 2
+      },
+      {
+        "leftIndex": 3,
+        "rightIndex": 3
+      }
+    ],
+    "explanation": "1-A: Nguyên nhân - kết quả hợp lý (di cư lên phố -> nông thôn già hóa). 2-B: Dấu chấm phẩy (;) kết hợp trạng từ 'consequently' chỉ kết quả của việc xây không gian xanh. 3-C: Mệnh đề nhượng bộ 'Despite' -> Vế sau chỉ sự trái ngược (vẫn thích mua trực tiếp). 4-D: Mệnh đề phân từ V-ing 'resulting in...' chỉ hậu quả tất yếu của việc không thích nghi với kỷ nguyên số."
+  },
+  {
+    "id": 21,
+    "type": "SHORT",
+    "context": "The traditional 9-to-5 workday is no longer the only path to a successful career. Today, the gig economy is catching (21) ______ rapidly, especially among younger generations. Freelancers appreciate the flexibility to work from anywhere, yet this lifestyle is not (22) ______ its drawbacks. One major concern is the lack of job security and benefits like health insurance. Furthermore, independent contractors often find (23) ______ working longer hours to meet erratic deadlines. Despite these challenges, the appeal of being one's own boss continues to (24) ______ millions into the freelance market. Ultimately, whether this trend will completely replace traditional employment remains to be (25) ______.",
+    "question": "Fill in blank (21) with exactly ONE suitable word.",
+    "answer": "on",
+    "explanation": "Cụm động từ (Phrasal verb) 'catch on' mang nghĩa là trở nên phổ biến, thịnh hành (become popular)."
+  },
+  {
+    "id": 22,
+    "type": "SHORT",
+    "context": "The traditional 9-to-5 workday is no longer the only path to a successful career. Today, the gig economy is catching (21) ______ rapidly, especially among younger generations. Freelancers appreciate the flexibility to work from anywhere, yet this lifestyle is not (22) ______ its drawbacks. One major concern is the lack of job security and benefits like health insurance. Furthermore, independent contractors often find (23) ______ working longer hours to meet erratic deadlines. Despite these challenges, the appeal of being one's own boss continues to (24) ______ millions into the freelance market. Ultimately, whether this trend will completely replace traditional employment remains to be (25) ______.",
+    "question": "Fill in blank (22) with exactly ONE suitable word.",
+    "answer": "without",
+    "explanation": "Cụm từ cố định 'not without its drawbacks' (không phải là không có những mặt hạn chế / nhược điểm)."
+  },
+  {
+    "id": 23,
+    "type": "SHORT",
+    "context": "The traditional 9-to-5 workday is no longer the only path to a successful career. Today, the gig economy is catching (21) ______ rapidly, especially among younger generations. Freelancers appreciate the flexibility to work from anywhere, yet this lifestyle is not (22) ______ its drawbacks. One major concern is the lack of job security and benefits like health insurance. Furthermore, independent contractors often find (23) ______ working longer hours to meet erratic deadlines. Despite these challenges, the appeal of being one's own boss continues to (24) ______ millions into the freelance market. Ultimately, whether this trend will completely replace traditional employment remains to be (25) ______.",
+    "question": "Fill in blank (23) with exactly ONE suitable word.",
+    "answer": "themselves",
+    "explanation": "Cấu trúc 'find oneself doing something' (nhận ra bản thân đang làm gì). Chủ ngữ 'independent contractors' là số nhiều nên đại từ phản thân tương ứng là 'themselves'."
+  },
+  {
+    "id": 24,
+    "type": "SHORT",
+    "context": "The traditional 9-to-5 workday is no longer the only path to a successful career. Today, the gig economy is catching (21) ______ rapidly, especially among younger generations. Freelancers appreciate the flexibility to work from anywhere, yet this lifestyle is not (22) ______ its drawbacks. One major concern is the lack of job security and benefits like health insurance. Furthermore, independent contractors often find (23) ______ working longer hours to meet erratic deadlines. Despite these challenges, the appeal of being one's own boss continues to (24) ______ millions into the freelance market. Ultimately, whether this trend will completely replace traditional employment remains to be (25) ______.",
+    "question": "Fill in blank (24) with exactly ONE suitable word.",
+    "answer": "attract|draw|pull",
+    "explanation": "Cần một động từ nguyên thể đứng sau 'continues to' mang nghĩa thu hút, lôi kéo. 'Attract', 'draw', hoặc 'pull' đều được chấp nhận."
+  },
+  {
+    "id": 25,
+    "type": "SHORT",
+    "context": "The traditional 9-to-5 workday is no longer the only path to a successful career. Today, the gig economy is catching (21) ______ rapidly, especially among younger generations. Freelancers appreciate the flexibility to work from anywhere, yet this lifestyle is not (22) ______ its drawbacks. One major concern is the lack of job security and benefits like health insurance. Furthermore, independent contractors often find (23) ______ working longer hours to meet erratic deadlines. Despite these challenges, the appeal of being one's own boss continues to (24) ______ millions into the freelance market. Ultimately, whether this trend will completely replace traditional employment remains to be (25) ______.",
+    "question": "Fill in blank (25) with exactly ONE suitable word.",
+    "answer": "seen",
+    "explanation": "Thành ngữ 'it remains to be seen' có nghĩa là vẫn còn phải chờ xem (chưa thể biết chắc chắn điều gì sẽ xảy ra trong tương lai)."
+  }
+]
