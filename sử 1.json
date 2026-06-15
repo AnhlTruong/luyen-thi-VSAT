@@ -719,39 +719,39 @@
     },
     "solution": "Trật tự Ianta sụp đổ mở ra trật tự đa cực (1-D). Toàn cầu hóa là hệ quả của cách mạng khoa học công nghệ (2-B). EU là biểu hiện của liên kết khu vực (3-A). Hiệp ước Bali xác lập nguyên tắc quan hệ ASEAN (4-C)."
   },
- {
-  "id": 21,
-  "type": "SHORT",
-  "text": "Năm 1789, vị anh hùng dân tộc nào đã trực tiếp chỉ huy quân sĩ Tây Sơn làm nên chiến thắng Ngọc Hồi - Đống Đa, đánh tan 29 vạn quân Thanh xâm lược?",
-  "correct": "Quang Trung|Nguyễn Huệ|vua Quang Trung|Hoàng đế Quang Trung",
-  "solution": "Mùa xuân năm Kỷ Dậu (1789), vua Quang Trung (Nguyễn Huệ) đã trực tiếp chỉ huy quân Tây Sơn thần tốc tiến quân ra Bắc, đánh tan hoàn toàn đạo quân xâm lược của nhà Thanh."
-},
+  {
+    "id": 21,
+    "type": "SHORT",
+    "text": "Năm 1789, vị anh hùng dân tộc nào đã trực tiếp chỉ huy quân sĩ Tây Sơn làm nên chiến thắng Ngọc Hồi - Đống Đa, đánh tan 29 vạn quân Thanh xâm lược? (Trả lời tối đa 2 chữ)",
+    "correct": "Quang Trung",
+    "solution": "Mùa xuân năm Kỷ Dậu (1789), vua Quang Trung (hoặc Nguyễn Huệ) đã trực tiếp chỉ huy quân Tây Sơn thần tốc tiến quân ra Bắc, đánh tan hoàn toàn đạo quân xâm lược của nhà Thanh."
+  },
   {
     "id": 22,
     "type": "SHORT",
-    "text": "Xác định có bao nhiêu mệnh đề đúng trong các mệnh đề sau đây:\n1. Hội nghị I-an-ta (1945) đã tạo ra khuôn khổ cho việc phân chia phạm vi ảnh hưởng giữa Mỹ và Liên Xô sau chiến tranh.\n2. Một trong những mục đích tối thượng của tổ chức Liên hợp quốc là duy trì hòa bình và an ninh thế giới.\n3. Sự sụp đổ của Liên Xô năm 1991 đã đánh dấu sự kết thúc của trật tự thế giới đa cực.\n4. Hiệp ước Ba-li (1976) đánh dấu sự khởi sắc trong quá trình hoạt động của tổ chức ASEAN.",
-    "correct": "3|ba|ba mệnh đề|3 mệnh đề",
+    "text": "Xác định có bao nhiêu mệnh đề đúng trong các mệnh đề sau đây:\n1. Hội nghị I-an-ta (1945) đã tạo ra khuôn khổ cho việc phân chia phạm vi ảnh hưởng giữa Mỹ và Liên Xô sau chiến tranh.\n2. Một trong những mục đích tối thượng của tổ chức Liên hợp quốc là duy trì hòa bình và an ninh thế giới.\n3. Sự sụp đổ của Liên Xô năm 1991 đã đánh dấu sự kết thúc của trật tự thế giới đa cực.\n4. Hiệp ước Ba-li (1976) đánh dấu sự khởi sắc trong quá trình hoạt động của tổ chức ASEAN.\n(Trả lời bằng chữ số)",
+    "correct": "3",
     "solution": "Có 3 mệnh đề đúng là (1), (2), (4). Mệnh đề (3) sai vì sự sụp đổ của Liên Xô đánh dấu sự kết thúc của trật tự thế giới \"hai cực\" (I-an-ta), chứ không phải trật tự đa cực."
   },
   {
     "id": 23,
     "type": "SHORT",
-    "text": "Năm 1954, chiến dịch quân sự nào kết thúc thắng lợi đã giáng đòn quyết định làm phá sản hoàn toàn kế hoạch Na-va của thực dân Pháp?",
-    "correct": "Điện Biên Phủ|chiến dịch Điện Biên Phủ|trận Điện Biên Phủ",
+    "text": "Năm 1954, chiến dịch quân sự nào kết thúc thắng lợi đã giáng đòn quyết định làm phá sản hoàn toàn kế hoạch Na-va của thực dân Pháp? (Trả lời tối đa 3 chữ)",
+    "correct": "Điện Biên Phủ",
     "solution": "Chiến thắng lịch sử Điện Biên Phủ (7/5/1954) đã đập tan tập đoàn cứ điểm mạnh nhất của Pháp ở Đông Dương, đánh dấu sự phá sản hoàn toàn của kế hoạch Na-va, buộc Pháp phải kí Hiệp định Giơ-ne-vơ."
   },
   {
     "id": 24,
     "type": "SHORT",
-    "text": "Đại hội đại biểu toàn quốc lần thứ mấy của Đảng Cộng sản Việt Nam (diễn ra vào tháng 12-1986) đã thẳng thắn nhìn nhận sai lầm và đề ra đường lối đổi mới toàn diện đất nước?",
-    "correct": "VI|6|lần thứ 6|lần thứ VI|Đại hội VI|Đại hội 6",
-    "solution": "Đại hội VI (12/1986) là một cột mốc lịch sử quan trọng, Đảng đã nhận thức đúng đắn hoàn cảnh thực tế để đề ra đường lối Đổi mới, cứu vãn nền kinh tế đang khủng hoảng."
+    "text": "Đại hội đại biểu toàn quốc lần thứ sáu của Đảng Cộng sản Việt Nam (tháng 12-1986) đã đề ra đường lối đổi mới trọng tâm trên lĩnh vực nào? (Trả lời tối đa 2 chữ)",
+    "correct": "kinh tế",
+    "solution": "Đại hội VI (12/1986) xác định đổi mới toàn diện, nhưng trọng tâm ưu tiên hàng đầu và then chốt nhất là đổi mới kinh tế để đưa đất nước thoát khỏi khủng hoảng."
   },
   {
     "id": 25,
     "type": "SHORT",
-    "text": "Trong cuộc Tổng tiến công và nổi dậy Xuân 1975, chiến dịch nào đã được chọn làm đòn mở màn và tạo ra bước ngoặt chiến lược làm thay đổi cục diện chiến tranh ở miền Nam?",
-    "correct": "Tây Nguyên|chiến dịch Tây Nguyên|trận Tây Nguyên",
+    "text": "Trong cuộc Tổng tiến công và nổi dậy Xuân 1975, chiến dịch nào đã được chọn làm đòn mở màn và tạo ra bước ngoặt chiến lược làm thay đổi cục diện chiến tranh ở miền Nam? (Trả lời tối đa 2 chữ)",
+    "correct": "Tây Nguyên",
     "solution": "Chiến dịch Tây Nguyên (tháng 3/1975), mở đầu bằng trận đánh then chốt Buôn Ma Thuột, đã làm hệ thống phòng ngự của địch rung chuyển, chuyển cuộc tiến công chiến lược thành Tổng tiến công chiến lược."
   }
 ]
