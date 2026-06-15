@@ -234,7 +234,7 @@
     "id": 8,
     "type": "TF",
     "text": "Question 8 is based on the information in the passage. Decide if the statements are True (T) or False (F):",
-    "passage": "Dựa vào đoạn tư liệu sau trả lời các câu hỏi từ 10 đến 12:\n  \"Hỡi đồng bào toàn quốc!\n  Chúng ta muốn hòa bình, chúng ta phải nhân nhượng. Nhưng chúng ta càng nhân nhượng, thực dân Pháp càng lấn tới, vì chúng quyết tâm cướp nước ta lần nữa!\n  Không! Chúng ta thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ.\n  (...)\n  Bất kỳ đàn ông, đàn bà, bất kỳ người già, người trẻ, không chia tôn giáo, đảng phái, dân tộc. Hễ là người Việt Nam thì phải đứng lên đánh thực dân Pháp để cứu Tổ quốc...\"\n  (Chủ tịch Hồ Chí Minh, Lời kêu gọi toàn quốc kháng chiến, ngày 19-12-1946)",
+   "passage": "Dựa vào đoạn tư liệu sau trả lời các câu hỏi:\n\n  **[A]** \"Những sai lầm nói trên có nguyên nhân khách quan, nhưng nguyên nhân chủ quan là nguyên nhân chủ yếu.\n\n  **[B]** Đó là những sai lầm nghiêm trọng và kéo dài về chủ trương, chính sách lớn, sai lầm về chỉ đạo chiến lược và tổ chức thực hiện...\n\n  **[C]** Khuynh hướng tư tưởng chủ yếu của những sai lầm đó, đặc biệt là những sai lầm về chính sách kinh tế, là bệnh chủ quan, duy ý chí.\n\n  **[D]** Lối suy nghĩ và hành động giản đơn, nóng vội, không tôn trọng quy luật khách quan...\"\n\n  (Đảng Cộng sản Việt Nam, Văn kiện Đại hội đại biểu toàn quốc lần thứ VI)",
     "parts": [
       {
         "id": "8_1",
