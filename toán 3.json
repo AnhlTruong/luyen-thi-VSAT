@@ -503,8 +503,8 @@
       { "type": "line", "x1": 210, "y1": 180, "x2": 210, "y2": 100, "stroke": "#64748b", "dash": "4" },
       { "type": "line", "x1": 35, "y1": 240, "x2": 235, "y2": 80, "stroke": "#2563eb", "width": 2 },
       { "type": "path", "d": "M 35 30 Q 135 350 235 30", "stroke": "#ef4444", "width": 2, "fill": "none" },
-      { "type": "text", "x": 75, "y": 155, "text": "S₁", "size": 14, "weight": "bold", "color": "#1e293b" },
-      { "type": "text", "x": 155, "y": 170, "text": "S₂", "size": 14, "weight": "bold", "color": "#1e293b" },
+      { "type": "text", "x": 75, "y": 170, "text": "S₁", "size": 14, "weight": "bold", "color": "#1e293b" },
+      { "type": "text", "x": 155, "y": 160, "text": "S₂", "size": 14, "weight": "bold", "color": "#1e293b" },
       { "type": "text", "x": 220, "y": 30, "text": "(P)", "size": 12, "color": "#ef4444", "weight": "bold" },
       { "type": "text", "x": 240, "y": 90, "text": "d", "size": 12, "color": "#2563eb", "weight": "bold" }
     ],
