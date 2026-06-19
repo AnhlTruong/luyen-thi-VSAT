@@ -484,7 +484,7 @@
     },
     "solution": "Đồ thị đạt cực đại tại $ (0;4) $, cực tiểu tại $ (2;0) $, cắt trục hoành tại điểm có hoành độ âm là $ x = -1 $."
   },
- {
+{
   "id": 19,
   "type": "MATCH",
   "text": "Cho hàm số $y=x^2-3x+2$ có đồ thị $(P)$ và $y=x-1$ có đồ thị $(d)$. Gọi $S_1, S_2$ là diện tích phần được tô xám như hình bên dưới. Hãy ghép các biểu thức ở cột bên trái với giá trị phân số thích hợp tương ứng ở cột bên phải[cite: 306].",
