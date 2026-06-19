@@ -2,31 +2,31 @@
   {
     "id": 1,
     "type": "TF",
-    "text": "Cho cấp số nhân $ (u_n) $ biết $ u_1=2 $ và công bội $ q=2 $. Các mệnh đề sau đúng hay sai?",
+    "text": "Cho cấp số nhân $(u_n)$ biết $u_1=2$ và công bội $q=2$. Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "1_1",
-        "text": "$ u_3 \\cdot u_5 = u_4^3 $",
+        "text": "$u_3 \\cdot u_5 = u_4^3$",
         "correct": "F",
-        "solution": "Ta có $ u_3 = u_1 \\cdot q^2 = 2 \\cdot 4 = 8 $; $ u_5 = u_1 \\cdot q^4 = 2 \\cdot 16 = 32 \\implies u_3 \\cdot u_5 = 256 $. Mặt khác $ u_4 = u_1 \\cdot q^3 = 16 \\implies u_4^3 = 16^3 = 4096 \\neq 256 $."
+        "solution": "Ta có $u_3 = u_1 \\cdot q^2 = 2 \\cdot 4 = 8$; $u_5 = u_1 \\cdot q^4 = 2 \\cdot 16 = 32 \\implies u_3 \\cdot u_5 = 256$. Mặt khác $u_4 = u_1 \\cdot q^3 = 16 \\implies u_4^3 = 16^3 = 4096 \\neq 256$."
       },
       {
         "id": "1_2",
-        "text": "$ u_n < 20 $, $ \\forall n \\in \\mathbb{N}^* $",
+        "text": "$u_n < 20$, $\\forall n \\in \\mathbb{N}^*$",
         "correct": "F",
-        "solution": "Với $ n = 5 $, ta có $ u_5 = 2^5 = 32 > 20 $, mệnh đề này sai."
+        "solution": "Với $n = 5$, ta có $u_5 = 2^5 = 32 > 20$, mệnh đề này sai."
       },
       {
         "id": "1_3",
-        "text": "$ S_4 = 30 $",
+        "text": "$S_4 = 30$",
         "correct": "T",
-        "solution": "Tổng 4 số hạng đầu tiên của cấp số nhân là $ S_4 = u_1 \\cdot \\frac{1 - q^4}{1 - q} = 2 \\cdot \\frac{1 - 16}{1 - 2} = 30 $."
+        "solution": "Tổng 4 số hạng đầu tiên của cấp số nhân là $S_4 = u_1 \\cdot \\frac{1 - q^4}{1 - q} = 2 \\cdot \\frac{1 - 16}{1 - 2} = 30$."
       },
       {
         "id": "1_4",
-        "text": "$ u_n = 2^n $",
+        "text": "$u_n = 2^n$",
         "correct": "T",
-        "solution": "Số hạng tổng quát của cấp số nhân là $ u_n = u_1 \\cdot q^{n-1} = 2 \\cdot 2^{n-1} = 2^n $."
+        "solution": "Số hạng tổng quát của cấp số nhân là $u_n = u_1 \\cdot q^{n-1} = 2 \\cdot 2^{n-1} = 2^n$."
       }
     ],
     "points": 1.0
@@ -34,31 +34,31 @@
   {
     "id": 2,
     "type": "TF",
-    "text": "Cho hàm số $ y = \\frac{2-5x}{x+3} $ có đồ thị là $ (H) $. Các mệnh đề sau đúng hay sai?",
+    "text": "Cho hàm số $y = \\frac{2-5x}{x+3}$ có đồ thị là $(H)$. Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "2_1",
-        "text": "Đồ thị $ (H) $ nhận điểm $ I(-3;-5) $ làm tâm đối xứng",
+        "text": "Đồ thị $(H)$ nhận điểm $I(-3;-5)$ làm tâm đối xứng",
         "correct": "T",
-        "solution": "Đồ thị hàm số phân thức bậc nhất trên bậc nhất nhận giao điểm của hai đường tiệm cận làm tâm đối xứng. Tiệm cận đứng $ x = -3 $, tiệm cận ngang $ y = -5 \\implies I(-3;-5) $."
+        "solution": "Đồ thị hàm số phân thức bậc nhất trên bậc nhất nhận giao điểm của hai đường tiệm cận làm tâm đối xứng. Tiệm cận đứng $x = -3$, tiệm cận ngang $y = -5 \\implies I(-3;-5)$."
       },
       {
         "id": "2_2",
-        "text": "Đồ thị $ (H) $ cắt trục $ Ox $ tại điểm có hoành độ bằng $ \\frac{2}{5} $",
+        "text": "Đồ thị $(H)$ cắt trục $Ox$ tại điểm có hoành độ bằng $\\frac{2}{5}$",
         "correct": "T",
-        "solution": "Giao điểm với trục hoành ứng với $ y = 0 \\implies 2 - 5x = 0 \\implies x = \\frac{2}{5} $."
+        "solution": "Giao điểm với trục hoành ứng với $y = 0 \\implies 2 - 5x = 0 \\implies x = \\frac{2}{5}$."
       },
       {
         "id": "2_3",
-        "text": "Đường thẳng $ x = -3 $ là tiệm cận đứng của đồ thị $ (H) $",
+        "text": "Đường thẳng $x = -3$ là tiệm cận đứng của đồ thị $(H)$",
         "correct": "T",
-        "solution": "Nghiệm của mẫu số là $ x = -3 $ và không làm triệt tiêu tử số, do đó $ x = -3 $ là tiệm cận đứng."
+        "solution": "Nghiệm của mẫu số là $x = -3$ và không làm triệt tiêu tử số, do đó $x = -3$ là tiệm cận đứng."
       },
       {
         "id": "2_4",
-        "text": "Đường thẳng $ y = 5 $ là tiệm cận đứng của đồ thị $ (H) $",
+        "text": "Đường thẳng $y = 5$ là tiệm cận đứng của đồ thị $(H)$",
         "correct": "F",
-        "solution": "Đường thẳng $ x = -3 $ mới là tiệm cận đứng, còn $ y = -5 $ là đường tiệm cận ngang."
+        "solution": "Đường thẳng $x = -3$ mới là tiệm cận đứng, còn $y = -5$ là đường tiệm cận ngang."
       }
     ],
     "points": 1.0
@@ -66,31 +66,31 @@
   {
     "id": 3,
     "type": "TF",
-    "text": "Trong không gian $ Oxyz $, cho mặt cầu $ (S) $ có phương trình $ x^2+y^2+z^2-2x+4y-6z+5=0 $ và hai điểm $ A(5;-2;3) $, $ B(1;2;3) $. Các mệnh đề sau đúng hay sai?",
+    "text": "Trong không gian $Oxyz$, cho mặt cầu $(S)$ có phương trình $x^2+y^2+z^2-2x+4y-6z+5=0$ và hai điểm $A(5;-2;3)$, $B(1;2;3)$. Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "3_1",
-        "text": "Mặt cầu có tâm trùng với tâm của mặt cầu $ (S) $ và đi qua điểm $ A $ có phương trình là $ x^2+y^2+z^2-2x+4y-6z-2=0 $",
+        "text": "Mặt cầu có tâm trùng với tâm của mặt cầu $(S)$ và đi qua điểm $A$ có phương trình là $x^2+y^2+z^2-2x+4y-6z-2=0$",
         "correct": "T",
-        "solution": "Mặt cầu $ (S) $ có tâm $ I(1; -2; 3) $. Bán kính mặt cầu mới là $ R' = IA = \\sqrt{(5-1)^2 + (-2+2)^2 + (3-3)^2} = 4 $. Phương trình mặt cầu mới là $ (x-1)^2 + (y+2)^2 + (z-3)^2 = 16 \\implies x^2+y^2+z^2-2x+4y-6z-2=0 $."
+        "solution": "Mặt cầu $(S)$ có tâm $I(1; -2; 3)$. Bán kính mặt cầu mới là $R' = IA = \\sqrt{(5-1)^2 + (-2+2)^2 + (3-3)^2} = 4$. Phương trình mặt cầu mới là $(x-1)^2 + (y+2)^2 + (z-3)^2 = 16 \\implies x^2+y^2+z^2-2x+4y-6z-2=0$."
       },
       {
         "id": "3_2",
-        "text": "Đoạn thẳng $ AB $ nằm hoàn toàn ngoài mặt cầu $ (S) $",
+        "text": "Đoạn thẳng $AB$ nằm hoàn toàn ngoài mặt cầu $(S)$",
         "correct": "F",
-        "solution": "Mặt cầu $ (S) $ có bán kính $ R = \\sqrt{1^2 + (-2)^2 + 3^2 - 5} = 3 $. Khoảng cách từ tâm $ I $ đến trung điểm $ H(3;0;3) $ của $ AB $ là $ IH = \\sqrt{(3-1)^2 + (0+2)^2 + (3-3)^2} = \\sqrt{8} \\approx 2.83 < R $. Vì khoảng cách từ tâm đến một điểm thuộc đoạn nhỏ hơn bán kính nên đoạn thẳng không nằm hoàn toàn ngoài mặt cầu."
+        "solution": "Mặt cầu $(S)$ có bán kính $R = \\sqrt{1^2 + (-2)^2 + 3^2 - 5} = 3$. Khoảng cách từ tâm $I$ đến trung điểm $H(3;0;3)$ của $AB$ là $IH = \\sqrt{(3-1)^2 + (0+2)^2 + (3-3)^2} = \\sqrt{8} \\approx 2.83 < R$. Vì khoảng cách từ tâm đến một điểm thuộc đoạn nhỏ hơn bán kính nên đoạn thẳng không nằm hoàn toàn ngoài mặt cầu."
       },
       {
         "id": "3_3",
-        "text": "Mặt cầu $ (S) $ đã cho có tâm $ I(1;-2;3) $ và bán kính bằng $ 3 $",
+        "text": "Mặt cầu $(S)$ đã cho có tâm $I(1;-2;3)$ và bán kính bằng $3$",
         "correct": "T",
-        "solution": "Tâm $ I(1; -2; 3) $, bán kính $ R = \\sqrt{1^2 + (-2)^2 + 3^2 - 5} = 3 $."
+        "solution": "Tâm $I(1; -2; 3)$, bán kính $R = \\sqrt{1^2 + (-2)^2 + 3^2 - 5} = 3$."
       },
       {
         "id": "3_4",
-        "text": "Mặt cầu nhận đoạn thẳng $ AB $ làm đường kính có phương trình là $ x^2+y^2+z^2-6x-6z-14=0 $",
+        "text": "Mặt cầu nhận đoạn thẳng $AB$ làm đường kính có phương trình là $x^2+y^2+z^2-6x-6z-14=0$",
         "correct": "F",
-        "solution": "Trung điểm của $ AB $ là $ H(3;0;3) $, bán kính $ R = \\frac{AB}{2} = \\frac{\\sqrt{(1-5)^2 + (2+2)^2 + (3-3)^2}}{2} = 2\\sqrt{2} $. Phương trình mặt cầu đường kính $ AB $ phải là $ (x-3)^2 + y^2 + (z-3)^2 = 8 \\implies x^2+y^2+z^2-6x-6z+10=0 $."
+        "solution": "Trung điểm của $AB$ là $H(3;0;3)$, bán kính $R = \\frac{AB}{2} = \\frac{\\sqrt{(1-5)^2 + (2+2)^2 + (3-3)^2}}{2} = 2\\sqrt{2}$. Phương trình mặt cầu đường kính $AB$ phải là $(x-3)^2 + y^2 + (z-3)^2 = 8 \\implies x^2+y^2+z^2-6x-6z+10=0$."
       }
     ],
     "points": 1.0
@@ -98,31 +98,31 @@
   {
     "id": 4,
     "type": "TF",
-    "text": "Trong không gian với hệ tọa độ $ Oxyz $, cho mặt phẳng $ (P): x+2y-2z+3=0 $ và hai điểm $ A(1;1;3) $, $ B(-1;2;3) $. Các mệnh đề sau đúng hay sai?",
+    "text": "Trong không gian với hệ tọa độ $Oxyz$, cho mặt phẳng $(P): x+2y-2z+3=0$ và hai điểm $A(1;1;3)$, $B(-1;2;3)$. Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "4_1",
-        "text": "Một véc-tơ pháp tuyến của mặt phẳng $ (P) $ là $ \\vec{n}=(1;2;-2) $",
+        "text": "Một véc-tơ pháp tuyến của mặt phẳng $(P)$ là $\\vec{n}=(1;2;-2)$",
         "correct": "T",
-        "solution": "Véc-tơ pháp tuyến được xác định từ các hệ số trước $ x, y, z $ trong phương trình tổng quát của mặt phẳng."
+        "solution": "Véc-tơ pháp tuyến được xác định từ các hệ số trước $x, y, z$ trong phương trình tổng quát của mặt phẳng."
       },
       {
         "id": "4_2",
-        "text": "Điểm $ A $ thuộc mặt phẳng $ (P) $",
+        "text": "Điểm $A$ thuộc mặt phẳng $(P)$",
         "correct": "T",
-        "solution": "Thay tọa độ điểm $ A(1;1;3) $ vào phương trình mặt phẳng $ (P) $: $ 1 + 2(1) - 2(3) + 3 = 0 $ (thỏa mãn)."
+        "solution": "Thay tọa độ điểm $A(1;1;3)$ vào phương trình mặt phẳng $(P)$: $1 + 2(1) - 2(3) + 3 = 0$ (thỏa mãn)."
       },
       {
         "id": "4_3",
-        "text": "Góc giữa đường thẳng $ OA $ (với $ O $ là gốc tọa độ) và mặt phẳng $ (P) $ bằng $ 30^\\circ $",
+        "text": "Góc giữa đường thẳng $OA$ (với $O$ là gốc tọa độ) và mặt phẳng $(P)$ bằng $30^\\circ$",
         "correct": "F",
-        "solution": "Ta có $ \\vec{OA} = (1;1;3) $. Gọi $ \\alpha $ là góc giữa $ OA $ và $ (P) $: $ \\sin \\alpha = \\frac{|1 \\cdot 1 + 1 \\cdot 2 + 3 \\cdot (-2)|}{\\sqrt{1^2+1^2+3^2} \\cdot \\sqrt{1^2+2^2+(-2)^2}} = \\frac{3}{3\\sqrt{11}} = \\frac{1}{\\sqrt{11}} \\neq \\sin 30^\\circ $."
+        "solution": "Ta có $\\vec{OA} = (1;1;3)$. Gọi $\\alpha$ là góc giữa $OA$ và $(P)$: $\\sin \\alpha = \\frac{|1 \\cdot 1 + 1 \\cdot 2 + 3 \\cdot (-2)|}{\\sqrt{1^2+1^2+3^2} \\cdot \\sqrt{1^2+2^2+(-2)^2}} = \\frac{3}{3\\sqrt{11}} = \\frac{1}{\\sqrt{11}} \\neq \\sin 30^\\circ$."
       },
       {
         "id": "4_4",
-        "text": "Đường thẳng $ AB $ song song với mặt phẳng $ (P) $",
+        "text": "Đường thẳng $AB$ song song với mặt phẳng $(P)$",
         "correct": "F",
-        "solution": "Ta có $ \\vec{AB} = (-2;1;0) $. Tích vô hướng $ \\vec{AB} \\cdot \\vec{n} = -2 \\cdot 1 + 1 \\cdot 2 + 0 \\cdot (-2) = 0 \\implies AB \\parallel (P) $ hoặc $ AB \\subset (P) $. Vì điểm $ A \\in (P) $ nên đường thẳng $ AB $ nằm trong mặt phẳng $ (P) $."
+        "solution": "Ta có $\\vec{AB} = (-2;1;0)$. Tích vô hướng $\\vec{AB} \\cdot \\vec{n} = -2 \\cdot 1 + 1 \\cdot 2 + 0 \\cdot (-2) = 0 \\implies AB \\parallel (P)$ hoặc $AB \\subset (P)$. Vì điểm $A \\in (P)$ nên đường thẳng $AB$ nằm trong mặt phẳng $(P)$."
       }
     ],
     "points": 1.0
@@ -130,31 +130,31 @@
   {
     "id": 5,
     "type": "TF",
-    "text": "Cho hàm số $ f(x)=2|x-1| $. Các mệnh đề sau đúng hay sai?",
+    "text": "Cho hàm số $f(x)=2|x-1|$. Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "5_1",
-        "text": "Trên khoảng $ (1;+\\infty) $, hàm số $ F(x)=x^2-2x+5 $ là một nguyên hàm của hàm số $ f(x) $",
+        "text": "Trên khoảng $(1;+\\infty)$, hàm số $F(x)=x^2-2x+5$ là một nguyên hàm của hàm số $f(x)$",
         "correct": "T",
-        "solution": "Trên khoảng $ (1;+\\infty) $, ta có $ f(x) = 2(x-1) = 2x-2 $. Lấy đạo hàm của $ F(x) $: $ F'(x) = 2x - 2 = f(x) $."
+        "solution": "Trên khoảng $(1;+\\infty)$, ta có $f(x) = 2(x-1) = 2x-2$. Lấy đạo hàm của $F(x)$: $F'(x) = 2x - 2 = f(x)$."
       },
       {
         "id": "5_2",
-        "text": "Trên khoảng $ (-\\infty;+\\infty) $, nếu $ K(x) $ là một nguyên hàm của hàm số $ f(x) $ và $ K(0)=1 $ thì $ K(-1)+K(3)=4 $",
+        "text": "Trên khoảng $(-\\infty;+\\infty)$, nếu $K(x)$ là một nguyên hàm của hàm số $f(x)$ và $K(0)=1$ thì $K(-1)+K(3)=4$",
         "correct": "T",
-        "solution": "Ta có $ f(x) = 2x-2 $ khi $ x \\ge 1 $ và $ f(x) = -2x+2 $ khi $ x < 1 $. Do đó $ K(x) = x^2-2x+C_1 $ khi $ x \\ge 1 $ và $ K(x) = -x^2+2x+C_2 $ khi $ x < 1 $. Vì hàm nguyên hàm liên tục tại $ x=1 $ nên $ 1-2+C_1 = -1+2+C_2 \\implies C_1 = C_2+2 $. Do $ K(0)=1 \\implies C_2=1 \\implies C_1=3 $. Khi đó $ K(-1) = -1-2+1 = -2 $ và $ K(3) = 9-6+3 = 6 \\implies K(-1)+K(3) = 4 $."
+        "solution": "Ta có $f(x) = 2x-2$ khi $x \\ge 1$ và $f(x) = -2x+2$ khi $x < 1$. Do đó $K(x) = x^2-2x+C_1$ khi $x \\ge 1$ và $K(x) = -x^2+2x+C_2$ khi $x < 1$. Vì hàm nguyên hàm liên tục tại $x=1$ nên $1-2+C_1 = -1+2+C_2 \\implies C_1 = C_2+2$. Do $K(0)=1 \\implies C_2=1 \\implies C_1=3$. Khi đó $K(-1) = -1-2+1 = -2$ và $K(3) = 9-6+3 = 6 \\implies K(-1)+K(3) = 4$."
       },
       {
         "id": "5_3",
-        "text": "Trên khoảng $ (-\\infty; 1) $, hàm số $ G(x)=-x^2+2x-3 $ là một nguyên hàm của hàm số $ f(x) $",
+        "text": "Trên khoảng $(-\\infty; 1)$, hàm số $G(x)=-x^2+2x-3$ là một nguyên hàm của hàm số $f(x)$",
         "correct": "T",
-        "solution": "Trên khoảng $ (-\\infty; 1) $, ta có $ f(x) = -2(x-1) = -2x+2 $. Lấy đạo hàm của $ G(x) $: $ G'(x) = -2x + 2 = f(x) $."
+        "solution": "Trên khoảng $(-\\infty; 1)$, ta có $f(x) = -2(x-1) = -2x+2$. Lấy đạo hàm của $G(x)$: $G'(x) = -2x + 2 = f(x)$."
       },
       {
         "id": "5_4",
-        "text": "Trên khoảng $ (-\\infty;+\\infty) $ nếu $ H(x) $ là một nguyên hàm của hàm số $ f(x) $ và $ H(0)=0 $ thì $ H(-3)=-4 $",
+        "text": "Trên khoảng $(-\\infty;+\\infty)$ nếu $H(x)$ là một nguyên hàm của hàm số $f(x)$ và $H(0)=0$ thì $H(-3)=-4$",
         "correct": "F",
-        "solution": "Với $ x < 1 $, $ H(x) = -x^2+2x+C_2 $. Do $ H(0)=0 \\implies C_2=0 $. Khi đó $ H(-3) = -(-3)^2 + 2(-3) = -15 $."
+        "solution": "Với $x < 1$, $H(x) = -x^2+2x+C_2$. Do $H(0)=0 \\implies C_2=0$. Khi đó $H(-3) = -(-3)^2 + 2(-3) = -15$."
       }
     ],
     "points": 1.0
@@ -168,25 +168,25 @@
         "id": "6_1",
         "text": "Xác suất để mặt hàng được chọn là mặt hàng đã thanh toán là 99.9%",
         "correct": "T",
-        "solution": "Tỉ lệ hàng chưa thanh toán là 0.1% nên tỉ lệ hàng đã thanh toán là $ 100\\% - 0.1\\% = 99.9\\% $."
+        "solution": "Tỉ lệ hàng chưa thanh toán là 0.1% nên tỉ lệ hàng đã thanh toán là $100\\% - 0.1\\% = 99.9\\%$."
       },
       {
         "id": "6_2",
         "text": "Xác suất để mặt hàng được chọn là mặt hàng chưa thanh toán và máy phát chuông cảnh báo là 9.9%",
         "correct": "F",
-        "solution": "Xác suất đồng thời là $ P = 0.1\\% \\times 99\\% = 0.001 \\times 0.99 = 0.00099 = 0.099\\% $."
+        "solution": "Xác suất đồng thời là $P = 0.1\\% \\times 99\\% = 0.001 \\times 0.99 = 0.00099 = 0.099\\%$."
       },
       {
         "id": "6_3",
         "text": "Xác suất để mặt hàng được chọn là mặt hàng chưa thanh toán và máy không phát chuông cảnh báo là 0.001%",
         "correct": "T",
-        "solution": "Xác suất đồng thời là $ P = 0.1\\% \\times (100\\% - 99\\%) = 0.001 \\times 0.01 = 0.00001 = 0.001\\% $."
+        "solution": "Xác suất đồng thời là $P = 0.1\\% \\times (100\\% - 99\\%) = 0.001 \\times 0.01 = 0.00001 = 0.001\\%$."
       },
       {
         "id": "6_4",
         "text": "Xác suất để mặt hàng được chọn là mặt hàng đã thanh toán và máy phát chuông cảnh báo là 99.9%",
         "correct": "F",
-        "solution": "Xác suất đồng thời là $ P = 99.9\\% \\times 1\\% = 0.999 \\times 0.01 = 0.00999 = 0.999\\% $."
+        "solution": "Xác suất đồng thời là $P = 99.9\\% \\times 1\\% = 0.999 \\times 0.01 = 0.00999 = 0.999\\%$."
       }
     ],
     "points": 1.0
@@ -198,27 +198,27 @@
     "parts": [
       {
         "id": "7_1",
-        "text": "Xác suất để học sinh được gọi tên Linh, biết rằng học sinh đó là nữ là $ \\frac{1}{13} $",
+        "text": "Xác suất để học sinh được gọi tên Linh, biết rằng học sinh đó là nữ là $\\frac{1}{13}$",
         "correct": "T",
-        "solution": "Lớp có 13 học sinh nữ, trong đó có đúng 1 bạn nữ tên Linh, do đó xác suất điều kiện là $ \\frac{1}{13} $."
+        "solution": "Lớp có 13 học sinh nữ, trong đó có đúng 1 bạn nữ tên Linh, do đó xác suất điều kiện là $\\frac{1}{13}$."
       },
       {
         "id": "7_2",
-        "text": "Xác suất để học sinh được gọi tên Linh, biết rằng học sinh đó là nam là $ \\frac{2}{17} $",
+        "text": "Xác suất để học sinh được gọi tên Linh, biết rằng học sinh đó là nam là $\\frac{2}{17}$",
         "correct": "T",
-        "solution": "Số học sinh nam là $ 30 - 13 = 17 $. Số học sinh nam tên Linh là $ 3 - 1 = 2 $, do đó xác suất điều kiện là $ \\frac{2}{17} $."
+        "solution": "Số học sinh nam là $30 - 13 = 17$. Số học sinh nam tên Linh là $3 - 1 = 2$, do đó xác suất điều kiện là $\\frac{2}{17}$."
       },
       {
         "id": "7_3",
-        "text": "Xác suất để thầy giáo gọi được học sinh tên Linh từ lớp học là $ \\frac{1}{10} $",
+        "text": "Xác suất để thầy giáo gọi được học sinh tên Linh từ lớp học là $\\frac{1}{10}$",
         "correct": "T",
-        "solution": "Tổng số học sinh lớp là 30, số học sinh tên Linh là 3, xác suất chọn ngẫu nhiên là $ \\frac{3}{30} = \\frac{1}{10} $."
+        "solution": "Tổng số học sinh lớp là 30, số học sinh tên Linh là 3, xác suất chọn ngẫu nhiên là $\\frac{3}{30} = \\frac{1}{10}$."
       },
       {
         "id": "7_4",
-        "text": "Xác suất để học sinh được gọi là nữ, biết rằng học sinh đó tên Linh là $ \\frac{1}{3} $",
+        "text": "Xác suất để học sinh được gọi là nữ, biết rằng học sinh đó tên Linh là $\\frac{1}{3}$",
         "correct": "T",
-        "solution": "Có tất cả 3 học sinh tên Linh, trong đó có 1 nữ, do đó xác suất điều kiện là $ \\frac{1}{3} $."
+        "solution": "Có tất cả 3 học sinh tên Linh, trong đó có 1 nữ, do đó xác suất điều kiện là $\\frac{1}{3}$."
       }
     ],
     "points": 1.0
@@ -226,54 +226,54 @@
   {
     "id": 8,
     "type": "TF",
-    "text": "Trên mặt hiển thị của một chiếc sóng Radio (đài bán dẫn) có các vạch chia đều để người sử dụng dễ dàng dò tìm tần số sóng cần tìm. Biết rằng vạch chia ở vị trí cách vạch tận cùng bên trái một khoảng $ d $ (cm) thì ứng với tần số $ F=k \\cdot a^d $ (kHz), với $ k $ và $ a $ là hai hằng số. Biết vạch tận cùng bên trái ứng với tần số 53 kHz, vạch tận cùng bên phải ứng với tần số 160 kHz, và hai vạch này cách nhau 12 cm. Các mệnh đề sau đúng hay sai?",
+    "text": "Trên mặt hiển thị của một chiếc sóng Radio (đài bán dẫn) có các vạch chia không đều để dò tìm tần số sóng. Biết rằng vạch chia ở vị trí cách vạch tận cùng bên trái một khoảng $d$ (cm) thì ứng với tần số $F=k \\cdot a^d$ (kHz), với $k$ và $a$ là hai hằng số. Biết vạch tận cùng bên trái ứng với tần số 53 kHz, vạch tận cùng bên phải ứng với tần số 160 kHz, và hai vạch này cách nhau 12 cm. Các mệnh đề sau đúng hay sai?",
     "visual": [
-      { "type": "line", "x1": 40, "y1": 80, "x2": 240, "y2": 80, "stroke": "#334155", "width": 2 },
-      { "type": "line", "x1": 40, "y1": 80, "x2": 40, "y2": 65, "stroke": "#0f172a", "width": 1.5 },
-      { "type": "text", "x": 32, "y": 60, "text": "53", "size": 11, "weight": "bold" },
-      { "type": "line", "x1": 62, "y1": 80, "x2": 62, "y2": 70, "stroke": "#475569", "width": 1 },
-      { "type": "text", "x": 56, "y": 62, "text": "60", "size": 10 },
-      { "type": "line", "x1": 90, "y1": 80, "x2": 90, "y2": 70, "stroke": "#475569", "width": 1 },
-      { "type": "text", "x": 84, "y": 62, "text": "70", "size": 10 },
-      { "type": "line", "x1": 115, "y1": 80, "x2": 115, "y2": 70, "stroke": "#475569", "width": 1 },
-      { "type": "text", "x": 109, "y": 62, "text": "80", "size": 10 },
-      { "type": "line", "x1": 155, "y1": 80, "x2": 155, "y2": 68, "stroke": "#0f172a", "width": 1.2 },
-      { "type": "text", "x": 147, "y": 60, "text": "100", "size": 11, "weight": "bold" },
-      { "type": "line", "x1": 188, "y1": 80, "x2": 188, "y2": 70, "stroke": "#475569", "width": 1 },
-      { "type": "text", "x": 180, "y": 62, "text": "120", "size": 10 },
-      { "type": "line", "x1": 216, "y1": 80, "x2": 216, "y2": 70, "stroke": "#475569", "width": 1 },
-      { "type": "text", "x": 208, "y": 62, "text": "140", "size": 10 },
-      { "type": "line", "x1": 240, "y1": 80, "x2": 240, "y2": 65, "stroke": "#0f172a", "width": 1.5 },
-      { "type": "text", "x": 230, "y": 60, "text": "160", "size": 11, "weight": "bold" },
-      { "type": "line", "x1": 40, "y1": 105, "x2": 240, "y2": 105, "stroke": "#94a3b8", "width": 1, "dash": "2" },
-      { "type": "line", "x1": 40, "y1": 100, "x2": 40, "y2": 110, "stroke": "#94a3b8", "width": 1 },
-      { "type": "line", "x1": 240, "y1": 100, "x2": 240, "y2": 110, "stroke": "#94a3b8", "width": 1 },
-      { "type": "text", "x": 122, "y": 120, "text": "12 cm", "size": 11, "color": "#64748b" }
+      { "type": "line", "x1": 30, "y1": 80, "x2": 270, "y2": 80, "stroke": "#334155", "width": 2 },
+      { "type": "line", "x1": 30, "y1": 80, "x2": 30, "y2": 65, "stroke": "#0f172a", "width": 1.5 },
+      { "type": "text", "x": 22, "y": 60, "text": "53", "size": 11, "weight": "bold" },
+      { "type": "line", "x1": 57, "y1": 80, "x2": 57, "y2": 70, "stroke": "#475569", "width": 1 },
+      { "type": "text", "x": 52, "y": 65, "text": "60", "size": 10 },
+      { "type": "line", "x1": 91, "y1": 80, "x2": 91, "y2": 70, "stroke": "#475569", "width": 1 },
+      { "type": "text", "x": 86, "y": 65, "text": "70", "size": 10 },
+      { "type": "line", "x1": 119, "y1": 80, "x2": 119, "y2": 70, "stroke": "#475569", "width": 1 },
+      { "type": "text", "x": 114, "y": 65, "text": "80", "size": 10 },
+      { "type": "line", "x1": 168, "y1": 80, "x2": 168, "y2": 65, "stroke": "#0f172a", "width": 1.2 },
+      { "type": "text", "x": 160, "y": 60, "text": "100", "size": 11, "weight": "bold" },
+      { "type": "line", "x1": 208, "y1": 80, "x2": 208, "y2": 70, "stroke": "#475569", "width": 1 },
+      { "type": "text", "x": 200, "y": 65, "text": "120", "size": 10 },
+      { "type": "line", "x1": 241, "y1": 80, "x2": 241, "y2": 70, "stroke": "#475569", "width": 1 },
+      { "type": "text", "x": 233, "y": 65, "text": "140", "size": 10 },
+      { "type": "line", "x1": 270, "y1": 80, "x2": 270, "y2": 65, "stroke": "#0f172a", "width": 1.5 },
+      { "type": "text", "x": 260, "y": 60, "text": "160", "size": 11, "weight": "bold" },
+      { "type": "line", "x1": 30, "y1": 105, "x2": 270, "y2": 105, "stroke": "#94a3b8", "width": 1, "dash": "3" },
+      { "type": "line", "x1": 30, "y1": 100, "x2": 30, "y2": 110, "stroke": "#94a3b8", "width": 1 },
+      { "type": "line", "x1": 270, "y1": 100, "x2": 270, "y2": 110, "stroke": "#94a3b8", "width": 1 },
+      { "type": "text", "x": 135, "y": 120, "text": "12 cm", "size": 11, "color": "#64748b" }
     ],
     "parts": [
       {
         "id": "8_1",
-        "text": "Giá trị của hằng số $ k $ bằng $ 53 $",
+        "text": "Giá trị của hằng số $k$ bằng $53$",
         "correct": "T",
-        "solution": "Tại vạch tận cùng bên trái ($ d=0 $), ta có $ F = k \\cdot a^0 = 53 \\implies k = 53 $."
+        "solution": "Tại vạch tận cùng bên trái ($d=0$), ta có $F = k \\cdot a^0 = 53 \\implies k = 53$."
       },
       {
         "id": "8_2",
-        "text": "Giá trị của hằng số $ a $ xấp xỉ $ 1.1 $ (kết quả làm tròn đến hàng phần mười)",
+        "text": "Giá trị của hằng số $a$ xấp xỉ $1.1$ (kết quả làm tròn đến hàng phần mười)",
         "correct": "T",
-        "solution": "Tại vạch tận cùng bên phải ($ d=12 $), ta có $ 53 \\cdot a^{12} = 160 \\implies a = \\sqrt[12]{\\frac{160}{53}} \\approx 1.096 \\approx 1.1 $."
+        "solution": "Tại vạch tận cùng bên phải ($d=12$), ta có $53 \\cdot a^{12} = 160 \\implies a = \\sqrt[12]{\\frac{160}{53}} \\approx 1.096 \\approx 1.1$."
       },
       {
         "id": "8_3",
-        "text": "Để dò được đài có $ F > 110 $ kHz thì khoảng cách $ d \\ge 7.9 $ cm (kết quả làm tròn đến hàng phần mười)",
+        "text": "Để dò được đài có $F > 110$ kHz thì khoảng cách $d \\ge 7.9$ cm (kết quả làm tròn đến hàng phần mười)",
         "correct": "T",
-        "solution": "Ta giải bất phương trình $ 53 \\cdot a^d > 110 \\implies a^d > \\frac{110}{53} \\implies d > \\log_a \\left(\\frac{110}{53}\\right) \\approx 7.93 $ cm."
+        "solution": "Ta giải bất phương trình $53 \\cdot a^d > 110 \\implies a^d > \\frac{110}{53} \\implies d > \\log_a \\left(\\frac{110}{53}\\right) \\approx 7.93$ cm."
       },
       {
         "id": "8_4",
-        "text": "Để dò được đài có tần số bằng $ 100 $ kHz thì khoảng cách $ d $ xấp xỉ $ 6.9 $ cm (kết quả làm tròn đến hàng phần mười)",
+        "text": "Để dò được đài có tần số bằng $100$ kHz thì khoảng cách $d$ xấp xỉ $6.9$ cm (kết quả làm tròn đến hàng phần mười)",
         "correct": "T",
-        "solution": "Ta có $ 53 \\cdot a^d = 100 \\implies a^d = \\frac{100}{53} \\implies d = \\log_a \\left(\\frac{100}{53}\\right) \\approx 6.89 $ cm, làm tròn đến hàng phần mười là $ 6.9 $ cm."
+        "solution": "Ta có $53 \\cdot a^d = 100 \\implies a^d = \\frac{100}{53} \\implies d = \\log_a \\left(\\frac{100}{53}\\right) \\approx 6.89$ cm, làm tròn đến hàng phần mười là $6.9$ cm."
       }
     ],
     "points": 1.0
@@ -281,31 +281,31 @@
   {
     "id": 9,
     "type": "TF",
-    "text": "Cho hình hộp $ ABCD.A'B'C'D' $ có đáy $ ABCD $ là hình vuông cạnh $ 2a $, $ AA'=a\\sqrt{3} $. Biết hình chiếu vuông góc của đỉnh $ A' $ lên mặt phẳng đáy $ (ABCD) $ trùng với trung điểm cạnh $ AC $. Các mệnh đề sau đúng hay sai?",
+    "text": "Cho hình hộp $ABCD.A'B'C'D'$ có đáy $ABCD$ là hình vuông cạnh $2a$, $AA'=a\\sqrt{3}$. Biết hình chiếu vuông góc của đỉnh $A'$ lên mặt phẳng đáy $(ABCD)$ trùng với trung điểm cạnh $AC$. Các mệnh đề sau đúng hay sai?",
     "parts": [
       {
         "id": "9_1",
-        "text": "Gọi $ \\alpha $ là góc tạo bởi đường thẳng $ CC' $ và mặt phẳng $ (ABCD) $, khi đó $ \\cos \\alpha = \\frac{2}{3} $",
+        "text": "Gọi $\\alpha$ là góc tạo bởi đường thẳng $CC'$ và mặt phẳng $(ABCD)$, khi đó $\\cos \\alpha = \\frac{2}{3}$",
         "correct": "F",
-        "solution": "Vì $ CC' \\parallel AA' $ nên góc giữa $ CC' $ và đáy chính là góc giữa $ AA' $ và đáy, tức là góc $ \\angle A'AO $ (với $ O $ là tâm đáy, đồng thời là hình chiếu của $ A' $). Ta có $ AO = \\frac{AC}{2} = a\\sqrt{2} $. Xét tam giác vuông $ A'OA $: $ \\cos \\alpha = \\frac{AO}{AA'} = \\frac{a\\sqrt{2}}{a\\sqrt{3}} = \\frac{\\sqrt{6}}{3} \\neq \\frac{2}{3} $."
+        "solution": "Vì $CC' \\parallel AA'$ nên góc giữa $CC'$ và đáy chính là góc giữa $AA'$ và đáy, tức là góc $\\angle A'AO$ (với $O$ là tâm đáy, đồng thời là hình chiếu của $A'$). Ta có $AO = \\frac{AC}{2} = a\\sqrt{2}$. Xét tam giác vuông $A'OA$: $\\cos \\alpha = \\frac{AO}{AA'} = \\frac{a\\sqrt{2}}{a\\sqrt{3}} = \\frac{\\sqrt{6}}{3} \\neq \\frac{2}{3}$."
       },
       {
         "id": "9_2",
-        "text": "Số đo của góc nhị diện $ [A', AB, C] $ bằng $ 45^\\circ $",
+        "text": "Số đo của góc nhị diện $[A', AB, C]$ bằng $45^\\circ$",
         "correct": "T",
-        "solution": "Kẻ $ OH \\perp AB $ tại $ H $ ($ H $ là trung điểm $ AB $), suy ra $ \\angle A'HO $ là góc phẳng nhị diện cần tìm. Ta có $ OH = a $, chiều cao $ A'O = \\sqrt{AA'^2 - AO^2} = \\sqrt{3a^2 - 2a^2} = a \\implies \\tan\\angle A'HO = \\frac{A'O}{OH} = 1 \\implies \\angle A'HO = 45^\\circ $."
+        "solution": "Kẻ $OH \\perp AB$ tại $H$ ($H$ là trung điểm $AB$), suy ra $\\angle A'HO$ là góc phẳng nhị diện cần tìm. Ta có $OH = a$, chiều cao $A'O = \\sqrt{AA'^2 - AO^2} = \\sqrt{3a^2 - 2a^2} = a \\implies \\tan\\angle A'HO = \\frac{A'O}{OH} = 1 \\implies \\angle A'HO = 45^\\circ$."
       },
       {
         "id": "9_3",
-        "text": "Khoảng cách từ điểm $ B' $ đến mặt phẳng $ (ABC) $ bằng $ a $",
+        "text": "Khoảng cách từ điểm $B'$ đến mặt phẳng $(ABC)$ bằng $a$",
         "correct": "T",
-        "solution": "Khoảng cách từ $ B' $ đến đáy bằng khoảng cách từ $ A' $ đến đáy, chính là đoạn $ A'O = a $."
+        "solution": "Khoảng cách từ $B'$ đến đáy bằng khoảng cách từ $A'$ đến đáy, chính là đoạn $A'O = a$."
       },
       {
         "id": "9_4",
-        "text": "Thể tích của hình hộp $ ABCD.A'B'C'D' $ bằng $ \\frac{4a^3}{3} $",
+        "text": "Thể tích của hình hộp $ABCD.A'B'C'D'$ bằng $\\frac{4a^3}{3}$",
         "correct": "F",
-        "solution": "Thể tích hình hộp là $ V = S_{ABCD} \\cdot A'O = (2a)^2 \\cdot a = 4a^3 $."
+        "solution": "Thể tích hình hộp là $V = S_{ABCD} \\cdot A'O = (2a)^2 \\cdot a = 4a^3$."
       }
     ],
     "points": 1.0
@@ -313,7 +313,7 @@
   {
     "id": 10,
     "type": "MCQ",
-    "text": "<strong>[Bối cảnh 1]</strong> Kết quả khảo sát vận tốc của 200 lần phát cầu trong một giải đấu cầu lông chuyên nghiệp được ghi lại trong bảng mẫu số liệu ghép nhóm dưới đây:\n\n<table class='w-full text-center border-collapse border border-slate-300 mt-2 text-sm'><tr class='bg-slate-100'><th class='border border-slate-300 p-2'>Vận tốc ($ km/h $)</th><th class='border border-slate-300 p-2'>Số lần phát cầu</th></tr><tr><td class='border border-slate-300 p-2'>$ 150 \\le v < 155 $</td><td class='border border-slate-300 p-2'>18</td></tr><tr><td class='border border-slate-300 p-2'>$ 155 \\le v < 160 $</td><td class='border border-slate-300 p-2'>28</td></tr><tr><td class='border border-slate-300 p-2'>$ 160 \\le v < 165 $</td><td class='border border-slate-300 p-2'>35</td></tr><tr><td class='border border-slate-300 p-2'>$ 165 \\le v < 170 $</td><td class='border border-slate-300 p-2'>43</td></tr><tr><td class='border border-slate-300 p-2'>$ 170 \\le v < 175 $</td><td class='border border-slate-300 p-2'>41</td></tr><tr><td class='border border-slate-300 p-2'>$ 175 \\le v < 180 $</td><td class='border border-slate-300 p-2'>35</td></tr></table>\n\n<strong>Câu 10:</strong> Giá trị trung bình của mẫu số liệu ghép nhóm về vận tốc phát cầu trên là:",
+    "text": "<strong>[Bối cảnh 1]</strong> Kết quả khảo sát vận tốc của 200 lần phát cầu trong một giải đấu cầu lông chuyên nghiệp được ghi lại trong bảng mẫu số liệu ghép nhóm dưới đây:\n\n<table class='w-full text-center border-collapse border border-slate-300 mt-2 text-sm'><tr class='bg-slate-100'><th class='border border-slate-300 p-2'>Vận tốc ($km/h$)</th><th class='border border-slate-300 p-2'>Số lần phát cầu</th></tr><tr><td class='border border-slate-300 p-2'>$150 \\le v < 155$</td><td class='border border-slate-300 p-2'>18</td></tr><tr><td class='border border-slate-300 p-2'>$155 \\le v < 160$</td><td class='border border-slate-300 p-2'>28</td></tr><tr><td class='border border-slate-300 p-2'>$160 \\le v < 165$</td><td class='border border-slate-300 p-2'>35</td></tr><tr><td class='border border-slate-300 p-2'>$165 \\le v < 170$</td><td class='border border-slate-300 p-2'>43</td></tr><tr><td class='border border-slate-300 p-2'>$170 \\le v < 175$</td><td class='border border-slate-300 p-2'>41</td></tr><tr><td class='border border-slate-300 p-2'>$175 \\le v < 180$</td><td class='border border-slate-300 p-2'>35</td></tr></table>\n\n<strong>Câu 10:</strong> Giá trị trung bình của mẫu số liệu ghép nhóm về vận tốc phát cầu trên là:",
     "options": [
       { "key": "A", "text": "165,25 km/h." },
       { "key": "B", "text": "166,65 km/h." },
@@ -321,7 +321,7 @@
       { "key": "D", "text": "164,85 km/h." }
     ],
     "correct": "B",
-    "solution": "Giá trị đại diện các nhóm lần lượt là $ 152.5; 157.5; 162.5; 167.5; 172.5; 177.5 $. Vận tốc trung bình $ \\bar{v} = \\frac{18 \\cdot 152.5 + 28 \\cdot 157.5 + 35 \\cdot 162.5 + 43 \\cdot 167.5 + 41 \\cdot 172.5 + 35 \\cdot 177.5}{200} = 166.65 $ km/h."
+    "solution": "Giá trị đại diện các nhóm lần lượt là $152.5; 157.5; 162.5; 167.5; 172.5; 177.5$. Vận tốc trung bình $\\bar{v} = \\frac{18 \\cdot 152.5 + 28 \\cdot 157.5 + 35 \\cdot 162.5 + 43 \\cdot 167.5 + 41 \\cdot 172.5 + 35 \\cdot 177.5}{200} = 166.65$ km/h."
   },
   {
     "id": 11,
@@ -334,7 +334,7 @@
       { "key": "D", "text": "35." }
     ],
     "correct": "C",
-    "solution": "Khoảng biến thiên của mẫu số liệu ghép nhóm là hiệu giữa đầu mút phải của nhóm cuối cùng và đầu mút trái của nhóm đầu tiên: $ R = 180 - 150 = 30 $."
+    "solution": "Khoảng biến thiên của mẫu số liệu ghép nhóm là hiệu giữa đầu mút phải của nhóm cuối cùng và đầu mút trái của nhóm đầu tiên: $R = 180 - 150 = 30$."
   },
   {
     "id": 12,
@@ -347,12 +347,12 @@
       { "key": "D", "text": "13,15." }
     ],
     "correct": "C",
-    "solution": "Cỡ mẫu $ n = 200 $. Tứ phân vị thứ nhất $ Q_1 $ nằm ở nhóm $ [160; 165) \\implies Q_1 = 160 + \\frac{50 - 46}{35} \\cdot 5 \\approx 160.57 $. Tứ phân vị thứ ba $ Q_3 $ nằm ở nhóm $ [170; 175) \\implies Q_3 = 170 + \\frac{150 - 124}{41} \\cdot 5 \\approx 173.17 $. Khoảng tứ phân vị $ \\Delta_Q = Q_3 - Q_1 = 173.17 - 160.57 = 12.6 $."
+    "solution": "Cỡ mẫu $n = 200$. Tứ phân vị thứ nhất $Q_1$ nằm ở nhóm $[160; 165) \\implies Q_1 = 160 + \\frac{50 - 46}{35} \\cdot 5 \\approx 160.57$. Tứ phân vị thứ ba $Q_3$ nằm ở nhóm $[170; 175) \\implies Q_3 = 170 + \\frac{150 - 124}{41} \\cdot 5 \\approx 173.17$. Khoảng tứ phân vị $\\Delta_Q = Q_3 - Q_1 = 173.17 - 160.57 = 12.6$."
   },
   {
     "id": 13,
     "type": "MCQ",
-    "text": "<strong>[Bối cảnh 2]</strong> Một chất điểm chuyển động có vận tốc phụ thuộc vào thời gian $ t $ giây, với $ t \\ge 0 $ và được xác định bởi hàm số $ v(t)=-t^2+8t-5 $ ($ m/s $).\n\n<strong>Câu 13:</strong> Vận tốc cực đại của chất điểm trong quá trình chuyển động bằng bao nhiêu?",
+    "text": "<strong>[Bối cảnh 2]</strong> Một chất điểm chuyển động có vận tốc phụ thuộc vào thời gian $t$ giây, với $t \\ge 0$ và được xác định bởi hàm số $v(t)=-t^2+8t-5$ ($m/s$).\n\n<strong>Câu 13:</strong> Vận tốc cực đại của chất điểm trong quá trình chuyển động bằng bao nhiêu?",
     "options": [
       { "key": "A", "text": "4 m/s" },
       { "key": "B", "text": "11 m/s." },
@@ -360,20 +360,20 @@
       { "key": "D", "text": "-5 m/s" }
     ],
     "correct": "B",
-    "solution": "Hàm số vận tốc đạt giá trị cực đại tại đỉnh của parabol: $ t = -\\frac{b}{2a} = -\\frac{8}{2(-1)} = 4 $ giây. Khi đó, $ v(4) = -4^2 + 8(4) - 5 = 11 $ m/s."
+    "solution": "Hàm số vận tốc đạt giá trị cực đại tại đỉnh của parabol: $t = -\\frac{b}{2a} = -\\frac{8}{2(-1)} = 4$ giây. Khi đó, $v(4) = -4^2 + 8(4) - 5 = 11$ m/s."
   },
   {
     "id": 14,
     "type": "MCQ",
     "text": "<strong>[Bối cảnh 2 (tiếp)]</strong> Vận tốc của chất điểm tăng trong khoảng thời gian nào dưới đây?",
     "options": [
-      { "key": "A", "text": "$ (4;+\\infty) $." },
-      { "key": "B", "text": "$ (0;8) $." },
-      { "key": "C", "text": "$ (0;3) $." },
-      { "key": "D", "text": "$ (2;6) $." }
+      { "key": "A", "text": "$(4;+\\infty)$." },
+      { "key": "B", "text": "$(0;8)$." },
+      { "key": "C", "text": "$(0;3)$." },
+      { "key": "D", "text": "$(2;6)$." }
     ],
     "correct": "C",
-    "solution": "Vận tốc tăng khi đạo hàm $ v'(t) = -2t + 8 > 0 \\Leftrightarrow t < 4 $. Do $ t \\ge 0 $ nên vận tốc tăng trên khoảng $ (0;4) $. Vì khoảng $ (0;3) $ là tập con của $ (0;4) $ nên phương án C đúng."
+    "solution": "Vận tốc tăng khi đạo hàm $v'(t) = -2t + 8 > 0 \\Leftrightarrow t < 4$. Do $t \\ge 0$ nên vận tốc tăng trên khoảng $(0;4)$. Vì khoảng $(0;3)$ là tập con của $(0;4)$ nên phương án C đúng."
   },
   {
     "id": 15,
@@ -381,30 +381,30 @@
     "text": "<strong>[Bối cảnh 2 (tiếp)]</strong> Quãng đường chất điểm đi được tính từ lúc xuất phát cho đến khi vận tốc đạt giá trị lớn nhất là:",
     "options": [
       { "key": "A", "text": "11 m." },
-      { "key": "B", "text": "$ \\frac{44}{3} $ m." },
+      { "key": "B", "text": "$\\frac{44}{3}$ m." },
       { "key": "C", "text": "20 m." },
-      { "key": "D", "text": "$ \\frac{68}{3} $ m." }
+      { "key": "D", "text": "$\\frac{68}{3}$ m." }
     ],
     "correct": "D",
-    "solution": "Vận tốc đạt giá trị lớn nhất tại $ t = 4 $. Quãng đường chất điểm đi được là: $ s = \\int_{0}^{4} (-t^2 + 8t - 5) dt = \\left. \\left( -\\frac{t^3}{3} + 4t^2 - 5t \\right) \\right|_{0}^{4} = -\\frac{64}{3} + 64 - 20 = \\frac{68}{3} $ m."
+    "solution": "Vận tốc đạt giá trị lớn nhất tại $t = 4$. Quãng đường chất điểm đi được là: $s = \\int_0^4 (-t^2 + 8t - 5) dt = \\left. \\left( -\\frac{t^3}{3} + 4t^2 - 5t \\right) \\right|_0^4 = -\\frac{64}{3} + 64 - 20 = \\frac{68}{3}$ m."
   },
   {
     "id": 16,
     "type": "MATCH",
-    "text": "Trong không gian $ Oxyz $, hãy ghép mỗi đặc điểm hình học ở cột bên trái với một phương trình mặt cầu phù hợp ở cột bên phải.",
+    "text": "Trong không gian $Oxyz$, hãy ghép mỗi đặc điểm hình học ở cột bên trái với một phương trình mặt cầu phù hợp ở cột bên phải.",
     "leftItems": [
-      { "id": "16_1", "text": "Phương trình mặt cầu có tâm I(1;-2;3) và bán kính bằng 5 là" },
-      { "id": "16_2", "text": "Phương trình mặt cầu có tâm thuộc trục Ox và đi qua hai điểm M(1;2;2), N(3;0;2) là" },
-      { "id": "16_3", "text": "Phương trình mặt cầu có tâm thuộc mặt phẳng (Oxy), bán kính bằng √11 và đi qua hai điểm A(3;2;1), B(1;-2;1) là" },
-      { "id": "16_4", "text": "Mặt cầu có bán kính nhỏ nhất và đi qua ba điểm O(0;0;0), E(2;0;0), F(0;2;0) là" }
+      { "id": "16_1", "text": "Phương trình mặt cầu có tâm $I(1;-2;3)$ và bán kính bằng 5 là" },
+      { "id": "16_2", "text": "Phương trình mặt cầu có tâm thuộc trục Ox và đi qua hai điểm $M(1;2;2), N(3;0;2)$ là" },
+      { "id": "16_3", "text": "Phương trình mặt cầu có tâm thuộc mặt phẳng (Oxy), bán kính bằng $\\sqrt{11}$ và đi qua hai điểm $A(3;2;1), B(1;-2;1)$ là" },
+      { "id": "16_4", "text": "Mặt cầu có bán kính nhỏ nhất và đi qua ba điểm $O(0;0;0), E(2;0;0), F(0;2;0)$ là" }
     ],
     "rightItems": [
-      { "key": "A", "text": "$ x^2+y^2+z^2-2x+4y-6z-11=0 $" },
-      { "key": "B", "text": "$ x^2+y^2+z^2-2x-7=0 $" },
-      { "key": "C", "text": "$ x^2+y^2+z^2-2y-10=0 $" },
-      { "key": "D", "text": "$ x^2+y^2+z^2-8x+2y+6=0 $" },
-      { "key": "E", "text": "$ x^2+y^2+z^2-2x-2y=0 $" },
-      { "key": "F", "text": "$ x^2+y^2+z^2-2x-2y-4=0 $" }
+      { "key": "A", "text": "$x^2+y^2+z^2-2x+4y-6z-11=0$" },
+      { "key": "B", "text": "$x^2+y^2+z^2-2x-7=0$" },
+      { "key": "C", "text": "$x^2+y^2+z^2-2y-10=0$" },
+      { "key": "D", "text": "$x^2+y^2+z^2-8x+2y+6=0$" },
+      { "key": "E", "text": "$x^2+y^2+z^2-2x-2y=0$" },
+      { "key": "F", "text": "$x^2+y^2+z^2-2x-2y-4=0$" }
     ],
     "correctMap": {
       "16_1": "A",
@@ -412,12 +412,12 @@
       "16_3": "C",
       "16_4": "E"
     },
-    "solution": "1. Khai triển $ (x-1)^2+(y+2)^2+(z-3)^2=25 \\implies x^2+y^2+z^2-2x+4y-6z-11=0 $. 2. Tâm thuộc Ox nên $ I(a;0;0) $. $ IM^2=IN^2 \\implies (1-a)^2+8 = (3-a)^2+4 \\implies a=1 \\implies R^2=8 \\implies x^2+y^2+z^2-2x-7=0 $. 3. Tâm thuộc (Oxy) nên $ I(a;b;0) $, giải $ IA^2=IB^2=11 \\implies I(0;1;0) \\implies x^2+y^2+z^2-2y-10=0 $. 4. Mặt cầu qua O, E, F có tâm nằm trên đường vuông góc mặt phẳng đáy, bán kính nhỏ nhất khi tâm chính là tâm đường tròn ngoại tiếp tam giác OEF $ \\implies I(1;1;0), R^2=2 \\implies x^2+y^2+z^2-2x-2y=0 $."
+    "solution": "1. Khai triển $(x-1)^2+(y+2)^2+(z-3)^2=25 \\implies x^2+y^2+z^2-2x+4y-6z-11=0$. 2. Tâm thuộc Ox nên $I(a;0;0)$. $IM^2=IN^2 \\implies (1-a)^2+8 = (3-a)^2+4 \\implies a=1 \\implies R^2=8 \\implies x^2+y^2+z^2-2x-7=0$. 3. Tâm thuộc (Oxy) nên $I(a;b;0)$, giải $IA^2=IB^2=11 \\implies I(0;1;0) \\implies x^2+y^2+z^2-2y-10=0$. 4. Mặt cầu qua O, E, F có tâm nằm trên đường vuông góc mặt phẳng đáy, bán kính nhỏ nhất khi tâm chính là tâm đường tròn ngoại tiếp tam giác OEF $\\implies I(1;1;0), R^2=2 \\implies x^2+y^2+z^2-2x-2y=0$."
   },
   {
     "id": 17,
     "type": "MATCH",
-    "text": "Trong không gian $ Oxyz $, cho mặt phẳng $ (P): 2x-3y+4z-6=0 $ và đường thẳng $ d: \\frac{x-1}{1}=\\frac{y}{2}=\\frac{z-1}{-1} $. Ghép các tính chất hình học tương ứng.",
+    "text": "Trong không gian $Oxyz$, cho mặt phẳng $(P): 2x-3y+4z-6=0$ và đường thẳng $d: \\frac{x-1}{1}=\\frac{y}{2}=\\frac{z-1}{-1}$. Ghép các tính chất hình học tương ứng.",
     "leftItems": [
       { "id": "17_1", "text": "Một véc-tơ pháp tuyến của mặt phẳng (P) là" },
       { "id": "17_2", "text": "Giao điểm của mặt phẳng (P) và đường thẳng d có tọa độ là" },
@@ -425,12 +425,12 @@
       { "id": "17_4", "text": "Mặt phẳng (P) cắt trục Oy tại điểm có tọa độ là" }
     ],
     "rightItems": [
-      { "key": "A", "text": "$ (2;-3;4) $" },
-      { "key": "B", "text": "$ (1;0;1) $" },
-      { "key": "C", "text": "$ (3;0;0) $" },
-      { "key": "D", "text": "$ (0;-2;0) $" },
-      { "key": "E", "text": "$ (2;3;4) $" },
-      { "key": "F", "text": "$ (0;2;0) $" }
+      { "key": "A", "text": "$(2;-3;4)$" },
+      { "key": "B", "text": "$(1;0;1)$" },
+      { "key": "C", "text": "$(3;0;0)$" },
+      { "key": "D", "text": "$(0;-2;0)$" },
+      { "key": "E", "text": "$(2;3;4)$" },
+      { "key": "F", "text": "$(0;2;0)$" }
     ],
     "correctMap": {
       "17_1": "A",
@@ -438,29 +438,29 @@
       "17_3": "C",
       "17_4": "D"
     },
-    "solution": "1. Hệ số phương trình mặt phẳng là $ (2;-3;4) $. 2. Tham số hóa đường thẳng d thế vào phương trình mặt phẳng giải ra $ t=0 \\implies (1;0;1) $. 3. Giao với Ox ứng với $ y=z=0 \\implies 2x=6 \\implies x=3 \\implies (3;0;0) $. 4. Giao với Oy ứng với $ x=z=0 \\implies -3y=6 \\implies y=-2 \\implies (0;-2;0) $."
+    "solution": "1. Hệ số phương trình mặt phẳng là $(2;-3;4)$. 2. Tham số hóa đường thẳng d thế vào phương trình mặt phẳng giải ra $t=0 \\implies (1;0;1)$. 3. Giao với Ox ứng với $y=z=0 \\implies 2x=6 \\implies x=3 \\implies (3;0;0)$. 4. Giao với Oy ứng với $x=z=0 \\implies -3y=6 \\implies y=-2 \\implies (0;-2;0)$."
   },
   {
     "id": 18,
     "type": "MATCH",
-    "text": "Cho hàm số $ y=f(x) $ có đồ thị như hình vẽ dưới đây. Ghép đặc điểm đặc trưng hình học của đồ thị ở cột bên trái với giá trị số thích hợp tương ứng ở cột bên phải.",
+    "text": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ dưới đây. Ghép đặc điểm đặc trưng hình học của đồ thị ở cột bên trái với giá trị số thích hợp tương ứng ở cột bên phải.",
     "visual": [
       { "type": "line", "x1": 30, "y1": 130, "x2": 260, "y2": 130, "stroke": "#000000", "width": 1.2 },
       { "type": "line", "x1": 100, "y1": 20, "x2": 100, "y2": 180, "stroke": "#000000", "width": 1.2 },
       { "type": "text", "x": 250, "y": 145, "text": "x", "size": 13 },
       { "type": "text", "x": 118, "y": 25, "text": "y", "size": 13 },
       { "type": "text", "x": 84, "y": 145, "text": "O", "size": 13 },
-      { "type": "path", "d": "M 45 165 C 75 75, 90 50, 100 50 C 120 50, 160 130, 180 130 C 200 130, 215 70, 222 50 C 225 38, 228 26, 232 10", "stroke": "#2563eb", "width": 2, "fill": "none" },
-      { "type": "circle", "cx": 100, "cy": 50, "r": 3.5, "fill": "#ef4444" },
-      { "type": "circle", "cx": 180, "cy": 130, "r": 3.5, "fill": "#ef4444" },
-      { "type": "circle", "cx": 222, "cy": 50, "r": 3.5, "fill": "#ef4444" },
-      { "type": "circle", "cx": 60, "cy": 130, "r": 3.5, "fill": "#ef4444" },
-      { "type": "line", "x1": 100, "y1": 50, "x2": 222, "y2": 50, "stroke": "#94a3b8", "dash": "3" },
-      { "type": "line", "x1": 222, "y1": 50, "x2": 222, "y2": 130, "stroke": "#94a3b8", "dash": "3" },
-      { "type": "text", "x": 218, "y": 145, "text": "3", "size": 12 },
-      { "type": "text", "x": 176, "y": 145, "text": "2", "size": 12 },
-      { "type": "text", "x": 52, "y": 145, "text": "-1", "size": 12 },
-      { "type": "text", "x": 82, "y": 55, "text": "4", "size": 12 }
+      { "type": "path", "d": "M 40 160 C 53 70, 67 40, 80 40 C 107 40, 133 160, 160 160 C 173 160, 187 130, 200 40", "stroke": "#2563eb", "width": 2, "fill": "none" },
+      { "type": "circle", "cx": 80, "cy": 40, "r": 3.5, "fill": "#ef4444" },
+      { "type": "circle", "cx": 160, "cy": 160, "r": 3.5, "fill": "#ef4444" },
+      { "type": "circle", "cx": 200, "cy": 40, "r": 3.5, "fill": "#ef4444" },
+      { "type": "circle", "cx": 40, "cy": 160, "r": 3.5, "fill": "#ef4444" },
+      { "type": "line", "x1": 80, "y1": 40, "x2": 200, "y2": 40, "stroke": "#94a3b8", "dash": "3" },
+      { "type": "line", "x1": 200, "y1": 40, "x2": 200, "y2": 130, "stroke": "#94a3b8", "dash": "3" },
+      { "type": "text", "x": 196, "y": 145, "text": "3", "size": 12 },
+      { "type": "text", "x": 156, "y": 145, "text": "2", "size": 12 },
+      { "type": "text", "x": 35, "y": 145, "text": "-1", "size": 12 },
+      { "type": "text", "x": 65, "y": 45, "text": "4", "size": 12 }
     ],
     "leftItems": [
       { "id": "18_1", "text": "Điểm cực tiểu của hàm số là" },
@@ -482,61 +482,63 @@
       "18_3": "F",
       "18_4": "C"
     },
-    "solution": "Đồ thị đạt cực đại tại $ (0;4) $, cực tiểu tại $ (2;0) $, cắt trục hoành tại điểm có hoành độ âm là $ x = -1 $."
+    "solution": "Đồ thị đạt cực đại tại điểm $(0;4)$, cực tiểu tại điểm $(2;0)$, cắt trục hoành tại điểm có hoành độ âm là $x = -1$."
   },
-{
-  "id": 19,
-  "type": "MATCH",
-  "text": "Cho hàm số $y=x^2-3x+2$ có đồ thị $(P)$ và $y=x-1$ có đồ thị $(d)$. Gọi $S_1$, $S_2$ là diện tích phần được tô xám như hình bên dưới. Hãy ghép các biểu thức ở cột bên trái với giá trị phân số thích hợp tương ứng ở cột bên phải.",
-  "visual": [
-    { "type": "path", "d": "M 80 50 Q 102.5 117.5, 125 140 L 80 185 Z", "fill": "#cbd5e1", "stroke": "none" },
-    { "type": "path", "d": "M 125 140 L 215 50 Q 170 185, 125 140 Z", "fill": "#94a3b8", "stroke": "none" },
-    { "type": "line", "x1": 20, "y1": 140, "x2": 270, "y2": 140, "stroke": "#000000", "width": 1.2 },
-    { "type": "line", "x1": 80, "y1": 220, "x2": 80, "y2": 20, "stroke": "#000000", "width": 1.2 },
-    { "type": "path", "d": "M 62 14.4 Q 147.5 313.7, 233 14.4", "stroke": "#2563eb", "width": 2, "fill": "none" },
-    { "type": "line", "x1": 57.5, "y1": 207.5, "x2": 237.5, "y2": 27.5, "stroke": "#ef4444", "width": 1.8 },
-    { "type": "line", "x1": 215, "y1": 50, "x2": 215, "y2": 140, "stroke": "#64748b", "width": 1, "dash": "3" },
-    { "type": "line", "x1": 125, "y1": 135, "x2": 125, "y2": 145, "stroke": "#000000", "width": 1 },
-    { "type": "line", "x1": 215, "y1": 135, "x2": 215, "y2": 145, "stroke": "#000000", "width": 1 },
-    { "type": "text", "x": 260, "y": 155, "text": "x", "size": 13 },
-    { "type": "text", "x": 92, "y": 25, "text": "y", "size": 13 },
-    { "type": "text", "x": 65, "y": 155, "text": "O", "size": 13 },
-    { "type": "text", "x": 121, "y": 155, "text": "1", "size": 12 },
-    { "type": "text", "x": 211, "y": 155, "text": "3", "size": 12 },
-    { "type": "text", "x": 95, "y": 115, "text": "S₁", "size": 13, "weight": "bold", "color": "#1e3a8a" },
-    { "type": "text", "x": 165, "y": 115, "text": "S₂", "size": 13, "weight": "bold", "color": "#1e3a8a" }
-  ],
-  "leftItems": [
-    { "id": "19_1", "text": "Giá trị của S1 bằng" },
-    { "id": "19_2", "text": "Giá trị của S1 + S2 bằng" },
-    { "id": "19_3", "text": "Diện tích hình phẳng giới hạn bởi d, trục hoành và đường thẳng x = 0 bằng" },
-    { "id": "19_4", "text": "Diện tích hình phẳng giới hạn bởi (P) và trục hoành bằng" }
-  ],
-  "rightItems": [
-    { "key": "A", "text": "$\\frac{4}{3}$" },
-    { "key": "B", "text": "$\\frac{8}{3}$" },
-    { "key": "C", "text": "$\\frac{5}{6}$" },
-    { "key": "D", "text": "$\\frac{1}{6}$" },
-    { "key": "E", "text": "$\\frac{3}{2}$" },
-    { "key": "F", "text": "$\\frac{1}{2}$" }
-  ],
-  "correctMap": {
-    "19_1": "A",
-    "19_2": "B",
-    "19_3": "F",
-    "19_4": "D"
+  {
+    "id": 19,
+    "type": "MATCH",
+    "text": "Cho hàm số $y=x^2-3x+2$ có đồ thị $(P)$ và $y=x-1$ có đồ thị $(d)$. Gọi $S_1, S_2$ là diện tích phần được tô xám như hình bên dưới. Hãy ghép các biểu thức ở cột bên trái với giá trị phân số thích hợp tương ứng ở cột bên phải.",
+    "visual": [
+      { "type": "path", "d": "M 60 100 Q 85 160 110 180 L 60 220 Z", "fill": "#cbd5e1", "stroke": "none" },
+      { "type": "path", "d": "M 110 180 L 210 100 Q 160 220 110 180 Z", "fill": "#cbd5e1", "stroke": "none" },
+      { "type": "line", "x1": 30, "y1": 180, "x2": 260, "y2": 180, "stroke": "#0f172a", "width": 1.5 },
+      { "type": "line", "x1": 60, "y1": 20, "x2": 60, "y2": 250, "stroke": "#0f172a", "width": 1.5 },
+      { "type": "text", "x": 250, "y": 195, "text": "x", "size": 14, "weight": "bold" },
+      { "type": "text", "x": 45, "y": 30, "text": "y", "size": 14, "weight": "bold" },
+      { "type": "text", "x": 45, "y": 195, "text": "O", "size": 14, "weight": "bold" },
+      { "type": "line", "x1": 110, "y1": 177, "x2": 110, "y2": 183, "stroke": "#0f172a", "width": 1.5 },
+      { "type": "text", "x": 105, "y": 198, "text": "1", "size": 12 },
+      { "type": "line", "x1": 210, "y1": 177, "x2": 210, "y2": 183, "stroke": "#0f172a", "width": 1.5 },
+      { "type": "text", "x": 205, "y": 198, "text": "3", "size": 12 },
+      { "type": "line", "x1": 210, "y1": 180, "x2": 210, "y2": 100, "stroke": "#64748b", "dash": "4" },
+      { "type": "line", "x1": 35, "y1": 240, "x2": 235, "y2": 80, "stroke": "#2563eb", "width": 2 },
+      { "type": "path", "d": "M 35 30 Q 135 350 235 30", "stroke": "#ef4444", "width": 2, "fill": "none" },
+      { "type": "text", "x": 75, "y": 150, "text": "S₁", "size": 14, "weight": "bold", "color": "#1e293b" },
+      { "type": "text", "x": 155, "y": 155, "text": "S₂", "size": 14, "weight": "bold", "color": "#1e293b" },
+      { "type": "text", "x": 220, "y": 30, "text": "(P)", "size": 12, "color": "#ef4444", "weight": "bold" },
+      { "type": "text", "x": 240, "y": 90, "text": "d", "size": 12, "color": "#2563eb", "weight": "bold" }
+    ],
+    "leftItems": [
+      { "id": "19_1", "text": "Giá trị của $S_1$ bằng" },
+      { "id": "19_2", "text": "Giá trị của $S_1 + S_2$ bằng" },
+      { "id": "19_3", "text": "Diện tích hình phẳng giới hạn bởi $d$, trục hoành và đường thẳng $x = 0$ bằng" },
+      { "id": "19_4", "text": "Diện tích hình phẳng giới hạn bởi $(P)$ và trục hoành bằng" }
+    ],
+    "rightItems": [
+      { "key": "A", "text": "$\\frac{4}{3}$" },
+      { "key": "B", "text": "$\\frac{8}{3}$" },
+      { "key": "C", "text": "$\\frac{5}{6}$" },
+      { "key": "D", "text": "$\\frac{1}{6}$" },
+      { "key": "E", "text": "$\\frac{3}{2}$" },
+      { "key": "F", "text": "$\\frac{1}{2}$" }
+    ],
+    "correctMap": {
+      "19_1": "A",
+      "19_2": "B",
+      "19_3": "F",
+      "19_4": "D"
+    },
+    "solution": "$S_1 = \\int_0^1 (x^2-3x+2 - (x-1)) dx = \\frac{4}{3}$. $S_2 = \\int_1^3 (x-1 - (x^2-3x+2)) dx = \\frac{4}{3} \\implies S_1+S_2 = \\frac{8}{3}$. Diện tích tam giác giới hạn bởi $d$, $Ox$, $Oy$ là $\\frac{1}{2} \\cdot 1 \\cdot 1 = \\frac{1}{2}$. Diện tích giới hạn bởi $(P)$ và $Ox$ là $\\int_1^2 -(x^2-3x+2) dx = \\frac{1}{6}$."
   },
-  "solution": "$ S_1 = \\int_0^1 (x^2-3x+2 - (x-1)) dx = \\frac{4}{3} $. $ S_2 = \\int_1^3 (x-1 - (x^2-3x+2)) dx = \\frac{4}{3} \\implies S_1+S_2 = \\frac{8}{3} $. Diện tích tam giác giới hạn bởi d, Ox, Oy là $ \\frac{1}{2} \\cdot 1 \\cdot 1 = \\frac{1}{2} $. Diện tích giới hạn bởi (P) và Ox là $ \\int_1^2 -(x^2-3x+2) dx = \\frac{1}{6} $."
-},
   {
     "id": 20,
     "type": "MATCH",
-    "text": "Cho hàm số $ f(x) $ có đạo hàm $ f'(x)=x^2(4-x) $, $ \\forall x \\in \\mathbb{R} $. Đặt $ g(x)=f(x^2) $. Hãy ghép các đặc tính cực trị tương ứng.",
+    "text": "Cho hàm số $f(x)$ có đạo hàm $f'(x)=x^2(4-x)$, $\\forall x \\in \\mathbb{R}$. Đặt $g(x)=f(x^2)$. Hãy ghép các đặc tính cực trị tương ứng.",
     "leftItems": [
-      { "id": "20_1", "text": "Số điểm cực trị của hàm số f(x) là" },
-      { "id": "20_2", "text": "Điểm cực đại của hàm số f(x) là" },
-      { "id": "20_3", "text": "Số điểm cực trị của hàm số g(x) là" },
-      { "id": "20_4", "text": "Điểm cực tiểu của hàm số g(x) là" }
+      { "id": "20_1", "text": "Số điểm cực trị của hàm số $f(x)$ là" },
+      { "id": "20_2", "text": "Điểm cực đại của hàm số $f(x)$ là" },
+      { "id": "20_3", "text": "Số điểm cực trị của hàm số $g(x)$ là" },
+      { "id": "20_4", "text": "Điểm cực tiểu của hàm số $g(x)$ là" }
     ],
     "rightItems": [
       { "key": "A", "text": "3" },
@@ -552,41 +554,41 @@
       "20_3": "A",
       "20_4": "D"
     },
-    "solution": "$ f'(x)=0 \\Leftrightarrow x=0 $ (bội 2), $ x=4 $ (nghiệm đơn) $ \\implies f(x) $ có 1 cực trị duy nhất là cực đại tại $ x=4 $. Ta có $ g'(x) = 2x \\cdot f'(x^2) = 2x \\cdot (x^2)^2(4-x^2) = 2x^5(2-x)(2+x) \\implies g'(x)=0 $ có các nghiệm đơn $ x=0, x=2, x=-2 \\implies g(x) $ có 3 điểm cực trị. Qua $ x=0 $, $ g'(x) $ đổi dấu từ âm sang dương nên $ x=0 $ là điểm cực tiểu."
+    "solution": "$f'(x)=0 \\Leftrightarrow x=0$ (bội 2), $x=4$ (nghiệm đơn) $\\implies f(x)$ có 1 cực trị duy nhất là cực đại tại $x=4$. Ta có $g'(x) = 2x \\cdot f'(x^2) = 2x \\cdot (x^2)^2(4-x^2) = 2x^5(2-x)(2+x) \\implies g'(x)=0$ có các nghiệm đơn $x=0, x=2, x=-2 \\implies g(x)$ có 3 điểm cực trị. Qua $x=0$, $g'(x)$ đổi dấu từ âm sang dương nên $x=0$ là điểm cực tiểu."
   },
   {
     "id": 21,
     "type": "SHORT",
-    "text": "Giá trị của tích phân xác định $ \\int_{0}^{\\pi} \\frac{4x}{\\pi^2} dx $ bằng bao nhiêu?",
+    "text": "Giá trị của tích phân xác định $\\int_{0}^{\\pi} \\frac{4x}{\\pi^2} dx$ bằng bao nhiêu?",
     "correct": "2",
-    "solution": "Ta có $ \\int_{0}^{\\pi} \\frac{4x}{\\pi^2} dx = \\left. \\frac{2x^2}{\\pi^2} \\right|_{0}^{\\pi} = \\frac{2\\pi^2}{\\pi^2} = 2 $."
+    "solution": "Ta có $\\int_{0}^{\\pi} \\frac{4x}{\\pi^2} dx = \\left. \\frac{2x^2}{\\pi^2} \\right|_{0}^{\\pi} = \\frac{2\\pi^2}{\\pi^2} = 2$."
   },
   {
     "id": 22,
     "type": "SHORT",
-    "text": "Cho hàm số $ y=\\frac{1+x}{x+2} $. Gọi $ M, m $ lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên đoạn $ [-1; 3] $. Khi đó, tính giá trị của biểu thức $ M+m $.",
+    "text": "Cho hàm số $y=\\frac{1+x}{x+2}$. Gọi $M, m$ lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên đoạn $[-1; 3]$. Khi đó, tính giá trị của biểu thức $M+m$.",
     "correct": "0.8",
-    "solution": "Đạo hàm $ y' = \\frac{1}{(x+2)^2} > 0 \\implies $ hàm số đồng biến liên tục trên $ [-1;3] $. Do đó $ m = y(-1) = 0 $, $ M = y(3) = \\frac{4}{5} = 0.8 \\implies M+m = 0.8 $."
+    "solution": "Đạo hàm $y' = \\frac{1}{(x+2)^2} > 0 \\implies$ hàm số đồng biến liên tục trên $[-1;3]$. Do đó $m = y(-1) = 0$, $M = y(3) = \\frac{4}{5} = 0.8 \\implies M+m = 0.8$."
   },
   {
     "id": 23,
     "type": "SHORT",
-    "text": "Biết rằng $ \\log_2 x + \\log_4 x^4 + \\log_8 x^9 + \\log_{16} x^{16} = a \\cdot \\log_2 x $. Tìm giá trị hằng số số thực $ a $.",
+    "text": "Biết rằng $\\log_2 x + \\log_4 x^4 + \\log_8 x^9 + \\log_{16} x^{16} = a \\cdot \\log_2 x$. Tìm giá trị hằng số số thực $a$.",
     "correct": "10",
-    "solution": "Biến đổi các số hạng: $ \\log_4 x^4 = \\frac{4}{2}\\log_2 x = 2\\log_2 x $; $ \\log_8 x^9 = \\frac{9}{3}\\log_2 x = 3\\log_2 x $; $ \\log_{16} x^{16} = \\frac{16}{4}\\log_2 x = 4\\log_2 x $. Khi đó vế trái bằng $ (1+2+3+4)\\log_2 x = 10\\log_2 x \\implies a=10 $."
+    "solution": "Biến đổi các số hạng: $\\log_4 x^4 = \\frac{4}{2}\\log_2 x = 2\\log_2 x$; $\\log_8 x^9 = \\frac{9}{3}\\log_2 x = 3\\log_2 x$; $\\log_{16} x^{16} = \\frac{16}{4}\\log_2 x = 4\\log_2 x$. Khi đó vế trái bằng $(1+2+3+4)\\log_2 x = 10\\log_2 x \\implies a=10$."
   },
   {
     "id": 24,
     "type": "SHORT",
     "text": "Một công ty sản xuất một mặt hàng cùng loại tại hai cơ sở I và II. Biết tỉ lệ sản lượng hàng được sản xuất ở cơ sở II là 32%, còn lại là do cơ sở I sản xuất. Tỉ lệ hàng đạt tiêu chuẩn của cơ sở I và cơ sở II lần lượt là 99% và 87%. Chọn ngẫu nhiên một sản phẩm của công ty đó và thấy sản phẩm này đạt tiêu chuẩn. Xác suất để sản phẩm được chọn do cơ sở I sản xuất bằng bao nhiêu? (Làm tròn kết quả đến hàng phần trăm)",
     "correct": "0.71",
-    "solution": "Tỉ lệ sản lượng cơ sở I là $ 100\\% - 32\\% = 68\\% $. Áp dụng công thức xác suất toàn phần, xác suất sản phẩm đạt chuẩn là: $ P(T) = 0.68 \\times 0.99 + 0.32 \\times 0.87 = 0.9516 $. Áp dụng công thức Bayes, xác suất sản phẩm do cơ sở I sản xuất là: $ P(I|T) = \\frac{0.68 \\times 0.99}{0.9516} \\approx 0.7074 $, làm tròn đến hàng phần trăm thu được 0.71."
+    "solution": "Tỉ lệ sản lượng cơ sở I là $100\\% - 32\\% = 68\\%$. Áp dụng công thức xác suất toàn phần, xác suất sản phẩm đạt chuẩn là: $P(T) = 0.68 \\times 0.99 + 0.32 \\times 0.87 = 0.9516$. Áp dụng công thức Bayes, xác suất sản phẩm do cơ sở I sản xuất là: $P(I|T) = \\frac{0.68 \\times 0.99}{0.9516} \\approx 0.7074$, làm tròn đến hàng phần trăm thu được 0.71."
   },
   {
     "id": 25,
     "type": "SHORT",
-    "text": "Trong không gian $ Oxyz $ (đơn vị trên mỗi trục tương ứng với 1 ki-lô-mét), cho hai chất điểm A và B xuất phát cùng một thời điểm. Chất điểm A xuất phát từ điểm $ O(0;0;0) $ với véc-tơ vận tốc không đổi là $ \\vec{v}_1=(100;0;0) $ (km/h). Chất điểm B xuất phát từ điểm $ M(20;0;0) $ với véc-tơ vận tốc không đổi là $ \\vec{v}_2=(0;100;0) $ (km/h). Biết rằng chất điểm A có gắn một thiết bị cảm biến và thiết bị này sẽ phát tín hiệu cảnh báo khi khoảng cách giữa hai chất điểm không quá 16 ki-lô-mét. Hỏi sau ít nhất bao nhiêu phút kể từ lúc xuất phát thì thiết bị trên chất điểm A bắt đầu phát tín hiệu? (Làm tròn kết quả đến hàng phần mười)",
+    "text": "Trong không gian $Oxyz$ (đơn vị trên mỗi trục tương ứng với 1 ki-lô-mét), cho hai chất điểm A và B xuất phát cùng một thời điểm. Chất điểm A xuất phát từ điểm $O(0;0;0)$ với véc-tơ vận tốc không đổi là $\\vec{v}_1=(100;0;0)$ (km/h). Chất điểm B xuất phát từ điểm $M(20;0;0)$ với véc-tơ vận tốc không đổi là $\\vec{v}_2=(0;100;0)$ (km/h). Biết rằng chất điểm A có gắn một thiết bị cảm biến và thiết bị này sẽ phát tín hiệu cảnh báo khi khoảng cách giữa hai chất điểm không quá 16 ki-lô-mét. Hỏi sau ít nhất bao nhiêu phút kể từ lúc xuất phát thì thiết bị trên chất điểm A bắt đầu phát tín hiệu? (Làm tròn kết quả đến hàng phần mười)",
     "correct": "2.8",
-    "solution": "Tọa độ chất điểm tại thời điểm $ t $ (giờ): $ A(100t; 0; 0) $, $ B(20; 100t; 0) $. Khoảng cách $ AB = \\sqrt{(100t-20)^2 + (-100t)^2} = \\sqrt{20000t^2 - 4000t + 400 } $. Thiết bị phát tín hiệu khi $ AB \\le 16 \\implies 20000t^2 - 4000t + 400 \\le 256 \\Leftrightarrow 20000t^2 - 4000t + 144 \\le 0 $. Nghiệm nhỏ nhất của phương trình bậc hai là $ t = \\frac{4000 - \\sqrt{4000^2 - 4 \\cdot 20000 \\cdot 144}}{2 \\cdot 20000} = \\frac{4000 - 2154.065}{40000} \\approx 0.04615 $ giờ. Đổi ra phút: $ 0.04615 \\times 60 \\approx 2.769 $ phút, làm tròn là 2.8 phút."
+    "solution": "Tọa độ chất điểm tại thời điểm $t$ (giờ): $A(100t; 0; 0)$, $B(20; 100t; 0)$. Khoảng cách $AB = \\sqrt{(100t-20)^2 + (-100t)^2} = \\sqrt{20000t^2 - 4000t + 400 }$. Thiết bị phát tín hiệu khi $AB \\le 16 \\implies 20000t^2 - 4000t + 400 \\le 256 \\Leftrightarrow 20000t^2 - 4000t + 144 \\le 0$. Nghiệm nhỏ nhất của phương trình bậc hai là $t = \\frac{4000 - \\sqrt{4000^2 - 4 \\cdot 20000 \\cdot 144}}{2 \\cdot 20000} = \\frac{4000 - 2154.065}{40000} \\approx 0.04615$ giờ. Đổi ra phút: $0.04615 \\times 60 \\approx 2.769$ phút, làm tròn là 2.8 phút."
   }
 ]
