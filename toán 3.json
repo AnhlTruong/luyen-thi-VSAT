@@ -484,46 +484,46 @@
     },
     "solution": "Đồ thị đạt cực đại tại $ (0;4) $, cực tiểu tại $ (2;0) $, cắt trục hoành tại điểm có hoành độ âm là $ x = -1 $."
   },
-  {
-    "id": 19,
-    "type": "MATCH",
-    "text": "Cho hàm số $ y=x^2-3x+2 $ có đồ thị $ (P) $ và $ y=x-1 $ có đồ thị $ (d) $. Gọi $ S_1, S_2 $ là diện tích phần được tô xám như hình bên dưới. Hãy ghép các biểu thức ở cột bên trái với giá trị phân số thích hợp tương ứng ở cột bên phải.",
-    "visual": [
-      { "type": "line", "x1": 30, "y1": 120, "x2": 260, "y2": 120, "stroke": "#000000", "width": 1.2 },
-      { "type": "line", "x1": 80, "y1": 20, "x2": 80, "y2": 180, "stroke": "#000000", "width": 1.2 },
-      { "type": "text", "x": 250, "y": 135, "text": "x", "size": 13 },
-      { "type": "text", "x": 92, "y": 25, "text": "y", "size": 13 },
-      { "type": "text", "x": 65, "y": 135, "text": "O", "size": 13 },
-      { "type": "path", "d": "M 60 40 Q 80 60, 105 90 T 130 120 Q 155 135, 180 120 T 230 60 Q 245 35, 255 10", "stroke": "#2563eb", "width": 2, "fill": "none" },
-      { "type": "line", "x1": 50, "y1": 150, "x2": 250, "y2": 50, "stroke": "#ef4444", "width": 1.8 },
-      { "type": "line", "x1": 230, "y1": 60, "x2": 230, "y2": 120, "stroke": "#64748b", "dash": "2" },
-      { "type": "text", "x": 124, "y": 135, "text": "1", "size": 12 },
-      { "type": "text", "x": 224, "y": 135, "text": "3", "size": 12 },
-      { "type": "text", "x": 92, "y": 105, "text": "S₁", "size": 13, "weight": "bold", "color": "#1e3a8a" },
-      { "type": "text", "x": 170, "y": 98, "text": "S₂", "size": 13, "weight": "bold", "color": "#1e3a8a" }
-    ],
-    "leftItems": [
-      { "id": "19_1", "text": "Giá trị của S1 bằng" },
-      { "id": "19_2", "text": "Giá trị của S1 + S2 bằng" },
-      { "id": "19_3", "text": "Diện tích hình phẳng giới hạn bởi d, trục hoành và đường thẳng x = 0 bằng" },
-      { "id": "19_4", "text": "Diện tích hình phẳng giới hạn bởi (P) và trục hoành bằng" }
-    ],
-    "rightItems": [
-      { "key": "A", "text": "$\\frac{4}{3}$" },
-      { "key": "B", "text": "$\\frac{8}{3}$" },
-      { "key": "C", "text": "$\\frac{5}{6}$" },
-      { "key": "D", "text": "$\\frac{1}{6}$" },
-      { "key": "E", "text": "$\\frac{3}{2}$" },
-      { "key": "F", "text": "$\\frac{1}{2}$" }
-    ],
-    "correctMap": {
-      "19_1": "A",
-      "19_2": "B",
-      "19_3": "F",
-      "19_4": "D"
-    },
-    "solution": "$ S_1 = \\int_0^1 (x^2-3x+2 - (x-1)) dx = \\frac{4}{3} $. $ S_2 = \\int_1^3 (x-1 - (x^2-3x+2)) dx = \\frac{4}{3} \\implies S_1+S_2 = \\frac{8}{3} $. Diện tích tam giác giới hạn bởi d, Ox, Oy là $ \\frac{1}{2} \\cdot 1 \\cdot 1 = \\frac{1}{2} $. Diện tích giới hạn bởi (P) và Ox là $ \\int_1^2 -(x^2-3x+2) dx = \\frac{1}{6} $."
+ {
+  "id": 19,
+  "type": "MATCH",
+  "text": "Cho hàm số $y=x^2-3x+2$ có đồ thị $(P)$ và $y=x-1$ có đồ thị $(d)$. Gọi $S_1, S_2$ là diện tích phần được tô xám như hình bên dưới. Hãy ghép các biểu thức ở cột bên trái với giá trị phân số thích hợp tương ứng ở cột bên phải[cite: 306].",
+  "visual": [
+    { "type": "line", "x1": 30, "y1": 120, "x2": 260, "y2": 120, "stroke": "#0f172a", "width": 1.5 },
+    { "type": "line", "x1": 80, "y1": 20, "x2": 80, "y2": 180, "stroke": "#0f172a", "width": 1.5 },
+    { "type": "text", "x": 250, "y": 135, "text": "x", "size": 13 },
+    { "type": "text", "x": 92, "y": 25, "text": "y", "size": 13 },
+    { "type": "text", "x": 62, "y": 135, "text": "O", "size": 13 },
+    { "type": "path", "d": "M 55 35 Q 80 60, 105 90 T 130 120 Q 155 127.5, 180 120 T 230 60 Q 242 32, 250 10", "stroke": "#2563eb", "width": 2, "fill": "none" },
+    { "type": "line", "x1": 50, "y1": 150, "x2": 250, "y2": 50, "stroke": "#ef4444", "width": 1.8 },
+    { "type": "line", "x1": 230, "y1": 60, "x2": 230, "y2": 120, "stroke": "#64748b", "dash": "2" },
+    { "type": "text", "x": 126, "y": 135, "text": "1", "size": 12 },
+    { "type": "text", "x": 224, "y": 135, "text": "3", "size": 12 },
+    { "type": "text", "x": 95, "y": 105, "text": "S₁", "size": 13, "weight": "bold", "color": "#1e3a8a" },
+    { "type": "text", "x": 170, "y": 98, "text": "S₂", "size": 13, "weight": "bold", "color": "#1e3a8a" }
+  ],
+  "leftItems": [
+    { "id": "19_1", "text": "Giá trị của S1 bằng" },
+    { "id": "19_2", "text": "Giá trị của S1 + S2 bằng" },
+    { "id": "19_3", "text": "Diện tích hình phẳng giới hạn bởi d, trục hoành và đường thẳng x = 0 bằng" },
+    { "id": "19_4", "text": "Diện tích hình phẳng giới hạn bởi (P) và trục hoành bằng" }
+  ],
+  "rightItems": [
+    { "key": "A", "text": "$\\frac{4}{3}$" },
+    { "key": "B", "text": "$\\frac{8}{3}$" },
+    { "key": "C", "text": "$\\frac{5}{6}$" },
+    { "key": "D", "text": "$\\frac{1}{6}$" },
+    { "key": "E", "text": "$\\frac{3}{2}$" },
+    { "key": "F", "text": "$\\frac{1}{2}$" }
+  ],
+  "correctMap": {
+    "19_1": "A",
+    "19_2": "B",
+    "19_3": "F",
+    "19_4": "D"
   },
+  "solution": "$ S_1 = \\int_0^1 (x^2-3x+2 - (x-1)) dx = \\frac{4}{3} $. $ S_2 = \\int_1^3 (x-1 - (x^2-3x+2)) dx = \\frac{4}{3} \\implies S_1+S_2 = \\frac{8}{3} $. Diện tích tam giác giới hạn bởi d, Ox, Oy là $ \\frac{1}{2} \\cdot 1 \\cdot 1 = \\frac{1}{2} $. Diện tích giới hạn bởi (P) và Ox là $ \\int_1^2 -(x^2-3x+2) dx = \\frac{1}{6} $."
+},
   {
     "id": 20,
     "type": "MATCH",
