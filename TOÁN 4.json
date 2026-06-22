@@ -99,13 +99,29 @@
     "id": 4,
     "type": "TF",
     "text": "Cho hàm số $ y = \\frac{ax+b}{cx+d} $ có đồ thị như hình vẽ dưới đây. Xét tính đúng sai của các khẳng định sau:",
-    "image_svg": "<svg viewBox='0 0 300 200' width='100%' height='180' style='background-color:#fff;' xmlns='http://www.w3.org/2000/svg'><line x1='10' y1='140' x2='290' y2='140' stroke='#333' stroke-width='1.2'/><line x1='100' y1='10' x2='100' y2='190' stroke='#333' stroke-width='1.2'/><line x1='140' y1='10' x2='140' y2='190' stroke='red' stroke-dasharray='4,4' stroke-width='1.5'/><line x1='10' y1='70' x2='290' y2='70' stroke='red' stroke-dasharray='4,4' stroke-width='1.5'/><text x='285' y='155' font-size='12' font-family='sans-serif'>x</text><text x='110' y='20' font-size='12' font-family='sans-serif'>y</text><text x='145' y='185' font-size='10' fill='red' font-family='sans-serif'>x=1</text><text x='250' y='65' font-size='10' fill='red' font-family='sans-serif'>y=2</text><path d='M 15 62 Q 125 65 133 190' fill='none' stroke='blue' stroke-width='2'/><path d='M 148 10 Q 155 75 285 78' fill='none' stroke='blue' stroke-width='2'/><circle cx='100' cy='170' r='3' fill='black'/><text x='82' y='173' font-size='10'>-1</text><circle cx='100' cy='140' r='3' fill='black'/><text x='88' y='152' font-size='10'>O</text><circle cx='85' cy='140' r='3' fill='black'/><text x='78' y='132' font-size='10'>1</text></svg>",
+    "visual": [
+      { "type": "line", "x1": 20, "y1": 140, "x2": 280, "y2": 140, "stroke": "#333333", "width": 1.2 },
+      { "type": "line", "x1": 100, "y1": 10, "x2": 100, "y2": 190, "stroke": "#333333", "width": 1.2 },
+      { "type": "text", "x": 270, "y": 155, "text": "x", "size": 12 },
+      { "type": "text", "x": 110, "y": 20, "text": "y", "size": 12 },
+      { "type": "text", "x": 88, "y": 152, "text": "O", "size": 10 },
+      { "type": "line", "x1": 140, "y1": 10, "x2": 140, "y2": 190, "stroke": "red", "width": 1.5, "dash": "4" },
+      { "type": "line", "x1": 20, "y1": 70, "x2": 280, "y2": 70, "stroke": "red", "width": 1.5, "dash": "4" },
+      { "type": "text", "x": 145, "y": 185, "text": "x=1", "size": 10, "color": "red" },
+      { "type": "text", "x": 250, "y": 65, "text": "y=2", "size": 10, "color": "red" },
+      { "type": "path", "d": "M 30 62 Q 125 65 133 190", "stroke": "blue", "width": 2, "fill": "none" },
+      { "type": "path", "d": "M 148 10 Q 155 75 270 78", "stroke": "blue", "width": 2, "fill": "none" },
+      { "type": "circle", "cx": 100, "cy": 170, "r": 3, "fill": "black" },
+      { "type": "text", "x": 82, "y": 173, "text": "-1", "size": 10 },
+      { "type": "circle", "cx": 85, "cy": 140, "r": 3, "fill": "black" },
+      { "type": "text", "x": 78, "y": 132, "text": "1", "size": 10 }
+    ],
     "parts": [
       {
         "id": "4_1",
         "text": "Hàm số đã cho nghịch biến trên từng khoảng xác định của nó.",
         "correct": "T",
-        "solution": "Phân tích đồ thị cho thấy các nhánh của đồ thị đi xuống từ trái sang phải trên từng khoảng xác định ($x < 1$ và $x > 1$), chứng tỏ hàm số luôn nghịch biến."
+        "solution": "Phân tích đồ thị cho thấy các nhánh của đồ thị đi xuống từ trái sang phải trên từng khoảng xác định, chứng tỏ hàm số luôn nghịch biến."
       },
       {
         "id": "4_2",
@@ -195,7 +211,7 @@
   {
     "id": 7,
     "type": "TF",
-    "text": "Trong không gian với hệ tọa độ $ Oxyz $, cho mặt cầu $ (S) $: $ x^{2} + y^{2} + z^{2} - 2x + 4y - 6z + 5 = 0 $ và mặt phẳng $ (P): 2x - y + 2z + 1 = 0 $. Các mệnh đề sau đây đúng hay sai?",
+    "text": "Trong không gian với hệ tọa độ $ Oxyz $, cho mặt cầu $ (S): x^{2} + y^{2} + z^{2} - 2x + 4y - 6z + 5 = 0 $ và mặt phẳng $ (P): 2x - y + 2z + 1 = 0 $. Các mệnh đề sau đây đúng hay sai?",
     "parts": [
       {
         "id": "7_1",
@@ -347,7 +363,7 @@
   {
     "id": 14,
     "type": "MCQ",
-    "passage": "Bảng sau đây thống kê thời gian tự học trong một ngày của $ 50 $ học sinh khối $ 12 $:\n- Nhóm $ [0;1) $: $ 5 $ học sinh\n- Nhóm $ [1;2) $: $ 12 $ học sinh\n- Nhóm $ [2;3) $: $ 18 $ học sinh\n- Nhóm $ [3;4) $: $ 10 $ học sinh\n- Nhóm $ [4;5) $: $ 5 $ học sinh",
+    "passage": "Bảng sau đây thống kê thời gian tự học trong một ngày của $ 50 $ học sinh khối $ 12 $:\n- Nhóm $ [0;1) $: $ 5 $ học sinh\n- Nhóm $ [1;2) $: $ 12 $ học student\n- Nhóm $ [2;3) $: $ 18 $ học sinh\n- Nhóm $ [3;4) $: $ 10 $ học sinh\n- Nhóm $ [4;5) $: $ 5 $ học sinh",
     "text": "Trung vị $ M_{e} $ của mẫu số liệu ghép nhóm trên (làm tròn đến chữ số thập phân thứ hai) là:",
     "options": [
       { "key": "A", "text": "2.33" },
@@ -375,8 +391,25 @@
   {
     "id": 16,
     "type": "MATCH",
-    "text": "Cho hàm số $ y = f(x) $ liên tục trên đoạn $ [0; c] $ có đồ thị tạo với trục hoành các diện tích phẳng $ S_{1}, S_{2}, S_{3} $ như hình vẽ. Hãy ghép nối mỗi biểu thức tích phân ở cột trái với giá trị biểu diễn tương ứng ở cột phải:",
-    "image_svg": "<svg viewBox='0 0 400 180' width='100%' height='160' style='background-color:#fff;' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='90' x2='380' y2='90' stroke='black' stroke-width='1.5'/><line x1='40' y1='10' x2='40' y2='170' stroke='black' stroke-width='1.5'/><text x='370' y='105' font-size='12'>x</text><text x='25' y='20' font-size='12'>y</text><text x='45' y='105' font-size='12'>O</text><path d='M 40 90 C 70 160, 110 160, 140 90 Z' fill='rgba(135, 206, 250, 0.5)'/><path d='M 140 90 C 170 30, 210 30, 240 90 Z' fill='rgba(255, 182, 193, 0.5)'/><path d='M 240 90 C 270 140, 310 140, 340 90 Z' fill='rgba(255, 222, 173, 0.5)'/><path d='M 40 90 C 70 160, 110 160, 140 90 C 170 30, 210 30, 240 90 C 270 140, 310 140, 340 90' fill='none' stroke='blue' stroke-width='2'/><text x='85' y='130' font-size='14' font-weight='bold' fill='#005580'>S₁</text><text x='185' y='65' font-size='14' font-weight='bold' fill='#b30047'>S₂</text><text x='285' y='120' font-size='14' font-weight='bold' fill='#b37400'>S₃</text><text x='135' y='105' font-size='12'>a</text><text x='235' y='105' font-size='12'>b</text><text x='335' y='105' font-size='12'>c</text><text x='350' y='85' font-size='12' fill='blue'>y = f(x)</text></svg>",
+    "text": "Cho hàm số $ y = f(x) $ liên tục trên đoạn $ [0; c] $ có đồ thị như hình vẽ dưới đây. Gọi $ S_{1}, S_{2}, S_{3} $ lần lượt là diện tích các hình phẳng được tô màu trong hình. Hãy ghép nối mỗi biểu thức tích phân ở cột trái với giá trị biểu diễn tương ứng ở cột phải:",
+    "visual": [
+      { "type": "line", "x1": 20, "y1": 90, "x2": 380, "y2": 90, "stroke": "black", "width": 1.5 },
+      { "type": "line", "x1": 40, "y1": 10, "x2": 40, "y2": 170, "stroke": "black", "width": 1.5 },
+      { "type": "text", "x": 370, "y": 105, "text": "x", "size": 12 },
+      { "type": "text", "x": 25, "y": 20, "text": "y", "size": 12 },
+      { "type": "text", "x": 45, "y": 105, "text": "O", "size": 12 },
+      { "type": "path", "d": "M 40 90 C 70 160, 110 160, 140 90 Z", "fill": "rgba(135, 206, 250, 0.5)" },
+      { "type": "path", "d": "M 140 90 C 170 30, 210 30, 240 90 Z", "fill": "rgba(255, 182, 193, 0.5)" },
+      { "type": "path", "d": "M 240 90 C 270 140, 310 140, 340 90 Z", "fill": "rgba(255, 222, 173, 0.5)" },
+      { "type": "path", "d": "M 40 90 C 70 160, 110 160, 140 90 C 170 30, 210 30, 240 90 C 270 140, 310 140, 340 90", "stroke": "blue", "width": 2, "fill": "none" },
+      { "type": "text", "x": 85, "y": 130, "text": "S₁", "size": 14, "weight": "bold" },
+      { "type": "text", "x": 185, "y": 65, "text": "S₂", "size": 14, "weight": "bold" },
+      { "type": "text", "x": 285, "y": 120, "text": "S₃", "size": 14, "weight": "bold" },
+      { "type": "text", "x": 135, "y": 105, "text": "a", "size": 12 },
+      { "type": "text", "x": 235, "y": 105, "text": "b", "size": 12 },
+      { "type": "text", "x": 335, "y": 105, "text": "c", "size": 12 },
+      { "type": "text", "x": 345, "y": 80, "text": "y = f(x)", "size": 12 }
+    ],
     "leftItems": [
       { "id": "16_1", "text": "Tích phân $ I_{1} = \\int_{0}^{c} f(x) dx $" },
       { "id": "16_2", "text": "Tích phân $ I_{2} = \\int_{0}^{c} |f(x)| dx $" },
@@ -402,8 +435,31 @@
   {
     "id": 17,
     "type": "MATCH",
-    "text": "Cho hàm số $ y = f(x) $ xác định và có bảng biến thiên trên đoạn $ [-3; 5] $ như sau. Hãy ghép nối mỗi điểm cực trị hay giá trị cực trị ở cột bên trái với giá trị số thích hợp ở cột bên phải:",
-    "image_svg": "<svg viewBox='0 0 400 150' width='100%' height='150' style='background-color:#fff; border:1px solid #ccc;' xmlns='http://www.w3.org/2000/svg'><line x1='80' y1='0' x2='80' y2='150' stroke='black' stroke-width='1'/><line x1='0' y1='40' x2='400' y2='40' stroke='black' stroke-width='1'/><line x1='0' y1='80' x2='400' y2='80' stroke='black' stroke-width='1'/><text x='30' y='25' font-size='14' font-weight='bold'>x</text><text x='15' y='65' font-size='14' font-weight='bold'>f'(x)</text><text x='20' y='120' font-size='14' font-weight='bold'>f(x)</text><text x='100' y='25' font-size='12'>-3</text><text x='190' y='25' font-size='12'>-1</text><text x='280' y='25' font-size='12'>2</text><text x='370' y='25' font-size='12'>5</text><text x='140' y='65' font-size='14'>+</text><text x='190' y='65' font-size='14'>0</text><text x='235' y='65' font-size='14'>-</text><text x='280' y='65' font-size='14'>0</text><text x='325' y='65' font-size='14'>+</text><text x='100' y='140' font-size='12'>-5</text><text x='190' y='100' font-size='12'>8</text><text x='280' y='145' font-size='12'>-15</text><text x='370' y='95' font-size='12'>12</text><path d='M 120 135 L 175 105' fill='none' stroke='black' stroke-width='1.5' marker-end='url(#arrow)'/><path d='M 210 105 L 265 135' fill='none' stroke='black' stroke-width='1.5' marker-end='url(#arrow)'/><path d='M 300 135 L 355 100' fill='none' stroke='black' stroke-width='1.5' marker-end='url(#arrow)'/><defs><marker id='arrow' viewBox='0 0 10 10' refX='5' refY='5' markerWidth='6' markerHeight='6' orient='auto-start-reverse'><path d='M 0 0 L 10 5 L 0 10 z' fill='black'/></marker></defs></svg>",
+    "text": "Cho hàm số $ y = f(x) $ xác định và có bảng biến thiên trên đoạn $ [-3; 5] $ như hình vẽ dưới đây. Hãy ghép nối mỗi điểm cực trị hay giá trị cực trị ở cột bên trái với giá trị số thích hợp ở cột bên phải:",
+    "visual": [
+      { "type": "line", "x1": 80, "y1": 0, "x2": 80, "y2": 150, "stroke": "black", "width": 1 },
+      { "type": "line", "x1": 0, "y1": 40, "x2": 400, "y2": 40, "stroke": "black", "width": 1 },
+      { "type": "line", "x1": 0, "y1": 80, "x2": 400, "y2": 80, "stroke": "black", "width": 1 },
+      { "type": "text", "x": 30, "y": 25, "text": "x", "size": 14, "weight": "bold" },
+      { "type": "text", "x": 15, "y": 65, "text": "f'(x)", "size": 14, "weight": "bold" },
+      { "type": "text", "x": 20, "y": 120, "text": "f(x)", "size": 14, "weight": "bold" },
+      { "type": "text", "x": 100, "y": 25, "text": "-3", "size": 12 },
+      { "type": "text", "x": 190, "y": 25, "text": "-1", "size": 12 },
+      { "type": "text", "x": 280, "y": 25, "text": "2", "size": 12 },
+      { "type": "text", "x": 370, "y": 25, "text": "5", "size": 12 },
+      { "type": "text", "x": 140, "y": 65, "text": "+", "size": 14 },
+      { "type": "text", "x": 190, "y": 65, "text": "0", "size": 14 },
+      { "type": "text", "x": 235, "y": 65, "text": "-", "size": 14 },
+      { "type": "text", "x": 280, "y": 65, "text": "0", "size": 14 },
+      { "type": "text", "x": 325, "y": 65, "text": "+", "size": 14 },
+      { "type": "text", "x": 100, "y": 140, "text": "-5", "size": 12 },
+      { "type": "text", "x": 190, "y": 100, "text": "8", "size": 12 },
+      { "type": "text", "x": 280, "y": 145, "text": "-15", "size": 12 },
+      { "type": "text", "x": 370, "y": 95, "text": "12", "size": 12 },
+      { "type": "line", "x1": 120, "y1": 135, "x2": 175, "y2": 105, "stroke": "black", "width": 1.5 },
+      { "type": "line", "x1": 210, "y1": 105, "x2": 265, "y2": 135, "stroke": "black", "width": 1.5 },
+      { "type": "line", "x1": 300, "y1": 135, "x2": 355, "y2": 100, "stroke": "black", "width": 1.5 }
+    ],
     "leftItems": [
       { "id": "17_1", "text": "Hàm số đạt cực đại tại điểm $ x_{cđ} = $" },
       { "id": "17_2", "text": "Hàm số đạt cực tiểu tại điểm $ x_{ct} = $" },
@@ -536,7 +592,19 @@
     "id": 25,
     "type": "SHORT",
     "text": "Cho hàm số $ f(x) $ xác định và liên tục trên $ \\mathbb{R} $, trong đó $ g(x) = f'(1-x) $ là hàm số bậc ba có đồ thị như hình vẽ dưới đây. Hàm số $ y = \\left| f\\left(\\frac{x-1}{x-2}\\right) \\right| $ có tối đa bao nhiêu điểm cực trị?",
-    "image_svg": "<svg viewBox='0 0 300 180' width='100%' height='160' style='background-color:#fff;' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='90' x2='280' y2='90' stroke='black' stroke-width='1.2'/><line x1='140' y1='10' x2='140' y2='170' stroke='black' stroke-width='1.2'/><text x='270' y='105' font-size='12'>x</text><text x='145' y='25' font-size='12'>y</text><text x='145' y='105' font-size='12'>0</text><path d='M 40 170 C 60 40, 100 40, 140 90 C 180 140, 220 140, 240 10' fill='none' stroke='blue' stroke-width='2'/><circle cx='80' cy='90' r='3' fill='black'/><text x='70' y='105' font-size='11'>-2</text><circle cx='200' cy='90' r='3' fill='black'/><text x='195' y='105' font-size='11'>2</text><text x='220' y='35' font-size='12' fill='blue'>y = g(x)</text></svg>",
+    "visual": [
+      { "type": "line", "x1": 20, "y1": 90, "x2": 280, "y2": 90, "stroke": "black", "width": 1.2 },
+      { "type": "line", "x1": 140, "y1": 10, "x2": 140, "y2": 170, "stroke": "black", "width": 1.2 },
+      { "type": "text", "x": 270, "y": 105, "text": "x", "size": 12 },
+      { "type": "text", "x": 145, "y": 25, "text": "y", "size": 12 },
+      { "type": "text", "x": 145, "y": 105, "text": "0", "size": 12 },
+      { "type": "path", "d": "M 40 170 C 60 40, 100 40, 140 90 C 180 140, 220 140, 240 10", "stroke": "blue", "width": 2, "fill": "none" },
+      { "type": "circle", "cx": 80, "cy": 90, "r": 3, "fill": "black" },
+      { "type": "text", "x": 70, "y": 105, "text": "-2", "size": 11 },
+      { "type": "circle", "cx": 200, "cy": 90, "r": 3, "fill": "black" },
+      { "type": "text", "x": 195, "y": 105, "text": "2", "size": 11 },
+      { "type": "text", "x": 220, "y": 35, "text": "y = g(x)", "size": 12 }
+    ],
     "correct": "6",
     "solution": "Từ đồ thị bài toán cho ta biết $ g(x) = f'(1-x) = 0 \\implies x \\in \\{-2; 0; 2\\} $. Đổi biến đặt $ t = 1-x \\implies t \\in \\{-1; 1; 3\\} $, đây chính là các nghiệm của đạo hàm gốc $ f'(t) = 0 $. Xét hàm số hợp bên trong dấu trị tuyệt đối: $ h(x) = f(u(x)) $ với $ u(x) = \\frac{x-1}{x-2} = 1 + \\frac{1}{x-2} $. Ta thấy đạo hàm của hàm phân thức là $ u'(x) = \\frac{-1}{(x-2)^2} < 0 $ luôn âm và không có cực trị riêng. Số cực trị của hàm hợp $ h(x) $ chính là số nghiệm phân biệt của phương trình $ u(x) = -1 $ và $ u(x) = 3 $ (phương trình $ u(x) = 1 \\implies 1 + \\frac{1}{x-2} = 1 $ vô nghiệm). Do đó hàm số $ h(x) $ có đúng $ 2 $ điểm cực trị. Số điểm cực trị tối đa của hàm số trị tuyệt đối dạng $ |h(x)| $ tuân theo công thức bằng: (số điểm cực trị của $ h(x) $) + (số nghiệm đơn tối đa của phương trình giao điểm trục hoành $ h(x) = 0 $). Do $ f(t) $ là một hàm số đa thức bậc bốn, nên phương trình $ f(u) = 0 $ có tối đa $ 4 $ nghiệm phân biệt thực. Vì hàm số $ u(x) $ đơn điệu đơn thuần nên ứng với mỗi nghiệm của $ f(u) = 0 $ ta có tối đa 1 nghiệm của biến $ x $. Tổng số nghiệm tối đa của $ h(x) = 0 $ là $ 4 $. Vậy số điểm cực trị tối đa có thể đạt được của hàm số hợp trị tuyệt đối đề bài yêu cầu là $ 2 + 4 = 6 $."
   }
