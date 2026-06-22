@@ -100,44 +100,46 @@
     "type": "TF",
     "text": "Cho hàm số $y=\\frac{ax+b}{cx+d}$ có đồ thị như hình vẽ bên. Xét tính đúng sai của các khẳng định sau:",
     "visual": [
-      { "type": "line", "x1": 20, "y1": 160, "x2": 260, "y2": 160, "stroke": "#0f172a", "width": 1.2 },
-      { "type": "line", "x1": 100, "y1": 10, "x2": 100, "y2": 250, "stroke": "#0f172a", "width": 1.2 },
-      { "type": "text", "x": 250, "y": 175, "text": "x", "size": 13, "weight": "bold" },
-      { "type": "text", "x": 85, "y": 20, "text": "y", "size": 13, "weight": "bold" },
-      { "type": "text", "x": 84, "y": 175, "text": "O", "size": 13 },
-      { "type": "line", "x1": 140, "y1": 10, "x2": 140, "y2": 250, "stroke": "#64748b", "width": 1.2, "dash": "4" },
-      { "type": "line", "x1": 20, "y1": 80, "x2": 260, "y2": 80, "stroke": "#64748b", "width": 1.2, "dash": "4" },
-      { "type": "path", "d": "M 20 84 C 50 88, 80 75, 100 40 C 115 15, 125 12, 135 5", "stroke": "#0f172a", "width": 2, "fill": "none" },
-      { "type": "path", "d": "M 145 250 C 152 210, 156 185, 160 160 C 175 110, 205 86, 260 82", "stroke": "#0f172a", "width": 2, "fill": "none" },
-      { "type": "text", "x": 135, "y": 175, "text": "1", "size": 12 },
-      { "type": "text", "x": 86, "y": 75, "text": "2", "size": 12 },
-      { "type": "circle", "cx": 100, "cy": 40, "r": 3.5, "fill": "#ef4444" },
-      { "type": "text", "x": 86, "y": 45, "text": "3", "size": 12 }
+      { "type": "line", "x1": 20, "y1": 150, "x2": 260, "y2": 150, "stroke": "#0f172a", "width": 1.2 },
+      { "type": "line", "x1": 80, "y1": 10, "x2": 80, "y2": 190, "stroke": "#0f172a", "width": 1.2 },
+      { "type": "text", "x": 250, "y": 168, "text": "x", "size": 13, "weight": "bold" },
+      { "type": "text", "x": 65, "y": 20, "text": "y", "size": 13, "weight": "bold" },
+      { "type": "text", "x": 65, "y": 168, "text": "O", "size": 13 },
+      { "type": "line", "x1": 20, "y1": 100, "x2": 260, "y2": 100, "stroke": "#64748b", "width": 1.2, "dash": "4" },
+      { "type": "line", "x1": 105, "y1": 10, "x2": 105, "y2": 190, "stroke": "#64748b", "width": 1.2, "dash": "4" },
+      { "type": "path", "d": "M 20 88 C 60 82, 72 65, 80 50 C 88 30, 100 20, 102 10", "stroke": "#2563eb", "width": 2, "fill": "none" },
+      { "type": "path", "d": "M 108 190 C 110 180, 120 165, 130 150 C 145 130, 185 110, 260 106", "stroke": "#2563eb", "width": 2, "fill": "none" },
+      { "type": "circle", "cx": 80, "cy": 50, "r": 3.5, "fill": "#ef4444" },
+      { "type": "text", "x": 65, "y": 55, "text": "4", "size": 12, "weight": "bold" },
+      { "type": "circle", "cx": 130, "cy": 150, "r": 3.5, "fill": "#ef4444" },
+      { "type": "text", "x": 125, "y": 168, "text": "2", "size": 12, "weight": "bold" },
+      { "type": "text", "x": 65, "y": 105, "text": "2", "size": 12 },
+      { "type": "text", "x": 100, "y": 168, "text": "1", "size": 12 }
     ],
     "parts": [
       {
         "id": "4_1",
         "text": "Hàm số đã cho nghịch biến trên từng khoảng xác định của nó.",
         "correct": "F",
-        "solution": "Quan sát đồ thị từ trái sang phải, ta thấy cả hai nhánh màu đen ở góc trái trên và góc phải dưới đều đi lên. Điều này chứng tỏ đạo hàm bậc nhất luôn dương ($y'>0$), tức là hàm số ĐỒNG BIẾN trên từng khoảng xác định $(-\\infty; 1)$ và $(1; +\\infty)$. Khẳng định nghịch biến là sai."
+        "solution": "Hàm số phân thức có đồ thị cắt trục tung tại $(0; 4)$ nằm phía trên tiệm cận ngang $y=2$. Quan sát đồ thị từ trái sang phải, ta thấy cả hai nhánh đều đi lên. Điều này chứng tỏ đạo hàm bậc nhất luôn dương ($y'>0$), tức là hàm số ĐỒNG BIẾN trên từng khoảng xác định $(-\\infty; 1)$ và $(1; +\\infty)$. Khẳng định nghịch biến là sai."
       },
       {
         "id": "4_2",
         "text": "Đồ thị hàm số có tiệm cận đứng là đường thẳng $x=1$ và tiệm cận ngang là đường thẳng $y=2$.",
         "correct": "T",
-        "solution": "Nhìn vào các đường nét đứt trên hệ trục tọa độ, đồ thị tiến sát vào đường thẳng đứng tại $x=1$ và tiến sát vào đường nằm ngang tại $y=2$. Đây chính là hai đường tiệm cận của đồ thị."
+        "solution": "Dựa vào hai đường tiệm cận nét đứt trên hệ trục tọa độ, đồ thị tiến sát vào đường thẳng đứng tại vị trí $x=1$ và tiến sát vào đường nằm ngang tại vị trí $y=2$. Đây chính là phương trình hai đường tiệm cận."
       },
       {
         "id": "4_3",
         "text": "Giá trị của biểu thức $T=a+c$ bằng $3$ khi $a, c$ là các số nguyên tối giản.",
         "correct": "T",
-        "solution": "Từ tiệm cận ngang $y=a/c=2 \\implies a=2c$. Từ tiệm cận đứng $x=-d/c=1 \\implies d=-c$. Đồ thị cắt trục tung tại $(0; 3) \\implies b/d=3 \\implies b=3d=-3c$. Hàm số có dạng thu gọn: $y=\\frac{2cx-3c}{cx-c}=\\frac{2x-3}{x-1}$. Chọn bộ số nguyên tối giản $c=1 \\implies a=2$. Vậy $T=a+c=2+1=3$."
+        "solution": "Từ tiệm cận ngang $y=a/c=2 \\implies a=2c$. Từ tiệm cận đứng $x=-d/c=1 \\implies d=-c$. Đồ thị đi qua điểm $(0; 4) \\implies b/d=4 \\implies b=4d=-4c$. Vậy hàm số có dạng $y=\\frac{2cx-4c}{cx-c}=\\frac{2x-4}{x-1}$. Chọn bộ hệ số nguyên tối giản $c=1 \\implies a=2$. Ta thu được $T=a+c=2+1=3$."
       },
       {
         "id": "4_4",
         "text": "Giao điểm của đồ thị hàm số với trục tung là điểm $M(0;-1)$.",
         "correct": "F",
-        "solution": "Nhìn trực tiếp trên đồ thị, nhánh ở góc trái trên cắt trục tung $Oy$ tại điểm có tung độ dương là $y=3$, tức là điểm $M(0; 3)$ nằm phía trên tiệm cận ngang $y=2$. Do đó không thể cắt tại $M(0;-1)$ được."
+        "solution": "Nhìn trực tiếp trên đồ thị, nhánh ở góc trái trên cắt trục tung $Oy$ tại điểm có tung độ bằng $4$, tức là cắt tại mút $M(0; 4)$, hoàn toàn không phải điểm $(0; -1)$."
       }
     ],
     "points": 1.0
