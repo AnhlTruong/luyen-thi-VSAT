@@ -400,7 +400,7 @@
       { "type": "text", "x": 165, "y": 125, "text": "b", "size": 12 },
       { "type": "text", "x": 225, "y": 125, "text": "c", "size": 12 },
       { "type": "text", "x": 75, "y": 125, "text": "S₁", "size": 13, "weight": "bold" },
-      { "type": "text", "x": 135, "y": 97, "text": "S₂", "size": 13, "weight": "bold" },
+      { "type": "text", "x": 135, "y": 90, "text": "S₂", "size": 13, "weight": "bold" },
       { "type": "text", "x": 195, "y": 125, "text": "S₃", "size": 13, "weight": "bold" }
     ],
     "leftItems": [
