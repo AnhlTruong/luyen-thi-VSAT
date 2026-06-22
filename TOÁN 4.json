@@ -399,9 +399,9 @@
       { "type": "text", "x": 105, "y": 125, "text": "a", "size": 12 },
       { "type": "text", "x": 165, "y": 125, "text": "b", "size": 12 },
       { "type": "text", "x": 225, "y": 125, "text": "c", "size": 12 },
-      { "type": "text", "x": 75, "y": 140, "text": "S₁", "size": 13, "weight": "bold" },
-      { "type": "text", "x": 135, "y": 90, "text": "S₂", "size": 13, "weight": "bold" },
-      { "type": "text", "x": 195, "y": 140, "text": "S₃", "size": 13, "weight": "bold" }
+      { "type": "text", "x": 75, "y": 120, "text": "S₁", "size": 13, "weight": "bold" },
+      { "type": "text", "x": 135, "y": 100, "text": "S₂", "size": 13, "weight": "bold" },
+      { "type": "text", "x": 195, "y": 120, "text": "S₃", "size": 13, "weight": "bold" }
     ],
     "leftItems": [
       { "id": "16_1", "text": "Tích phân từ 0 đến c của f(x) dx" },
