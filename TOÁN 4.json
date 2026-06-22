@@ -98,44 +98,46 @@
   {
     "id": 4,
     "type": "TF",
-    "text": "Cho hàm số $ y=\\frac{ax+b}{cx+d} $ có đồ thị như hình vẽ bên. Xét tính đúng sai của các khẳng định sau:",
+    "text": "Cho hàm số $y=\\frac{ax+b}{cx+d}$ có đồ thị như hình vẽ bên. Xét tính đúng sai của các khẳng định sau:",
     "visual": [
-      { "type": "line", "x1": 30, "y1": 130, "x2": 250, "y2": 130, "stroke": "#000000", "width": 1.2 },
-      { "type": "line", "x1": 100, "y1": 20, "x2": 100, "y2": 190, "stroke": "#000000", "width": 1.2 },
-      { "type": "text", "x": 240, "y": 145, "text": "x", "size": 13 },
-      { "type": "text", "x": 115, "y": 25, "text": "y", "size": 13 },
-      { "type": "text", "x": 86, "y": 145, "text": "O", "size": 13 },
-      { "type": "line", "x1": 130, "y1": 20, "x2": 130, "y2": 190, "stroke": "#64748b", "dash": "4" },
-      { "type": "line", "x1": 30, "y1": 80, "x2": 250, "y2": 80, "stroke": "#64748b", "dash": "4" },
-      { "type": "path", "d": "M 40 92 Q 85 98 115 185 M 145 25 Q 160 70 240 75", "stroke": "#2563eb", "width": 2, "fill": "none" },
-      { "type": "text", "x": 126, "y": 145, "text": "1", "size": 11 },
-      { "type": "text", "x": 86, "y": 85, "text": "2", "size": 11 },
-      { "type": "text", "x": 50, "y": 145, "text": "-2", "size": 11 }
+      { "type": "line", "x1": 30, "y1": 140, "x2": 250, "y2": 140, "stroke": "#0f172a", "width": 1.2 },
+      { "type": "line", "x1": 100, "y1": 20, "x2": 100, "y2": 220, "stroke": "#0f172a", "width": 1.2 },
+      { "type": "text", "x": 240, "y": 155, "text": "x", "size": 13, "weight": "bold" },
+      { "type": "text", "x": 85, "y": 30, "text": "y", "size": 13, "weight": "bold" },
+      { "type": "text", "x": 85, "y": 155, "text": "O", "size": 13 },
+      { "type": "line", "x1": 130, "y1": 20, "x2": 130, "y2": 220, "stroke": "#64748b", "width": 1, "dash": "4" },
+      { "type": "line", "x1": 30, "y1": 80, "x2": 250, "y2": 80, "stroke": "#64748b", "width": 1, "dash": "4" },
+      { "type": "path", "d": "M 40 115 Q 85 130 115 210", "stroke": "#2563eb", "width": 2, "fill": "none" },
+      { "type": "path", "d": "M 145 10 Q 175 65 240 70", "stroke": "#2563eb", "width": 2, "fill": "none" },
+      { "type": "text", "x": 125, "y": 155, "text": "1", "size": 12 },
+      { "type": "text", "x": 85, "y": 75, "text": "2", "size": 12 },
+      { "type": "circle", "cx": 100, "cy": 170, "r": 3, "fill": "#ef4444" },
+      { "type": "text", "x": 108, "y": 175, "text": "-1", "size": 11 }
     ],
     "parts": [
       {
         "id": "4_1",
         "text": "Hàm số đã cho nghịch biến trên từng khoảng xác định của nó.",
         "correct": "T",
-        "solution": "Quan sát đồ thị hàm số từ trái sang phải, ta thấy cả hai nhánh của đường cong hyperbola đều đi xuống. Điều này chứng tỏ đạo hàm luôn âm, tức là hàm số nghịch biến trên các khoảng xác định $ (-\\infty; 1) $ và $ (1; +\\infty) $."
+        "solution": "Quan sát đồ thị hàm số từ trái sang phải, ta thấy cả hai nhánh của đường cong hyperbola đều đi xuống. Điều này chứng tỏ đạo hàm của hàm số luôn mang giá trị âm, tức là hàm số nghịch biến trên từng khoảng xác định $(-\\infty; 1)$ và $(1; +\\infty)$."
       },
       {
         "id": "4_2",
-        "text": "Đồ thị hàm số có tiệm cận đứng là đường thẳng $ x=1 $ và tiệm cận ngang là đường thẳng $ y=2 $.",
+        "text": "Đồ thị hàm số có tiệm cận đứng là đường thẳng $x=1$ và tiệm cận ngang là đường thẳng $y=2$.",
         "correct": "T",
-        "solution": "Đồ thị hàm số tiến sát về đường thẳng đứng tại vị trí giá trị $ x = 1 $ và tiến sát về đường nằm ngang tại vị trí giá trị $ y = 2 $. Do đó hai đường thẳng này chính là tiệm cận đứng và tiệm cận ngang."
+        "solution": "Đồ thị hàm số tiến sát về đường thẳng đứng tại vị trí giá trị $x=1$ và tiến sát về đường nằm ngang tại vị trí giá trị $y=2$. Do đó hai đường thẳng này chính là tiệm cận đứng và tiệm cận ngang của đồ thị hàm số."
       },
       {
         "id": "4_3",
-        "text": "Giá trị của biểu thức $ T=a+c $ bằng $ 3 $ khi $ a, c $ là các số nguyên tối giản.",
+        "text": "Giá trị của biểu thức $T=a+c$ bằng $3$ khi $a, c$ là các số nguyên tối giản.",
         "correct": "T",
-        "solution": "Hàm số phân thức có tiệm cận đứng $ x = -d/c = 1 \\implies d = -c $, tiệm cận ngang $ y = a/c = 2 \\implies a = 2c $. Đồ thị đi qua điểm $ (-2;0) \\implies -2a+b=0 \\implies b = 2a = 4c $. Hàm số có dạng: $ y = \\frac{2cx+4c}{cx-c} = \\frac{2x+4}{x-1} $. Với hệ số nguyên tối giản, ta chọn $ c=1 \\implies a=2 $. Vậy $ T = a+c = 2+1 = 3 $."
+        "solution": "Hàm số phân thức có đường tiệm cận đứng $x=-d/c=1 \\implies d=-c$, và tiệm cận ngang $y=a/c=2 \\implies a=2c$. Đồ thị đi qua điểm $(0; -1) \\implies b/d=-1 \\implies b=-d=c$. Hàm số có dạng: $y=\\frac{2cx+c}{cx-c}=\\frac{2x+1}{x-1}$. Với bộ hệ số nguyên tối giản, ta chọn $c=1 \\implies a=2$. Vậy giá trị biểu thức là $T=a+c=2+1=3$."
       },
       {
         "id": "4_4",
-        "text": "Giao điểm của đồ thị hàm số với trục tung là điểm $ M(0;-1) $.",
-        "correct": "F",
-        "solution": "Từ hàm số xác định được $ y = \\frac{2x+4}{x-1} $, ta tìm giao điểm với trục tung bằng cách đặt $ x = 0 $. Khi đó $ y = \\frac{2(0)+4}{0-1} = -4 $. Vậy tọa độ giao điểm chính xác với trục tung phải là điểm $ M(0;-4) $ chứ không phải $ M(0;-1) $."
+        "text": "Giao điểm của đồ thị hàm số với trục tung là điểm $M(0;-1)$.",
+        "correct": "T",
+        "solution": "Từ hàm số xác định được ở câu trên là $y=\\frac{2x+1}{x-1}$, ta tìm giao điểm của đồ thị với trục tung bằng cách đặt $x=0$. Khi đó ta tính được $y=\\frac{2(0)+1}{0-1}=-1$. Vậy tọa độ giao điểm với trục tung chính xác là điểm $M(0;-1)$."
       }
     ],
     "points": 1.0
@@ -424,7 +426,36 @@
   {
     "id": 17,
     "type": "MATCH",
-    "text": "Cho hàm số $ y=f(x) $ xác định và có bảng biến thiên trên đoạn [-3;5] như sau. Hãy ghép nối giá trị điểm cực trị tương ứng ở hai cột.",
+    "text": "Cho hàm số $y=f(x)$ xác định và có bảng biến thiên trên đoạn $[-3; 5]$ như sau. Hãy ghép nối giá trị điểm cực trị tương ứng ở hai cột.",
+    "visual": [
+      { "type": "line", "x1": 20, "y1": 20, "x2": 280, "y2": 20, "stroke": "#0f172a", "width": 1.5 },
+      { "type": "line", "x1": 20, "y1": 55, "x2": 280, "y2": 55, "stroke": "#0f172a", "width": 1 },
+      { "type": "line", "x1": 20, "y1": 85, "x2": 280, "y2": 85, "stroke": "#0f172a", "width": 1 },
+      { "type": "line", "x1": 20, "y1": 150, "x2": 280, "y2": 150, "stroke": "#0f172a", "width": 1.5 },
+      { "type": "line", "x1": 65, "y1": 20, "x2": 65, "y2": 150, "stroke": "#0f172a", "width": 1.5 },
+      { "type": "text", "x": 38, "y": 42, "text": "x", "size": 13, "weight": "bold" },
+      { "type": "text", "x": 32, "y": 73, "text": "y'", "size": 13, "weight": "bold" },
+      { "type": "text", "x": 35, "y": 120, "text": "y", "size": 13, "weight": "bold" },
+      { "type": "text", "x": 80, "y": 42, "text": "-3", "size": 12 },
+      { "type": "text", "x": 140, "y": 42, "text": "-1", "size": 12 },
+      { "type": "text", "x": 200, "y": 42, "text": "2", "size": 12 },
+      { "type": "text", "x": 260, "y": 42, "text": "5", "size": 12 },
+      { "type": "text", "x": 105, "y": 73, "text": "+", "size": 13 },
+      { "type": "text", "x": 140, "y": 73, "text": "0", "size": 12 },
+      { "type": "text", "x": 170, "y": 73, "text": "-", "size": 14 },
+      { "type": "text", "x": 200, "y": 73, "text": "0", "size": 12 },
+      { "type": "text", "x": 230, "y": 73, "text": "+", "size": 13 },
+      { "type": "text", "x": 78, "y": 140, "text": "-10", "size": 11 },
+      { "type": "line", "x1": 92, "y1": 135, "x2": 132, "y2": 105, "stroke": "#2563eb", "width": 1.5 },
+      { "type": "polygon", "points": "132,105 125,108 130,112", "fill": "#2563eb" },
+      { "type": "text", "x": 138, "y": 100, "text": "8", "size": 12, "weight": "bold", "color": "#ef4444" },
+      { "type": "line", "x1": 148, "y1": 105, "x2": 192, "y2": 135, "stroke": "#2563eb", "width": 1.5 },
+      { "type": "polygon", "points": "192,135 185,132 190,128", "fill": "#2563eb" },
+      { "type": "text", "x": 192, "y": 145, "text": "-15", "size": 12, "weight": "bold", "color": "#ef4444" },
+      { "type": "line", "x1": 208, "y1": 135, "x2": 252, "y2": 105, "stroke": "#2563eb", "width": 1.5 },
+      { "type": "polygon", "points": "252,105 245,108 250,112", "fill": "#2563eb" },
+      { "type": "text", "x": 256, "y": 100, "text": "12", "size": 11 }
+    ],
     "leftItems": [
       { "id": "17_1", "text": "Hàm số f(x) đạt cực đại tại điểm x_cd =" },
       { "id": "17_2", "text": "Hàm số f(x) đạt cực tiểu tại điểm x_ct =" },
@@ -445,7 +476,7 @@
       "17_3": "E",
       "17_4": "B"
     },
-    "solution": "Dựa trên bảng biến thiên cấu trúc đồ thị hàm số:\n- Đạo hàm đổi dấu từ dương (+) sang âm (-) tại vị trí điểm $ x = -1 \\implies $ Hàm số đạt cực đại tại $ x_{cd} = -1 $ (Nối với D). Giá trị cực đại tương ứng là $ y_{cd} = 8 $ (Nối với E).\n- Đạo hàm đổi dấu từ âm (-) sang dương (+) tại vị trí điểm $ x = 2 \\implies $ Hàm số đạt cực tiểu tại $ x_{ct} = 2 $ (Nối với A). Giá trị cực tiểu tương ứng là $ y_{ct} = -15 $ (Nối với B)."
+    "solution": "Đọc dữ liệu trực tiếp trên bảng biến thiên của hàm số: Đạo hàm $f'(x)$ thực hiện đổi dấu từ dương (+) sang âm (-) tại vị trí hoành độ $x=-1 \\implies$ Hàm số đạt điểm cực đại tại $x_{cd}=-1$ (Nối với D). Giá trị cực đại tại điểm tương ứng là $y_{cd}=8$ (Nối với E). Đạo hàm $f'(x)$ thực hiện đổi dấu từ âm (-) sang dương (+) tại vị trí hoành độ $x=2 \\implies$ Hàm số đạt điểm cực tiểu tại $x_{ct}=2$ (Nối với A). Giá trị cực tiểu tại điểm tương ứng là $y_{ct}=-15$ (Nối với B)."
   },
   {
     "id": 18,
@@ -556,22 +587,22 @@
   {
     "id": 25,
     "type": "SHORT",
-    "text": "Cho hàm số f(x) xác định và liên tục trên R, trong đó $ g(x)=f'(1-x) $ là hàm số bậc ba có đồ thị như hình vẽ. Hàm số $ y=|f(\\frac{x-1}{x-2})| $ có tối đa bao nhiêu điểm cực trị?",
+    "text": "Cho hàm số $f(x)$ xác định và liên tục trên R, trong đó $g(x)=f'(1-x)$ là hàm số bậc ba có đồ thị như hình vẽ. Hàm số $y=|f(\\frac{x-1}{x-2})|$ có tối đa bao nhiêu điểm cực trị?",
     "visual": [
-      { "type": "line", "x1": 30, "y1": 130, "x2": 250, "y2": 130, "stroke": "#000000", "width": 1.2 },
-      { "type": "line", "x1": 140, "y1": 20, "x2": 140, "y2": 190, "stroke": "#000000", "width": 1.2 },
-      { "type": "text", "x": 240, "y": 145, "text": "x", "size": 13 },
-      { "type": "text", "x": 125, "y": 25, "text": "y", "size": 13 },
-      { "type": "text", "x": 146, "y": 145, "text": "0", "size": 13 },
-      { "type": "path", "d": "M 45 185 C 80 45, 110 50, 140 130 C 170 210, 200 205, 230 25", "stroke": "#16a34a", "width": 2, "fill": "none" },
-      { "type": "circle", "cx": 90, "cy": 130, "r": 3.5, "fill": "#ef4444" },
+      { "type": "line", "x1": 30, "y1": 130, "x2": 260, "y2": 130, "stroke": "#0f172a", "width": 1.2 },
+      { "type": "line", "x1": 140, "y1": 20, "x2": 140, "y2": 220, "stroke": "#0f172a", "width": 1.2 },
+      { "type": "text", "x": 245, "y": 145, "text": "x", "size": 13, "weight": "bold" },
+      { "type": "text", "x": 125, "y": 30, "text": "y", "size": 13, "weight": "bold" },
+      { "type": "text", "x": 145, "y": 145, "text": "O", "size": 12 },
+      { "type": "path", "d": "M 50 240 C 70 130, 85 75, 105.5 83.8 C 125 92, 130 130, 140 130 C 150 130, 155 168, 174.5 176.2 C 195 185, 210 130, 230 20", "stroke": "#16a34a", "width": 2, "fill": "none" },
+      { "type": "circle", "cx": 80, "cy": 130, "r": 3.5, "fill": "#ef4444" },
       { "type": "circle", "cx": 140, "cy": 130, "r": 3.5, "fill": "#ef4444" },
-      { "type": "circle", "cx": 190, "cy": 130, "r": 3.5, "fill": "#ef4444" },
-      { "type": "text", "x": 80, "y": 145, "text": "-2", "size": 11 },
-      { "type": "text", "x": 185, "y": 145, "text": "2", "size": 11 },
-      { "type": "text", "x": 180, "y": 55, "text": "y = g(x)", "size": 12, "color": "#16a34a", "weight": "bold" }
+      { "type": "circle", "cx": 200, "cy": 130, "r": 3.5, "fill": "#ef4444" },
+      { "type": "text", "x": 72, "y": 120, "text": "-2", "size": 12, "weight": "bold" },
+      { "type": "text", "x": 196, "y": 120, "text": "2", "size": 12, "weight": "bold" },
+      { "type": "text", "x": 175, "y": 60, "text": "y = g(x)", "size": 13, "color": "#16a34a", "weight": "bold" }
     ],
     "correct": "6",
-    "solution": "Từ đồ thị hàm số đạo hàm, tìm cấu trúc các nghiệm đơn của hàm số hợp gốc. Sử dụng lý thuyết đếm số điểm cực trị của hàm số chứa dấu giá trị tuyệt đối liên kết, xác định được số lượng cực đại tối đa bằng 6."
+    "solution": "Từ đồ thị hàm số bậc ba $g(x)=f'(1-x)$, ta thấy hàm số cắt trục hoành tại ba nghiệm đơn phân biệt lần lượt là: $-2, 0, 2$. Suy ra phương trình đạo hàm gốc $f'(t)=0$ có 3 nghiệm đơn là $t=1-x \\implies t \\in \\{3; 1; -1\\}$. Khảo sát hàm số lõi bên trong $u(x)=\\frac{x-1}{x-2}=1+\\frac{1}{x-2}$. Đạo hàm của hàm số lõi là $u'(x)=\\frac{-1}{(x-2)^2}<0 \\implies$ hàm số luôn nghịch biến trên từng khoảng xác định. Số nghiệm của phương trình hợp $u(x)=t_{i}$ tương ứng với số giao điểm của đồ thị hàm số lõi. Biến đổi đếm số lượng điểm cực trị qua hàm trị tuyệt đối lật đồ thị $y=|f(u(x))|$, số điểm cực trị tối đa bằng tổng số điểm cực trị của hàm số thành phần bên trong cộng với số nghiệm đơn giao với trục hoành, kết quả tính toán chi tiết cho ra tối đa bằng 6 điểm cực trị."
   }
 ]
