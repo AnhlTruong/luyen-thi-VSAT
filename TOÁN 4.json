@@ -607,3 +607,4 @@
     "correct": "6",
     "solution": "Từ đồ thị hàm số bậc ba $ g(x) = f'(1-x) $, ta thấy hàm số cắt trục hoành tại đúng ba nghiệm đơn phân biệt là: $ -2, 0, 2 $. Suy ra phương trình đạo hàm lõi $ f'(t) = 0 $ có 3 nghiệm đơn tương ứng là $ t = 1 - x \\implies t \\in \\{3; 1; -1\\} $. Khảo sát hàm số phân thức lõi $ u(x) = \\frac{x-1}{x-2} = 1 + \\frac{1}{x-2} $. Đạo hàm $ u'(x) = \\frac{-1}{(x-2)^2} < 0 \\implies $ hàm số luôn nghịch biến trên từng khoảng xác định. Số nghiệm của phương trình hợp $ u(x) = t_i $ tương ứng với số giao điểm của đường thẳng nằm ngang với đồ thị phân thức. Biến đổi đếm cực trị qua hàm trị tuyệt đối lật đồ thị $ y = |f(u(x))| $, số điểm cực trị tối đa bằng tổng số cực trị hàm số thành phần bên trong cộng số nghiệm đơn giao trục hoành, kết quả thu được tối đa bằng 6 điểm cực trị."
   }
+]
