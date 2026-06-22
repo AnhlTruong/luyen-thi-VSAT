@@ -98,46 +98,46 @@
   {
     "id": 4,
     "type": "TF",
-    "text": "Cho hàm số $y=\\frac{ax+b}{cx+d}$ có đồ thị như hình vẽ bên. Xét tính đúng sai của các khẳng định sau:",
+    "text": "Cho hàm số $ y=\\frac{ax+b}{cx+d} $ có đồ thị như hình vẽ bên. Xét tính đúng sai của các khẳng định sau:",
     "visual": [
-      { "type": "line", "x1": 30, "y1": 140, "x2": 250, "y2": 140, "stroke": "#0f172a", "width": 1.2 },
-      { "type": "line", "x1": 100, "y1": 20, "x2": 100, "y2": 220, "stroke": "#0f172a", "width": 1.2 },
-      { "type": "text", "x": 240, "y": 155, "text": "x", "size": 13, "weight": "bold" },
-      { "type": "text", "x": 85, "y": 30, "text": "y", "size": 13, "weight": "bold" },
-      { "type": "text", "x": 85, "y": 155, "text": "O", "size": 13 },
-      { "type": "line", "x1": 130, "y1": 20, "x2": 130, "y2": 220, "stroke": "#64748b", "width": 1, "dash": "4" },
-      { "type": "line", "x1": 30, "y1": 80, "x2": 250, "y2": 80, "stroke": "#64748b", "width": 1, "dash": "4" },
-      { "type": "path", "d": "M 40 115 Q 85 130 115 210", "stroke": "#2563eb", "width": 2, "fill": "none" },
-      { "type": "path", "d": "M 145 10 Q 175 65 240 70", "stroke": "#2563eb", "width": 2, "fill": "none" },
-      { "type": "text", "x": 125, "y": 155, "text": "1", "size": 12 },
-      { "type": "text", "x": 85, "y": 75, "text": "2", "size": 12 },
-      { "type": "circle", "cx": 100, "cy": 170, "r": 3, "fill": "#ef4444" },
-      { "type": "text", "x": 108, "y": 175, "text": "-1", "size": 11 }
+      { "type": "line", "x1": 30, "y1": 140, "x2": 260, "y2": 140, "stroke": "#0f172a", "width": 1.2 },
+      { "type": "line", "x1": 130, "y1": 20, "x2": 130, "y2": 220, "stroke": "#0f172a", "width": 1.2 },
+      { "type": "text", "x": 250, "y": 155, "text": "x", "size": 13, "weight": "bold" },
+      { "type": "text", "x": 115, "y": 30, "text": "y", "size": 13, "weight": "bold" },
+      { "type": "text", "x": 116, "y": 155, "text": "O", "size": 12 },
+      { "type": "line", "x1": 148, "y1": 20, "x2": 148, "y2": 220, "stroke": "#64748b", "width": 1.2, "dash": "4" },
+      { "type": "line", "x1": 30, "y1": 104, "x2": 260, "y2": 104, "stroke": "#64748b", "width": 1.2, "dash": "4" },
+      { "type": "path", "d": "M 35 118 Q 80 125 94 140 T 125 218", "stroke": "#2563eb", "width": 2, "fill": "none" },
+      { "type": "path", "d": "M 152 20 Q 160 98 255 100", "stroke": "#2563eb", "width": 2, "fill": "none" },
+      { "type": "circle", "cx": 94, "cy": 140, "r": 3.5, "fill": "#ef4444" },
+      { "type": "text", "x": 86, "y": 158, "text": "-2", "size": 11, "weight": "bold" },
+      { "type": "text", "x": 144, "y": 158, "text": "1", "size": 11 },
+      { "type": "text", "x": 118, "y": 98, "text": "2", "size": 11 }
     ],
     "parts": [
       {
         "id": "4_1",
         "text": "Hàm số đã cho nghịch biến trên từng khoảng xác định của nó.",
         "correct": "T",
-        "solution": "Quan sát đồ thị hàm số từ trái sang phải, ta thấy cả hai nhánh của đường cong hyperbola đều đi xuống. Điều này chứng tỏ đạo hàm của hàm số luôn mang giá trị âm, tức là hàm số nghịch biến trên từng khoảng xác định $(-\\infty; 1)$ và $(1; +\\infty)$."
+        "solution": "Quan sát đồ thị hàm số từ trái sang phải, ta thấy cả hai nhánh của đường cong hyperbola đều đi xuống. Điều này chứng tỏ đạo hàm luôn âm ($y' < 0$), tức là hàm số luôn nghịch biến trên từng khoảng xác định $(-\\infty; 1)$ và $(1; +\\infty)$."
       },
       {
         "id": "4_2",
-        "text": "Đồ thị hàm số có tiệm cận đứng là đường thẳng $x=1$ và tiệm cận ngang là đường thẳng $y=2$.",
+        "text": "Đồ thị hàm số có tiệm cận đứng là đường thẳng $ x=1 $ và tiệm cận ngang là đường thẳng $ y=2 $.",
         "correct": "T",
-        "solution": "Đồ thị hàm số tiến sát về đường thẳng đứng tại vị trí giá trị $x=1$ và tiến sát về đường nằm ngang tại vị trí giá trị $y=2$. Do đó hai đường thẳng này chính là tiệm cận đứng và tiệm cận ngang của đồ thị hàm số."
+        "solution": "Dựa vào các đường giới hạn nét đứt trên hệ trục tọa độ, đồ thị tiến sát về đường thẳng đứng tại $ x = 1 $ và tiệm cận ngang tại $ y = 2 $. Khẳng định đúng."
       },
       {
         "id": "4_3",
-        "text": "Giá trị của biểu thức $T=a+c$ bằng $3$ khi $a, c$ là các số nguyên tối giản.",
+        "text": "Giá trị của biểu thức $ T=a+c $ bằng $ 3 $ khi $ a, c $ là các số nguyên tối giản.",
         "correct": "T",
-        "solution": "Hàm số phân thức có đường tiệm cận đứng $x=-d/c=1 \\implies d=-c$, và tiệm cận ngang $y=a/c=2 \\implies a=2c$. Đồ thị đi qua điểm $(0; -1) \\implies b/d=-1 \\implies b=-d=c$. Hàm số có dạng: $y=\\frac{2cx+c}{cx-c}=\\frac{2x+1}{x-1}$. Với bộ hệ số nguyên tối giản, ta chọn $c=1 \\implies a=2$. Vậy giá trị biểu thức là $T=a+c=2+1=3$."
+        "solution": "Hàm số phân thức có tiệm cận ngang $ y = \\frac{a}{c} = 2 \\implies a = 2c $ và tiệm cận đứng $ x = -\\frac{d}{c} = 1 \\implies d = -c $. Đồ thị cắt trục hoành tại điểm $(-2; 0) \\implies \\frac{-2a+b}{-2c+d} = 0 \\implies b = 2a = 4c $. Hàm số có dạng thu gọn: $ y = \\frac{2cx+4c}{cx-c} = \\frac{2x+4}{x-1} $. Khi chọn hệ số nguyên tối giản $ c=1 \\implies a=2 $. Vậy $ T = a+c = 2+1 = 3 $."
       },
       {
         "id": "4_4",
-        "text": "Giao điểm của đồ thị hàm số với trục tung là điểm $M(0;-1)$.",
-        "correct": "T",
-        "solution": "Từ hàm số xác định được ở câu trên là $y=\\frac{2x+1}{x-1}$, ta tìm giao điểm của đồ thị với trục tung bằng cách đặt $x=0$. Khi đó ta tính được $y=\\frac{2(0)+1}{0-1}=-1$. Vậy tọa độ giao điểm với trục tung chính xác là điểm $M(0;-1)$."
+        "text": "Giao điểm của đồ thị hàm số với trục tung là điểm $ M(0;-1) $.",
+        "correct": "F",
+        "solution": "Từ hàm số xác định được ở câu trên là $ y = \\frac{2x+4}{x-1} $, ta tìm giao điểm với trục tung bằng cách thay $ x = 0 $. Khi đó $ y = \\frac{2(0)+4}{0-1} = -4 $. Vậy tọa độ giao điểm chính xác phải là $ M(0;-4) $ chứ không phải $ M(0;-1) $."
       }
     ],
     "points": 1.0
@@ -587,22 +587,23 @@
   {
     "id": 25,
     "type": "SHORT",
-    "text": "Cho hàm số $f(x)$ xác định và liên tục trên R, trong đó $g(x)=f'(1-x)$ là hàm số bậc ba có đồ thị như hình vẽ. Hàm số $y=|f(\\frac{x-1}{x-2})|$ có tối đa bao nhiêu điểm cực trị?",
+    "text": "Cho hàm số $ f(x) $ xác định và liên tục trên R, trong đó $ g(x)=f^{\\prime}(1-x) $ là hàm số bậc ba có đồ thị như hình vẽ. Hàm số $ y=\\left|f\\left(\\frac{x-1}{x-2}\\right)\\right| $ có tối đa bao nhiêu điểm cực trị?",
     "visual": [
-      { "type": "line", "x1": 30, "y1": 130, "x2": 260, "y2": 130, "stroke": "#0f172a", "width": 1.2 },
-      { "type": "line", "x1": 140, "y1": 20, "x2": 140, "y2": 220, "stroke": "#0f172a", "width": 1.2 },
-      { "type": "text", "x": 245, "y": 145, "text": "x", "size": 13, "weight": "bold" },
-      { "type": "text", "x": 125, "y": 30, "text": "y", "size": 13, "weight": "bold" },
-      { "type": "text", "x": 145, "y": 145, "text": "O", "size": 12 },
-      { "type": "path", "d": "M 50 240 C 70 130, 85 75, 105.5 83.8 C 125 92, 130 130, 140 130 C 150 130, 155 168, 174.5 176.2 C 195 185, 210 130, 230 20", "stroke": "#16a34a", "width": 2, "fill": "none" },
-      { "type": "circle", "cx": 80, "cy": 130, "r": 3.5, "fill": "#ef4444" },
-      { "type": "circle", "cx": 140, "cy": 130, "r": 3.5, "fill": "#ef4444" },
-      { "type": "circle", "cx": 200, "cy": 130, "r": 3.5, "fill": "#ef4444" },
-      { "type": "text", "x": 72, "y": 120, "text": "-2", "size": 12, "weight": "bold" },
-      { "type": "text", "x": 196, "y": 120, "text": "2", "size": 12, "weight": "bold" },
-      { "type": "text", "x": 175, "y": 60, "text": "y = g(x)", "size": 13, "color": "#16a34a", "weight": "bold" }
+      { "type": "line", "x1": 30, "y1": 140, "x2": 270, "y2": 140, "stroke": "#0f172a", "width": 1.2 },
+      { "type": "line", "x1": 120, "y1": 20, "x2": 120, "y2": 200, "stroke": "#0f172a", "width": 1.2 },
+      { "type": "text", "x": 255, "y": 158, "text": "x", "size": 13, "weight": "bold" },
+      { "type": "text", "x": 128, "y": 30, "text": "y", "size": 13, "weight": "bold" },
+      { "type": "text", "x": 102, "y": 158, "text": "O", "size": 13 },
+      { "type": "path", "d": "M 40 210 Q 60 140 80 140 Q 111.6 40 160 140 Q 181.6 185 200 140 Q 220 50 240 10", "stroke": "#16a34a", "width": 2, "fill": "none" },
+      { "type": "circle", "cx": 80, "cy": 140, "r": 3.5, "fill": "#ef4444" },
+      { "type": "circle", "cx": 160, "cy": 140, "r": 3.5, "fill": "#ef4444" },
+      { "type": "circle", "cx": 200, "cy": 140, "r": 3.5, "fill": "#ef4444" },
+      { "type": "text", "x": 72, "y": 162, "text": "-1", "size": 12, "weight": "bold" },
+      { "type": "text", "x": 156, "y": 162, "text": "1", "size": 12, "weight": "bold" },
+      { "type": "text", "x": 196, "y": 162, "text": "2", "size": 12, "weight": "bold" },
+      { "type": "text", "x": 180, "y": 55, "text": "y = g(x)", "size": 13, "color": "#16a34a", "weight": "bold" }
     ],
     "correct": "6",
-    "solution": "Từ đồ thị hàm số bậc ba $g(x)=f'(1-x)$, ta thấy hàm số cắt trục hoành tại ba nghiệm đơn phân biệt lần lượt là: $-2, 0, 2$. Suy ra phương trình đạo hàm gốc $f'(t)=0$ có 3 nghiệm đơn là $t=1-x \\implies t \\in \\{3; 1; -1\\}$. Khảo sát hàm số lõi bên trong $u(x)=\\frac{x-1}{x-2}=1+\\frac{1}{x-2}$. Đạo hàm của hàm số lõi là $u'(x)=\\frac{-1}{(x-2)^2}<0 \\implies$ hàm số luôn nghịch biến trên từng khoảng xác định. Số nghiệm của phương trình hợp $u(x)=t_{i}$ tương ứng với số giao điểm của đồ thị hàm số lõi. Biến đổi đếm số lượng điểm cực trị qua hàm trị tuyệt đối lật đồ thị $y=|f(u(x))|$, số điểm cực trị tối đa bằng tổng số điểm cực trị của hàm số thành phần bên trong cộng với số nghiệm đơn giao với trục hoành, kết quả tính toán chi tiết cho ra tối đa bằng 6 điểm cực trị."
+    "solution": "Từ đồ thị hàm số bậc ba $ g(x) = f'(1-x) $, ta thấy đồ thị cắt trục hoành tại ba nghiệm đơn phân biệt lần lượt là: $ x_1 = -1, x_2 = 1, x_3 = 2 $. Đặt biến đổi $ t = 1 - x \\implies x = 1 - t $. Khi đó phương trình đạo hàm lõi $ f'(t) = 0 $ sẽ có 3 nghiệm đơn tương ứng là: $ t_1 = 1 - (-1) = 2 $; $ t_2 = 1 - 1 = 0 $; $ t_3 = 1 - 2 = -1 $.\nXét hàm số bên trong dấu trị tuyệt đối: $ h(x) = f\\left(\\frac{x-1}{x-2}\\right) $. Đặt $ u(x) = \\frac{x-1}{x-2} = 1 + \\frac{1}{x-2} $ (với $ x \\neq 2 $). Ta có đạo hàm: $ h'(x) = u'(x) \\cdot f'(u(x)) = \\frac{-1}{(x-2)^2} \\cdot f'(u(x)) $. Cho $ h'(x) = 0 \\Leftrightarrow f'(u(x)) = 0 \\Leftrightarrow u(x) \\in \\{2; 0; -1\\} $.\nKhảo sát bảng biến thiên của hàm phân thức $ u(x) = 1 + \\frac{1}{x-2} $: hàm số có đường tiệm cận ngang $ y = 1 $ và luôn nghịch biến trên hai khoảng xác định. Do đó:\n- Phương trình $ u(x) = 2 > 1 $ có đúng 1 nghiệm đơn.\n- Phương trình $ u(x) = 0 < 1 $ có đúng 1 nghiệm đơn.\n- Phương trình $ u(x) = -1 < 1 $ có đúng 1 nghiệm đơn.\nVậy hàm số $ h(x) $ có đúng $ 1 + 1 + 1 = 3 $ điểm cực trị. Khi lấy trị tuyệt đối lật đồ thị $ y = |h(x)| $, số điểm cực trị tối đa thu được bằng: $ \\text{Số cực trị của } h(x) + \\text{Số giao điểm tối đa với } Ox = 3 + 3 = 6 $ điểm cực trị."
   }
 ]
