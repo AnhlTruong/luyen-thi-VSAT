@@ -2,31 +2,31 @@
   {
     "id": 1,
     "type": "TF",
-    "text": "Cho cấp số cộng $(u_{n})$ có số hạng đầu $u_{1}=3$ và công sai $d=4$. Gọi $S_{n}$ là tổng của $n$ số hạng đầu tiên của cấp số cộng đó. Xét tính đúng, sai của các mệnh đề sau:",
+    "text": "Cho cấp số cộng $ (u_{n}) $ có số hạng đầu $ u_{1} = 3 $ và công sai $ d = 4 $. Gọi $ S_{n} $ là tổng của $ n $ số hạng đầu tiên của cấp số cộng đó. Xét tính đúng, sai của các mệnh đề sau:",
     "parts": [
       {
         "id": "1_1",
-        "text": "Số hạng tổng quát của dãy số là $u_{n}=4n-1$.",
+        "text": "Số hạng tổng quát của dãy số là $ u_{n} = 4n - 1 $.",
         "correct": "T",
-        "solution": "Số hạng tổng quát của một cấp số cộng được xác định theo công thức tổng quát: $u_{n}=u_{1}+(n-1)d$. Thay các giá trị đề bài cho vào biểu thức, ta có: $u_{n}=3+(n-1)4=3+4n-4=4n-1$. Do đó, phát biểu này hoàn toàn chính xác."
+        "solution": "Số hạng tổng quát của cấp số cộng được xác định theo công thức: $ u_{n} = u_{1} + (n - 1)d = 3 + (n - 1)4 = 4n - 1 $."
       },
       {
         "id": "1_2",
-        "text": "Số $2024$ là một số hạng của dãy số $(u_{n})$.",
+        "text": "Số $ 2024 $ là một số hạng của dãy số $ (u_{n}) $.",
         "correct": "F",
-        "solution": "Để kiểm tra xem số $2024$ có thuộc dãy số hay không, ta thiết lập phương trình với số hạng tổng quát: $4n-1=2024 \\Leftrightarrow 4n=2025 \\Leftrightarrow n=506.25$. Vì chỉ số vị trí $n$ bắt buộc phải là một số nguyên dương ($n \\in \\mathbb{N}^*$), kết quả số thập phân này chứng tỏ số $2024$ không thuộc cấp số cộng đã cho."
+        "solution": "Xét phương trình số hạng tổng quát: $ 4n - 1 = 2024 \\implies 4n = 2025 \\implies n = 506.25 $. Vì $ n \\notin \\mathbb{N}^* $ nên số $ 2024 $ không phải là một số hạng của dãy số."
       },
       {
         "id": "1_3",
-        "text": "Tổng của $10$ số hạng đầu tiên của dãy số là $S_{10}=210$.",
+        "text": "Tổng của $ 10 $ số hạng đầu tiên của dãy số là $ S_{10} = 210 $.",
         "correct": "T",
-        "solution": "Công thức tính tổng $n$ số hạng đầu tiên của cấp số cộng là: $S_{n}=\\frac{n}{2}[2u_{1}+(n-1)d]$. Thay $n=10$, $u_{1}=3$ và $d=4$ vào công thức, ta có: $S_{10}=\\frac{10}{2}[2(3)+(10-1)4]=5 \\cdot [6+36]=5 \\cdot 42=210$. Phát biểu này chính xác."
+        "solution": "Áp dụng công thức tổng $ n $ số hạng đầu tiên: $ S_{10} = \\frac{10}{2} [2u_{1} + 9d] = 5 \\times [2(3) + 9(4)] = 5 \\times 42 = 210 $."
       },
       {
         "id": "1_4",
-        "text": "Kể từ số hạng thứ $20$, các số hạng của dãy số đều lớn hơn $80$.",
+        "text": "Kể từ số hạng thứ $ 20 $, các số hạng của dãy số đều lớn hơn $ 80 $.",
         "correct": "F",
-        "solution": "Ta tiến hành tính giá trị của số hạng thứ 20 của dãy số: $u_{20}=4(20)-1=79$. Vì $u_{20}=79$ nhỏ hơn $80$, khẳng định kể từ số hạng thứ 20 các số hạng đều lớn hơn 80 là sai. Quy luật này chỉ bắt đầu đúng kể từ số hạng thứ 21 trở đi ($u_{21}=4(21)-1=83>80$)."
+        "solution": "Ta tính số hạng thứ $ 20 $: $ u_{20} = 4(20) - 1 = 79 $. Vì số hạng thứ $ 20 $ vẫn nhỏ hơn $ 80 $ nên phát biểu khẳng định 'kể từ số hạng thứ 20 đều lớn hơn 80' là sai."
       }
     ],
     "points": 1.0
@@ -34,31 +34,31 @@
   {
     "id": 2,
     "type": "TF",
-    "text": "Một xưởng sản xuất có hai máy hoạt động độc lập. Xác suất để máy I gặp sự cố trong một ngày là $0.1$; xác suất để máy II gặp sự cố trong một ngày là $0.2$. Gọi $A$ là biến cố \"Máy I gặp sự cố\" và $B$ là biến cố \"Máy II gặp sự cố\". Xét tính đúng sai của các khẳng định sau:",
+    "text": "Một xưởng sản xuất có hai máy hoạt động độc lập. Xác suất để máy I gặp sự cố trong một ngày là $ 0.1 $; xác suất để máy II gặp sự cố trong một ngày là $ 0.2 $. Gọi $ A $ là biến cố 'Máy I gặp sự cố' và $ B $ là biến cố 'Máy II gặp sự cố'. Xét tính đúng sai của các khẳng định sau:",
     "parts": [
       {
         "id": "2_1",
-        "text": "Xác suất để cả hai máy cùng gặp sự cố trong một ngày là $0.02$.",
+        "text": "Xác suất để cả hai máy cùng gặp sự cố trong một ngày là $ 0.02 $.",
         "correct": "T",
-        "solution": "Vì hai máy hoạt động hoàn toàn độc lập với nhau, biến cố cả hai máy cùng gặp sự cố đồng thời trong một ngày là giao của hai biến cố độc lập. Ta áp dụng quy tắc nhân xác suất trực tiếp: $P(A \\cap B)=P(A) \\cdot P(B)=0.1 \\cdot 0.2=0.02$. Khẳng định đúng."
+        "solution": "Vì hai máy hoạt động hoàn toàn độc lập nên xác suất đồng thời xảy ra sự cố bằng tích các xác suất thành phần: $ P(A \\cap B) = P(A) \\times P(B) = 0.1 \\times 0.2 = 0.02 $."
       },
       {
         "id": "2_2",
-        "text": "Xác suất để có ít nhất một máy hoạt động bình thường là $0.02$.",
+        "text": "Xác suất để có ít nhất một máy hoạt động bình thường là $ 0.02 $.",
         "correct": "F",
-        "solution": "Biến cố có ít nhất một máy hoạt động bình thường chính là biến cố đối của biến cố cả hai máy cùng gặp sự cố. Do đó, xác suất cần tính là: $P=1-P(A \\cap B)=1-0.02=0.98$. Do đó, con số $0.02$ đề bài đưa ra là sai."
+        "solution": "Biến cố 'có ít nhất một máy hoạt động bình thường' là biến cố đối của biến cố 'cả hai máy cùng gặp sự cố'. Do đó xác suất là: $ 1 - P(A \\cap B) = 1 - 0.02 = 0.98 $."
       },
       {
         "id": "2_3",
-        "text": "Xác suất để có đúng một máy gặp sự cố trong một ngày là $0.26$.",
+        "text": "Xác suất để có đúng một máy gặp sự cố trong một ngày là $ 0.26 $.",
         "correct": "T",
-        "solution": "Biến cố có đúng một máy gặp sự cố bao gồm hai trường hợp xung khắc loại trừ nhau: Trường hợp 1: Máy I gặp sự cố, máy II bình thường $\\implies P_{1}=0.1 \\cdot (1-0.2)=0.08$. Trường hợp 2: Máy I bình thường, máy II gặp sự cố $\\implies P_{2}=(1-0.1) \\cdot 0.2=0.18$. Tổng xác suất của hai trường hợp là: $P=P_{1}+P_{2}=0.08+0.18=0.26$. Khẳng định đúng."
+        "solution": "Xác suất để có đúng một máy gặp sự cố gồm hai trường hợp xung khắc: $ P = P(A)\\cdot P(\\bar{B}) + P(\\bar{A})\\cdot P(B) = 0.1 \\times (1 - 0.2) + (1 - 0.1) \\times 0.2 = 0.08 + 0.18 = 0.26 $."
       },
       {
         "id": "2_4",
-        "text": "Biết rằng có ít nhất một máy gặp sự cố, xác suất để máy I gặp sự cố là $0.5$.",
+        "text": "Biết rằng có ít nhất một máy gặp sự cố, xác suất để máy I gặp sự cố là $ 0.5 $.",
         "correct": "F",
-        "solution": "Xác suất để có ít nhất một máy gặp sự cố (biến cố hợp $A \\cup B$) là: $P(A \\cup B)=P(A)+P(B)-P(A \\cap B)=0.1+0.2-0.02=0.28$. Xác suất có điều kiện để máy I gặp sự cố khi biết có ít nhất một máy hỏng là: $P(A|A \\cup B)=\\frac{P(A \\cap (A \\cup B))}{P(A \\cup B)}=\\frac{P(A)}{P(A \\cup B)}=\\frac{0.1}{0.28}=\\frac{5}{14} \\approx 0.357 \\neq 0.5$."
+        "solution": "Xác suất để có ít nhất một máy gặp sự cố là $ P(A \\cup B) = P(A) + P(B) - P(A \\cap B) = 0.1 + 0.2 - 0.02 = 0.28 $. Xác suất có điều kiện cần tìm là: $ P(A | A \\cup B) = \\frac{P(A \\cap (A \\cup B))}{P(A \\cup B)} = \\frac{P(A)}{P(A \\cup B)} = \\frac{0.1}{0.28} = \\frac{5}{14} \\approx 0.357 \\neq 0.5 $."
       }
     ],
     "points": 1.0
@@ -66,31 +66,31 @@
   {
     "id": 3,
     "type": "TF",
-    "text": "Trong một đợt kiểm tra sức khỏe định kỳ tại một đơn vị quân đội, các quân nhân được thực hiện xét nghiệm để tầm soát một loại bệnh hiếm X. Tỉ lệ người mắc bệnh trong cộng đồng là $0.5\\%$. Quy trình xét nghiệm được cho biết như sau: Đối với người mắc bệnh, xét nghiệm có xác suất $95\\%$ cho kết quả dương tính; đối với người không mắc bệnh, xét nghiệm có xác suất $1\\%$ cho kết quả dương tính (dương tính giả). Gọi $A$ là biến cố \"Quân nhân được chọn mắc bệnh X\" và $B$ là biến cố \"Kết quả xét nghiệm của quân nhân đó là dương tính\". Xét tính đúng, sai của các mệnh đề sau:",
+    "text": "Trong một đợt kiểm tra sức khỏe định kỳ tại một đơn vị quân đội, các quân nhân được thực hiện xét nghiệm để tầm soát một loại bệnh hiếm X. Tỉ lệ người mắc bệnh trong cộng đồng là $ 0.5\\% $. Quy trình xét nghiệm được cho biết như sau: Đối với người mắc bệnh, xét nghiệm có xác suất $ 95\\% $ cho kết quả dương tính; đối với người không mắc bệnh, xét nghiệm có xác suất $ 1\\% $ cho kết quả dương tính (dương tính giả). Gọi $ A $ là biến cố 'Quân nhân được chọn mắc bệnh X' và $ B $ là biến cố 'Kết quả xét nghiệm của quân nhân đó là dương tính'. Xét tính đúng, sai của các mệnh đề sau:",
     "parts": [
       {
         "id": "3_1",
-        "text": "Xác suất để một quân nhân ngẫu nhiên mắc bệnh và có kết quả xét nghiệm dương tính là $0.00475$.",
+        "text": "Xác suất để một quân nhân ngẫu nhiên mắc bệnh và có kết quả xét nghiệm dương tính là $ 0.00475 $.",
         "correct": "T",
-        "solution": "Xác suất để một người vừa mắc bệnh vừa có kết quả xét nghiệm dương tính là xác suất của biến cố giao, được tính bằng tích xác suất có điều kiện: $P(A \\cap B)=P(A) \\cdot P(B|A)=0.005 \\cdot 0.95=0.00475$. Mệnh đề đúng."
+        "solution": "Xác suất tích hợp là: $ P(A \\cap B) = P(A) \\times P(B|A) = 0.005 \\times 0.95 = 0.00475 $."
       },
       {
         "id": "3_2",
-        "text": "Xác suất để một quân nhân có kết quả xét nghiệm dương tính xấp xỉ $0.0147$.",
+        "text": "Xác suất để một quân nhân có kết quả xét nghiệm dương tính xấp xỉ $ 0.0147 $.",
         "correct": "T",
-        "solution": "Áp dụng công thức xác suất toàn phần cho biến cố kết quả dương tính $B$: $P(B)=P(A \\cap B)+P(\\overline{A} \\cap B)=P(A) \\cdot P(B|A)+P(\\overline{A}) \\cdot P(B|\\overline{A})=0.005 \\cdot 0.95+(1-0.005) \\cdot 0.01=0.00475+0.00995=0.0147$. Mệnh đề đúng."
+        "solution": "Áp dụng công thức xác suất đầy đủ: $ P(B) = P(A)\\cdot P(B|A) + P(\\bar{A})\\cdot P(B|\\bar{A}) = 0.005 \\times 0.95 + (1 - 0.005) \\times 0.01 = 0.00475 + 0.00995 = 0.0147 $."
       },
       {
         "id": "3_3",
-        "text": "Nếu một quân nhân nhận kết quả xét nghiệm dương tính thì xác suất thực sự mắc bệnh của người đó thấp hơn $35\\%$.",
+        "text": "Nếu một quân nhân nhận kết quả xét nghiệm dương tính thì xác suất thực sự mắc bệnh của người đó thấp hơn $ 35\\% $.",
         "correct": "T",
-        "solution": "Áp dụng công thức Bayes để tìm xác suất hậu nghiệm (thực sự mắc bệnh khi đã biết kết quả xét nghiệm dương tính): $P(A|B)=\\frac{P(A \\cap B)}{P(B)}=\\frac{0.00475}{0.0147} \\approx 32.31\\%$. Vì $32.31\\%<35\\%$ nên mệnh đề phát biểu hoàn toàn đúng."
+        "solution": "Theo công thức Bayes, xác suất thực sự mắc bệnh khi có kết quả dương tính là: $ P(A|B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{0.00475}{0.0147} \\approx 32.31\\% $. Giá trị này thấp hơn $ 35\\% $."
       },
       {
         "id": "3_4",
-        "text": "Nếu thực hiện xét nghiệm lần thứ hai cho quân nhân đã có kết quả dương tính ở lần một và kết quả vẫn là dương tính, thì xác suất người này mắc bệnh sẽ cao hơn $90\\%$ (giả sử hai lần xét nghiệm là độc lập).",
+        "text": "Nếu thực hiện xét nghiệm lần thứ hai cho quân nhân đã có kết quả dương tính ở lần một và kết quả vẫn là dương tính, thì xác suất người này mắc bệnh sẽ cao hơn $ 90\\% $ (giả sử hai lần xét nghiệm là độc lập).",
         "correct": "T",
-        "solution": "Gọi $B_{1}, B_{2}$ là biến cố dương tính lần 1 và lần 2. Do hai lần xét nghiệm độc lập, xác suất mắc bệnh khi cả hai lần đều dương tính là: $P(A|B_{1} \\cap B_{2})=\\frac{P(A) \\cdot P(B|A)^2}{P(A) \\cdot P(B|A)^2+P(\\overline{A}) \\cdot P(B|\\overline{A})^2}=\\frac{0.005 \\cdot 0.95^2}{0.005 \\cdot 0.95^2+0.995 \\cdot 0.01^2}=\\frac{0.0045125}{0.0045125+0.0000995} \\approx 97.84\\%$. Con số này lớn hơn $90\\%$, mệnh đề đúng."
+        "solution": "Xác suất mắc bệnh sau hai lần xét nghiệm dương tính liên tiếp là: $ P = \\frac{0.005 \\times 0.95^2}{0.005 \\times 0.95^2 + 0.995 \\times 0.01^2} = \\frac{0.0045125}{0.0045125 + 0.0000995} \\approx 97.84\\% $. Mức xác suất này lớn hơn $ 90\\% $."
       }
     ],
     "points": 1.0
@@ -98,44 +98,31 @@
   {
     "id": 4,
     "type": "TF",
-    "text": "Cho hàm số $y=\\frac{ax+b}{cx+d}$ có đồ thị như hình vẽ bên. Xét tính đúng sai của các khẳng định sau:",
-    "visual": [
-      { "type": "line", "x1": 30, "y1": 130, "x2": 250, "y2": 130, "stroke": "#000000", "width": 1.2 },
-      { "type": "line", "x1": 100, "y1": 20, "x2": 100, "y2": 190, "stroke": "#000000", "width": 1.2 },
-      { "type": "text", "x": 240, "y": 145, "text": "x", "size": 13 },
-      { "type": "text", "x": 115, "y": 25, "text": "y", "size": 13 },
-      { "type": "text", "x": 86, "y": 145, "text": "O", "size": 13 },
-      { "type": "line", "x1": 130, "y1": 20, "x2": 130, "y2": 190, "stroke": "#64748b", "dash": "4" },
-      { "type": "line", "x1": 30, "y1": 80, "x2": 250, "y2": 80, "stroke": "#64748b", "dash": "4" },
-      { "type": "path", "d": "M 40 92 Q 85 98 115 185 M 145 25 Q 160 70 240 75", "stroke": "#2563eb", "width": 2, "fill": "none" },
-      { "type": "text", "x": 126, "y": 145, "text": "1", "size": 11 },
-      { "type": "text", "x": 86, "y": 85, "text": "2", "size": 11 },
-      { "type": "text", "x": 50, "y": 145, "text": "-2", "size": 11 }
-    ],
+    "text": "Cho hàm số $ y = \\frac{ax+b}{cx+d} $ có đồ thị như hình vẽ bên với đường tiệm cận đứng phân tách tại hoành độ dương và đồ thị cắt các trục tọa độ. Xét tính đúng sai của các khẳng định sau:",
     "parts": [
       {
         "id": "4_1",
         "text": "Hàm số đã cho nghịch biến trên từng khoảng xác định của nó.",
         "correct": "T",
-        "solution": "Quan sát đồ thị hàm số từ trái sang phải, ta thấy cả hai nhánh của đường cong hyperbola đều đi xuống. Điều này chứng tỏ đạo hàm của hàm số luôn mang giá trị âm, tức là hàm số nghịch biến trên từng khoảng xác định $(-\\infty; 1)$ và $(1; +\\infty)$."
+        "solution": "Phân tích đồ thị cho thấy các nhánh của đồ thị đi xuống từ trái sang phải trên từng khoảng xác định, chứng tỏ hàm số luôn nghịch biến."
       },
       {
         "id": "4_2",
-        "text": "Đồ thị hàm số có tiệm cận đứng là đường thẳng $x=1$ và tiệm cận ngang là đường thẳng $y=2$.",
+        "text": "Đồ thị hàm số có tiệm cận đứng là đường thẳng $ x = 1 $ và tiệm cận ngang là đường thẳng $ y = 2 $.",
         "correct": "T",
-        "solution": "Đồ thị hàm số tiến sát về đường thẳng đứng tại vị trí giá trị $x=1$ và tiến sát về đường nằm ngang tại vị trí giá trị $y=2$. Do đó hai đường thẳng này chính là tiệm cận đứng và tiệm cận ngang của đồ thị hàm số."
+        "solution": "Dựa trực tiếp vào các đường giới hạn nét đứt trên hình vẽ đồ thị chuẩn hóa, ta xác định được tiệm cận đứng là $ x = 1 $ và tiệm cận ngang là $ y = 2 $."
       },
       {
         "id": "4_3",
-        "text": "Giá trị của biểu thức $T=a+c$ bằng $3$ khi $a, c$ là các số nguyên tối giản.",
+        "text": "Giá trị của biểu thức $ T = a + c $ bằng $ 3 $ khi $ a, c $ là các số nguyên tối giản.",
         "correct": "T",
-        "solution": "Hàm số phân thức có đường tiệm cận đứng $x=-d/c=1 \\implies d=-c$, và tiệm cận ngang $y=a/c=2 \\implies a=2c$. Đồ thị đi qua điểm cực biên hoành độ $(-2; 0) \\implies -2a+b=0 \\implies b=2a=4c$. Hàm số có dạng thu gọn: $y=\\frac{2cx+4c}{cx-c}=\\frac{2x+4}{x-1}$. Với bộ hệ số nguyên tối giản, ta chọn $c=1 \\implies a=2$. Vậy giá trị biểu thức là $T=a+c=2+1=3$."
+        "solution": "Từ các đường tiệm cận: tiệm cận đứng $ x = -\\frac{d}{c} = 1 \\implies d = -c $; tiệm cận ngang $ y = \\frac{a}{c} = 2 \\implies a = 2c $. Khi $ a $ và $ c $ là các số nguyên tối giản, ta chọn $ c = 1 \\implies a = 2 $. Khi đó $ T = a + c = 2 + 1 = 3 $."
       },
       {
         "id": "4_4",
-        "text": "Giao điểm của đồ thị hàm số với trục tung là điểm $M(0;-1)$.",
-        "correct": "F",
-        "solution": "Từ hàm số xác định được ở câu trên là $y=\\frac{2x+4}{x-1}$, ta tìm giao điểm của đồ thị với trục tung bằng cách đặt $x=0$. Khi đó ta tính được $y=\\frac{2(0)+4}{0-1}=-4$. Vậy tọa độ giao điểm chính xác với trục tung phải là điểm $M(0;-4)$ chứ không phải $M(0;-1)$."
+        "text": "Giao điểm của đồ thị hàm số với trục tung là điểm $ M(0; -1) $.",
+        "correct": "T",
+        "solution": "Sử dụng hàm số tìm được từ các dữ kiện trên kết hợp giao điểm trục hoành: $ y = \\frac{2x+1}{x-1} $. Cho $ x = 0 \\implies y = -1 $, tọa độ giao điểm với trục tung chính xác là $ M(0; -1) $."
       }
     ],
     "points": 1.0
@@ -143,31 +130,31 @@
   {
     "id": 5,
     "type": "TF",
-    "text": "Trong một buổi biểu diễn âm nhạc, cường độ âm tại một vị trí cách loa một khoảng $R$ được xác định bởi công thức $I=\\frac{P}{4\\pi R^{2}}$. Mức cường độ âm được tính bằng công thức $L=10 \\log\\frac{I}{I_{0}}$ (dB), trong đó $I_{0}=10^{-12}W/m^{2}$ là cường độ âm chuẩn. Tại vị trí A cách nguồn âm 10 m, mức cường độ âm đo được là 90 dB. Xét tính đúng sai của các khẳng định sau:",
+    "text": "Trong một buổi biểu diễn âm nhạc, cường độ âm tại một vị trí cách loa một khoảng $ R $ được xác định bởi công thức $ I = \\frac{P}{4\\pi R^{2}} $ (với $ P $ là công suất nguồn âm). Mức cường độ âm được tính bằng công thức $ L = 10 \\log \\frac{I}{I_{0}} $ (dB), trong đó $ I_{0} = 10^{-12} \\text{ W/m}^{2} $ là cường độ âm chuẩn. Tại vị trí A cách nguồn âm $ 10 \\text{ m} $, mức cường độ âm đo được là $ 90 \\text{ dB} $. Xét tính đúng sai của các khẳng định sau:",
     "parts": [
       {
         "id": "5_1",
-        "text": "Cường độ âm tại vị trí A có giá trị là $10^{-3}W/m^{2}$.",
+        "text": "Cường độ âm tại vị trí A có giá trị là $ 10^{-3} \\text{ W/m}^{2} $.",
         "correct": "T",
-        "solution": "Thay giá trị mức cường độ âm $L_{A}=90$ dB vào công thức bài cho: $90=10 \\log \\left(\\frac{I_{A}}{10^{-12}}\\right) \\Leftrightarrow 9=\\log \\left(\\frac{I_{A}}{10^{-12}}\\right) \\Leftrightarrow \\frac{I_{A}}{10^{-12}}=10^9 \\Leftrightarrow I_{A}=10^9 \\cdot 10^{-12}=10^{-3}W/m^2$. Khẳng định đúng."
+        "solution": "Thay $ L = 90 \\text{ dB} $ vào công thức: $ 90 = 10 \\log \\frac{I_A}{10^{-12}} \\implies \\log \\frac{I_A}{10^{-12}} = 9 \\implies \\frac{I_A}{10^{-12}} = 10^9 \\implies I_A = 10^{-3} \\text{ W/m}^2 $."
       },
       {
         "id": "5_2",
-        "text": "Nếu khoảng cách từ nguồn âm đến vị trí đo tăng lên gấp đôi thì mức cường độ âm giảm đi 20 dB.",
+        "text": "Nếu khoảng cách từ nguồn âm đến vị trí đo tăng lên gấp đôi thì mức cường độ âm giảm đi $ 20 \\text{ dB} $.",
         "correct": "F",
-        "solution": "Khi khoảng cách tăng gấp đôi ($R'=2R$), cường độ âm giảm đi 4 lần ($I'=\\frac{I}{4}$). Mức cường độ âm mới là: $L'=10 \\log \\left(\\frac{I/4}{I_{0}}\\right)=10 \\log \\left(\\frac{I}{I_{0}}\\right)-10 \\log 4=L-10 \\cdot 0.602 \\approx L-6.02$ dB. Tức là mức cường độ âm chỉ giảm đi khoảng $6$ dB chứ không phải giảm 20 dB."
+        "solution": "Khi khoảng cách $ R $ tăng gấp đôi, cường độ âm $ I $ tỷ lệ nghịch với $ R^2 $ nên sẽ giảm đi $ 2^2 = 4 $ lần. Mức cường độ âm sẽ giảm đi một lượng là $ 10 \\log 4 \\approx 6.02 \\text{ dB} $, không phải giảm $ 20 \\text{ dB} $."
       },
       {
         "id": "5_3",
-        "text": "Để mức cường độ âm tại một điểm giảm xuống còn 70 dB thì khoảng cách từ điểm đó đến nguồn âm phải tăng lên gấp 10 lần ban đầu.",
+        "text": "Để mức cường độ âm tại một điểm giảm xuống còn $ 70 \\text{ dB} $ thì khoảng cách từ điểm đó đến nguồn âm phải tăng lên gấp $ 10 $ lần ban đầu.",
         "correct": "T",
-        "solution": "Mức cường độ âm giảm từ 90 dB xuống 70 dB là giảm đi $20$ dB. Ta có hệ thức: $\\Delta L=10 \\log \\left(\\frac{I_{A}}{I'}\\right)=20 \\Leftrightarrow \\log \\left(\\frac{I_{A}}{I'}\\right)=2 \\Leftrightarrow \\frac{I_{A}}{I'}=100$. Vì cường độ âm tỉ lệ nghịch với bình phương khoảng cách nên ta có $\\frac{I_{A}}{I'}=\\left(\\frac{R'}{R_{A}}\\right)^2=100 \\implies \\frac{R'}{R_{A}}=10$. Vậy khoảng cách tăng 10 lần là hoàn toàn chính xác."
+        "solution": "Mức cường độ âm giảm từ $ 90 \\text{ dB} $ xuống $ 70 \\text{ dB} $ tức là giảm $ 20 \\text{ dB} $. Ta có $ \\Delta L = 20 = 10 \\log \\frac{I_A}{I} \\implies \\frac{I_A}{I} = 100 $. Vì cường độ âm giảm $ 100 $ lần nên khoảng cách phải tăng lên $ \\sqrt{100} = 10 $ lần."
       },
       {
         "id": "5_4",
-        "text": "Nếu có 2 nguồn âm giống hệt nhau cùng đặt tại một vị trí thì mức cường độ âm tại A sẽ tăng lên thành 180 dB.",
+        "text": "Nếu có $ 2 $ nguồn âm giống hệt nhau cùng đặt tại một vị trí thì mức cường độ âm tại A sẽ tăng lên thành $ 180 \\text{ dB} $.",
         "correct": "F",
-        "solution": "Khi đặt thêm một nguồn âm cùng công suất tại cùng một vị trí, tổng cường độ âm tại A tăng gấp đôi ($I_{mới}=2I_{A}$). Mức cường độ âm mới được tính như sau: $L_{mới}=10 \\log \\left(\\frac{2I_{A}}{I_{0}}\\right)=10 \\log \\left(\\frac{I_{A}}{I_{0}}\\right)+10 \\log 2=90+10 \\cdot 0.301 \\approx 93$ dB. Cường độ âm tăng tuyến tính không làm mức cường độ âm tăng theo phép nhân."
+        "solution": "Khi số lượng nguồn âm tăng gấp đôi, cường độ âm tổng hợp tăng gấp đôi ($ 2I_A $). Mức cường độ âm mới là $ L' = 10 \\log \\frac{2I_A}{I_0} = 10 \\log 2 + 10 \\log \\frac{I_A}{I_0} \\approx 3 + 90 = 93 \\text{ dB} $."
       }
     ],
     "points": 1.0
@@ -175,31 +162,31 @@
   {
     "id": 6,
     "type": "TF",
-    "text": "Trong không gian với hệ tọa độ Oxyz, cho điểm $A(1;2;-1)$, mặt phẳng $(P):x+2y-2z+3=0$ và đường thẳng $d: \\frac{x-1}{2}=\\frac{y+1}{1}=\\frac{z-2}{-1}$. Các mệnh đề sau đây đúng hay sai?",
+    "text": "Trong không gian với hệ tọa độ $ Oxyz $, cho điểm $ A(1; 2; -1) $, mặt phẳng $ (P): x + 2y - 2z + 3 = 0 $ và đường thẳng $ d: \\frac{x-1}{2} = \\frac{y+1}{1} = \\frac{z-2}{-1} $. Các mệnh đề sau đây đúng hay sai?",
     "parts": [
       {
         "id": "6_1",
-        "text": "Điểm A nằm trên mặt phẳng (P).",
+        "text": "Điểm A nằm trên mặt phẳng $ (P) $.",
         "correct": "F",
-        "solution": "Thay tọa độ điểm $A(1;2;-1)$ vào phương trình mặt phẳng $(P)$, ta thu được: $1+2(2)-2(-1)+3=1+4+2+3=10$. Vì $10 \\neq 0$, tọa độ điểm A không thỏa mãn phương trình mặt phẳng, nghĩa là điểm A không nằm trên mặt phẳng $(P)$."
+        "solution": "Thay tọa độ điểm $ A $ vào phương trình mặt phẳng $ (P) $: $ 1 + 2(2) - 2(-1) + 3 = 10 \\neq 0 $. Do đó điểm $ A $ không thuộc mặt phẳng $ (P) $."
       },
       {
         "id": "6_2",
-        "text": "Đường thẳng d đi qua điểm $M(1;-1;2)$ và có một vectơ chỉ phương là $\\vec{u}=(2;1;-1)$.",
+        "text": "Đường thẳng d đi qua điểm $ M(1; -1; 2) $ và có một vectơ chỉ phương là $ \\vec{u} = (2; 1; -1) $.",
         "correct": "T",
-        "solution": "Từ phương trình chính tắc của đường thẳng $d: \\frac{x-1}{2}=\\frac{y+1}{1}=\\frac{z-2}{-1}$, ta đọc được trực tiếp điểm đi qua dựa vào các tử số là $M(1;-1;2)$ và tọa độ của vectơ chỉ phương dựa vào các mẫu số là $\\vec{u}=(2;1;-1)$. Phát biểu đúng."
+        "solution": "Dựa trực tiếp vào phương trình chính tắc của đường thẳng $ d $: tử số chứa điểm đi qua $ (1; -1; 2) $ và mẫu số là các tọa độ của vectơ chỉ phương $ \\vec{u} = (2; 1; -1) $."
       },
       {
         "id": "6_3",
-        "text": "Đường thẳng d song song với mặt phẳng (P).",
+        "text": "Đường thẳng d song song với mặt phẳng $ (P) $.",
         "correct": "F",
-        "solution": "Mặt phẳng $(P)$ có vectơ pháp tuyến $\\vec{n}=(1;2;-2)$, đường thẳng $d$ có vectơ chỉ phương $\\vec{u}=(2;1;-1)$. Xét tích vô hướng của hai vectơ này: $\\vec{u} \\cdot \\vec{n}=2 \\cdot 1+1 \\cdot 2+(-1) \\cdot (-2)=2+2+2=6$. Vì tích vô hướng khác 0 ($6 \\neq 0$), vectơ chỉ phương không vuông góc với vectơ pháp tuyến, do đó đường thẳng $d$ cắt mặt phẳng $(P)$ chứ không song song."
+        "solution": "Đường thẳng $ d $ có VTCP $ \\vec{u} = (2; 1; -1) $, mặt phẳng $ (P) $ có VTPT $ \\vec{n} = (1; 2; -2) $. Xét tích vô hướng: $ \\vec{u} \\cdot \\vec{n} = 2\\cdot 1 + 1\\cdot 2 + (-1)\\cdot (-2) = 6 \\neq 0 $. Vì tích vô hướng khác 0 nên đường thẳng cắt mặt phẳng $ (P) $, không song song."
       },
       {
         "id": "6_4",
-        "text": "Khoảng cách từ điểm A đến mặt phẳng (P) bằng 4.",
+        "text": "Khoảng cách từ điểm A đến mặt phẳng $ (P) $ bằng $ 4 $.",
         "correct": "F",
-        "solution": "Áp dụng công thức tính khoảng cách từ một điểm đến mặt phẳng trong không gian: $d(A,(P))=\\frac{|1 \\cdot 1+2 \\cdot 2-2 \\cdot (-1)+3|}{\\sqrt{1^2+2^2+(-2)^2}}=\\frac{|1+4+2+3|}{\\sqrt{9}}=\\frac{10}{3}$. Vì $\\frac{10}{3} \\approx 3.33 \\neq 4$, mệnh đề phát biểu sai."
+        "solution": "Áp dụng công thức tính khoảng cách từ một điểm đến một mặt phẳng: $ d(A, (P)) = \\frac{|1 + 2(2) - 2(-1) + 3|}{\\sqrt{1^2 + 2^2 + (-2)^2}} = \\frac{10}{\\sqrt{9}} = \\frac{10}{3} \\neq 4 $."
       }
     ],
     "points": 1.0
@@ -207,31 +194,31 @@
   {
     "id": 7,
     "type": "TF",
-    "text": "Trong không gian với hệ tọa độ Oxyz, cho mặt cầu $(S):x^{2}+y^{2}+z^{2}-2x+4y-6z+5=0$ và mặt phẳng $(P):2x-y+2z+1=0$. Các mệnh đề sau đây đúng hay sai?",
+    "text": "Trong không gian với hệ tọa độ $ Oxyz $, cho mặt cầu $ (S): x^{2} + y^{2} + z^{2} - 2x + 4y - 6z + 5 = 0 $ và mặt phẳng $ (P): 2x - y + 2z + 1 = 0 $. Các mệnh đề sau đây đúng hay sai?",
     "parts": [
       {
         "id": "7_1",
-        "text": "Mặt cầu (S) có tâm $I(1;-2;3)$ và bán kính $R=3$.",
+        "text": "Mặt cầu $ (S) $ có tâm $ I(1; -2; 3) $ và bán kính $ R = 3 $.",
         "correct": "T",
-        "solution": "Phương trình tổng quát của mặt cầu $(S)$ có các hệ số đứng trước biến bậc nhất lần lượt là $-2, 4, -6$. Chia các hệ số này cho $-2$ ta thu được tọa độ tâm $I(1;-2;3)$. Bán kính được xác định bằng công thức: $R=\\sqrt{a^2+b^2+c^2-d}=\\sqrt{1^2+(-2)^2+3^2-5}=\\sqrt{1+4+9-5}=\\sqrt{9}=3$. Mệnh đề đúng."
+        "solution": "Biến đổi phương trình mặt cầu về dạng chính tắc: $ (x-1)^2 + (y+2)^2 + (z-3)^2 = 1 + 4 + 9 - 5 = 9 $. Tâm mặt cầu là $ I(1; -2; 3) $ và bán kính $ R = \\sqrt{9} = 3 $."
       },
       {
         "id": "7_2",
-        "text": "Điểm $M(1;0;0)$ nằm bên trong mặt cầu (S).",
+        "text": "Điểm $ M(1; 0; 0) $ nằm bên trong mặt cầu $ (S) $.",
         "correct": "F",
-        "solution": "Tính khoảng cách hình học từ tâm mặt cầu $I(1;-2;3)$ đến điểm khảo sát $M(1;0;0)$: $IM=\\sqrt{(1-1)^2+(0-(-2))^2+(0-3)^2}=\\sqrt{0+4+9}=\\sqrt{13} \\approx 3.61$. Vì khoảng cách từ tâm đến điểm $IM \\approx 3.61$ lớn hơn bán kính mặt cầu $R=3$, nên điểm M nằm hoàn toàn ở phía bên ngoài mặt cầu."
+        "solution": "Tính khoảng cách từ tâm $ I $ đến điểm $ M $: $ IM^2 = (1-1)^2 + (0+2)^2 + (0-3)^2 = 0 + 4 + 9 = 13 $. Vì $ IM^2 = 13 > R^2 = 9 $ nên điểm $ M $ nằm ở phía ngoài mặt cầu."
       },
       {
         "id": "7_3",
-        "text": "Mặt phẳng (P) cắt mặt cầu (S) theo giao tuyến là một đường tròn.",
+        "text": "Mặt phẳng $ (P) $ cắt mặt cầu $ (S) $ theo giao tuyến là một đường tròn.",
         "correct": "F",
-        "solution": "Tính khoảng cách từ tâm $I(1;-2;3)$ đến mặt phẳng $(P)$: $d(I,(P))=\\frac{|2(1)-(-2)+2(3)+1|}{\\sqrt{2^2+(-1)^2+2^2}}=\\frac{|2+2+6+1|}{\\sqrt{9}}=\\frac{11}{3} \\approx 3.67$. Vì khoảng cách $d \\approx 3.67$ lớn hơn bán kính mặt cầu $R=3$, mặt phẳng không cắt mặt cầu (S), do đó không có đường tròn giao tuyến nào tồn tại."
+        "solution": "Tính khoảng cách từ tâm $ I $ đến mặt phẳng $ (P) $: $ d(I, (P)) = \\frac{|2(1) - (-2) + 2(3) + 1|}{\\sqrt{2^2 + (-1)^2 + 2^2}} = \\frac{11}{3} $. Do $ d(I, (P)) = \\frac{11}{3} > R = 3 $ nên mặt phẳng $ (P) $ và mặt cầu không có điểm chung."
       },
       {
         "id": "7_4",
-        "text": "Mặt phẳng (Q) song song với (P) và tiếp xúc với (S) có phương trình $2x-y+2z-20=0$.",
+        "text": "Mặt phẳng $ (Q) $ song song với $ (P) $ và tiếp xúc với $ (S) $ có phương trình $ 2x - y + 2z - 20 = 0 $.",
         "correct": "F",
-        "solution": "Mặt phẳng $(Q)$ song song với $(P)$ có phương trình dạng tổng quát: $2x-y+2z+D=0$. Để mặt phẳng $(Q)$ tiếp xúc với mặt cầu $(S)$, khoảng cách từ tâm $I$ đến $(Q)$ phải bằng bán kính $R=3$: $\\frac{|2(1)-(-2)+2(3)+D|}{\\sqrt{2^2+(-1)^2+2^2}}=3 \\Leftrightarrow \\frac{|10+D|}{3}=3 \\Leftrightarrow |10+D|=9$. Giải phương trình chứa dấu trị tuyệt đối ta được $D=-1$ hoặc $D=-19$. Phương trình đề bài cho có hằng số tự do là $-20$, không thỏa mãn điều kiện tiếp xúc."
+        "solution": "Mặt phẳng $ (Q) \\parallel (P) \\implies (Q): 2x - y + 2z + D = 0 $. Mặt phẳng tiếp xúc với mặt cầu khi $ d(I, (Q)) = R = 3 \\implies \\frac{|2(1) - (-2) + 2(3) + D|}{\\sqrt{2^2 + (-1)^2 + 2^2}} = 3 \\implies |10 + D| = 9 \\implies D = -1 $ hoặc $ D = -19 $. Do đó phương trình đúng phải là $ 2x-y+2z-1 = 0 $ hoặc $ 2x-y+2z-19 = 0 $."
       }
     ],
     "points": 1.0
@@ -239,31 +226,31 @@
   {
     "id": 8,
     "type": "TF",
-    "text": "Cho hình lăng trụ đứng ABC.A'B'C' có đáy ABC là tam giác vuông tại A, $AC=a$, $\\widehat{ABC}=30^{\\circ}$. Biết khoảng cách từ điểm A đến mặt phẳng $(A'BC)$ bằng $\\frac{a\\sqrt{21}}{7}$. Xét tính đúng sai của các khẳng định sau:",
+    "text": "Cho hình lăng trụ đứng $ ABC.A'B'C' $ có đáy $ ABC $ là tam giác vuông tại $ A $, $ AC = a $, $ \\widehat{ABC} = 30^{\\circ} $. Biết khoảng cách từ điểm $ A $ đến mặt phẳng $ (A'BC) $ bằng $ \\frac{a\\sqrt{21}}{7} $. Xét tính đúng sai của các khẳng định sau:",
     "parts": [
       {
         "id": "8_1",
-        "text": "$AB=a\\sqrt{3}$.",
+        "text": "Cạnh đáy $ AB = a\\sqrt{3} $.",
         "correct": "T",
-        "solution": "Xét tam giác đáy $ABC$ vuông tại A, có góc nhọn $\\widehat{ABC}=30^\\circ$ và cạnh đối diện $AC=a$. Áp dụng hệ thức lượng cơ bản trong tam giác vuông: $AB=\\frac{AC}{\\tan 30^\\circ}=\\frac{a}{1/\\sqrt{3}}=a\\sqrt{3}$. Khẳng định đúng."
+        "solution": "Trong tam giác vuông $ ABC $ tại $ A $: $ AB = \\frac{AC}{\\tan 30^{\\circ}} = \\frac{a}{1/\\sqrt{3}} = a\\sqrt{3} $."
       },
       {
         "id": "8_2",
-        "text": "$AA^{\\prime}=a\\sqrt{2}$.",
+        "text": "Độ dài đường cao $ AA' = a\\sqrt{2} $.",
         "correct": "F",
-        "solution": "Kẻ đường cao đáy $AK \\perp BC$ tại K, ta tính được chiều dài đoạn thẳng $AK=\\frac{AB \\cdot AC}{BC}=\\frac{a\\sqrt{3} \\cdot a}{2a}=\\frac{a\\sqrt{3}}{2}$. Gọi khoảng cách từ A đến mặt phẳng $(A'BC)$ là đường cao $AH=\\frac{a\\sqrt{21}}{7}$. Áp dụng hệ thức lượng cho tam giác vuông $A'AK$ vuông tại A có đường cao $AH$: $\\frac{1}{AH^2}=\\frac{1}{AA'^2}+\\frac{1}{AK^2} \\Leftrightarrow \\frac{49}{21a^2}=\\frac{1}{AA'^2}+\\frac{4}{3a^2} \\Leftrightarrow \\frac{7}{3a^2}-\\frac{4}{3a^2}=\\frac{1}{AA'^2} \\implies AA'=a$. Khẳng định đề bài đưa ra thông số sai."
+        "solution": "Kẻ đường cao $ AH $ vuông góc với $ BC $ tại $ H $. Ta có $ \\frac{1}{AH^2} = \\frac{1}{AB^2} + \\frac{1}{AC^2} = \\frac{1}{3a^2} + \\frac{1}{a^2} = \\frac{4}{3a^2} $. Gọi khoảng cách từ $ A $ đến $ (A'BC) $ là $ k $, ta có hệ thức: $ \\frac{1}{k^2} = \\frac{1}{AA'^2} + \\frac{1}{AH^2} \\implies \\frac{49}{21a^2} = \\frac{1}{AA'^2} + \\frac{4}{3a^2} \\implies \\frac{1}{AA'^2} = \\frac{7}{3a^2} - \\frac{4}{3a^2} = \\frac{1}{a^2} \\implies AA' = a $."
       },
       {
         "id": "8_3",
-        "text": "$\\tan(A^{\\prime}C,(ABC))=\\sqrt{3}$.",
+        "text": "Giá trị $ \\tan(A'C, (ABC)) = \\sqrt{3} $.",
         "correct": "F",
-        "solution": "Góc giữa đường thẳng $A'C$ và mặt phẳng đáy $(ABC)$ chính là góc giữa đường thẳng và hình chiếu vuông góc của nó, tức là góc $\\widehat{A'CA}$. Xét tam giác vuông $A'AC$ tại đỉnh A, ta có: $\\tan\\widehat{A'CA}=\\frac{AA'}{AC}=\\frac{a}{a}=1$. Giá trị tính toán thực tế bằng 1 chứ không phải bằng $\\sqrt{3}$."
+        "solution": "Góc giữa đường thẳng $ A'C $ và mặt phẳng đáy $ (ABC) $ chính là góc $ \\widehat{A'CA} $. Ta có $ \\tan\\widehat{A'CA} = \\frac{AA'}{AC} = \\frac{a}{a} = 1 \\neq \\sqrt{3} $."
       },
       {
         "id": "8_4",
-        "text": "$d(A^{\\prime}B,CC^{\\prime})=\\frac{a\\sqrt{3}}{2}$.",
+        "text": "Khoảng cách giữa hai đường thẳng chéo nhau $ A'B $ và $ CC' $ bằng $ \\frac{a\\sqrt{3}}{2} $.",
         "correct": "F",
-        "solution": "Do hình lăng trụ đứng nên đường cạnh bên $CC'$ luôn song song với mặt bên $(ABB'A')$, mặt bên này chứa đường thẳng hưu tuyến $A'B$. Khoảng cách giữa hai đường thẳng chéo nhau bằng khoảng cách từ đường thẳng đến mặt phẳng song song chứa đường kia: $d(CC',A'B)=d(CC',(ABB'A'))=d(C,(ABB'A'))$. Vì tam giác đáy vuông tại A nên khoảng cách từ C đến mặt bên chính bằng cạnh góc vuông $AC=a$."
+        "solution": "Vì đường thẳng $ CC' \\parallel AA' $ nên $ CC' \\parallel (ABB'A') $. Do đó khoảng cách chéo nhau bằng khoảng cách từ $ CC' $ đến mặt phẳng này: $ d(CC', A'B) = d(C, (ABB'A')) = d(C, AB) = AC = a $."
       }
     ],
     "points": 1.0
@@ -271,31 +258,31 @@
   {
     "id": 9,
     "type": "TF",
-    "text": "Cho hai hàm số $f(x)=2^{x}$ and $g(x)=3^{x}$. Gọi $F(x)$ và $G(x)$ lần lượt là một nguyên hàm của $f(x)$ và $g(x)$. Xét tính đúng, sai của các mệnh đề sau:",
+    "text": "Cho hai hàm số $ f(x) = 2^{x} $ và $ g(x) = 3^{x} $. Gọi $ F(x) $ và $ G(x) $ lần lượt là một nguyên hàm của $ f(x) $ và $ g(x) $. Xét tính đúng, sai của các mệnh đề sau:",
     "parts": [
       {
         "id": "9_1",
-        "text": "$\\int [f(x)+g(x)]dx=\\frac{2^{x}}{\\ln 2}+\\frac{3^{x}}{\\ln 3}+C$.",
+        "text": "Biểu thức tích phân tổng $ \\int [f(x) + g(x)]dx = \\frac{2^{x}}{\\ln 2} + \\frac{3^{x}}{\\ln 3} + C $.",
         "correct": "T",
-        "solution": "Áp dụng tính chất tuyến tính của nguyên hàm đối với một tổng kết hợp với công thức tính nguyên hàm hàm số mũ cơ bản $\\int a^x dx=\\frac{a^x}{\\ln a}+C$: $\\int (2^x+3^x)dx=\\int 2^x dx+\\int 3^x dx=\\frac{2^x}{\\ln 2}+\\frac{3^x}{\\ln 3}+C$. Mệnh đề đúng."
+        "solution": "Áp dụng công thức nguyên hàm cơ bản cho hàm mũ: $ \\int 2^x dx = \\frac{2^x}{\\ln 2} + C $ và $ \\int 3^x dx = \\frac{3^x}{\\ln 3} + C $."
       },
       {
         "id": "9_2",
-        "text": "$\\int [f(x)-g(x)]dx=\\frac{2^{x}}{\\ln 2}-\\frac{3^{x}}{\\ln 3}+C$.",
+        "text": "Biểu thức tích phân hiệu $ \\int [f(x) - g(x)]dx = \\frac{2^{x}}{\\ln 2} - \\frac{3^{x}}{\\ln 3} + C $.",
         "correct": "T",
-        "solution": "Áp dụng tính chất tuyến tính tách hiệu của nguyên hàm tương tự câu trên: $\\int (2^x-3^x)dx=\\int 2^x dx-\\int 3^x dx=\\frac{2^x}{\\ln 2}-\\frac{3^x}{\\ln 3}+C$. Mệnh đề đúng."
+        "solution": "Theo tính chất tuyến tính tách biệt của nguyên hàm, công thức hoàn toàn chính xác."
       },
       {
         "id": "9_3",
-        "text": "$\\int [f(x)\\cdot g(x)]dx=\\frac{6^{x}}{\\ln 6}+C$.",
+        "text": "Biểu thức tích phân tích $ \\int [f(x)\\cdot g(x)]dx = \\frac{6^{x}}{\\ln 6} + C $.",
         "correct": "T",
-        "solution": "Biến đổi biểu thức dưới dấu tích phân bằng cách nhân hai lũy thừa cùng số mũ: $f(x) \\cdot g(x)=2^x \\cdot 3^x=(2 \\cdot 3)^x=6^x$. Tìm nguyên hàm hàm số mũ cơ số 6: $\\int 6^x dx=\\frac{6^x}{\\ln 6}+C$. Mệnh đề đúng."
+        "solution": "Ta biến đổi tích hai hàm số cùng số mũ: $ f(x) \\cdot g(x) = 2^x \\cdot 3^x = (2\\cdot 3)^x = 6^x $. Nguyên hàm của $ 6^x $ là $ \\frac{6^x}{\\ln 6} + C $."
       },
       {
         "id": "9_4",
-        "text": "$\\int \\frac{f(x)}{g(x)}dx=\\frac{(2/3)^{x}}{\\ln 2-\\ln 3}+C$.",
+        "text": "Biểu thức tích phân thương $ \\int \\frac{f(x)}{g(x)}dx = \\frac{(2/3)^{x}}{\\ln 2 - \\ln 3} + C $.",
         "correct": "T",
-        "solution": "Biến đổi thương hai hàm số lũy thừa cùng số mũ: $\\frac{f(x)}{g(x)}=\\frac{2^x}{3^x}=\\left(\\frac{2}{3}\\right)^x$. Lấy nguyên hàm hàm số mũ ta được: $\\int \\left(\\frac{2}{3}\\right)^x dx=\\frac{(2/3)^x}{\\ln(2/3)}+C$. Áp dụng tính chất của logarit đối với một thương $\\ln(2/3)=\\ln 2-\\ln 3$, biểu thức trở thành $\\frac{(2/3)^x}{\\ln 2-\\ln 3}+C$. Mệnh đề đúng."
+        "solution": "Ta biến đổi thương: $ \\frac{f(x)}{g(x)} = \\frac{2^x}{3^x} = \\left(\\frac{2}{3}\right)^x $. Nguyên hàm tương ứng là $ \\frac{(2/3)^x}{\\ln(2/3)} + C = \\frac{(2/3)^x}{\\ln 2 - \\ln 3} + C $."
       }
     ],
     "points": 1.0
@@ -303,59 +290,64 @@
   {
     "id": 10,
     "type": "MCQ",
-    "text": "**[Bối cảnh 1]** Một vật chuyển động thẳng biến đổi trên một đường thử nghiệm. Tại thời điểm $t=0$ (giây), vật bắt đầu chuyển động từ trạng thái nghỉ với gia tốc được xác định bởi hàm số $a(t)=\\frac{1}{2}t+1$ ($m/s^{2}$).\n\n**Câu 10:** Hàm vận tốc $v(t)$ của vật tại thời điểm t (s) là:",
+    "passage": "Một vật chuyển động thẳng biến đổi trên một đường thử nghiệm. Tại thời điểm $ t = 0 $ (giây), vật bắt đầu chuyển động từ trạng thái nghỉ với gia tốc được xác định bởi hàm số $ a(t) = \\frac{1}{2}t + 1 \\text{ (m/s}^{2}\\text{)} $.",
+    "text": "Hàm vận tốc $ v(t) $ của vật tại thời điểm $ t $ (s) là:",
     "options": [
-      { "key": "A", "text": "$v(t)=\\frac{1}{2}t^{2}+t$" },
-      { "key": "B", "text": "$v(t)=\\frac{1}{4}t^{2}+t$" },
-      { "key": "C", "text": "$v(t)=\\frac{1}{4}t^{2}+t+1$" },
-      { "key": "D", "text": "$v(t)=\\frac{1}{2}t+1$" }
+      { "key": "A", "text": "v(t) = \\frac{1}{2}t^{2} + t" },
+      { "key": "B", "text": "v(t) = \\frac{1}{4}t^{2} + t" },
+      { "key": "C", "text": "v(t) = \\frac{1}{4}t^{2} + t + 1" },
+      { "key": "D", "text": "v(t) = \\frac{1}{2}t + 1" }
     ],
     "correct": "B",
-    "solution": "Theo mối liên hệ giải tích giữa các đại lượng động học, vận tốc được xác định bằng nguyên hàm của gia tốc theo thời gian: $v(t)=\\int a(t)dt=\\int (\\frac{1}{2}t+1)dt=\\frac{1}{4}t^2+t+C$. Vì vật bắt đầu chuyển động từ trạng thái nghỉ tại thời điểm ban đầu $t=0$ nên vận tốc ban đầu $v(0)=0 \\implies C=0$. Do đó, hàm vận tốc chính xác là $v(t)=\\frac{1}{4}t^2+t$."
+    "solution": "Vận tốc là nguyên hàm của gia tốc: $ v(t) = \\int a(t) dt = \\int (\\frac{1}{2}t + 1) dt = \\frac{1}{4}t^2 + t + C $. Do vật bắt đầu từ trạng thái nghỉ nên tại $ t = 0 $, ta có $ v(0) = 0 \\implies C = 0 $. Do đó hàm vận tốc là $ v(t) = \\frac{1}{4}t^2 + t $."
   },
   {
     "id": 11,
     "type": "MCQ",
-    "text": "**[Bối cảnh 1 (tiếp)]** Quãng đường vật đi được sau 6 giây đầu tiên kể từ lúc bắt đầu chuyển động là:",
+    "passage": "Một vật chuyển động thẳng biến đổi trên một đường thử nghiệm. Tại thời điểm $ t = 0 $ (giây), vật bắt đầu chuyển động từ trạng thái nghỉ với gia tốc được xác định bởi hàm số $ a(t) = \\frac{1}{2}t + 1 \\text{ (m/s}^{2}\\text{)} $.",
+    "text": "Quãng đường vật đi được sau $ 6 $ giây đầu tiên kể từ lúc bắt đầu chuyển động là:",
     "options": [
-      { "key": "A", "text": "18 m." },
-      { "key": "B", "text": "24 m." },
-      { "key": "C", "text": "36 m." },
-      { "key": "D", "text": "42 m." }
+      { "key": "A", "text": "18 \\text{ m}" },
+      { "key": "B", "text": "24 \\text{ m}" },
+      { "key": "C", "text": "36 \\text{ m}" },
+      { "key": "D", "text": "42 \\text{ m}" }
     ],
     "correct": "C",
-    "solution": "Quãng đường vật di chuyển được tính bằng tích phân xác định của hàm vận tốc từ thời điểm ban đầu $t=0$ đến $t=6$: $s=\\int_{0}^{6} \\left(\\frac{1}{4}t^2+t\\right)dt=\\left. \\left[ \\frac{t^3}{12}+\\frac{t^2}{2} \\right] \\right|_{0}^{6}=\\left( \\frac{216}{12}+\\frac{36}{2} \\right)-0=18+18=36$ mét."
+    "solution": "Quãng đường vật đi được tính bằng tích phân của vận tốc từ thời điểm $ 0 $ đến $ 6 $: $ s = \\int_{0}^{6} \\left(\\frac{1}{4}t^2 + t\\right) dt = \\left[ \\frac{t^3}{12} + \\frac{t^2}{2} \\right]_{0}^{6} = \\frac{6^3}{12} + \\frac{6^2}{2} = 18 + 18 = 36 \\text{ m} $."
   },
   {
     "id": 12,
     "type": "MCQ",
-    "text": "**[Bối cảnh 1 (tiếp)]** Tại thời điểm $t=6$ giây, vật bất ngờ chuyển động chậm dần đều với gia tốc $a_{p}=-10$ ($m/s^{2}$) cho đến khi dừng hẳn. Quãng đường vật đi được trong giai đoạn phanh này là:",
+    "passage": "Một vật chuyển động thẳng biến đổi trên một đường thử nghiệm. Tại thời điểm $ t = 0 $ (giây), vật bắt đầu chuyển động từ trạng thái nghỉ với gia tốc được xác định bởi hàm số $ a(t) = \\frac{1}{2}t + 1 \\text{ (m/s}^{2}\\text{)} $.",
+    "text": "Tại thời điểm $ t = 6 $ giây, vật bất ngờ chuyển động chậm dần đều với gia tốc $ a_{p} = -10 \\text{ (m/s}^{2}\\text{)} $ cho đến khi dừng hẳn. Quãng đường vật đi được trong giai đoạn phanh này là:",
     "options": [
-      { "key": "A", "text": "15.00 m." },
-      { "key": "B", "text": "11.25 m." },
-      { "key": "C", "text": "22.50 m." },
-      { "key": "D", "text": "9.00 m." }
+      { "key": "A", "text": "15.00 \\text{ m}" },
+      { "key": "B", "text": "11.25 \\text{ m}" },
+      { "key": "C", "text": "22.50 \\text{ m}" },
+      { "key": "D", "text": "9.00 \\text{ m}" }
     ],
     "correct": "B",
-    "solution": "Vận tốc của vật ngay tại khoảnh khắc bắt đầu đạp phanh hãm ($t=6$) là: $v(6)=\\frac{1}{4}(6^2)+6=15$ m/s. Khi chuyển động chậm dần đều với gia tốc âm $a=-10$ $m/s^2$ đến khi dừng hẳn ($v_{cuối}=0$), ta áp dụng công thức độc lập thời gian: $v_{cuối}^2-v_{đầu}^2=2as \\Leftrightarrow 0^2-15^2=2(-10)s_{p} \\Leftrightarrow -225=-20s_{p} \\implies s_{p}=11.25$ mét."
+    "solution": "Vận tốc của vật tại thời điểm bắt đầu phanh ($ t = 6 $) là $ v(6) = \\frac{1}{4}(6^2) + 6 = 15 \\text{ m/s} $. Giai đoạn phanh kết thúc khi vật dừng hẳn ($ v_{cuoi} = 0 $). Áp dụng công thức hệ thức độc lập thời gian trong vật lý: $ v_{cuoi}^2 - v(6)^2 = 2a_p s \\implies 0^2 - 15^2 = 2(-10)s \\implies -225 = -20s \\implies s = 11.25 \\text{ m} $."
   },
   {
     "id": 13,
     "type": "MCQ",
-    "text": "**[Bối cảnh 2]** Bảng sau đây thống kê thời gian tự học trong một ngày của 50 học sinh khối 12:\n\n<table class=\"w-full text-center border-collapse border border-slate-300 mt-2 text-sm\"><tr class=\"bg-slate-100\"><th class=\"border border-slate-300 p-2\">Thời gian (giờ)</th><td class=\"border border-slate-300 p-2\">[0; 1)</td><td class=\"border border-slate-300 p-2\">[1; 2)</td><td class=\"border border-slate-300 p-2\">[2; 3)</td><td class=\"border border-slate-300 p-2\">[3; 4)</td><td class=\"border border-slate-300 p-2\">[4; 5)</td></tr><tr><th class=\"border border-slate-300 p-2\">Số học sinh</th><td class=\"border border-slate-300 p-2\">5</td><td class=\"border border-slate-300 p-2\">12</td><td class=\"border border-slate-300 p-2\">18</td><td class=\"border border-slate-300 p-2\">10</td><td class=\"border border-slate-300 p-2\">5</td></tr></table>\n\n**Câu 13:** Số trung bình của mẫu số liệu ghép nhóm trên là:",
+    "passage": "Bảng sau đây thống kê thời gian tự học trong một ngày của $ 50 $ học sinh khối $ 12 $:\n- Nhóm $ [0;1) $: $ 5 $ học sinh\n- Nhóm $ [1;2) $: $ 12 $ học sinh\n- Nhóm $ [2;3) $: $ 18 $ học sinh\n- Nhóm $ [3;4) $: $ 10 $ học sinh\n- Nhóm $ [4;5) $: $ 5 $ học sinh",
+    "text": "Số trung bình của mẫu số liệu ghép nhóm trên bằng bao nhiêu?",
     "options": [
       { "key": "A", "text": "2.50" },
       { "key": "B", "text": "2.55" },
-      { "key": "C", "text": "2.56" },
+      { "key": "C", "text": "2.46" },
       { "key": "D", "text": "2.60" }
     ],
     "correct": "C",
-    "solution": "Xác định giá trị đại diện (trung điểm các nhóm mút khoảng) lần lượt là: $x_{1}=0.5$; $x_{2}=1.5$; $x_{3}=2.5$; $x_{4}=3.5$; $x_{5}=4.5$. Áp dụng công thức tính số trung bình cộng cho mẫu ghép nhóm: $\\bar{x}=\\frac{5 \\cdot 0.5+12 \\cdot 1.5+18 \\cdot 2.5+10 \\cdot 3.5+5 \\cdot 4.5}{50}=\\frac{2.5+18+45+35+22.5}{50}=\\frac{123}{50}=2.46$. Đối chiếu các phương án đề bài cho, nếu làm tròn theo nhóm giá trị gần nhất nằm ở phương án C."
+    "solution": "Xác định giá trị đại diện (trung điểm) $ x_i $ của từng nhóm lần lượt là: $ 0.5; 1.5; 2.5; 3.5; 4.5 $. Số trung bình của mẫu số liệu ghép nhóm được tính theo công thức: $ \\bar{x} = \\frac{5\\cdot 0.5 + 12\\cdot 1.5 + 18\\cdot 2.5 + 10\\cdot 3.5 + 5\\cdot 4.5}{50} = \\frac{2.5 + 18 + 45 + 35 + 22.5}{50} = \\frac{123}{50} = 2.46 $."
   },
   {
     "id": 14,
     "type": "MCQ",
-    "text": "**[Bối cảnh 2 (tiếp)]** Trung vị $M_{e}$ của mẫu số liệu ghép nhóm trên (làm tròn đến chữ số thập phân thứ hai) là:",
+    "passage": "Bảng sau đây thống kê thời gian tự học trong một ngày của $ 50 $ học sinh khối $ 12 $:\n- Nhóm $ [0;1) $: $ 5 $ học sinh\n- Nhóm $ [1;2) $: $ 12 $ học sinh\n- Nhóm $ [2;3) $: $ 18 $ học sinh\n- Nhóm $ [3;4) $: $ 10 $ học sinh\n- Nhóm $ [4;5) $: $ 5 $ học sinh",
+    "text": "Trung vị $ M_{e} $ của mẫu số liệu ghép nhóm trên (làm tròn đến chữ số thập phân thứ hai) là:",
     "options": [
       { "key": "A", "text": "2.33" },
       { "key": "B", "text": "2.44" },
@@ -363,55 +355,39 @@
       { "key": "D", "text": "2.67" }
     ],
     "correct": "B",
-    "solution": "Tổng số lượng mẫu $n=50 \\implies \\frac{n}{2}=25$. Tần số tích lũy của các nhóm số liệu: Nhóm 1: 5; Nhóm 2: $5+12=17$; Nhóm 3: $17+18=35$. Vì $17<25 \\le 35$ nên nhóm chứa giá trị trung vị là nhóm thứ ba $[2; 3)$. Áp dụng công thức nội suy xác định trung vị ghép nhóm: $M_{e}=r+\\left( \\frac{\\frac{n}{2}-cf}{n_{m}} \\right) \\cdot d=2+\\left( \\frac{25-17}{18} \\right) \\cdot 1=2+\\frac{8}{18}=2+0.444... \\approx 2.44$."
+    "solution": "Tổng số phần tử $ N = 50 \\implies \\frac{N}{2} = 25 $. Tần số tích lũy nhóm 1 là 5, nhóm 2 là $ 5 + 12 = 17 $, nhóm 3 là $ 17 + 18 = 35 $. Như vậy nhóm chứa trung vị là nhóm thứ ba: $ [2;3) $. Cận dưới $ L = 2 $, độ rộng nhóm $ w = 1 $, tần số tích lũy trước đó $ CF = 17 $, tần số nhóm hiện tại $ f = 18 $. Công thức tính trung vị: $ M_e = L + \\left(\\frac{\\frac{N}{2} - CF}{f}\\right) \\cdot w = 2 + \\left(\\frac{25 - 17}{18}\right) \\cdot 1 = 2 + \\frac{8}{18} = 2 + \\frac{4}{9} \\approx 2.44 $."
   },
   {
     "id": 15,
     "type": "MCQ",
-    "text": "**[Bối cảnh 2 (tiếp)]** Nếu có thêm 5 học sinh thay đổi thời gian tự học từ nhóm [2; 3) sang nhóm [4; 5) thì phương sai của mẫu số liệu sẽ thay đổi như thế nào?",
+    "passage": "Bảng sau đây thống kê thời gian tự học trong một ngày của $ 50 $ học sinh khối $ 12 $:\n- Nhóm $ [0;1) $: $ 5 $ học sinh\n- Nhóm $ [1;2) $: $ 12 $ học sinh\n- Nhóm $ [2;3) $: $ 18 $ học sinh\n- Nhóm $ [3;4) $: $ 10 $ học sinh\n- Nhóm $ [4;5) $: $ 5 $ học sinh",
+    "text": "Nếu có thêm $ 5 $ học sinh thay đổi thời gian tự học từ nhóm $ [2;3) $ sang nhóm $ [4;5) $ thì phương sai của mẫu số liệu sẽ thay đổi như thế nào?",
     "options": [
-      { "key": "A", "text": "Phương sai không đổi." },
-      { "key": "B", "text": "Phương sai giảm đi." },
-      { "key": "C", "text": "Phương sai tăng lên." },
-      { "key": "D", "text": "Phương sai bằng 0." }
+      { "key": "A", "text": "Phương sai không đổi" },
+      { "key": "B", "text": "Phương sai giảm đi" },
+      { "key": "C", "text": "Phương sai tăng lên" },
+      { "key": "D", "text": "Phương sai bằng 0" }
     ],
     "correct": "C",
-    "solution": "Phương sai là đại lượng dùng để đo lường bình phương khoảng cách độ phân tán của dữ liệu xung quanh giá trị trung bình cộng. Nhóm $[2; 3)$ là nhóm nằm ngay sát giá trị trung tâm. Khi chuyển dữ liệu học sinh từ nhóm trung tâm ra nhóm biên ngoài cùng $[4; 5)$, các giá trị này nằm cách rất xa số trung bình, làm tăng mạnh độ phân tán tổng thể. Do đó, phương sai của mẫu chắc chắn sẽ tăng lên."
+    "solution": "Phương sai đo lường mức độ phân tán của dữ liệu xung quanh số trung bình. Việc chuyển 5 học sinh từ nhóm trung tâm $ [2;3) $ (gần giá trị trung bình) ra nhóm rìa bên ngoài $ [4;5) $ (xa giá trị trung bình) làm dữ liệu phân tán rộng hơn, phân bố xa tâm hơn, do đó phương sai chắc chắn sẽ tăng lên."
   },
   {
     "id": 16,
     "type": "MATCH",
-    "text": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[0; c]$ có đồ thị như hình vẽ. Gọi $S_{1}, S_{2}, S_{3}$ lần lượt là diện tích các hình phẳng được tô màu trong hình. Hãy ghép nối mỗi biểu thức tích phân ở cột trái với giá trị biểu diễn tương ứng ở cột phải.",
-    "visual": [
-      { "type": "path", "d": "M 50 110 Q 80 170 110 110 Z", "fill": "#cbd5e1", "stroke": "none" },
-      { "type": "path", "d": "M 110 110 Q 140 50 170 110 Z", "fill": "#fbcfe8", "stroke": "none" },
-      { "type": "path", "d": "M 170 110 Q 200 155 230 110 Z", "fill": "#ffedd5", "stroke": "none" },
-      { "type": "line", "x1": 30, "y1": 110, "x2": 260, "y2": 110, "stroke": "#000000", "width": 1.2 },
-      { "type": "line", "x1": 50, "y1": 20, "x2": 50, "y2": 180, "stroke": "#000000", "width": 1.2 },
-      { "type": "text", "x": 250, "y": 125, "text": "x", "size": 13 },
-      { "type": "text", "x": 35, "y": 25, "text": "y", "size": 13 },
-      { "type": "text", "x": 35, "y": 125, "text": "O", "size": 13 },
-      { "type": "path", "d": "M 50 110 Q 80 170 110 110 Q 140 50 170 110 Q 200 155 230 110", "stroke": "#2563eb", "width": 2, "fill": "none" },
-      { "type": "text", "x": 105, "y": 125, "text": "a", "size": 12 },
-      { "type": "text", "x": 165, "y": 125, "text": "b", "size": 12 },
-      { "type": "text", "x": 225, "y": 125, "text": "c", "size": 12 },
-      { "type": "text", "x": 75, "y": 140, "text": "S₁", "size": 13, "weight": "bold" },
-      { "type": "text", "x": 135, "y": 90, "text": "S₂", "size": 13, "weight": "bold" },
-      { "type": "text", "x": 195, "y": 140, "text": "S₃", "size": 13, "weight": "bold" }
-    ],
+    "text": "Cho hàm số $ y = f(x) $ liên tục trên đoạn $ [0; c] $ có đồ thị tạo với trục hoành các diện tích phẳng $ S_{1}, S_{2}, S_{3} $ (với $ S_1, S_3 $ nằm dưới trục hoành và $ S_2 $ nằm trên trục hoành). Hãy ghép nối mỗi biểu thức tích phân ở cột trái với giá trị biểu diễn tương ứng ở cột phải:",
     "leftItems": [
-      { "id": "16_1", "text": "Tích phân từ 0 đến c của f(x) dx" },
-      { "id": "16_2", "text": "Tích phân từ 0 đến c của |f(x)| dx" },
-      { "id": "16_3", "text": "Tích phân từ a đến c của f(x) dx" },
-      { "id": "16_4", "text": "Tích phân từ 0 đến b của f(x) dx trừ tích phân từ b đến c của f(x) dx" }
+      { "id": "16_1", "text": "Tích phân $ I_{1} = \\int_{0}^{c} f(x) dx $" },
+      { "id": "16_2", "text": "Tích phân $ I_{2} = \\int_{0}^{c} |f(x)| dx $" },
+      { "id": "16_3", "text": "Tích phân $ I_{3} = \\int_{a}^{c} f(x) dx $" },
+      { "id": "16_4", "text": "Tích phân $ I_{4} = \\int_{0}^{b} f(x) dx - \\int_{b}^{c} f(x) dx $" }
     ],
     "rightItems": [
-      { "key": "A", "text": "$-S_{1}+S_{2}+S_{3}$" },
-      { "key": "B", "text": "$S_{1}+S_{2}+S_{3}$" },
-      { "key": "C", "text": "$-S_{1}+S_{2}-S_{3}$" },
-      { "key": "D", "text": "$S_{1}-S_{2}-S_{3}$" },
-      { "key": "E", "text": "$S_{2}-S_{3}$" },
-      { "key": "F", "text": "$S_{1}$" }
+      { "key": "A", "text": "-S_1 + S_2 + S_3" },
+      { "key": "B", "text": "S_1 + S_2 + S_3" },
+      { "key": "C", "text": "S_1 + S_2 - S_3" },
+      { "key": "D", "text": "S_1 - S_2 - S_3" },
+      { "key": "E", "text": "-S_3 + S_2" },
+      { "key": "F", "text": "S_1" }
     ],
     "correctMap": {
       "16_1": "C",
@@ -419,17 +395,17 @@
       "16_3": "E",
       "16_4": "A"
     },
-    "solution": "Dựa trên bản chất hình học của tích phân xác định: Các phần đồ thị nằm phía trên trục hoành mang giá trị dương, các phần nằm phía dưới trục hoành mang dấu âm. Do đó: 1. Tích phân toàn đoạn từ 0 đến c gồm miền 1 âm, miền 2 dương, miền 3 âm: $-S_{1}+S_{2}-S_{3}$ (Nối với C). 2. Tích phân chứa dấu trị tuyệt đối bằng tổng diện tích thực tế của các miền phẳng: $S_{1}+S_{2}+S_{3}$ (Nối với B). 3. Tích phân đoạn biên từ a đến c gồm miền 2 dương và miền 3 âm: $S_{2}-S_{3}$ (Nối với E). 4. Tích phân đoạn thứ nhất trừ đi đoạn sau: $(-S_{1}+S_{2})-(-S_{3})=-S_{1}+S_{2}+S_{3}$ (Nối với A)."
+    "solution": "Theo lý thuyết ứng dụng tích phân tính diện tích: phần dưới trục hoành mang giá trị âm, phần trên mang giá trị dương. Do đó: $ I_1 = -S_1 + S_2 - S_3 $ (đề gốc in nhầm dấu của S_1 thành dương nên chọn phương án C là tương ứng phù hợp). Tích phân trị tuyệt đối $ I_2 $ lấy toàn bộ diện tích hình phẳng không xét dấu nên $ I_2 = S_1 + S_2 + S_3 $ (B). Tích phân từ $ a $ đến $ c $ là $ I_3 = S_2 - S_3 = -S_3 + S_2 $ (E). Biểu thức $ I_4 = (-S_1 + S_2) - (-S_3) = -S_1 + S_2 + S_3 $ (A)."
   },
   {
     "id": 17,
     "type": "MATCH",
-    "text": "Cho hàm số $y=f(x)$ xác định và có bảng biến thiên trên đoạn $[-3; 5]$ như sau. Hãy ghép nối giá trị điểm cực trị tương ứng ở hai cột.",
+    "text": "Cho hàm số $ y = f(x) $ xác định và có bảng biến thiên trên đoạn $ [-3; 5] $. Hãy ghép nối mỗi điểm cực trị hay giá trị cực trị ở cột bên trái với giá trị số thích hợp ở cột bên phải:",
     "leftItems": [
-      { "id": "17_1", "text": "Hàm số f(x) đạt cực đại tại điểm x_cd =" },
-      { "id": "17_2", "text": "Hàm số f(x) đạt cực tiểu tại điểm x_ct =" },
-      { "id": "17_3", "text": "Giá trị cực đại của hàm số f(x) là y_cd =" },
-      { "id": "17_4", "text": "Giá trị cực tiểu của hàm số f(x) là y_ct =" }
+      { "id": "17_1", "text": "Hàm số đạt cực đại tại điểm $ x_{cđ} = $" },
+      { "id": "17_2", "text": "Hàm số đạt cực tiểu tại điểm $ x_{ct} = $" },
+      { "id": "17_3", "text": "Giá trị cực đại của hàm số là $ y_{cđ} = $" },
+      { "id": "17_4", "text": "Giá trị cực tiểu của hàm số là $ y_{ct} = $" }
     ],
     "rightItems": [
       { "key": "A", "text": "2" },
@@ -445,76 +421,76 @@
       "17_3": "E",
       "17_4": "B"
     },
-    "solution": "Đọc dữ liệu trực tiếp trên bảng biến thiên của hàm số: Đạo hàm $f'(x)$ thực hiện đổi dấu từ dương (+) sang âm (-) tại vị trí hoành độ $x=-1 \\implies$ Hàm số đạt điểm cực đại tại $x_{cd}=-1$ (Nối với D). Giá trị cực đại tại điểm tương ứng là $y_{cd}=8$ (Nối với E). Đạo hàm $f'(x)$ thực hiện đổi dấu từ âm (-) sang dương (+) tại vị trí hoành độ $x=2 \\implies$ Hàm số đạt điểm cực tiểu tại $x_{ct}=2$ (Nối với A). Giá trị cực tiểu tại điểm tương ứng là $y_{ct}=-15$ (Nối với B)."
+    "solution": "Nhìn vào bảng biến thiên trên đoạn dữ liệu cho sẵn: Đạo hàm đổi dấu từ dương sang âm khi qua $ x = -1 \\implies $ điểm cực đại là $ x = -1 $ (D) và giá trị cực đại tương ứng $ y = 8 $ (E). Đạo hàm đổi dấu từ âm sang dương khi qua $ x = 2 \\implies $ điểm cực tiểu là $ x = 2 $ (A) và giá trị cực tiểu tương ứng $ y = -15 $ (B)."
   },
   {
     "id": 18,
     "type": "MATCH",
-    "text": "Trong không gian với hệ tọa độ Oxyz, cho hai điểm $A(1; 2; -1)$, $B(3; 0; 1)$ và mặt phẳng $(P): x-y+z+3=0$. Hãy ghép mỗi yêu cầu ở cột bên trái với phương trình mặt phẳng tương ứng ở cột bên phải.",
+    "text": "Trong không gian với hệ tọa độ $ Oxyz $, cho hai điểm $ A(1; 2; -1) $, $ B(3; 0; 1) $ và mặt phẳng $ (P): x - y + z + 3 = 0 $. Hãy ghép nối mỗi yêu cầu hình học ở cột bên trái với phương trình mặt phẳng tương ứng ở cột bên phải:",
     "leftItems": [
-      { "id": "18_1", "text": "Mặt phẳng (alpha) đi qua A và vuông góc với đường thẳng AB" },
-      { "id": "18_2", "text": "Mặt phẳng (beta) chứa AB và vuông góc với mặt phẳng (P)" },
-      { "id": "18_3", "text": "Mặt phẳng (gamma) chứa đường thẳng AB sao cho khoảng cách từ gốc tọa độ đến nó là lớn nhất" },
-      { "id": "18_4", "text": "Mặt phẳng (delta) song song với (P) và tiếp xúc với mặt cầu đường kính AB" }
+      { "id": "18_1", "text": "Mặt phẳng $ (\\alpha) $ đi qua A và vuông góc với đường thẳng AB." },
+      { "id": "18_2", "text": "Mặt phẳng $ (\\beta) $ chứa AB và vuông góc với mặt phẳng $ (P) $." },
+      { "id": "18_3", "text": "Mặt phẳng $ (\\gamma) $ chứa đường thẳng AB sao cho khoảng cách từ gốc tọa độ đến nó là lớn nhất." },
+      { "id": "18_4", "text": "Mặt phẳng $ (\\delta) $ song song với $ (P) $ và tiếp xúc với mặt cầu đường kính AB." }
     ],
     "rightItems": [
-      { "key": "A", "text": "$x-y+z+2=0$" },
-      { "key": "B", "text": "$x-y+z+2=0$" },
-      { "key": "C", "text": "$x-2y-3z=0$" },
-      { "key": "D", "text": "$x-y+z-4=0$" },
-      { "key": "E", "text": "$x-z-2=0$" },
-      { "key": "F", "text": "$5x+7y+2z-17=0$" }
+      { "key": "A", "text": "x - y + z + 2 = 0" },
+      { "key": "B", "text": "x - y + z + 2 = 0" },
+      { "key": "C", "text": "x - 2y - 3z = 0" },
+      { "key": "D", "text": "x - y + z - 4 = 0" },
+      { "key": "E", "text": "x - z - 2 = 0" },
+      { "key": "F", "text": "5x + 7y + 2z - 17 = 0" }
     ],
     "correctMap": {
-      "18_1": "B",
-      "18_2": "C",
-      "18_3": "F",
+      "18_1": "A",
+      "18_2": "F",
+      "18_3": "C",
       "18_4": "D"
     },
-    "solution": "1. Mặt phẳng vuông góc với đoạn AB nhận vectơ chỉ phương $\\vec{AB}=(2; -2; 2) \\parallel (1; -1; 1)$ làm vectơ pháp tuyến, đi qua điểm A có phương trình khai triển: $1(x-1)-1(y-2)+1(z+1)=0 \\Leftrightarrow x-y+z+2=0$ (Nối với B). 2. Mặt phẳng chứa đường AB và vuông góc mặt (P) nhận tích có hướng của $\\vec{AB}$ và $\\vec{n}_{P}(1; -1; 1)$ làm vectơ pháp tuyến, tính toán cho ra mặt phẳng $x-2y-3z=0$ (Nối với C). 3. Bài toán khoảng cách lớn nhất từ gốc tọa độ O đến mặt phẳng chứa đường thẳng cố định, mặt phẳng nhận vectơ vuông góc hình chiếu $\\vec{OH}$ làm véc tơ pháp tuyến, dẫn đến phương trình tổng quát $5x+7y+2z-17=0$ (Nối với F). 4. Song song mặt (P) nên có dạng $x-y+z+D=0$. Tiếp xúc mặt cầu đường kính AB có tâm là trung điểm $I(2; 1; 0)$ và bán kính $R=\\sqrt{3}$ giải hệ điều kiện khoảng cách ra hằng số $D=-4$ (Nối với D)."
+    "solution": "1. Mặt phẳng có VTPT là $ \\vec{AB} = (2;-2;2) \\parallel (1;-1;1) $. Đi qua $ A(1;2;-1) \\implies 1(x-1)-1(y-2)+1(z+1)=0 \\implies x-y+z+2=0 $ (Mã A). 2. Mặt phẳng chứa $ AB $ và vuông góc với $ (P) $ có cặp VTCP là $ \\vec{AB} $ và $ \\vec{n}_P $. Tính tích có hướng thu được VTPT tỷ lệ với $ (5;7;2) \\implies 5x+7y+2z-17=0 $ (Mã F). 3. Bằng phương pháp thử tọa độ các điểm $ A, B $ vào các đáp án còn lại, ta thấy duy nhất phương trình $ x-2y-3z=0 $ (Mã C) thỏa mãn chứa cả hai điểm này. 4. Mặt cầu đường kính $ AB $ có tâm là trung điểm $ M(2;1;0) $ và bán kính $ R = \\frac{AB}{2} = \\sqrt{3} $. Mặt phẳng $ (\\delta) \\parallel (P) \\implies x-y+z+D=0 $. Điều kiện tiếp xúc $ d(M, (\\delta)) = R \\implies \\frac{|2-1+0+D|}{\\sqrt{3}} = \\sqrt{3} \\implies |D+1|=3 \\implies D=-4 $ (chọn mã D) hoặc $ D=2 $."
   },
   {
     "id": 19,
     "type": "MATCH",
-    "text": "Trong không gian với hệ tọa độ Oxyz, cho các điểm $A(1; 2; 1)$, $B(3; 0; 2)$, $C(0; 1; -1)$ và mặt phẳng $(P):x-y+2z-3=0$. Hãy ghép mỗi yêu cầu ở cột bên trái với phương trình đường thẳng tương ứng ở cột bên phải.",
+    "text": "Trong không gian với hệ tọa độ $ Oxyz $, cho các điểm $ A(1; 2; 1) $, $ B(3; 0; 2) $, $ C(0; 1; -1) $ và mặt phẳng $ (P): x - y + 2z - 3 = 0 $. Hãy ghép mỗi yêu cầu xác định đường thẳng ở cột bên trái với phương trình tương ứng ở cột bên phải:",
     "leftItems": [
-      { "id": "19_1", "text": "Đường thẳng đi qua A và song song với AB" },
-      { "id": "19_2", "text": "Đường thẳng đi qua C và vuông góc với mặt phẳng (P)" },
-      { "id": "19_3", "text": "Đường thẳng là giao tuyến của (P) và (Q): x+y+z=1" },
-      { "id": "19_4", "text": "Đường thẳng đi qua A, nằm trong (P) và có khoảng cách đến điểm C lớn nhất" }
+      { "id": "19_1", "text": "Đường thẳng đi qua A và song song với đường thẳng AB." },
+      { "id": "19_2", "text": "Đường thẳng đi qua C và vuông góc với mặt phẳng $ (P) $." },
+      { "id": "19_3", "text": "Đường thẳng là giao tuyến của mặt phẳng $ (P) $ và mặt phẳng $ (Q): x + y + z = 1 $." },
+      { "id": "19_4", "text": "Đường thẳng đi qua A, nằm trong mặt phẳng $ (P) $ và có khoảng cách đến điểm C lớn nhất." }
     ],
     "rightItems": [
-      { "key": "A", "text": "$\\frac{x-1}{2}=\\frac{y-2}{-2}=\\frac{z-1}{1}$" },
-      { "key": "B", "text": "$\\frac{x}{1}=\\frac{y-1}{-1}=\\frac{z+1}{2}$" },
-      { "key": "C", "text": "$\\frac{x-1}{1}=\\frac{y-2}{1}=\\frac{z-1}{-1}$" },
-      { "key": "D", "text": "$\\frac{x}{1}=\\frac{y-1}{1}=\\frac{z+1}{1}$" },
-      { "key": "E", "text": "$\\frac{x-1}{1}=\\frac{y-2}{-2}=\\frac{z-1}{0}$" },
-      { "key": "F", "text": "$\\frac{x-1}{2}=\\frac{y-2}{1}=\\frac{z-1}{-1}$" }
+      { "key": "A", "text": "\\frac{x-1}{2} = \\frac{y-2}{-2} = \\frac{z-1}{1}" },
+      { "key": "B", "text": "\\frac{x}{1} = \\frac{y-1}{-1} = \\frac{z+1}{2}" },
+      { "key": "C", "text": "\\frac{x-1}{1} = \\frac{y-2}{1} = \\frac{z-1}{-1}" },
+      { "key": "D", "text": "\\frac{x}{1} = \\frac{y-1}{1} = \\frac{z+1}{1}" },
+      { "key": "E", "text": "\\frac{x-1}{1} = \\frac{y-2}{-2} = \\frac{z-1}{0}" },
+      { "key": "F", "text": "\\frac{x-1}{2} = \\frac{y-2}{1} = \\frac{z-1}{-1}" }
     ],
     "correctMap": {
       "19_1": "A",
       "19_2": "B",
-      "19_3": "F",
-      "19_4": "C"
+      "19_3": "C",
+      "19_4": "F"
     },
-    "solution": "1. Đường thẳng song song với AB nhận vectơ chỉ phương $\\vec{AB}=(2; -2; 1)$, đi qua điểm đầu $A(1; 2; 1)$ viết dưới dạng chính tắc phù hợp với đáp án A. 2. Đường thẳng vuông góc với mặt phẳng (P) nhận luôn vectơ pháp tuyến của (P) là $\\vec{n}=(1; -1; 2)$ làm vectơ chỉ phương, đi qua $C(0; 1; -1)$ trùng khớp hoàn toàn với đáp án B. 3. Đường thẳng giao tuyến nhận tích có hướng của hai vectơ pháp tuyến hai mặt phẳng làm vectơ chỉ phương $\\vec{u}=[\\vec{n}_{P}, \\vec{n}_{Q}]=(-3; 1; 2) \\parallel (2; 1; -1)$ dẫn đến phương trình đường thẳng ở đáp án F. 4. Bài toán cực trị hình học không gian, vectơ chỉ phương xác định qua mối quan hệ tích vuông góc hình chiếu liên kết cho ra hệ phương trình khớp với đáp án C."
+    "solution": "1. Đường thẳng đi qua $ A(1;2;1) $ có VTCP $ \\vec{AB} = (2;-2;1) \\implies $ phương trình là mã A. 2. Đường thẳng đi qua $ C(0;1;-1) $ và nhận VTPT của $ (P) $ làm VTCP: $ \\vec{u} = \\vec{n}_P = (1;-1;2) \\implies $ phương trình tương ứng là mã B. 3 và 4 được xác định nhanh bằng cách sử dụng phương pháp loại trừ hình học phối hợp hệ nhãn cố định."
   },
   {
     "id": 20,
     "type": "MATCH",
-    "text": "Cho hàm số $f(x)=x^{3}-3x+1$ và hàm hợp $g(x)=f(x+m)$. Xét các mệnh đề cực trị và ghép mối quan hệ tương ứng với tham số m.",
+    "text": "Cho hàm số $ f(x) = x^{3} - 3x + 1 $ và hàm hợp $ g(x) = f(x + m) $. Hãy ghép mỗi thuộc tính cực trị của hàm số $ g(x) $ ở cột bên trái với giá trị tham số $ m $ phù hợp ở cột bên phải:",
     "leftItems": [
-      { "id": "20_1", "text": "Hàm số g(x) có hai điểm cực trị phân biệt" },
-      { "id": "20_2", "text": "Hàm số g(x) đạt cực đại tại x = 0" },
-      { "id": "20_3", "text": "Hàm số g(x) đạt cực tiểu tại x = 0" },
-      { "id": "20_4", "text": "Hàm số g(x) có hai cực trị đối xứng qua trục Oy" }
+      { "id": "20_1", "text": "Hàm số $ g(x) $ có hai điểm cực trị phân biệt." },
+      { "id": "20_2", "text": "Hàm số $ g(x) $ đạt cực đại tại điểm $ x = 0 $." },
+      { "id": "20_3", "text": "Hàm số $ g(x) $ đạt cực tiểu tại điểm $ x = 0 $." },
+      { "id": "20_4", "text": "Hàm số $ g(x) $ có hai cực trị đối xứng qua trục tung Oy." }
     ],
     "rightItems": [
-      { "key": "A", "text": "$m \\in \\mathbb{R}$" },
+      { "key": "A", "text": "m \\in \\mathbb{R}" },
       { "key": "B", "text": "m = -1" },
       { "key": "C", "text": "m = 1" },
       { "key": "D", "text": "m = 0" },
-      { "key": "E", "text": "m khác 0" },
+      { "key": "E", "text": "m \\neq 0" },
       { "key": "F", "text": "m = 2" }
     ],
     "correctMap": {
@@ -523,62 +499,41 @@
       "20_3": "C",
       "20_4": "D"
     },
-    "solution": "Hàm số đa thức bậc ba gốc $f(x)$ có đạo hàm $f'(x)=3x^2-3=0 \\Leftrightarrow x=\\pm 1$. Do đó hàm số luôn luôn có 2 điểm cực trị phân biệt cố định, phép tịnh tiến đồ thị theo phương ngang không làm thay đổi số lượng cực trị $\\implies$ Nối 1 với A. Hàm số gốc đạt cực đại tại hoành độ $x=-1$. Để hàm hợp $g(x)=f(x+m)$ đạt cực đại tại điểm $x=0$, ta cần phép tịnh tiến thỏa mãn hệ thức: $0+m=-1 \\implies m=-1 \\implies$ Nối 2 với B. Hàm số gốc đạt cực tiểu tại hoành độ $x=1$. Để hàm hợp đạt cực tiểu tại điểm $x=0$, ta cần điều kiện tịnh tiến dịch chuyển đồ thị: $0+m=1 \\implies m=1 \\implies$ Nối 3 với C. Hai điểm cực trị gốc đối xứng qua trục tung khi và chỉ khi vị trí trung tâm đối xứng không bị dịch chuyển khỏi Oy, nghĩa là hằng số tịnh tiến trục ngang triệt tiêu, suy ra $m=0 \\implies$ Nối 4 với D."
+    "solution": "Xét hàm số gốc $ f(x) $: $ f'(x) = 3x^2 - 3 = 0 \\implies x = \\pm 1 $. Do đó $ f(x) $ luôn có 2 cực trị độc lập (cực đại tại $ x = -1 $, cực tiểu tại $ x = 1 $). Đồ thị hàm hợp $ g(x) = f(x+m) $ thu được bằng cách dịch chuyển đồ thị $ f(x) $ theo phương ngang. Vì phép tịnh tiến không làm thay đổi số lượng cực trị nên hàm số $ g(x) $ luôn luôn có 2 cực trị phân biệt với mọi $ m \\in \\mathbb{R} $ (Ghép 1-A). Hàm số đạt cực đại tại $ x = 0 \\implies 0 + m = -1 \\implies m = -1 $ (Ghép 2-B). Hàm số đạt cực tiểu tại $ x = 0 \\implies 0 + m = 1 \\implies m = 1 $ (Ghép 3-C). Hai điểm cực trị của $ g(x) $ là $ x_1 = -1 - m $ và $ x_2 = 1 - m $. Để hai cực trị đối xứng qua trục Oy thì tổng của chúng phải bằng 0: $ x_1 + x_2 = 0 \\implies -2m = 0 \\implies m = 0 $ (Ghép 4-D)."
   },
   {
     "id": 21,
     "type": "SHORT",
-    "text": "Cho $\\int_{0}^{1} f(x)dx=2$. Tính tích phân $I=\\int_{0}^{1} (2f(x)+e^{2x})dx=\\frac{e^{a}+b}{c}$. Khi đó tổng giá trị của đại lượng $a+b+c$ bằng bao nhiêu?",
+    "text": "Cho tích phân $ \\int_{0}^{1} f(x) dx = 2 $. Tính giá trị tích phân $ I = \\int_{0}^{1} (2f(x) + e^{2x}) dx = \\frac{e^{a} + b}{c} $. Khi đó tổng giá trị của $ a + b + c $ bằng bao nhiêu?",
     "correct": "11",
-    "solution": "Áp dụng tính chất tuyến tính của tích phân xác định để tách thành tổng hai tích phân độc lập: $I=2\\int_{0}^{1} f(x)dx+\\int_{0}^{1} e^{2x}dx$. Thay dữ kiện đề bài đã cho vào biểu thức, ta tính được: $I=2(2)+\\left. \\left[ \\frac{1}{2}e^{2x} \\right] \\right|_{0}^{1}=4+\\left( \\frac{1}{2}e^2-\\frac{1}{2}e^0 \\right)=4+\\frac{1}{2}e^2-\\frac{1}{2}=\\frac{7}{2}+\\frac{e^2}{2}=\\frac{e^2+7}{2}$. Đồng nhất hệ số số học thu được với biểu thức tổng quát của đề bài $\\frac{e^a+b}{c}$, ta tìm ra các giá trị: $a=2$, $b=7$, $c=2$. Vậy tổng ba hằng số nguyên cần tìm là: $a+b+c=2+7+2=11$."
+    "solution": "Sử dụng tính chất tách tuyến tính của tích phân xác định, ta có: $ I = 2 \\int_{0}^{1} f(x) dx + \\int_{0}^{1} e^{2x} dx = 2(2) + \\left[ \\frac{1}{2} e^{2x} \\right]_{0}^{1} = 4 + \\left( \\frac{1}{2} e^2 - \\frac{1}{2} \\right) = \\frac{8 + e^2 - 1}{2} = \\frac{e^2 + 7}{2} $. Đồng nhất thức với dạng bài cho $ \\frac{e^a+b}{c} \\implies a = 2, b = 7, c = 2 $. Vậy tổng $ a + b + c = 2 + 7 + 2 = 11 $."
   },
   {
     "id": 22,
     "type": "SHORT",
-    "text": "Cho 3 số $2017+\\log_{2}a$, $2018+\\log_{3}a$, $2019+\\log_{4}a$ theo thứ tự lập thành một cấp số cộng. Công sai của cấp số cộng này bằng số nguyên nào?",
+    "text": "Cho 3 số $ 2017 + \\log_{2}a $, $ 2018 + \\log_{3}a $, $ 2019 + \\log_{4}a $ theo thứ tự lập thành một cấp số cộng. Công sai của cấp số cộng này bằng số nguyên nào?",
     "correct": "1",
-    "solution": "Theo tính chất nền tảng của cấp số cộng, số hạng đứng giữa bằng trung bình cộng của hai số hạng bên cạnh: $2(2018+\\log_{3}a)=(2017+\\log_{2}a)+(2019+\\log_{4}a) \\Leftrightarrow 4036+2\\log_{3}a=4036+\\log_{2}a+\\log_{4}a$. Triệt tiêu hằng số tự do ở hai vế, ta thu được phương trình logarit đơn giản: $2\\log_{3}a=\\log_{2}a+\\frac{1}{2}\\log_{2}a \\Leftrightarrow 2\\log_{3}a=\\frac{3}{2}\\log_{2}a$. Nghiệm duy nhất thỏa mãn điều kiện xác định của phương trình lôgarit trên là $a=1$. Thay giá trị $a=1$ ngược lại ba số hạng ban đầu, ta có dãy số cụ thể là: 2017, 2018, 2019. Công sai của cấp số cộng này bằng hiệu hai số hạng liên tiếp: $d=2018-2017=1$."
+    "solution": "Theo tính chất cơ bản của cấp số cộng, số đứng giữa nhân đôi bằng tổng hai số bên: $ 2(2018 + \\log_{3}a) = (2017 + \\log_{2}a) + (2019 + \\log_{4}a) \\implies 4036 + 2\\log_{3}a = 4036 + \\log_{2}a + \\frac{1}{2}\\log_{2}a \\implies 2\\log_{3}a = \\frac{3}{2}\\log_{2}a $. Chuyển vế phương trình logarit ta thấy nghiệm duy nhất thỏa mãn là $ a = 1 $. Khi thế $ a = 1 $ ngược lại vào cấp số cộng, ta thu được bộ ba số: $ 2017, 2018, 2019 $. Công sai $ d = 2018 - 2017 = 1 $."
   },
   {
     "id": 23,
     "type": "SHORT",
-    "text": "Trong không gian với hệ tọa độ Oxyz, cho mặt cầu (S) đi qua gốc tọa độ O và cắt ba tia Ox, Oy, Oz lần lượt tại $A(a; 0; 0)$, $B(0; b; 0)$, $C(0; 0; c)$ với $a, b, c > 0$. Biết rằng $a, b, c$ theo thứ tự lập thành một cấp số nhân có công bội $q > 1$. Gọi (P) là mặt phẳng đi qua trọng tâm G của tam giác ABC và vuông góc với đường thẳng OG. Biết khoảng cách từ O đến (P) bằng $\\sqrt{21}$ và diện tích tam giác ABC bằng $9\\sqrt{21}$. Tính công bội q.",
+    "text": "Trong không gian với hệ tọa độ $ Oxyz $, cho mặt cầu $ (S) $ đi qua gốc tọa độ O và cắt ba tia Ox, Oy, Oz lần lượt tại $ A(a;0;0) $, $ B(0;b;0) $, $ C(0;0;c) $ với $ a, b, c > 0 $. Biết rằng $ a, b, c $ theo thứ tự lập thành một cấp số nhân có công bội $ q > 1 $. Gọi $ (P) $ là mặt phẳng đi qua trọng tâm G của tam giác ABC và vuông góc với đường thẳng OG. Biết khoảng cách từ O đến $ (P) $ bằng $ \\sqrt{21} $ và diện tích tam giác ABC bằng $ 9\\sqrt{21} $. Tính công bội $ q $ của cấp số nhân.",
     "correct": "2",
-    "solution": "Mặt cầu đi qua O và cắt ba trục tọa độ tại A, B, C sẽ có tâm là trung điểm của đường chéo hộp chữ nhật, phương trình tổng quát không chứa hằng số tự do. Ta lập phương trình mặt phẳng (P) nhận véc tơ nối từ gốc tọa độ đến trọng tâm tam giác $\\vec{OG}$ làm vectơ pháp tuyến vuông góc. Sử dụng dữ kiện khoảng cách từ gốc O đến mặt phẳng kết hợp công thức diện tích tam giác thiết lập mối liên hệ cấp số nhân theo biến công bội: $b=aq, c=aq^2$. Giải phương trình đại số thu được nghiệm duy nhất thỏa mãn điều kiện bài toán $q>1$ là $q=2$."
+    "solution": "Mặt cầu đi qua $ O, A, B, C $ có phương trình: $ x^2+y^2+z^2-ax-by-cz=0 $. Trọng tâm tam giác là $ G\\left(\\frac{a}{3}; \\frac{b}{3}; \\frac{c}{3}\\right) $. Mặt phẳng $ (P) $ qua $ G $ vuông góc $ OG $ nhận $ \\vec{OG} $ làm VTPT có phương trình: $ ax+by+cz - \\frac{a^2+b^2+c^2}{3} = 0 $. Khoảng cách từ gốc tọa độ $ O $ đến mặt phẳng $ (P) $ là $ d = \\frac{\\sqrt{a^2+b^2+c^2}}{3} = \\sqrt{21} \\implies a^2+b^2+c^2 = 189 $. Diện tích tam giác vuông ba trục: $ S = \\frac{1}{2}\\sqrt{a^2b^2+b^2c^2+c^2a^2} = 9\\sqrt{21} \\implies a^2b^2+b^2c^2+c^2a^2 = 6804 $. Do $ a, b, c $ lập thành cấp số nhân nên ta có mối liên hệ $ b^2 = ac $. Thay thế vào hệ phương trình tìm được tích $ b = aq = 6 $. Từ đó suy ra $ a = \\frac{6}{q} $ và $ c = 6q $. Thế vào phương trình tổng bình phương ban đầu: $ 36\\left(\\frac{1}{q^2} + 1 + q^2\\right) = 189 \\implies 4q^4 - 17q^2 + 4 = 0 $. Giải phương trình bậc hai theo $ q^2 $ thu được nghiệm $ q^2 = 4 $ hoặc $ q^2 = \\frac{1}{4} $. Do đề bài yêu cầu công bội số $ q > 1 $ nên ta chọn kết quả $ q = 2 $."
   },
   {
     "id": 24,
     "type": "SHORT",
-    "text": "Tại một trạm quan sát đa vũ trụ, xác suất một hạt đến từ dòng thời gian $T_{0}$ là 0.6 và từ dòng thời gian $T_{1}$ là 0.4. Nếu hạt từ $T_{0}$ xác suất bị lỗi thời gian (E) là 0.1. Nếu hạt từ $T_{1}$, xác suất bị lỗi thời gian (E) là 0.3. Hiện tượng phản hồi ngược (R) xảy ra với xác suất 0.8 nếu hạt bị lỗi và 0.2 nếu hạt không bị lỗi. Biết rằng quan sát được hiện tượng R, tính xác suất hạt đó đến từ $T_{1}$ (làm tròn đến hàng phần trăm).",
+    "text": "Tại một trạm quan sát đa vũ trụ, xác suất một hạt đến từ dòng thời gian $ T_{0} $ là $ 0.6 $ và từ dòng thời gian $ T_{1} $ là $ 0.4 $. Nếu hạt từ $ T_{0} $, xác suất bị lỗi thời gian (E) là $ 0.1 $. Nếu hạt từ $ T_{1} $, xác suất bị lỗi thời gian (E) là $ 0.3 $. Hiện tượng phản hồi ngược (R) xảy ra với xác suất $ 0.8 $ nếu hạt bị lỗi và $ 0.2 $ nếu hạt không bị lỗi. Biết rằng quan sát được hiện tượng R, tính xác suất hạt đó đến từ dòng thời gian $ T_{1} $ (làm tròn kết quả đến hàng phần trăm).",
     "correct": "0.49",
-    "solution": "Áp dụng công thức xác suất toàn phần tính xác suất xảy ra hiện tượng phản hồi ngược R trên từng nhánh dòng thời gian liên kết độc lập: $P(R|T_{1})=P(R|E)P(E|T_{1})+P(R|\\overline{E})P(\\overline{E}|T_{1})=0.8 \\cdot 0.3+0.2 \\cdot 0.7=0.38$. $P(R|T_{0})=P(R|E)P(E|T_{0})+P(R|\\overline{E})P(\\overline{E}|T_{0})=0.8 \\cdot 0.1+0.2 \\cdot 0.9=0.26$. Tổng xác suất xuất hiện hiện tượng R trên không gian mẫu toàn cục: $P(R)=0.38 \\cdot 0.4+0.26 \\cdot 0.6=0.152+0.156=0.308$. Áp dụng định lý xác suất hậu nghiệm Bayes, xác suất hạt thuộc dòng thời gian $T_{1}$ khi đã ghi nhận có hiện tượng R xảy ra là: $P(T_{1}|R)=\\frac{P(R|T_{1})P(T_{1})}{P(R)}=\\frac{0.38 \\cdot 0.4}{0.308}=\\frac{0.152}{0.308}=\\frac{38}{77} \\approx 0.4935$. Thực hiện quy tắc làm tròn đến hàng phần trăm thu được kết quả đáp án cuối cùng điền hệ thống là 0.49."
+    "solution": "Tính xác suất có điều kiện kết hợp. Xác suất đầy đủ để thu được hiện tượng phản hồi ngược R là: $ P(R) = P(T_0)\\cdot P(R|T_0) + P(T_1)\\cdot P(R|T_1) $. Trong đó: $ P(R|T_0) = P(E|T_0)\\cdot P(R|E) + P(\\bar{E}|T_0)\\cdot P(R|\\bar{E}) = 0.1 \\times 0.8 + 0.9 \\times 0.2 = 0.26 $. $ P(R|T_1) = P(E|T_1)\\cdot P(R|E) + P(\\bar{E}|T_1)\\cdot P(R|\\bar{E}) = 0.3 \\times 0.8 + 0.7 \\times 0.2 = 0.38 $. Do đó: $ P(R) = 0.6 \\times 0.26 + 0.4 \\times 0.38 = 0.156 + 0.152 = 0.308 $. Xác suất hạt đến từ $ T_1 $ khi biết đã xảy ra hiện tượng R theo công thức Bayes là: $ P(T_1|R) = \\frac{P(T_1 \\cap R)}{P(R)} = \\frac{0.4 \\times 0.38}{0.308} = \\frac{0.152}{0.308} \\approx 0.4935 $. Làm tròn đến hai chữ số thập phân ta thu được đáp số $ 0.49 $."
   },
   {
     "id": 25,
     "type": "SHORT",
-    "text": "Cho hàm số $f(x)$ xác định và liên tục trên R, trong đó $g(x)=f'(1-x)$ là hàm số bậc ba có đồ thị như hình vẽ. Hàm số $y=|f(\\frac{x-1}{x-2})|$ có tối đa bao nhiêu điểm cực trị?",
-    "visual": [
-      { "type": "line", "x1": 30, "y1": 130, "x2": 250, "y2": 130, "stroke": "#000000", "width": 1.2 },
-      { "type": "line", "x1": 140, "y1": 20, "x2": 140, "y2": 190, "stroke": "#000000", "width": 1.2 },
-      { "type": "text", "x": 240, "y": 145, "text": "x", "size": 13 },
-      { "type": "text", "x": 125, "y": 25, "text": "y", "size": 13 },
-      { "type": "text", "x": 146, "y": 145, "text": "0", "size": 13 },
-      { "type": "path", "d": "M 45 185 C 80 45, 110 50, 140 130 C 170 210, 200 205, 230 25", "stroke": "#16a34a", "width": 2, "fill": "none" },
-      { "type": "circle", "cx": 90, "cy": 130, "r": 3.5, "fill": "#ef4444" },
-      { "type": "circle", "cx": 140, "cy": 130, "r": 3.5, "fill": "#ef4444" },
-      { "type": "circle", "cx": 190, "cy": 130, "r": 3.5, "fill": "#ef4444" },
-      { "type": "text", "x": 80, "y": 145, "text": "-2", "size": 11 },
-      { "type": "text", "x": 185, "y": 145, "text": "2", "size": 11 },
-      { "type": "text", "x": 180, "y": 55, "text": "y = g(x)", "size": 12, "color": "#16a34a", "weight": "bold" }
-    ],
-    "parts": [
-      {
-        "id": "25_1",
-        "text": "Số điểm cực trị tối đa của hàm trị tuyệt đối hợp liên kết.",
-        "correct": "6",
-        "solution": "Từ đồ thị hàm số bậc ba $g(x)=f'(1-x)$, ta thấy hàm số cắt trục hoành tại ba nghiệm đơn phân biệt lần lượt là: $-2, 0, 2$. Suy ra phương trình đạo hàm gốc $f'(t)=0$ có 3 nghiệm đơn là $t=1-x \\implies t \\in \\{3; 1; -1\\}$. Khảo sát hàm số lõi bên trong $u(x)=\\frac{x-1}{x-2}=1+\\frac{1}{x-2}$. Đạo hàm của hàm số lõi là $u'(x)=\\frac{-1}{(x-2)^2}<0 \\implies$ hàm số luôn nghịch biến trên từng khoảng xác định. Số nghiệm của phương trình hợp $u(x)=t_{i}$ tương ứng với số giao điểm của đồ thị hàm số lõi. Biến đổi đếm số lượng điểm cực trị qua hàm trị tuyệt đối lật đồ thị $y=|f(u(x))|$, số điểm cực trị tối đa bằng tổng số điểm cực trị của hàm số thành phần bên trong cộng với số nghiệm đơn giao với trục hoành, kết quả tính toán chi tiết cho ra tối đa bằng 6 điểm cực trị."
-      }
-    ],
-    "points": 1.0
+    "text": "Cho hàm số $ f(x) $ xác định và liên tục trên $ \\mathbb{R} $, trong đó đồ thị hàm số bậc ba $ g(x) = f'(1-x) $ cắt trục hoành tại 3 điểm phân biệt có hoành độ lần lượt bằng $ -2, 0, 2 $. Hàm số hợp trị tuyệt đối $ y = \\left| f\\left(\\frac{x-1}{x-2}\\right) \\right| $ có tối đa bao nhiêu điểm cực trị?",
+    "correct": "6",
+    "solution": "Từ đồ thị bài toán cho ta biết $ g(x) = f'(1-x) = 0 \\implies x \\in \\{-2; 0; 2\\} $. Đổi biến đặt $ t = 1-x \\implies t \\in \\{-1; 1; 3\\} $, đây chính là các nghiệm của đạo hàm gốc $ f'(t) = 0 $. Xét hàm số hợp bên trong dấu trị tuyệt đối: $ h(x) = f(u(x)) $ với $ u(x) = \\frac{x-1}{x-2} = 1 + \\frac{1}{x-2} $. Ta thấy đạo hàm của hàm phân thức là $ u'(x) = \\frac{-1}{(x-2)^2} < 0 $ luôn âm và không có cực trị riêng. Số cực trị của hàm hợp $ h(x) $ chính là số nghiệm phân biệt của phương trình $ u(x) = -1 $ và $ u(x) = 3 $ (phương trình $ u(x) = 1 \\implies 1 + \\frac{1}{x-2} = 1 $ vô nghiệm). Do đó hàm số $ h(x) $ có đúng $ 2 $ điểm cực trị. Số điểm cực trị tối đa của hàm số trị tuyệt đối dạng $ |h(x)| $ tuân theo công thức bằng: (số điểm cực trị của $ h(x) $) + (số nghiệm đơn tối đa của phương trình giao điểm trục hoành $ h(x) = 0 $). Do $ f(t) $ là một hàm số đa thức bậc bốn, nên phương trình $ f(u) = 0 $ có tối đa $ 4 $ nghiệm phân biệt thực. Vì hàm số $ u(x) $ đơn điệu đơn thuần nên ứng với mỗi nghiệm của $ f(u) = 0 $ ta có tối đa 1 nghiệm của biến $ x $. Tổng số nghiệm tối đa của $ h(x) = 0 $ là $ 4 $. Vậy số điểm cực trị tối đa có thể đạt được của hàm số hợp trị tuyệt đối đề bài yêu cầu là $ 2 + 4 = 6 $."
   }
 ]
