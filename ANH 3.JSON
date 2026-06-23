@@ -1,784 +1,764 @@
 [
-{
-"id": 1,
-"type": "TF",
-"text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-"notice": "NOTICE: FLU VACCINATION DRIVE\nFree flu shots are available for staff and students this week. Please book your slot via the clinic app.\nNote: You should avoid strenuous exercise for 24 hours after the injection to minimize potential side effects.",
-"parts": [
-{
-"id": "1_1",
-"text": "Only students are eligible for the free vaccination program.",
-"correct": "F",
-"solution": "Thông báo ghi rõ chương trình áp dụng cho cả nhân viên và học sinh ('staff and students')."
-},
-{
-"id": "1_2",
-"text": "Appointments must be made through a digital platform.",
-"correct": "T",
-"solution": "Người tham gia bắt buộc phải đặt lịch hẹn thông qua ứng dụng di động của phòng khám ('via the clinic app')."
-},
-{
-"id": "1_3",
-"text": "It is recommended to rest from heavy physical activities post-injection.",
-"correct": "T",
-"solution": "Thông báo khuyên nên tránh các bài tập thể dục cường độ cao ('avoid strenuous exercise') sau khi tiêm."
-},
-{
-"id": "1_4",
-"text": "Side effects will definitely occur if you exercise right after the shot.",
-"correct": "F",
-"solution": "Việc tránh tập thể dục chỉ nhằm 'giảm thiểu khả năng' bị tác dụng phụ ('minimize potential side effects'), không có nghĩa là tác dụng phụ chắc chắn sẽ xảy ra."
-}
-],
-"points": 1.0
-},
-{
-"id": 2,
-"type": "TF",
-"text": "Based on the message, decide whether the following statements are True (T) or False (F):",
-"notice": "Dear Mr. Smith,\nWe've had your laptop's motherboard replaced as requested. However, our technician noticed the battery is also failing. Shall we have a new one installed for an additional $50 before you collect the device?\nTechFix Support",
-"parts": [
-{
-"id": "2_1",
-"text": "The technician has already finished all necessary repairs on the laptop.",
-"correct": "F",
-"solution": "Kỹ thuật viên phát hiện thêm lỗi pin đang hỏng ('battery is also failing') nên máy vẫn chưa hoàn toàn sẵn sàng nếu chưa xử lý dứt điểm."
-},
-{
-"id": "2_2",
-"text": "TechFix is asking for permission to perform a secondary repair.",
-"correct": "T",
-"solution": "Cửa hàng hỏi ý kiến khách hàng bằng câu đề nghị 'Shall we have a new one installed...?' để tiến hành sửa chữa thêm phần pin."
-},
-{
-"id": "2_3",
-"text": "Mr. Smith can get his battery fixed without any extra charges.",
-"correct": "F",
-"solution": "Việc thay pin mới sẽ tốn thêm khoản phí phụ thu là 50 đô la ('for an additional $50')."
-},
-{
-"id": "2_4",
-"text": "The customer had someone at TechFix change the motherboard earlier.",
-"correct": "T",
-"solution": "Cấu trúc 'We've had your laptop's motherboard replaced as requested' xác nhận khách hàng đã yêu cầu nhân viên tại đây thay bo mạch chủ trước đó."
-}
-],
-"points": 1.0
-},
-{
-"id": 3,
-"type": "TF",
-"text": "Based on the policy notice, decide whether the following statements are True (T) or False (F):",
-"notice": "RETURN POLICY\nItems must be returned in their original packaging within 30 days of purchase for a full refund.\nPlease note: Clearance items are final sale and cannot be exchanged or returned under any circumstances.",
-"parts": [
-{
-"id": "3_1",
-"text": "You can get your money back even if you lost the original box.",
-"correct": "F",
-"solution": "Chính sách bắt buộc hàng trả lại phải nằm trong bao bì/hộp gốc của sản phẩm ('in their original packaging')."
-},
-{
-"id": "3_2",
-"text": "Standard items can be returned up to a month after being bought.",
-"correct": "T",
-"solution": "Thời hạn hoàn tiền đầy đủ là trong vòng 30 ngày kể từ ngày mua hàng ('within 30 days of purchase')."
-},
-{
-"id": "3_3",
-"text": "All products sold at this store are eligible for an exchange.",
-"correct": "F",
-"solution": "Các mặt hàng thanh lý cuối cùng ('Clearance items') hoàn toàn không được áp dụng đổi hoặc trả dưới bất kỳ hình thức nào."
-},
-{
-"id": "3_4",
-"text": "'Clearance items' refers to goods that are sold at a discount and are non-returnable.",
-"correct": "T",
-"solution": "Hàng thanh lý là nhóm hàng bán đợt cuối và không thể hoàn trả hoặc đổi mẫu khác ('final sale and cannot be exchanged or returned')."
-}
-],
-"points": 1.0
-},
-{
-"id": 4,
-"type": "TF",
-"text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-"notice": "URBAN CLEAN AIR ZONE\nVehicles entering this zone between 7 AM and 6 PM must meet emission standards. Drivers of non-compliant cars will be fined unless they have registered for a daily exemption pass 24 hours in advance.",
-"parts": [
-{
-"id": "4_1",
-"text": "The clean air regulations apply 24 hours a day.",
-"correct": "F",
-"solution": "Quy định kiểm soát khí thải chỉ áp dụng trong khung giờ nhất định từ 7 giờ sáng đến 6 giờ chiều ('between 7 AM and 6 PM')."
-},
-{
-"id": "4_2",
-"text": "Driving a high-emission car here without a pass will result in a penalty.",
-"correct": "T",
-"solution": "Những tài xế lái xe không đạt chuẩn ('non-compliant cars') mà không có thẻ miễn trừ sẽ bị phạt tiền ('will be fined')."
-},
-{
-"id": "4_3",
-"text": "You can apply for an exemption pass on the same day you enter the zone.",
-"correct": "F",
-"solution": "Người lái xe bắt buộc phải đăng ký thẻ miễn trừ trước đó ít nhất 24 giờ ('24 hours in advance')."
-},
-{
-"id": "4_4",
-"text": "Only electric cars are allowed to enter this area during the day.",
-"correct": "F",
-"solution": "Thông báo chỉ yêu cầu xe đạt tiêu chuẩn khí thải nói chung ('must meet emission standards'), không cấm các loại xe khác ngoài xe điện."
-}
-],
-"points": 1.0
-},
-{
-"id": 5,
-"type": "TF",
-"text": "Based on the email, decide whether the following statements are True (T) or False (F):",
-"notice": "Hi Jane,\nThe manager might be late for the interview. Could you have the candidates wait in the briefing room and provide them with the company profile? I'll get the HR assistant to bring the evaluation forms shortly.\nMark.",
-"parts": [
-{
-"id": "5_1",
-"text": "It is certain that the manager will not arrive on time.",
-"correct": "F",
-"solution": "Mark dùng từ 'might be late' thể hiện khả năng có thể xảy ra, không chắc chắn tuyệt đối."
-},
-{
-"id": "5_2",
-"text": "Jane is responsible for guiding the candidates to a specific room.",
-"correct": "T",
-"solution": "Jane được nhờ hướng dẫn ứng viên đợi tại phòng giao ban ngắn ('wait in the briefing room')."
-},
-{
-"id": "5_3",
-"text": "Mark will personally deliver the evaluation forms to Jane.",
-"correct": "F",
-"solution": "Mark sẽ nhờ trợ lý nhân sự mang biểu mẫu đến ('I'll get the HR assistant to bring')."
-},
-{
-"id": "5_4",
-"text": "The candidates are expected to read about the company while waiting.",
-"correct": "T",
-"solution": "Ý câu 'provide them with the company profile' cho thấy ứng viên sẽ đọc hồ sơ giới thiệu công ty trong lúc chờ đợi."
-}
-],
-"points": 1.0
-},
-{
-"id": 6,
-"type": "TF",
-"text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-"notice": "ATTENTION CUSTOMERS\nOur kitchen handles nuts, dairy, and gluten. While we take precautions to prevent cross-contamination, we cannot guarantee any dish is completely allergen-free. Please inform our staff of any allergies before ordering.",
-"parts": [
-{
-"id": "6_1",
-"text": "The restaurant guarantees that their 'nut-free' dishes are 100% safe.",
-"correct": "F",
-"solution": "Nhà hàng ghi rõ họ không thể cam kết bất kỳ món ăn nào hoàn toàn không chứa chất gây dị ứng ('cannot guarantee any dish is completely allergen-free')."
-},
-{
-"id": "6_2",
-"text": "Customers should disclose their dietary restrictions prior to choosing a meal.",
-"correct": "T",
-"solution": "Khách hàng được yêu cầu báo cho nhân viên về tình trạng dị ứng của mình trước khi gọi món ('inform our staff... before ordering')."
-},
-{
-"id": "6_3",
-"text": "Cross-contamination is impossible due to the kitchen's strict precautions.",
-"correct": "F",
-"solution": "Dù có các biện pháp phòng ngừa nhiễm chéo nhưng nhà hàng vẫn ghi rõ 'chúng tôi không thể đảm bảo tuyệt đối'."
-},
-{
-"id": "6_4",
-"text": "The restaurant serves foods that contain common allergens.",
-"correct": "T",
-"solution": "Bếp của nhà hàng có chế biến các nguyên liệu dễ gây dị ứng phổ biến như hạt, sữa và gluten ('handles nuts, dairy, and gluten')."
-}
-],
-"points": 1.0
-},
-{
-"id": 7,
-"type": "TF",
-"text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-"notice": "Residency Inn: Breakfast is served in the lounge from 6:30 to 10:30 AM. For those departing before dawn, we can have a breakfast box prepared for you. Please notify the front desk by 8 PM the night before.",
-"parts": [
-{
-"id": "7_1",
-"text": "Guests leaving very early can still have a meal provided by the hotel.",
-"correct": "T",
-"solution": "Những khách rời đi sớm trước bình minh ('departing before dawn') sẽ được khách sạn chuẩn bị hộp bữa sáng mang đi."
-},
-{
-"id": "7_2",
-"text": "You can request a breakfast box at any time during the night.",
-"correct": "F",
-"solution": "Khách bắt buộc phải thông báo yêu cầu cho quầy lễ tân trước 8 giờ tối hôm trước ('by 8 PM the night before')."
-},
-{
-"id": "7_3",
-"text": "The lounge is the only place where guests can eat breakfast.",
-"correct": "F",
-"solution": "Khách có thể ăn bữa sáng đóng hộp (breakfast box) ở nơi khác ngoài sảnh lounge khi đi sớm."
-},
-{
-"id": "7_4",
-"text": "To get a breakfast box, guests must inform the staff on the previous evening.",
-"correct": "T",
-"solution": "Quy định yêu cầu phải thông báo cho nhân viên trước thời hạn 8 PM của tối ngày hôm trước."
-}
-],
-"points": 1.0
-},
-{
-"id": 8,
-"type": "TF",
-"text": "Question 8 is based on the information in the passage. Decide if the statements are True (T) or False (F):",
-"passage": "  Procrastination, the act of delaying tasks despite knowing that there will be negative consequences, is often misunderstood as a simple lack of willpower or poor time management. However, psychologists have discovered that it is primarily an emotional regulation problem. When faced with a task that makes us feel anxious, bored, or overwhelmed, our brains prioritize immediate emotional relief over long-term goals. Essentially, we choose the temporary comfort of avoidance to escape the unpleasant feelings associated with the task at hand. **[A]**\n\n
-
-
-
-\n\n  The biological root of this behavior lies in the constant struggle between two parts of the brain: the limbic system and the prefrontal cortex. The limbic system is one of the oldest and most dominant portions of the brain, functioning automatically to seek "immediate gratification." In contrast, the prefrontal cortex is a newer, weaker part that allows for complex planning and long-term decision-making. When **they** clash, the limbic system often wins, leading us to favor short-term mood repair over the actual work required. **[B]**\n\n
-
-
-
-\n\n  Contrary to popular belief, procrastination is not a harmless habit but can have **detrimental** effects on mental health and professional success. Chronic procrastinators often experience higher levels of stress, low self-esteem, and even depression. **[C]** In the workplace, this tendency results in missed deadlines and diminished quality of work, which can hinder career advancement. Furthermore, the guilt associated with "stolen time"—the hours spent avoiding work—often prevents individuals from truly enjoying their leisure activities, creating a cycle of persistent anxiety.\n\n
-
-
-
-\n\n  Addressing procrastination requires more than just a better calendar; it necessitates a shift in how we handle our emotions. Techniques such as "**self-forgiveness**" have shown remarkable results, as they reduce the negative emotions that lead to further avoidance. **[D]** Additionally, breaking tasks into smaller, more manageable parts can lower the initial threshold of anxiety. By focusing on "just getting started" rather than the final result, individuals can bypass the brain's defense mechanisms and build the momentum necessary for completion.\n\n
-
-
-
-\n\n  Ultimately, understanding procrastination as a psychological challenge rather than a moral failing is the first step toward overcoming it. As we learn to navigate our emotional responses more effectively, we can bridge the gap between our intentions and our actions.",
-"parts": [
-{
-"id": "8_1",
-"text": "Chronic procrastinators are likely to suffer from diminished self-esteem and high stress levels.",
-"correct": "T",
-"solution": "Đoạn 3 khẳng định: 'Chronic procrastinators often experience higher levels of stress, low self-esteem...'."
-},
-{
-"id": "8_2",
-"text": "Career advancement is often accelerated by the pressure of working near deadlines.",
-"correct": "F",
-"solution": "Đoạn 3 chỉ ra việc trì hoãn làm lỡ hạn chót và giảm chất lượng công việc, từ đó gây cản trở ('hinder career advancement') chứ không phải tăng tốc thăng tiến."
-},
-{
-"id": "8_3",
-"text": "The psychological guilt of "stolen time" actually enhances the quality of subsequent leisure activities.",
-"correct": "F",
-"solution": "Cảm giác tội lỗi của 'thời gian đánh cắp' ngăn cản người ta tận hưởng trọn vẹn các hoạt động giải trí ('prevents individuals from truly enjoying their leisure activities')."
-},
-{
-"id": "8_4",
-"text": "Procrastination is considered a harmless habit that has little impact on professional success.",
-"correct": "F",
-"solution": "Mở đầu đoạn 3 phản bác lại quan niệm này: 'Contrary to popular belief, procrastination is not a harmless habit...'."
-}
-],
-"points": 1.0
-},
-{
-"id": 9,
-"type": "TF",
-"text": "Question 9 is based on the information in the passage. Decide if the statements are True (T) or False (F):",
-"parts": [
-{
-"id": "9_1",
-"text": "Procrastination is fundamentally a failure of time management rather than an emotional issue.",
-"correct": "F",
-"solution": "Các nhà tâm lý học phát hiện ra trì hoãn chủ yếu là vấn đề về điều chỉnh cảm xúc ('primarily an emotional regulation problem') chứ không phải quản lý thời gian đơn thuần."
-},
-{
-"id": "9_2",
-"text": "The limbic system functions to prioritize long-term planning over immediate gratification.",
-"correct": "F",
-"solution": "Hệ viền (limbic system) hoạt động tự động để tìm kiếm sự thỏa mãn tức thì ('seek immediate gratification'), phần lo kế hoạch dài hạn là vỏ não trước trán."
-},
-{
-"id": "9_3",
-"text": "Breaking tasks into smaller segments can help bypass the brain's natural defense mechanisms.",
-"correct": "T",
-"solution": "Đoạn 4 nêu rõ việc chia nhỏ bài tập giúp cá nhân vượt qua cơ chế phòng thủ của não bộ để tạo đà hoàn thành ('bypass the brain's defense mechanisms')."
-},
-{
-"id": "9_4",
-"text": "Adopting a perspective of "self-forgiveness" can effectively reduce the cycle of avoidance.",
-"correct": "T",
-"solution": "Kỹ thuật tự tha thứ giảm thiểu cảm xúc tiêu cực, từ đó hạn chế hành vi tiếp tục né tránh nhiệm vụ ('reduce the negative emotions that lead to further avoidance')."
-}
-],
-"points": 1.0
-},
-{
-"id": 10,
-"type": "MCQ",
-"text": "Where in paragraph 4 does the following sentence best fit?\n"This approach helps lower the psychological barrier to starting a difficult task, making it feel less intimidating."",
-"options": [
-{
-"key": "A",
-"text": "[A]"
-},
-{
-"key": "B",
-"text": "[B]"
-},
-{
-"key": "C",
-"text": "[C]"
-},
-{
-"key": "D",
-"text": "[D]"
-}
-],
-"correct": "D",
-"solution": "Câu này bổ trợ giải thích cho việc chia nhỏ nhiệm vụ ('breaking tasks into smaller... parts') giúp giảm bớt rào cản tâm lý khi bắt đầu, vì vậy đặt ở vị trí [D] là hợp lý nhất."
-},
-{
-"id": 11,
-"type": "MCQ",
-"text": "The word "**detrimental**" in paragraph 3 could be best replaced by:",
-"options": [
-{
-"key": "A",
-"text": "beneficial"
-},
-{
-"key": "I",
-"text": "harmful"
-},
-{
-"key": "C",
-"text": "temporary"
-},
-{
-"key": "D",
-"text": "insignificant"
-}
-],
-"correct": "B",
-"solution": "'Detrimental' có nghĩa là gây hại, có hại. Từ đồng nghĩa chính xác nhất trong các phương án là 'harmful'."
-},
-{
-"id": 12,
-"type": "MCQ",
-"text": "The word "**they**" in paragraph 2 refers to:",
-"options": [
-{
-"key": "A",
-"text": "negative consequences"
-},
-{
-"key": "B",
-"text": "immediate emotional relief"
-},
-{
-"key": "C",
-"text": "the limbic system and the prefrontal cortex"
-},
-{
-"key": "D",
-"text": "complex planning and long-term goals"
-}
-],
-"correct": "C",
-"solution": "Từ 'they' nằm ngay sau khi tác giả liệt kê cuộc xung đột giữa hai phần của não bộ là hệ viền ('the limbic system') và vỏ não trước trán ('the prefrontal cortex')."
-},
-{
-"id": 13,
-"type": "MCQ",
-"text": "How does the limbic system compare to the prefrontal cortex according to the text?",
-"options": [
-{
-"key": "A",
-"text": "The limbic system is a newer part of the brain focused on planning."
-},
-{
-"key": "B",
-"text": "The prefrontal cortex is more dominant and functions automatically."
-},
-{
-"key": "C",
-"text": "The limbic system is older and prioritizes immediate gratification."
-},
-{
-"key": "D",
-"text": "The prefrontal cortex is stronger and always wins the internal struggle."
-}
-],
-"correct": "C",
-"solution": "Đoạn 2 nêu rõ hệ viền là phần cổ xưa hơn và hoạt động tự động để tìm kiếm sự thỏa mãn tức thì ('one of the oldest... seek immediate gratification')."
-},
-{
-"id": 14,
-"type": "MCQ",
-"text": "Which of the following does the passage mainly discuss?",
-"options": [
-{
-"key": "A",
-"text": "A comprehensive overview of time management strategies and their historical evolution in modern workplaces."
-},
-{
-"key": "B",
-"text": "A multi-dimensional analysis of procrastination involving its psychological roots, impacts, and remedial techniques."
-},
-{
-"key": "C",
-"text": "An in-depth exploration of how digital distractions and social media platforms contribute to chronic academic delay."
-},
-{
-"key": "D",
-"text": "A comparative study between the limbic system and the prefrontal cortex regarding their roles in moral decision-making."
-}
-],
-"correct": "B",
-"solution": "Toàn bộ bài viết tập trung phân tích hiện tượng trì hoãn dưới góc nhìn tâm lý học, từ bản chất cảm xúc, cấu trúc sinh học não bộ, tác hại cho đến các giải pháp khắc phục."
-},
-{
-"id": 15,
-"type": "MCQ",
-"text": "What can be inferred about "**self-forgiveness**" mentioned in paragraph 4?",
-"options": [
-{
-"key": "A",
-"text": "It is a technique used to ignore the negative consequences of our actions."
-},
-{
-"key": "B",
-"text": "It is more effective than time management tools in reducing procrastination."
-},
-{
-"key": "C",
-"text": "It helps break the cycle of avoidance by reducing guilt and negative emotions."
-},
-{
-"key": "D",
-"text": "It is only useful for individuals who have already overcome their habits."
-}
-],
-"correct": "C",
-"solution": "Tự tha thứ làm giảm đi các cảm xúc tiêu cực liên quan đến lỗi lầm trì hoãn trước đó, giúp giải tỏa tâm lý căng thẳng/tội lỗi để phá vỡ vòng lặp tiếp tục trốn tránh."
-},
-{
-"id": 16,
-"type": "MATCH",
-"text": "Match each number (1-4) with a suitable letter (A-F) to make an appropriate exchange:",
-"leftItems": [
-{
-"id": "16_1",
-"text": "How about going to the art gallery tomorrow?"
-},
-{
-"id": "16_2",
-"text": "I've passed my final exam with flying colors!"
-},
-{
-"id": "16_3",
-"text": "Could you look after my cat while I'm away?"
-},
-{
-"id": "16_4",
-"text": "I'm really sorry for losing your favorite book."
-}
-],
-"rightItems": [
-{
-"key": "A",
-"text": "I'm afraid I can't. My camera is broken."
-},
-{
-"key": "B",
-"text": "That sounds like a great idea! What time?"
-},
-{
-"key": "C",
-"text": "Wow, congratulations! You deserve it."
-},
-{
-"key": "D",
-"text": "Never mind. I can buy a new one later."
-},
-{
-"key": "E",
-"text": "Not at all. I'll be happy to help."
-},
-{
-"key": "F",
-"text": "It's on the second floor, next to the lab."
-}
-],
-"correctMap": {
-"16_1": "B",
-"16_2": "C",
-"16_3": "E",
-"16_4": "D"
-},
-"solution": "1-B (Đồng ý lời gợi ý đi chơi); 2-C (Chúc mừng thi đỗ xuất sắc); 3-E (Đồng ý nhận lời giúp chăm mèo); 4-D (Tha lỗi khi làm mất sách)."
-},
-{
-"id": 17,
-"type": "MATCH",
-"text": "Match each sentence beginning (1-4) with its most suitable ending (A-F) to form a logical statement:",
-"leftItems": [
-{
-"id": "17_1",
-"text": "Maintaining a balanced diet"
-},
-{
-"id": "17_2",
-"text": "Lack of regular physical exercise"
-},
-{
-"id": "17_3",
-"text": "Practicing mindfulness and meditation"
-},
-{
-"id": "17_4",
-"text": "Consuming too much processed food"
-}
-],
-"rightItems": [
-{
-"key": "A",
-"text": "leads to a decrease in face-to-face interaction."
-},
-{
-"key": "B",
-"text": "helps prevent chronic diseases and boosts energy."
-},
-{
-"key": "C",
-"text": "is critical to combat climate change and reduce emissions."
-},
-{
-"key": "D",
-"text": "increases the risk of obesity and heart problems."
-},
-{
-"key": "E",
-"text": "can significantly reduce stress and improve focus."
-},
-{
-"key": "F",
-"text": "results in poor digestion and low nutritional intake."
-}
-],
-"correctMap": {
-"17_1": "B",
-"17_2": "D",
-"17_3": "E",
-"17_4": "F"
-},
-"solution": "1-B (Ăn uống cân bằng giúp tăng năng lượng); 2-D (Lười vận động tăng nguy cơ béo phì); 3-E (Thiền định giúp giảm stress); 4-F (Ăn nhiều đồ chế biến sẵn dẫn đến thiếu chất)."
-},
-{
-"id": 18,
-"type": "MATCH",
-"text": "Match each sentence beginning (1-4) with its most suitable ending (A-F) to construct grammatically correct relative clauses:",
-"leftItems": [
-{
-"id": "18_1",
-"text": "This is the historic city"
-},
-{
-"id": "18_2",
-"text": "I have a close friend"
-},
-{
-"id": "18_3",
-"text": "The newly opened company,"
-},
-{
-"id": "18_4",
-"text": "The research paper,"
-}
-],
-"rightItems": [
-{
-"key": "A",
-"text": "who was awarded the 'Employee of the Month'."
-},
-{
-"key": "B",
-"text": "that specializes in sustainable energy solutions."
-},
-{
-"key": "C",
-"text": "the name of which I can never remember."
-},
-{
-"key": "D",
-"text": "which is famous for its ancient canals and bridges."
-},
-{
-"key": "E",
-"text": "whose passion is collecting rare vinyl records."
-},
-{
-"key": "F",
-"text": "the findings of which were published, is very complex."
-}
-],
-"correctMap": {
-"18_1": "D",
-"18_2": "E",
-"18_3": "B",
-"18_4": "F"
-},
-"solution": "1-D (Thành phố cổ kính nổi tiếng với kênh đào); 2-E (Người bạn có niềm đam mê đĩa than); 3-B (Công ty chuyên về năng lượng bền vững); 4-F (Bài nghiên cứu có kết quả vừa được xuất bản)."
-},
-{
-"id": 19,
-"type": "MATCH",
-"text": "Match each conditional or concessive structure beginning (1-4) with its most suitable ending (A-F):",
-"leftItems": [
-{
-"id": "19_1",
-"text": "Should the weather improve by tomorrow morning,"
-},
-{
-"id": "19_2",
-"text": "Had the firefighters not arrived so quickly,"
-},
-{
-"id": "19_3",
-"text": "If I were taller and more athletic,"
-},
-{
-"id": "19_4",
-"text": "Unless we take action to protect the environment,"
-}
-],
-"rightItems": [
-{
-"key": "A",
-"text": "I would have gone abroad with my parents yesterday."
-},
-{
-"key": "B",
-"text": "the forest fire would have spread to the village."
-},
-{
-"key": "C",
-"text": "we will proceed with our hiking trip as planned."
-},
-{
-"key": "D",
-"text": "I would be selected for the basketball team."
-},
-{
-"key": "E",
-"text": "they would have been lost yesterday."
-},
-{
-"key": "F",
-"text": "climate change will get worse and worse."
-}
-],
-"correctMap": {
-"19_1": "C",
-"19_2": "B",
-"19_3": "D",
-"19_4": "F"
-},
-"solution": "1-C (Đảo ngữ loại 1: Thể hiện khả năng ở tương lai); 2-B (Đảo ngữ loại 3: Giả định quá khứ); 3-D (Câu điều kiện loại 2 giả định hiện tại trái thực tế); 4-F (Cấu trúc Unless loại 1 chỉ hệ quả tương lai)."
-},
-{
-"id": 20,
-"type": "MATCH",
-"text": "Match each advanced structure or inversion beginning (1-4) with its correct syntactic ending (A-F):",
-"leftItems": [
-{
-"id": "20_1",
-"text": "It was his outstanding performance"
-},
-{
-"id": "20_2",
-"text": "Not until the middle of the night"
-},
-{
-"id": "20_3",
-"text": "I am looking forward to the holiday,"
-},
-{
-"id": "20_4",
-"text": "Never have I witnessed"
-}
-],
-"rightItems": [
-{
-"key": "A",
-"text": "that students don't need to go to school for classes."
-},
-{
-"key": "B",
-"text": "that convinced the judges to give him the first prize."
-},
-{
-"key": "C",
-"text": "did the storm finally begin to subside."
-},
-{
-"key": "D",
-"text": "such a magnificent sunset in my entire life."
-},
-{
-"key": "E",
-"text": "when occurs by far the most accidents during the year."
-},
-{
-"key": "F",
-"text": "when we can travel to the countryside."
-}
-],
-"correctMap": {
-"20_1": "B",
-"20_2": "C",
-"20_3": "F",
-"20_4": "D"
-},
-"solution": "20_1 nối B (Câu chẻ It was... that nhấn mạnh); 20_2 nối C (Đảo ngữ với Not until... did + S + V); 20_3 nối F (Trạng từ liên kết thời gian); 20_4 nối D (Đảo ngữ với trạng từ phủ định đứng đầu câu)."
-},
-{
-"id": 21,
-"type": "SHORT",
-"passage": "  The global transition to renewable energy is no longer just a trend; it has become a necessity for our planet's survival. **(21) ______** fossil fuels, which release harmful carbon emissions, solar and wind energy provide a clean and sustainable alternative. Many countries are now investing a **(22) ______** amount of money into developing massive offshore wind farms. These projects, **(23) ______** by advanced engineering, are capable of powering millions of homes simultaneously.\n\n
-
-
-
-\n\n  However, the intermittent nature of sunlight and wind remains a challenge. To solve this, scientists are working on better battery storage systems so that energy can be **(24) ______** for use during cloudy or calm days. As technology evolves, the cost of green energy will continue to **(25) ______** steadily, making it more accessible to developing nations.",
-"text": "Fill in ONE word which best fits gap (21):",
-"correct": "Unlike|unlike|Besides|besides",
-"solution": "Cần một giới từ mang ý nghĩa 'Không giống như' hoặc đặt lên bàn cân đối lập để làm nổi bật tính chất sạch của năng lượng mới so với nhiên liệu hóa thạch truyền thống."
-},
-{
-"id": 22,
-"type": "SHORT",
-"text": "Fill in ONE word which best fits gap (22):",
-"correct": "huge|large|vast|massive|significant|great",
-"solution": "Cần một tính từ đứng trước 'amount of money' để chỉ số lượng tiền cực lớn/khổng lồ mà các quốc gia đang đầu tư vào trang trại gió."
-},
-{
-"id": 23,
-"type": "SHORT",
-"text": "Fill in ONE word which best fits gap (23):",
-"correct": "supported|backed|powered|driven",
-"solution": "Rút gọn mệnh đề quan hệ dạng bị động mang nghĩa 'được hậu thuẫn/hỗ trợ/vận hành bởi kỹ thuật tiên tiến'."
-},
-{
-"id": 24,
-"type": "SHORT",
-"text": "Fill in ONE word which best fits gap (24):",
-"correct": "stored|saved|kept|reserved",
-"solution": "Động từ thể bị động sau 'can be', mang ý nghĩa năng lượng được 'tích trữ/lưu trữ' vào hệ thống pin để dùng cho những ngày lặng gió."
-},
-{
-"id": 25,
-"type": "SHORT",
-"text": "Fill in ONE word which best fits gap (25):",
-"correct": "fall|drop|decrease|decline|reduce",
-"solution": "Khi công nghệ phát triển, giá thành của năng lượng xanh sẽ tiếp tục 'giảm xuống' một cách đều đặn, giúp các nước đang phát triển dễ tiếp cận hơn."
-}
+  {
+    "id": 1,
+    "type": "TF",
+    "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class=\"text-center\"><b>NOTICE: FLU VACCINATION DRIVE</b></div>\n<div class=\"text-left\">Free flu shots are available for staff and students this week. Please book your slot via the clinic app.</div>\n<div class=\"text-left\"><i><b>Note:</b> You should avoid strenuous exercise for 24 hours after the injection to minimize potential side effects.</i></div>",
+    "parts": [
+      {
+        "id": "1_1",
+        "text": "Only students are eligible for the free vaccination program.",
+        "correct": "F",
+        "solution": "Thông báo ghi rõ chương trình áp dụng cho cả nhân viên và học sinh ('staff and students')."
+      },
+      {
+        "id": "1_2",
+        "text": "Appointments must be made through a digital platform.",
+        "correct": "T",
+        "solution": "Người tham gia bắt buộc phải đặt lịch hẹn thông qua ứng dụng di động của phòng khám ('via the clinic app')."
+      },
+      {
+        "id": "1_3",
+        "text": "It is recommended to rest from heavy physical activities post-injection.",
+        "correct": "T",
+        "solution": "Thông báo khuyên nên tránh các bài tập thể dục cường độ cao ('avoid strenuous exercise') sau khi tiêm."
+      },
+      {
+        "id": "1_4",
+        "text": "Side effects will definitely occur if you exercise right after the shot.",
+        "correct": "F",
+        "solution": "Việc tránh tập thể dục chỉ nhằm 'giảm thiểu khả năng' bị tác dụng phụ ('minimize potential side effects'), không có nghĩa là tác dụng phụ chắc chắn sẽ xảy ra."
+      }
+    ],
+    "points": 1.0
+  },
+  {
+    "id": 2,
+    "type": "TF",
+    "text": "Based on the message, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class=\"text-left\">Dear Mr. Smith,</div>\n<div class=\"text-left\">We've had your laptop's motherboard replaced as requested. However, our technician noticed the battery is also failing. Shall we have a new one installed for an additional $50 before you collect the device?</div>\n<div class=\"text-right\">TechFix Support</div>",
+    "parts": [
+      {
+        "id": "2_1",
+        "text": "The technician has already finished all necessary repairs on the laptop.",
+        "correct": "F",
+        "solution": "Kỹ thuật viên phát hiện thêm lỗi pin đang hỏng ('battery is also failing') nên máy vẫn chưa hoàn toàn sẵn sàng nếu chưa xử lý dứt điểm."
+      },
+      {
+        "id": "2_2",
+        "text": "TechFix is asking for permission to perform a secondary repair.",
+        "correct": "T",
+        "solution": "Cửa hàng hỏi ý kiến khách hàng bằng câu đề nghị 'Shall we have a new one installed...?' để tiến hành sửa chữa thêm phần pin."
+      },
+      {
+        "id": "2_3",
+        "text": "Mr. Smith can get his battery fixed without any extra charges.",
+        "correct": "F",
+        "solution": "Việc thay pin mới sẽ tốn thêm khoản phí phụ thu là 50 đô la ('for an additional $50')."
+      },
+      {
+        "id": "2_4",
+        "text": "The customer had someone at TechFix change the motherboard earlier.",
+        "correct": "T",
+        "solution": "Cấu trúc 'We've had your laptop's motherboard replaced as requested' xác nhận khách hàng đã yêu cầu nhân viên tại đây thay bo mạch chủ trước đó."
+      }
+    ],
+    "points": 1.0
+  },
+  {
+    "id": 3,
+    "type": "TF",
+    "text": "Based on the policy notice, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class=\"text-center\"><b>RETURN POLICY</b></div>\n<div class=\"text-left\">Items must be returned in their original packaging within 30 days of purchase for a full refund.</div>\n<div class=\"text-left\"><b>Please note:</b> Clearance items are final sale and cannot be exchanged or returned under any circumstances.</div>",
+    "parts": [
+      {
+        "id": "3_1",
+        "text": "You can get your money back even if you lost the original box.",
+        "correct": "F",
+        "solution": "Chính sách bắt buộc hàng trả lại phải nằm trong bao bì/hộp gốc của sản phẩm ('in their original packaging')."
+      },
+      {
+        "id": "3_2",
+        "text": "Standard items can be returned up to a month after being bought.",
+        "correct": "T",
+        "solution": "Thời hạn hoàn tiền đầy đủ là trong vòng 30 ngày kể từ ngày mua hàng ('within 30 days of purchase')."
+      },
+      {
+        "id": "3_3",
+        "text": "All products sold at this store are eligible for an exchange.",
+        "correct": "F",
+        "solution": "Các mặt hàng thanh lý cuối cùng ('Clearance items') hoàn toàn không được áp dụng đổi hoặc trả dưới bất kỳ hình thức nào."
+      },
+      {
+        "id": "3_4",
+        "text": "'Clearance items' refers to goods that are sold at a discount and are non-returnable.",
+        "correct": "T",
+        "solution": "Hàng thanh lý là nhóm hàng bán đợt cuối và không thể hoàn trả hoặc đổi mẫu khác ('final sale and cannot be exchanged or returned')."
+      }
+    ],
+    "points": 1.0
+  },
+  {
+    "id": 4,
+    "type": "TF",
+    "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class=\"text-center\"><b>URBAN CLEAN AIR ZONE</b></div>\n<div class=\"text-left\">Vehicles entering this zone between 7 AM and 6 PM must meet emission standards. Drivers of non-compliant cars will be fined unless they have registered for a daily exemption pass 24 hours in advance.</div>",
+    "parts": [
+      {
+        "id": "4_1",
+        "text": "The clean air regulations apply 24 hours a day.",
+        "correct": "F",
+        "solution": "Quy định kiểm soát khí thải chỉ áp dụng trong khung giờ nhất định từ 7 giờ sáng đến 6 giờ chiều ('between 7 AM and 6 PM')."
+      },
+      {
+        "id": "4_2",
+        "text": "Driving a high-emission car here without a pass will result in a penalty.",
+        "correct": "T",
+        "solution": "Những tài xế lái xe không đạt chuẩn ('non-compliant cars') mà không có thẻ miễn trừ sẽ bị phạt tiền ('will be fined')."
+      },
+      {
+        "id": "4_3",
+        "text": "You can apply for an exemption pass on the same day you enter the zone.",
+        "correct": "F",
+        "solution": "Người lái xe bắt buộc phải đăng ký thẻ miễn trừ trước đó ít nhất 24 giờ ('24 hours in advance')."
+      },
+      {
+        "id": "4_4",
+        "text": "Only electric cars are allowed to enter this area during the day.",
+        "correct": "F",
+        "solution": "Thông báo chỉ yêu cầu xe đạt tiêu chuẩn khí thải nói chung ('must meet emission standards'), không cấm các loại xe khác ngoài xe điện."
+      }
+    ],
+    "points": 1.0
+  },
+  {
+    "id": 5,
+    "type": "TF",
+    "text": "Based on the email, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class=\"text-left\">Hi Jane,</div>\n<div class=\"text-left\">The manager might be late for the interview. Could you have the candidates wait in the briefing room and provide them with the company profile? I'll get the HR assistant to bring the evaluation forms shortly.</div>\n<div class=\"text-right\">Mark.</div>",
+    "parts": [
+      {
+        "id": "5_1",
+        "text": "It is certain that the manager will not arrive on time.",
+        "correct": "F",
+        "solution": "Mark dùng từ 'might be late' thể hiện khả năng có thể xảy ra, không chắc chắn tuyệt đối."
+      },
+      {
+        "id": "5_2",
+        "text": "Jane is responsible for guiding the candidates to a specific room.",
+        "correct": "T",
+        "solution": "Jane được nhờ hướng dẫn ứng viên đợi tại phòng giao ban ngắn ('wait in the briefing room')."
+      },
+      {
+        "id": "5_3",
+        "text": "Mark will personally deliver the evaluation forms to Jane.",
+        "correct": "F",
+        "solution": "Mark sẽ nhờ trợ lý nhân sự mang biểu mẫu đến ('I'll get the HR assistant to bring')."
+      },
+      {
+        "id": "5_4",
+        "text": "The candidates are expected to read about the company while waiting.",
+        "correct": "T",
+        "solution": "Ý câu 'provide them with the company profile' cho thấy ứng viên sẽ đọc hồ sơ giới thiệu công ty trong lúc chờ đợi."
+      }
+    ],
+    "points": 1.0
+  },
+  {
+    "id": 6,
+    "type": "TF",
+    "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class=\"text-center\"><b>ATTENTION CUSTOMERS</b></div>\n<div class=\"text-left\">Our kitchen handles nuts, dairy, and gluten. While we take precautions to prevent cross-contamination, we cannot guarantee any dish is completely allergen-free. Please inform our staff of any allergies before ordering.</div>",
+    "parts": [
+      {
+        "id": "6_1",
+        "text": "The restaurant guarantees that their 'nut-free' dishes are 100% safe.",
+        "correct": "F",
+        "solution": "Nhà hàng ghi rõ họ không thể cam kết bất kỳ món ăn nào hoàn toàn không chứa chất gây dị ứng ('cannot guarantee any dish is completely allergen-free')."
+      },
+      {
+        "id": "6_2",
+        "text": "Customers should disclose their dietary restrictions prior to choosing a meal.",
+        "correct": "T",
+        "solution": "Khách hàng được yêu cầu báo cho nhân viên về tình trạng dị ứng của mình trước khi gọi món ('inform our staff... before ordering')."
+      },
+      {
+        "id": "6_3",
+        "text": "Cross-contamination is impossible due to the kitchen's strict precautions.",
+        "correct": "F",
+        "solution": "Dù có các biện pháp phòng ngừa nhiễm chéo nhưng nhà hàng vẫn ghi rõ 'chúng tôi không thể đảm bảo tuyệt đối'."
+      },
+      {
+        "id": "6_4",
+        "text": "The restaurant serves foods that contain common allergens.",
+        "correct": "T",
+        "solution": "Bếp của nhà hàng có chế biến các nguyên liệu dễ gây dị ứng phổ biến như hạt, sữa và gluten ('handles nuts, dairy, and gluten')."
+      }
+    ],
+    "points": 1.0
+  },
+  {
+    "id": 7,
+    "type": "TF",
+    "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class=\"text-center\"><b>Residency Inn</b></div>\n<div class=\"text-left\">Breakfast is served in the lounge from 6:30 to 10:30 AM. For those departing before dawn, we can have a breakfast box prepared for you. Please notify the front desk by 8 PM the night before.</div>",
+    "parts": [
+      {
+        "id": "7_1",
+        "text": "Guests leaving very early can still have a meal provided by the hotel.",
+        "correct": "T",
+        "solution": "Những khách rời đi sớm trước bình minh ('departing before dawn') sẽ được khách sạn chuẩn bị hộp bữa sáng mang đi."
+      },
+      {
+        "id": "7_2",
+        "text": "You can request a breakfast box at any time during the night.",
+        "correct": "F",
+        "solution": "Khách bắt buộc phải thông báo yêu cầu cho quầy lễ tân trước 8 giờ tối hôm trước ('by 8 PM the night before')."
+      },
+      {
+        "id": "7_3",
+        "text": "The lounge is the only place where guests can eat breakfast.",
+        "correct": "F",
+        "solution": "Khách có thể ăn bữa sáng đóng hộp (breakfast box) ở nơi khác ngoài sảnh lounge khi đi sớm."
+      },
+      {
+        "id": "7_4",
+        "text": "To get a breakfast box, guests must inform the staff on the previous evening.",
+        "correct": "T",
+        "solution": "Quy định yêu cầu phải thông báo cho nhân viên trước thời hạn 8 PM của tối ngày hôm trước."
+      }
+    ],
+    "points": 1.0
+  },
+  {
+    "id": 8,
+    "type": "TF",
+    "text": "Question 8 is based on the information in the passage. Decide if the statements are True (T) or False (F):",
+    "passage": "  Procrastination, the act of delaying tasks despite knowing that there will be negative consequences, is often misunderstood as a simple lack of willpower or poor time management. However, psychologists have discovered that it is primarily an emotional regulation problem. When faced with a task that makes us feel anxious, bored, or overwhelmed, our brains prioritize immediate emotional relief over long-term goals. Essentially, we choose the temporary comfort of avoidance to escape the unpleasant feelings associated with the task at hand. **[A]**\n\n  The biological root of this behavior lies in the constant struggle between two parts of the brain: the limbic system and the prefrontal cortex. The limbic system is one of the oldest and most dominant portions of the brain, functioning automatically to seek \"immediate gratification.\" In contrast, the prefrontal cortex is a newer, weaker part that allows for complex planning and long-term decision-making. When **they** clash, the limbic system often wins, leading us to favor short-term mood repair over the actual work required. **[B]**\n\n  Contrary to popular belief, procrastination is not a harmless habit but can have **detrimental** effects on mental health and professional success. Chronic procrastinators often experience higher levels of stress, low self-esteem, and even depression. **[C]** In the workplace, this tendency results in missed deadlines and diminished quality of work, which can hinder career advancement. Furthermore, the guilt associated with \"stolen time\"—the hours spent avoiding work—often prevents individuals from truly enjoying their leisure activities, creating a cycle of persistent anxiety.\n\n  Addressing procrastination requires more than just a better calendar; it necessitates a shift in how we handle our emotions. Techniques such as \"**self-forgiveness**\" have shown remarkable results, as they reduce the negative emotions that lead to further avoidance. **[D]** Additionally, breaking tasks into smaller, more manageable parts can lower the initial threshold of anxiety. By focusing on \"just getting started\" rather than the final result, individuals can bypass the brain's defense mechanisms and build the momentum necessary for completion.\n\n  Ultimately, understanding procrastination as a psychological challenge rather than a moral failing is the first step toward overcoming it. As we learn to navigate our emotional responses more effectively, we can bridge the gap between our intentions and our actions.",
+    "parts": [
+      {
+        "id": "8_1",
+        "text": "Chronic procrastinators are likely to suffer from diminished self-esteem and high stress levels.",
+        "correct": "T",
+        "solution": "Đoạn 3 khẳng định: 'Chronic procrastinators often experience higher levels of stress, low self-esteem...'."
+      },
+      {
+        "id": "8_2",
+        "text": "Career advancement is often accelerated by the pressure of working near deadlines.",
+        "correct": "F",
+        "solution": "Đoạn 3 chỉ ra việc trì hoãn làm lỡ hạn chót và giảm chất lượng công việc, từ đó gây cản trở ('hinder career advancement') chứ không phải tăng tốc thăng tiến."
+      },
+      {
+        "id": "8_3",
+        "text": "The psychological guilt of \"stolen time\" actually enhances the quality of subsequent leisure activities.",
+        "correct": "F",
+        "solution": "Cảm giác tội lỗi của 'thời gian đánh cắp' ngăn cản người ta tận hưởng trọn vẹn các hoạt động giải trí ('prevents individuals from truly enjoying their leisure activities')."
+      },
+      {
+        "id": "8_4",
+        "text": "Procrastination is considered a harmless habit that has little impact on professional success.",
+        "correct": "F",
+        "solution": "Mở đầu đoạn 3 phản bác lại quan niệm này: 'Contrary to popular belief, procrastination is not a harmless habit...'."
+      }
+    ],
+    "points": 1.0
+  },
+  {
+    "id": 9,
+    "type": "TF",
+    "text": "Question 9 is based on the information in the passage. Decide if the statements are True (T) or False (F):",
+    "parts": [
+      {
+        "id": "9_1",
+        "text": "Procrastination is fundamentally a failure of time management rather than an emotional issue.",
+        "correct": "F",
+        "solution": "Các nhà tâm lý học phát hiện ra trì hoãn chủ yếu là vấn đề về điều chỉnh cảm xúc ('primarily an emotional regulation problem') chứ không phải quản lý thời gian đơn thuần."
+      },
+      {
+        "id": "9_2",
+        "text": "The limbic system functions to prioritize long-term planning over immediate gratification.",
+        "correct": "F",
+        "solution": "Hệ viền (limbic system) hoạt động tự động để tìm kiếm sự thỏa mãn tức thì ('seek immediate gratification'), phần lo kế hoạch dài hạn là vỏ não trước trán."
+      },
+      {
+        "id": "9_3",
+        "text": "Breaking tasks into smaller segments can help bypass the brain's natural defense mechanisms.",
+        "correct": "T",
+        "solution": "Đoạn 4 nêu rõ việc chia nhỏ bài tập giúp cá nhân vượt qua cơ chế phòng thủ của não bộ để tạo đà hoàn thành ('bypass the brain's defense mechanisms')."
+      },
+      {
+        "id": "9_4",
+        "text": "Adopting a perspective of \"self-forgiveness\" can effectively reduce the cycle of avoidance.",
+        "correct": "T",
+        "solution": "Kỹ thuật tự tha thứ giảm thiểu cảm xúc tiêu cực, từ đó hạn chế hành vi tiếp tục né tránh nhiệm vụ ('reduce the negative emotions that lead to further avoidance')."
+      }
+    ],
+    "points": 1.0
+  },
+  {
+    "id": 10,
+    "type": "MCQ",
+    "text": "Where in paragraph 4 does the following sentence best fit?\n\"This approach helps lower the psychological barrier to starting a difficult task, making it feel less intimidating.\"",
+    "options": [
+      {
+        "key": "A",
+        "text": "[A]"
+      },
+      {
+        "key": "B",
+        "text": "[B]"
+      },
+      {
+        "key": "C",
+        "text": "[C]"
+      },
+      {
+        "key": "D",
+        "text": "[D]"
+      }
+    ],
+    "correct": "D",
+    "solution": "Câu này bổ trợ giải thích cho việc chia nhỏ nhiệm vụ ('breaking tasks into smaller... parts') giúp giảm bớt rào cản tâm lý khi bắt đầu, vì vậy đặt ở vị trí [D] là hợp lý nhất."
+  },
+  {
+    "id": 11,
+    "type": "MCQ",
+    "text": "The word \"**detrimental**\" in paragraph 3 could be best replaced by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "beneficial"
+      },
+      {
+        "key": "B",
+        "text": "harmful"
+      },
+      {
+        "key": "C",
+        "text": "temporary"
+      },
+      {
+        "key": "D",
+        "text": "insignificant"
+      }
+    ],
+    "correct": "B",
+    "solution": "'Detrimental' có nghĩa là gây hại, có hại. Từ đồng nghĩa chính xác nhất trong các phương án là 'harmful'."
+  },
+  {
+    "id": 12,
+    "type": "MCQ",
+    "text": "The word \"**they**\" in paragraph 2 refers to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "negative consequences"
+      },
+      {
+        "key": "B",
+        "text": "immediate emotional relief"
+      },
+      {
+        "key": "C",
+        "text": "the limbic system and the prefrontal cortex"
+      },
+      {
+        "key": "D",
+        "text": "complex planning and long-term goals"
+      }
+    ],
+    "correct": "C",
+    "solution": "Từ 'they' nằm ngay sau khi tác giả liệt kê cuộc xung đột giữa hai phần của não bộ là hệ viền ('the limbic system') và vỏ não trước trán ('the prefrontal cortex')."
+  },
+  {
+    "id": 13,
+    "type": "MCQ",
+    "text": "How does the limbic system compare to the prefrontal cortex according to the text?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The limbic system is a newer part of the brain focused on planning."
+      },
+      {
+        "key": "B",
+        "text": "The prefrontal cortex is more dominant and functions automatically."
+      },
+      {
+        "key": "C",
+        "text": "The limbic system is older and prioritizes immediate gratification."
+      },
+      {
+        "key": "D",
+        "text": "The prefrontal cortex is stronger and always wins the internal struggle."
+      }
+    ],
+    "correct": "C",
+    "solution": "Đoạn 2 nêu rõ hệ viền là phần cổ xưa hơn và hoạt động tự động để tìm kiếm sự thỏa mãn tức thì ('one of the oldest... seek immediate gratification')."
+  },
+  {
+    "id": 14,
+    "type": "MCQ",
+    "text": "Which of the following does the passage mainly discuss?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A comprehensive overview of time management strategies and their historical evolution in modern workplaces."
+      },
+      {
+        "key": "B",
+        "text": "A multi-dimensional analysis of procrastination involving its psychological roots, impacts, and remedial techniques."
+      },
+      {
+        "key": "C",
+        "text": "An in-depth exploration of how digital distractions and social media platforms contribute to chronic academic delay."
+      },
+      {
+        "key": "D",
+        "text": "A comparative study between the limbic system and the prefrontal cortex regarding their roles in moral decision-making."
+      }
+    ],
+    "correct": "B",
+    "solution": "Toàn bộ bài viết tập trung phân tích hiện tượng trì hoãn dưới góc nhìn tâm lý học, từ bản chất cảm xúc, cấu trúc sinh học não bộ, tác hại cho đến các giải pháp khắc phục."
+  },
+  {
+    "id": 15,
+    "type": "MCQ",
+    "text": "What can be inferred about \"**self-forgiveness**\" mentioned in paragraph 4?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It is a technique used to ignore the negative consequences of our actions."
+      },
+      {
+        "key": "B",
+        "text": "It is more effective than time management tools in reducing procrastination."
+      },
+      {
+        "key": "C",
+        "text": "It helps break the cycle of avoidance by reducing guilt and negative emotions."
+      },
+      {
+        "key": "D",
+        "text": "It is only useful for individuals who have already overcome their habits."
+      }
+    ],
+    "correct": "C",
+    "solution": "Tự tha thứ làm giảm đi các cảm xúc tiêu cực liên quan đến lỗi lầm trì hoãn trước đó, giúp giải tỏa tâm lý căng thẳng/tội lỗi để phá vỡ vòng lặp tiếp tục trốn tránh."
+  },
+  {
+    "id": 16,
+    "type": "MATCH",
+    "text": "Match each number (1-4) with a suitable letter (A-F) to make an appropriate exchange:",
+    "leftItems": [
+      {
+        "id": "16_1",
+        "text": "How about going to the art gallery tomorrow?"
+      },
+      {
+        "id": "16_2",
+        "text": "I've passed my final exam with flying colors!"
+      },
+      {
+        "id": "16_3",
+        "text": "Could you look after my cat while I'm away?"
+      },
+      {
+        "id": "16_4",
+        "text": "I'm really sorry for losing your favorite book."
+      }
+    ],
+    "rightItems": [
+      {
+        "key": "A",
+        "text": "I'm afraid I can't. My camera is broken."
+      },
+      {
+        "key": "B",
+        "text": "That sounds like a great idea! What time?"
+      },
+      {
+        "key": "C",
+        "text": "Wow, congratulations! You deserve it."
+      },
+      {
+        "key": "D",
+        "text": "Never mind. I can buy a new one later."
+      },
+      {
+        "key": "E",
+        "text": "Not at all. I'll be happy to help."
+      },
+      {
+        "key": "F",
+        "text": "It's on the second floor, next to the lab."
+      }
+    ],
+    "correctMap": {
+      "16_1": "B",
+      "16_2": "C",
+      "16_3": "E",
+      "16_4": "D"
+    },
+    "solution": "1-B (Đồng ý lời gợi ý đi chơi); 2-C (Chúc mừng thi đỗ xuất sắc); 3-E (Đồng ý nhận lời giúp chăm mèo); 4-D (Tha lỗi khi làm mất sách)."
+  },
+  {
+    "id": 17,
+    "type": "MATCH",
+    "text": "Match each sentence beginning (1-4) with its most suitable ending (A-F) to form a logical statement:",
+    "leftItems": [
+      {
+        "id": "17_1",
+        "text": "Maintaining a balanced diet"
+      },
+      {
+        "id": "17_2",
+        "text": "Lack of regular physical exercise"
+      },
+      {
+        "id": "17_3",
+        "text": "Practicing mindfulness and meditation"
+      },
+      {
+        "id": "17_4",
+        "text": "Consuming too much processed food"
+      }
+    ],
+    "rightItems": [
+      {
+        "key": "A",
+        "text": "leads to a decrease in face-to-face interaction."
+      },
+      {
+        "key": "B",
+        "text": "helps prevent chronic diseases and boosts energy."
+      },
+      {
+        "key": "C",
+        "text": "is critical to combat climate change and reduce emissions."
+      },
+      {
+        "key": "D",
+        "text": "increases the risk of obesity and heart problems."
+      },
+      {
+        "key": "E",
+        "text": "can significantly reduce stress and improve focus."
+      },
+      {
+        "key": "F",
+        "text": "results in poor digestion and low nutritional intake."
+      }
+    ],
+    "correctMap": {
+      "17_1": "B",
+      "17_2": "D",
+      "17_3": "E",
+      "17_4": "F"
+    },
+    "solution": "1-B (Ăn uống cân bằng giúp tăng năng lượng); 2-D (Lười vận động tăng nguy cơ béo phì); 3-E (Thiền định giúp giảm stress); 4-F (Ăn nhiều đồ chế biến sẵn dẫn đến thiếu chất)."
+  },
+  {
+    "id": 18,
+    "type": "MATCH",
+    "text": "Match each sentence beginning (1-4) with its most suitable ending (A-F) to construct grammatically correct relative clauses:",
+    "leftItems": [
+      {
+        "id": "18_1",
+        "text": "This is the historic city"
+      },
+      {
+        "id": "18_2",
+        "text": "I have a close friend"
+      },
+      {
+        "id": "18_3",
+        "text": "The newly opened company,"
+      },
+      {
+        "id": "18_4",
+        "text": "The research paper,"
+      }
+    ],
+    "rightItems": [
+      {
+        "key": "A",
+        "text": "who was awarded the 'Employee of the Month'."
+      },
+      {
+        "key": "B",
+        "text": "that specializes in sustainable energy solutions."
+      },
+      {
+        "key": "C",
+        "text": "the name of which I can never remember."
+      },
+      {
+        "key": "D",
+        "text": "which is famous for its ancient canals and bridges."
+      },
+      {
+        "key": "E",
+        "text": "whose passion is collecting rare vinyl records."
+      },
+      {
+        "key": "F",
+        "text": "the findings of which were published, is very complex."
+      }
+    ],
+    "correctMap": {
+      "18_1": "D",
+      "18_2": "E",
+      "18_3": "B",
+      "18_4": "F"
+    },
+    "solution": "1-D (Thành phố cổ kính nổi tiếng với kênh đào); 2-E (Người bạn có niềm đam mê đĩa than); 3-B (Công ty chuyên về năng lượng bền vững); 4-F (Bài nghiên cứu có kết quả vừa được xuất bản)."
+  },
+  {
+    "id": 19,
+    "type": "MATCH",
+    "text": "Match each conditional or concessive structure beginning (1-4) with its most suitable ending (A-F):",
+    "leftItems": [
+      {
+        "id": "19_1",
+        "text": "Should the weather improve by tomorrow morning,"
+      },
+      {
+        "id": "19_2",
+        "text": "Had the firefighters not arrived so quickly,"
+      },
+      {
+        "id": "19_3",
+        "text": "If I were taller and more athletic,"
+      },
+      {
+        "id": "19_4",
+        "text": "Unless we take action to protect the environment,"
+      }
+    ],
+    "rightItems": [
+      {
+        "key": "A",
+        "text": "I would have gone abroad with my parents yesterday."
+      },
+      {
+        "key": "B",
+        "text": "the forest fire would have spread to the village."
+      },
+      {
+        "key": "C",
+        "text": "we will proceed with our hiking trip as planned."
+      },
+      {
+        "key": "D",
+        "text": "I would be selected for the basketball team."
+      },
+      {
+        "key": "E",
+        "text": "they would have been lost yesterday."
+      },
+      {
+        "key": "F",
+        "text": "climate change will get worse and worse."
+      }
+    ],
+    "correctMap": {
+      "19_1": "C",
+      "19_2": "B",
+      "19_3": "D",
+      "19_4": "F"
+    },
+    "solution": "1-C (Đảo ngữ loại 1: Thể hiện khả năng ở tương lai); 2-B (Đảo ngữ loại 3: Giả định quá khứ); 3-D (Câu điều kiện loại 2 giả định hiện tại trái thực tế); 4-F (Cấu trúc Unless loại 1 chỉ hệ quả tương lai)."
+  },
+  {
+    "id": 20,
+    "type": "MATCH",
+    "text": "Match each advanced structure or inversion beginning (1-4) with its correct syntactic ending (A-F):",
+    "leftItems": [
+      {
+        "id": "20_1",
+        "text": "It was his outstanding performance"
+      },
+      {
+        "id": "20_2",
+        "text": "Not until the middle of the night"
+      },
+      {
+        "id": "20_3",
+        "text": "I am looking forward to the holiday,"
+      },
+      {
+        "id": "20_4",
+        "text": "Never have I witnessed"
+      }
+    ],
+    "rightItems": [
+      {
+        "key": "A",
+        "text": "that students don't need to go to school for classes."
+      },
+      {
+        "key": "B",
+        "text": "that convinced the judges to give him the first prize."
+      },
+      {
+        "key": "C",
+        "text": "did the storm finally begin to subside."
+      },
+      {
+        "key": "D",
+        "text": "such a magnificent sunset in my entire life."
+      },
+      {
+        "key": "E",
+        "text": "when occurs by far the most accidents during the year."
+      },
+      {
+        "key": "F",
+        "text": "when we can travel to the countryside."
+      }
+    ],
+    "correctMap": {
+      "20_1": "B",
+      "20_2": "C",
+      "20_3": "F",
+      "20_4": "D"
+    },
+    "solution": "20_1 nối B (Câu chẻ It was... that nhấn mạnh); 20_2 nối C (Đảo ngữ với Not until... did + S + V); 20_3 nối F (Trạng từ liên kết thời gian); 20_4 nối D (Đảo ngữ với trạng từ phủ định đứng đầu câu)."
+  },
+  {
+    "id": 21,
+    "type": "SHORT",
+    "passage": "  The global transition to renewable energy is no longer just a trend; it has become a necessity for our planet's survival. **(21) ______** fossil fuels, which release harmful carbon emissions, solar and wind energy provide a clean and sustainable alternative. Many countries are now investing a **(22) ______** amount of money into developing massive offshore wind farms. These projects, **(23) ______** by advanced engineering, are capable of powering millions of homes simultaneously.\n\n  However, the intermittent nature of sunlight and wind remains a challenge. To solve this, scientists are working on better battery storage systems so that energy can be **(24) ______** for use during cloudy or calm days. As technology evolves, the cost of green energy will continue to **(25) ______** steadily, making it more accessible to developing nations.",
+    "text": "Fill in ONE word which best fits gap (21):",
+    "correct": "Unlike|unlike|Besides|besides",
+    "solution": "Cần một giới từ mang ý nghĩa 'Không giống như' hoặc đặt lên bàn cân đối lập để làm nổi bật tính chất sạch của năng lượng mới so với nhiên liệu hóa thạch truyền thống."
+  },
+  {
+    "id": 22,
+    "type": "SHORT",
+    "text": "Fill in ONE word which best fits gap (22):",
+    "correct": "huge|large|vast|massive|significant|great",
+    "solution": "Cần một tính từ đứng trước 'amount of money' để chỉ số lượng tiền cực lớn/khổng lồ mà các quốc gia đang đầu tư vào trang trại gió."
+  },
+  {
+    "id": 23,
+    "type": "SHORT",
+    "text": "Fill in ONE word which best fits gap (23):",
+    "correct": "supported|backed|powered|driven",
+    "solution": "Rút gọn mệnh đề quan hệ dạng bị động mang nghĩa 'được hậu thuẫn/hỗ trợ/vận hành bởi kỹ thuật tiên tiến'."
+  },
+  {
+    "id": 24,
+    "type": "SHORT",
+    "text": "Fill in ONE word which best fits gap (24):",
+    "correct": "stored|saved|kept|reserved",
+    "solution": "Động từ thể bị động sau 'can be', mang ý nghĩa năng lượng được 'tích trữ/lưu trữ' vào hệ thống pin để dùng cho những ngày lặng gió."
+  },
+  {
+    "id": 25,
+    "type": "SHORT",
+    "text": "Fill in ONE word which best fits gap (25):",
+    "correct": "fall|drop|decrease|decline|reduce",
+    "solution": "Khi công nghệ phát triển, giá thành của năng lượng xanh sẽ tiếp tục 'giảm xuống' một cách đều đặn, giúp các nước đang phát triển dễ tiếp cận hơn."
+  }
 ]
