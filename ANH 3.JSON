@@ -2,32 +2,32 @@
   {
     "id": 1,
     "type": "TF",
-    "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "<div class=\"text-center\"><b>FREE FLU SHOTS</b></div>\n<div class=\"text-center\">Staff & Students Only</div>\n<div class=\"text-center\">Book via Clinic App</div>",
+    "text": "Based on the transit notice, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class=\"text-center\"><b>METROPOLITAN TRANSIT NOTICE</b></div>\n<div class=\"text-left\">To combat rush-hour congestion, commuter lanes are reserved solely for high-occupancy vehicles entering this zone between 7:00 AM and 9:00 AM. Violators will face fines unless they switch to public transport or choose to commute outside this time window.</div>",
     "parts": [
       {
         "id": "1_1",
-        "text": "Only students can receive the free flu shots.",
+        "text": "All drivers entering commuter lanes during rush hour must pay a mandatory fee.",
         "correct": "F",
-        "solution": "Thông báo ghi 'Staff & Students Only' nghĩa là cả nhân viên và học sinh đều được tiêm miễn phí."
+        "solution": "Bẫy logic từ 'All': Chỉ những phương tiện không đạt chuẩn số lượng người ngồi (low-occupancy) và vi phạm mới bị phạt tiền ('Violators will face fines'), còn xe chở nhiều người (high-occupancy) được đi miễn phí."
       },
       {
         "id": "1_2",
-        "text": "Appointments must be booked through an app.",
+        "text": "Vehicles with only one occupant are permitted in commuter lanes after 9:00 AM.",
         "correct": "T",
-        "solution": "Người tham gia bắt buộc phải đặt lịch thông qua ứng dụng di động ('Book via Clinic App')."
+        "solution": "Suy luận logic: Quy định hạn chế làn đường chỉ áp dụng trong khung giờ cao điểm từ 7:00 đến 9:00 sáng. Sau 9:00 AM, các phương tiện một người ngồi vẫn được phép di chuyển bình thường."
       },
       {
         "id": "1_3",
-        "text": "The flu vaccination drive is completely free for eligible groups.",
+        "text": "Taking the bus or subway is one way to avoid penalties for low-occupancy vehicle drivers.",
         "correct": "T",
-        "solution": "Thông báo ghi rõ đây là chương trình tiêm phòng miễn phí ('FREE FLU SHOTS')."
+        "solution": "Đúng theo thông báo: Việc chuyển sang sử dụng phương tiện công cộng ('switch to public transport') như xe buýt hoặc tàu điện ngầm sẽ giúp tránh được hình phạt tiền."
       },
       {
         "id": "1_4",
-        "text": "Staff and students can get vaccinated without prior booking.",
+        "text": "Solo drivers can freely use commuter lanes if they travel at 8:00 AM.",
         "correct": "F",
-        "solution": "Thông báo ghi 'Book via Clinic App', yêu cầu phải đăng ký trước thông qua ứng dụng chứ không thể tự ý đến tiêm."
+        "solution": "Sai vì 8:00 AM nằm trong khung giờ cấm (7:00 AM - 9:00 AM) và lái xe một mình (solo driver = low-occupancy) sẽ bị phạt tiền."
       }
     ],
     "points": 1.0
@@ -35,32 +35,32 @@
   {
     "id": 2,
     "type": "TF",
-    "text": "Based on the message, decide whether the following statements are True (T) or False (F):",
-    "notice": "<div class=\"text-left\">TechFix: Motherboard replaced.</div>\n<div class=\"text-left\">Battery also failing.</div>\n<div class=\"text-left\">Replace battery for $50?</div>",
+    "text": "Based on the campaign notice, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class=\"text-center\"><b>GREEN CAMPUS INITIATIVE</b></div>\n<div class=\"text-left\">Our campus cafeteria has achieved a carbon-neutral status. While we only distribute biodegradable food containers now, students are strongly encouraged to bring reusable boxes to minimize waste disposal.</div>",
     "parts": [
       {
         "id": "2_1",
-        "text": "The motherboard repair requested by the customer has been completed.",
-        "correct": "T",
-        "solution": "Cửa hàng thông báo bo mạch chủ đã được thay thế xong ('Motherboard replaced')."
+        "text": "The campus cafeteria has completely eliminated its carbon footprint.",
+        "correct": "F",
+        "solution": "Bẫy kiến thức thực tế và từ vựng: 'Carbon-neutral' (trung hòa carbon) nghĩa là lượng phát thải được bù đắp cân bằng, không có nghĩa là lượng khí thải đã bị loại bỏ hoàn toàn về mức 0 tuyệt đối."
       },
       {
         "id": "2_2",
-        "text": "TechFix is asking for permission to perform an additional repair.",
-        "correct": "T",
-        "solution": "Cửa hàng đề xuất thay thế thêm phần pin và hỏi ý kiến khách hàng ('Replace battery for $50?')."
+        "text": "Students will be penalized if they do not bring their own reusable boxes.",
+        "correct": "F",
+        "solution": "Bẫy từ 'penalized': Nhà ăn chỉ khuyến khích mạnh mẽ ('strongly encouraged') học sinh mang hộp cá nhân chứ không đưa ra bất kỳ hình phạt nào."
       },
       {
         "id": "2_3",
-        "text": "The customer must pay an extra $50 to have the battery replaced.",
+        "text": "The cafeteria no longer provides single-use plastic food containers.",
         "correct": "T",
-        "solution": "Chi phí phụ thu thêm để thay pin mới là 50 đô la ('Replace battery for $50')."
+        "solution": "Suy luận logic: Nhà ăn hiện nay chỉ phát hộp đựng tự phân hủy sinh học ('only distribute biodegradable food containers now'), đồng nghĩa với việc các hộp nhựa dùng một lần không còn được phát nữa."
       },
       {
         "id": "2_4",
-        "text": "The technician replaced the battery before sending the message.",
+        "text": "Biodegradable containers do not generate any waste that requires disposal.",
         "correct": "F",
-        "solution": "Cửa hàng đang hỏi ý kiến chứ chưa tiến hành thay pin mới."
+        "solution": "Bẫy logic: Việc nhà ăn khuyến khích mang hộp cá nhân để 'giảm thiểu việc xử lý rác thải' ('minimize waste disposal') chứng tỏ các hộp tự phân hủy sinh học vẫn tạo ra rác và cần được xử lý."
       }
     ],
     "points": 1.0
@@ -68,32 +68,32 @@
   {
     "id": 3,
     "type": "TF",
-    "text": "Based on the policy notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "<div class=\"text-center\"><b>RETURN POLICY</b></div>\n<div class=\"text-center\">Full Refund: Within 30 days in original box.</div>\n<div class=\"text-center\">Clearance Items: Final sale (No returns).</div>",
+    "text": "Based on the e-commerce policy, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class=\"text-center\"><b>E-COMMERCE RETURN UPDATE</b></div>\n<div class=\"text-left\">We are currently in transition to a fully automated return process. For a transparent experience, refunds are processed instantly online, but only if items are sent back in their original condition within 14 days.</div>",
     "parts": [
       {
         "id": "3_1",
-        "text": "You can get your money back even without the original box.",
+        "text": "The online return system is already fully automated.",
         "correct": "F",
-        "solution": "Để nhận hoàn tiền đầy đủ, sản phẩm bắt buộc phải được trả trong hộp/bao bì gốc của sản phẩm ('in original box')."
+        "solution": "Bẫy trạng thái/thì: Cửa hàng đang 'trong giai đoạn chuyển đổi' ('in transition to...') chứ chưa hoàn thành hệ thống tự động hoàn toàn."
       },
       {
         "id": "3_2",
-        "text": "Customers have up to 30 days to return standard items for a refund.",
-        "correct": "T",
-        "solution": "Thời hạn tối đa để trả lại hàng nhận hoàn tiền là trong vòng 30 ngày kể từ ngày mua ('Within 30 days')."
+        "text": "Customers can get an instant refund even if they return an item on the 15th day.",
+        "correct": "F",
+        "solution": "Quy định nêu rõ việc hoàn tiền ngay lập tức chỉ áp dụng cho sản phẩm gửi trả trong vòng 14 ngày ('within 14 days'). Gửi vào ngày thứ 15 là quá hạn."
       },
       {
         "id": "3_3",
-        "text": "All products sold are eligible for return under this policy.",
+        "text": "Returned goods do not need to be in pristine shape to qualify for instant refunds.",
         "correct": "F",
-        "solution": "Hàng thanh lý ('Clearance Items') không được áp dụng chính sách đổi trả."
+        "solution": "Bẫy từ đồng nghĩa: 'Pristine shape' tương đương với 'original condition' (trạng thái nguyên bản). Hàng hóa bắt buộc phải giữ nguyên trạng mới được hoàn tiền."
       },
       {
         "id": "3_4",
-        "text": "Clearance items can only be exchanged but not refunded.",
-        "correct": "F",
-        "solution": "Thông báo ghi 'Final sale (No returns)' đối với hàng thanh lý, nghĩa là không được đổi hoặc trả dưới bất kỳ hình thức nào."
+        "text": "The current return policy transition aims to make the refund steps clearer to track.",
+        "correct": "T",
+        "solution": "Suy luận từ vựng: Mục tiêu của cuộc chuyển đổi là đem lại một trải nghiệm 'transparent' (minh bạch, rõ ràng, dễ theo dõi)."
       }
     ],
     "points": 1.0
@@ -101,32 +101,32 @@
   {
     "id": 4,
     "type": "TF",
-    "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "<div class=\"text-center\"><b>URBAN CLEAN AIR ZONE</b></div>\n<div class=\"text-left\">Vehicles entering this zone between 7 AM and 6 PM must meet emission standards. Drivers of non-compliant cars will be fined unless they have registered for a daily exemption pass 24 hours in advance.</div>",
+    "text": "Based on the advice, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class=\"text-center\"><b>WELL-BEING CLINIC ADVICE</b></div>\n<div class=\"text-left\">A sedentary lifestyle increases cardiovascular risks. While regular workouts help, they cannot fully offset the harmful physical effects of sitting continuously for over 8 hours a day. Take active breaks hourly!</div>",
     "parts": [
       {
         "id": "4_1",
-        "text": "The clean air regulations apply 24 hours a day.",
+        "text": "Working out daily makes sitting for 9 hours completely harmless.",
         "correct": "F",
-        "solution": "Quy định kiểm soát khí thải chỉ áp dụng trong khung giờ nhất định từ 7 giờ sáng đến 6 giờ chiều ('between 7 AM and 6 PM')."
+        "solution": "Bẫy logic: Thông báo ghi rõ tập thể dục hàng ngày 'không thể bù đắp hoàn toàn' ('cannot fully offset') tác hại của việc ngồi liên tục trên 8 tiếng."
       },
       {
         "id": "4_2",
-        "text": "Driving a high-emission car here without a pass will result in a penalty.",
+        "text": "People with desk jobs are advised to move around once every hour.",
         "correct": "T",
-        "solution": "Những tài xế lái xe không đạt chuẩn ('non-compliant cars') mà không có thẻ miễn trừ sẽ bị phạt tiền ('will be fined')."
+        "solution": "Suy luận từ đồng nghĩa: Lời khuyên 'Take active breaks hourly!' tương đương với việc khuyên những người làm việc bàn giấy nên di chuyển vận động mỗi giờ một lần."
       },
       {
         "id": "4_3",
-        "text": "You can apply for an exemption pass on the same day you enter the zone.",
-        "correct": "F",
-        "solution": "Người lái xe bắt buộc phải đăng ký thẻ miễn trừ trước đó ít nhất 24 giờ ('24 hours in advance')."
+        "text": "A sedentary lifestyle is associated with an increased risk of heart problems.",
+        "correct": "T",
+        "solution": "Suy luận từ đồng nghĩa: 'Sedentary lifestyle' (lối sống ít vận động) làm tăng nguy cơ liên quan đến 'cardiovascular' (tim mạch / heart problems)."
       },
       {
         "id": "4_4",
-        "text": "Only electric cars are allowed to enter this area during the day.",
+        "text": "Choosing to stand instead of sitting will guarantee zero cardiovascular risks.",
         "correct": "F",
-        "solution": "Thông báo chỉ yêu cầu xe đạt tiêu chuẩn khí thải nói chung ('must meet emission standards'), không cấm các loại xe khác ngoài xe điện."
+        "solution": "Bẫy từ tuyệt đối 'guarantee zero': Đứng thay vì ngồi giảm thiểu rủi ro ít vận động nhưng không đảm bảo 100% không mắc bệnh tim mạch."
       }
     ],
     "points": 1.0
@@ -135,31 +135,31 @@
     "id": 5,
     "type": "TF",
     "text": "Based on the email, decide whether the following statements are True (T) or False (F):",
-    "notice": "<div class=\"text-left\">Hi Jane,</div>\n<div class=\"text-left\">The manager might be late for the interview. Could you have the candidates wait in the briefing room and provide them with the company profile? I'll get the HR assistant to bring the evaluation forms shortly.</div>\n<div class=\"text-right\">Mark.</div>",
+    "notice": "<div class=\"text-left\">Dear Class of 2026,</div>\n<div class=\"text-left\">Tertiary education entrance exams are no longer compulsory for all majors. However, a standardized test score is still required for highly competitive fields unless applicants have an impressive portfolio.</div>\n<div class=\"text-right\">Academic Office</div>",
     "parts": [
       {
         "id": "5_1",
-        "text": "It is certain that the manager will not arrive on time.",
+        "text": "Every high school graduate must take the standardized test to enter university.",
         "correct": "F",
-        "solution": "Mark dùng từ 'might be late' thể hiện khả năng có thể xảy ra, không chắc chắn tuyệt đối."
+        "solution": "Bẫy từ tuyệt đối 'Every': Kỳ thi tuyển sinh đại học (tertiary education) không còn là bắt buộc đối với tất cả các ngành học ('no longer compulsory for all majors')."
       },
       {
         "id": "5_2",
-        "text": "Jane is responsible for guiding the candidates to a specific room.",
+        "text": "An applicant with an exceptional portfolio might skip the standardized test for a competitive major.",
         "correct": "T",
-        "solution": "Jane được nhờ hướng dẫn ứng viên đợi tại phòng giao ban ngắn ('wait in the briefing room')."
+        "solution": "Suy luận ngữ pháp cấu trúc điều kiện 'unless': Các ngành cạnh tranh vẫn yêu cầu điểm thi chuẩn hóa 'trừ khi' ứng viên có một hồ sơ năng lực ấn tượng ('unless applicants have an impressive portfolio')."
       },
       {
         "id": "5_3",
-        "text": "Mark will personally deliver the evaluation forms to Jane.",
+        "text": "Standardized test scores have been completely abolished by the Academic Office.",
         "correct": "F",
-        "solution": "Mark sẽ nhờ trợ lý nhân sự mang biểu mẫu đến ('I'll get the HR assistant to bring')."
+        "solution": "Bẫy từ 'completely abolished': Điểm thi chuẩn hóa vẫn được yêu cầu đối với các ngành học có độ cạnh tranh cao ('still required for highly competitive fields')."
       },
       {
         "id": "5_4",
-        "text": "The candidates are expected to read about the company while waiting.",
-        "correct": "T",
-        "solution": "Ý câu 'provide them with the company profile' cho thấy ứng viên sẽ đọc hồ sơ giới thiệu công ty trong lúc chờ đợi."
+        "text": "Competitive majors automatically reject any applicant who does not submit a test score.",
+        "correct": "F",
+        "solution": "Bẫy logic: Những ngành cạnh tranh không tự động từ chối nếu ứng viên có hồ sơ năng lực thay thế ấn tượng (portfolio)."
       }
     ],
     "points": 1.0
@@ -167,32 +167,32 @@
   {
     "id": 6,
     "type": "TF",
-    "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "<div class=\"text-center\"><b>ATTENTION CUSTOMERS</b></div>\n<div class=\"text-left\">Our kitchen handles nuts, dairy, and gluten. While we take precautions to prevent cross-contamination, we cannot guarantee any dish is completely allergen-free. Please inform our staff of any allergies before ordering.</div>",
+    "text": "Based on the policy, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class=\"text-center\"><b>AI INTEGRATION POLICY</b></div>\n<div class=\"text-left\">While artificial intelligence will automate administrative workloads, it will not render our human workforce obsolete. Instead, we are investing in workforce development to transition staff to strategic roles.</div>",
     "parts": [
       {
         "id": "6_1",
-        "text": "The restaurant guarantees that their 'nut-free' dishes are 100% safe.",
+        "text": "The company plans to lay off all administrative staff once AI is integrated.",
         "correct": "F",
-        "solution": "Nhà hàng ghi rõ họ không thể cam kết bất kỳ món ăn nào hoàn toàn không chứa chất gây dị ứng ('cannot guarantee any dish is completely allergen-free')."
+        "solution": "Bẫy logic: Công ty khẳng định công nghệ sẽ không làm lực lượng lao động con người bị đào thải hay lỗi thời ('it will not render our human workforce obsolete')."
       },
       {
         "id": "6_2",
-        "text": "Customers should disclose their dietary restrictions prior to choosing a meal.",
+        "text": "AI is expected to handle routine paperwork instead of human workers.",
         "correct": "T",
-        "solution": "Khách hàng được yêu cầu báo cho nhân viên về tình trạng dị ứng của mình trước khi gọi món ('inform our staff... before ordering')."
+        "solution": "Suy luận từ đồng nghĩa: 'Routine paperwork' (giấy tờ thủ tục thường nhật) tương đương với 'administrative workloads' (khối lượng công việc hành chính)."
       },
       {
         "id": "6_3",
-        "text": "Cross-contamination is impossible due to the kitchen's strict precautions.",
+        "text": "Staff members are expected to adapt to new, strategic roles without any training.",
         "correct": "F",
-        "solution": "Dù có các biện pháp phòng ngừa nhiễm chéo nhưng nhà hàng vẫn ghi rõ 'chúng tôi không thể đảm bảo tuyệt đối'."
+        "solution": "Bẫy logic: Công ty đang 'đầu tư vào việc phát triển lực lượng lao động' ('investing in workforce development') để giúp nhân viên chuyển đổi vị trí, chứ không bắt tự thích nghi không có đào tạo."
       },
       {
         "id": "6_4",
-        "text": "The restaurant serves foods that contain common allergens.",
-        "correct": "T",
-        "solution": "Bếp của nhà hàng có chế biến các nguyên liệu dễ gây dị ứng phổ biến như hạt, sữa và gluten ('handles nuts, dairy, and gluten')."
+        "text": "Workforce development programs aim to replace human brains with advanced algorithms.",
+        "correct": "F",
+        "solution": "Bẫy từ vựng: Chương trình phát triển lực lượng lao động (workforce development) nhằm nâng cao năng lực cho nhân viên con người, không phải phát triển thuật toán (algorithms)."
       }
     ],
     "points": 1.0
@@ -201,31 +201,31 @@
     "id": 7,
     "type": "TF",
     "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "<div class=\"text-center\"><b>Residency Inn</b></div>\n<div class=\"text-left\">Breakfast is served in the lounge from 6:30 to 10:30 AM. For those departing before dawn, we can have a breakfast box prepared for you. Please notify the front desk by 8 PM the night before.</div>",
+    "notice": "<div class=\"text-center\"><b>MUNICIPALITY NOTICE: ZONE B</b></div>\n<div class=\"text-left\">To prevent total gridlock, Zone B will become a pedestrian-only zone on weekends. Deliveries are permitted only before 8:00 AM, after which all private vehicles must utilize alternative routes.</div>",
     "parts": [
       {
         "id": "7_1",
-        "text": "Guests leaving very early can still have a meal provided by the hotel.",
-        "correct": "T",
-        "solution": "Những khách rời đi sớm trước bình minh ('departing before dawn') sẽ được khách sạn chuẩn bị hộp bữa sáng mang đi."
+        "text": "Delivery trucks can drop off goods in Zone B at any time on Saturdays.",
+        "correct": "F",
+        "solution": "Bẫy trạng thái thời gian 'at any time': Thứ Bảy là ngày cuối tuần (weekend), xe giao hàng chỉ được phép hoạt động trước 8:00 sáng ('before 8:00 AM')."
       },
       {
         "id": "7_2",
-        "text": "You can request a breakfast box at any time during the night.",
+        "text": "Private cars are completely banned from entering Zone B during weekdays.",
         "correct": "F",
-        "solution": "Khách bắt buộc phải thông báo yêu cầu cho quầy lễ tân trước 8 giờ tối hôm trước ('by 8 PM the night before')."
+        "solution": "Bẫy từ chỉ thời gian 'weekdays' (ngày trong tuần): Lệnh cấm và chuyển thành phố đi bộ chỉ áp dụng vào cuối tuần ('on weekends')."
       },
       {
         "id": "7_3",
-        "text": "The lounge is the only place where guests can eat breakfast.",
+        "text": "The municipality has created alternative bypasses specifically for pedestrians.",
         "correct": "F",
-        "solution": "Khách có thể ăn bữa sáng đóng hộp (breakfast box) ở nơi khác ngoài sảnh lounge khi đi sớm."
+        "solution": "Bẫy đối tượng 'pedestrians': Tuyến đường thay thế ('alternative routes') là dành cho phương tiện cá nhân (private vehicles) để tránh ùn tắc, không phải cho người đi bộ."
       },
       {
         "id": "7_4",
-        "text": "To get a breakfast box, guests must inform the staff on the previous evening.",
+        "text": "Walking is the only permitted mode of transportation for visitors in Zone B on Sundays.",
         "correct": "T",
-        "solution": "Quy định yêu cầu phải thông báo cho nhân viên trước thời hạn 8 PM của tối ngày hôm trước."
+        "solution": "Suy luận logic: Chủ nhật là ngày cuối tuần (weekend), Zone B trở thành phố chỉ dành cho người đi bộ ('pedestrian-only zone'), nên đi bộ là phương thức di chuyển duy nhất được phép."
       }
     ],
     "points": 1.0
@@ -234,31 +234,31 @@
     "id": 8,
     "type": "TF",
     "text": "Question 8 is based on the information in the passage. Decide if the statements are True (T) or False (F):",
-    "passage": "  Procrastination, the act of delaying tasks despite knowing that there will be negative consequences, is often misunderstood as a simple lack of willpower or poor time management. However, psychologists have discovered that it is primarily an emotional regulation problem. When faced with a task that makes us feel anxious, bored, or overwhelmed, our brains prioritize immediate emotional relief over long-term goals. Essentially, we choose the temporary comfort of avoidance to escape the unpleasant feelings associated with the task at hand. **[A]**\n\n  The biological root of this behavior lies in the constant struggle between two parts of the brain: the limbic system and the prefrontal cortex. The limbic system is one of the oldest and most dominant portions of the brain, functioning automatically to seek \"immediate gratification.\" In contrast, the prefrontal cortex is a newer, weaker part that allows for complex planning and long-term decision-making. When **they** clash, the limbic system often wins, leading us to favor short-term mood repair over the actual work required. **[B]**\n\n  Contrary to popular belief, procrastination is not a harmless habit but can have **detrimental** effects on mental health and professional success. Chronic procrastinators often experience higher levels of stress, low self-esteem, and even depression. **[C]** In the workplace, this tendency results in missed deadlines and diminished quality of work, which can hinder career advancement. Furthermore, the guilt associated with \"stolen time\"—the hours spent avoiding work—often prevents individuals from truly enjoying their leisure activities, creating a cycle of persistent anxiety.\n\n  Addressing procrastination requires more than just a better calendar; it necessitates a shift in how we handle our emotions. Techniques such as \"**self-forgiveness**\" have shown remarkable results, as they reduce the negative emotions that lead to further avoidance. **[D]** Additionally, breaking tasks into smaller, more manageable parts can lower the initial threshold of anxiety. By focusing on \"just getting started\" rather than the final result, individuals can bypass the brain's defense mechanisms and build the momentum necessary for completion.\n\n  Ultimately, understanding procrastination as a psychological challenge rather than a moral failing is the first step toward overcoming it. As we learn to navigate our emotional responses more effectively, we can bridge the gap between our intentions and our actions.",
+    "passage": "The rapid integration of <b>artificial intelligence</b> (AI) into the global economy has sparked an intense debate regarding the future of work and the value of modern <b>tertiary education</b>. Traditionally, obtaining a university degree was viewed as a guaranteed <b>career path</b> that shielded individuals from economic instability. However, as advanced algorithms begin to automate not only manual labor but also complex cognitive tasks—ranging from legal analysis to software development—the conventional boundary between intellectual and routine work has blurred. Consequently, academic institutions are facing a critical turning point: they must either adapt their curricula or risk producing graduates whose skills are already <b>obsolete</b> upon graduation. [A]\n\nThis technological shift has led to a noticeable rise in <b>underemployment</b> among recent university graduates, many of whom find themselves overqualified for their positions yet lacking the practical, job-ready skills demanded by modern employers. In response, some educational experts advocate for a stronger focus on <b>vocational</b> training and technical certifications, which offer direct routes to high-demand technical roles. However, focusing solely on specialized technical skills can be short-sighted. Because technology evolves at an exponential rate, specific coding languages or software tools learned today may become irrelevant tomorrow. Thus, the most resilient asset in the modern job market is not highly specialized technical knowledge, but rather a combination of <b>critical thinking</b>, emotional intelligence, and cognitive flexibility. [B]\n\nFurthermore, the distinction between hard skills and <b>soft skills</b> is becoming increasingly vital. While AI can process vast amounts of data and identify patterns with unmatched speed, it lacks the human capacity for empathy, ethical judgment, and complex negotiation. Therefore, roles that rely heavily on interpersonal interaction and social cohesion are the least likely to be automated. Professional success in this new landscape requires a commitment to <b>lifelong learning</b> and continuous <b>adaptability</b>. Workers must view their education not as a single, finite phase of life completed in their early twenties, but as a continuous, dynamic process of upskilling and reskilling. [C]\n\nUltimately, the <b>transition</b> to an AI-driven economy does not spell the end of human labor, but rather its redefinition. By fostering a learning ecosystem that blends foundational academic inquiry with hands-on technical training, society can bridge the gap between human potential and machine efficiency. In doing so, we can ensure that technology serves as a tool for human <b>empowerment</b> rather than displacement. [D]",
     "parts": [
       {
         "id": "8_1",
-        "text": "Chronic procrastinators are likely to suffer from diminished self-esteem and high stress levels.",
+        "text": "In the past, completing university education was generally perceived as a reliable safeguard against financial or employment insecurity.",
         "correct": "T",
-        "solution": "Đoạn 3 khẳng định: 'Chronic procrastinators often experience higher levels of stress, low self-esteem...'."
+        "solution": "Đoạn 1 nêu rõ: 'Traditionally, obtaining a university degree was viewed as a guaranteed career path that shielded individuals from economic instability' (Theo truyền thống, việc có bằng đại học được xem là con đường đảm bảo bảo vệ cá nhân khỏi bất ổn kinh tế)."
       },
       {
         "id": "8_2",
-        "text": "Career advancement is often accelerated by the pressure of working near deadlines.",
+        "text": "Cognitive tasks, unlike manual labor, remain completely immune to automation by artificial intelligence.",
         "correct": "F",
-        "solution": "Đoạn 3 chỉ ra việc trì hoãn làm lỡ hạn chót và giảm chất lượng công việc, từ đó gây cản trở ('hinder career advancement') chứ không phải tăng tốc thăng tiến."
+        "solution": "Đoạn 1 phủ định ý này: 'as advanced algorithms begin to automate not only manual labor but also complex cognitive tasks...' (các thuật toán đã bắt đầu tự động hóa không chỉ lao động chân tay mà cả các tác vụ nhận thức phức tạp)."
       },
       {
         "id": "8_3",
-        "text": "The psychological guilt of \"stolen time\" actually enhances the quality of subsequent leisure activities.",
+        "text": "Vocational training is criticized by experts because it completely fails to prepare students for immediate high-demand job market needs.",
         "correct": "F",
-        "solution": "Cảm giác tội lỗi của 'thời gian đánh cắp' ngăn cản người ta tận hưởng trọn vẹn các hoạt động giải trí ('prevents individuals from truly enjoying their leisure activities')."
+        "solution": "Bẫy logic: Đoạn 2 cho biết đào tạo nghề mang lại con đường trực tiếp đến các vị trí kỹ thuật có nhu cầu cao ('offer direct routes to high-demand technical roles'). Việc chỉ tập trung duy nhất vào kỹ năng kỹ thuật ('focusing solely') mới bị coi là ngắn hạn, chứ không phải đào tạo nghề thất bại hoàn toàn."
       },
       {
         "id": "8_4",
-        "text": "Procrastination is considered a harmless habit that has little impact on professional success.",
+        "text": "Graduates who possess highly specialized, unyielding technical skills are the best prepared for long-term career resilience.",
         "correct": "F",
-        "solution": "Mở đầu đoạn 3 phản bác lại quan niệm này: 'Contrary to popular belief, procrastination is not a harmless habit...'."
+        "solution": "Đoạn 2 phủ định: 'the most resilient asset in the modern job market is not highly specialized technical knowledge, but rather a combination of critical thinking...' (tài sản kiên cường nhất không phải là kiến thức kỹ thuật chuyên môn cao mà là tư duy phản biện, trí tuệ cảm xúc)."
       }
     ],
     "points": 1.0
@@ -270,27 +270,27 @@
     "parts": [
       {
         "id": "9_1",
-        "text": "Procrastination is fundamentally a failure of time management rather than an emotional issue.",
+        "text": "Artificial intelligence has proven to be fully capable of mimicking human empathy and complex ethical negotiation.",
         "correct": "F",
-        "solution": "Các nhà tâm lý học phát hiện ra trì hoãn chủ yếu là vấn đề về điều chỉnh cảm xúc ('primarily an emotional regulation problem') chứ không phải quản lý thời gian đơn thuần."
+        "solution": "Đoạn 3 chỉ ra: 'it lacks the human capacity for empathy, ethical judgment, and complex negotiation' (AI thiếu khả năng thấu cảm, đánh giá đạo đức và đàm phán phức tạp của con người)."
       },
       {
         "id": "9_2",
-        "text": "The limbic system functions to prioritize long-term planning over immediate gratification.",
-        "correct": "F",
-        "solution": "Hệ viền (limbic system) hoạt động tự động để tìm kiếm sự thỏa mãn tức thì ('seek immediate gratification'), phần lo kế hoạch dài hạn là vỏ não trước trán."
+        "text": "Jobs that require high social cohesion and interpersonal interaction are less vulnerable to automated displacement.",
+        "correct": "T",
+        "solution": "Đoạn 3 khẳng định: 'roles that rely heavily on interpersonal interaction and social cohesion are the least likely to be automated' (các vị trí dựa vào tương tác giữa người với người và gắn kết xã hội ít có nguy cơ bị tự động hóa nhất)."
       },
       {
         "id": "9_3",
-        "text": "Breaking tasks into smaller segments can help bypass the brain's natural defense mechanisms.",
-        "correct": "T",
-        "solution": "Đoạn 4 nêu rõ việc chia nhỏ bài tập giúp cá nhân vượt qua cơ chế phòng thủ của não bộ để tạo đà hoàn thành ('bypass the brain's defense mechanisms')."
+        "text": "The concept of lifelong learning implies that a person's formal education should ideally conclude by their mid-twenties.",
+        "correct": "F",
+        "solution": "Đoạn 3 khuyên ngược lại: 'Workers must view their education not as a single, finite phase of life completed in their early twenties, but as a continuous, dynamic process...' (Người lao động phải xem giáo dục không phải là một giai đoạn hữu hạn hoàn thành ở tuổi đôi mươi, mà là một quá trình liên tục)."
       },
       {
         "id": "9_4",
-        "text": "Adopting a perspective of \"self-forgiveness\" can effectively reduce the cycle of avoidance.",
-        "correct": "T",
-        "solution": "Kỹ thuật tự tha thứ giảm thiểu cảm xúc tiêu cực, từ đó hạn chế hành vi tiếp tục né tránh nhiệm vụ ('reduce the negative emotions that lead to further avoidance')."
+        "text": "According to the author, the ultimate goal of adopting AI in the workplace is to completely replace human potential with machine efficiency.",
+        "correct": "F",
+        "solution": "Bẫy logic: Đoạn 4 chỉ ra công nghệ nên được định hướng như một công cụ giúp tăng cường năng lực cho con người chứ không phải thay thế hay dịch chuyển họ ('serves as a tool for human empowerment rather than displacement')."
       }
     ],
     "points": 1.0
@@ -298,7 +298,7 @@
   {
     "id": 10,
     "type": "MCQ",
-    "text": "Where in paragraph 4 does the following sentence best fit?\n\"This approach helps lower the psychological barrier to starting a difficult task, making it feel less intimidating.\"",
+    "text": "Where in paragraph 2 does the following sentence best fit?\n\"For instance, an engineer who knows how to collaborate and think critically will easily pivot when their technical software is updated, whereas a narrow specialist will struggle.\"",
     "options": [
       {
         "key": "A",
@@ -317,83 +317,83 @@
         "text": "[D]"
       }
     ],
-    "correct": "D",
-    "solution": "Câu này bổ trợ giải thích cho việc chia nhỏ nhiệm vụ ('breaking tasks into smaller... parts') giúp giảm bớt rào cản tâm lý khi bắt đầu, vì vậy đặt ở vị trí [D] là hợp lý nhất."
+    "correct": "B",
+    "solution": "Câu ví dụ này làm rõ và minh họa trực tiếp cho ý kiến thảo luận ở cuối đoạn 2 về việc kỹ năng mềm/tư duy phản biện và khả năng thích ứng linh hoạt có giá trị hơn kiến thức chuyên môn kỹ thuật hẹp dễ bị lỗi thời. Do đó, vị trí [B] là phù hợp nhất."
   },
   {
     "id": 11,
     "type": "MCQ",
-    "text": "The word \"**detrimental**\" in paragraph 3 could be best replaced by:",
+    "text": "The word \"obsolete\" in paragraph 1 could be best replaced by:",
     "options": [
       {
         "key": "A",
-        "text": "beneficial"
+        "text": "innovative"
       },
       {
         "key": "B",
-        "text": "harmful"
+        "text": "out-of-date"
       },
       {
         "key": "C",
-        "text": "temporary"
+        "text": "fashionable"
       },
       {
         "key": "D",
-        "text": "insignificant"
+        "text": "competitive"
       }
     ],
     "correct": "B",
-    "solution": "'Detrimental' có nghĩa là gây hại, có hại. Từ đồng nghĩa chính xác nhất trong các phương án là 'harmful'."
+    "solution": "'Obsolete' nghĩa là lỗi thời, không còn được sử dụng nữa. Từ đồng nghĩa chính xác nhất trong ngữ cảnh này là 'out-of-date'."
   },
   {
     "id": 12,
     "type": "MCQ",
-    "text": "The word \"**they**\" in paragraph 2 refers to:",
+    "text": "The word \"they\" in paragraph 1 refers to:",
     "options": [
       {
         "key": "A",
-        "text": "negative consequences"
+        "text": "advanced algorithms"
       },
       {
         "key": "B",
-        "text": "immediate emotional relief"
+        "text": "cognitive tasks"
       },
       {
         "key": "C",
-        "text": "the limbic system and the prefrontal cortex"
+        "text": "academic institutions"
       },
       {
         "key": "D",
-        "text": "complex planning and long-term goals"
+        "text": "recent graduates"
       }
     ],
     "correct": "C",
-    "solution": "Từ 'they' nằm ngay sau khi tác giả liệt kê cuộc xung đột giữa hai phần của não bộ là hệ viền ('the limbic system') và vỏ não trước trán ('the prefrontal cortex')."
+    "solution": "Đại từ 'they' nằm trong câu: 'Consequently, academic institutions are facing a critical turning point: they must either adapt...', thay thế cho danh từ 'academic institutions' (các tổ chức học thuật/trường đại học) đứng trước đó."
   },
   {
     "id": 13,
     "type": "MCQ",
-    "text": "How does the limbic system compare to the prefrontal cortex according to the text?",
+    "text": "According to the passage, how do vocational training and traditional university education compare?",
     "options": [
       {
         "key": "A",
-        "text": "The limbic system is a newer part of the brain focused on planning."
+        "text": "Vocational training is more suitable for careers that require ethical judgment and empathy."
       },
       {
         "key": "B",
-        "text": "The prefrontal cortex is more dominant and functions automatically."
+        "text": "University degrees still guarantee lifelong employment security better than any vocational path."
       },
       {
         "key": "C",
-        "text": "The limbic system is older and prioritizes immediate gratification."
+        "text": "Vocational paths provide quicker entry into technical jobs, but narrow specialization can be risky."
       },
       {
         "key": "D",
-        "text": "The prefrontal cortex is stronger and always wins the internal struggle."
+        "text": "Both educational routes have completely eliminated the risk of underemployment for their graduates."
       }
     ],
     "correct": "C",
-    "solution": "Đoạn 2 nêu rõ hệ viền là phần cổ xưa hơn và hoạt động tự động để tìm kiếm sự thỏa mãn tức thì ('one of the oldest... seek immediate gratification')."
+    "solution": "Đoạn 2 chỉ ra đào tạo nghề mang lại con đường trực tiếp đến các vai trò kỹ thuật có nhu cầu cao ('direct routes'), nhưng cảnh báo việc chỉ tập trung vào kỹ năng chuyên môn hẹp là ngắn hạn vì công nghệ thay đổi rất nhanh làm kiến thức cũ biến mất."
   },
   {
     "id": 14,
@@ -402,48 +402,48 @@
     "options": [
       {
         "key": "A",
-        "text": "A comprehensive overview of time management strategies and their historical evolution in modern workplaces."
+        "text": "The history of automated industrial revolutions and their negative impacts on manual labor."
       },
       {
         "key": "B",
-        "text": "A multi-dimensional analysis of procrastination involving its psychological roots, impacts, and remedial techniques."
+        "text": "A multi-faceted evaluation of how AI is redefining the workplace and the educational adaptations required for career survival."
       },
       {
         "key": "C",
-        "text": "An in-depth exploration of how digital distractions and social media platforms contribute to chronic academic delay."
+        "text": "A statistical report comparing the graduation rates of prestigious universities and vocational schools."
       },
       {
         "key": "D",
-        "text": "A comparative study between the limbic system and the prefrontal cortex regarding their roles in moral decision-making."
+        "text": "The technical development of neural networks and their ability to automate complex algorithms."
       }
     ],
     "correct": "B",
-    "solution": "Toàn bộ bài viết tập trung phân tích hiện tượng trì hoãn dưới góc nhìn tâm lý học, từ bản chất cảm xúc, cấu trúc sinh học não bộ, tác hại cho đến các giải pháp khắc phục."
+    "solution": "Bài đọc phân tích nhiều khía cạnh khác nhau: nguồn gốc tác động của AI, tác động của nó lên công việc của cử nhân đại học, sự trỗi dậy của các lựa chọn trường nghề, và việc con người cần thay đổi phương pháp giáo dục sang tư duy học tập suốt đời."
   },
   {
     "id": 15,
     "type": "MCQ",
-    "text": "What can be inferred about \"**self-forgiveness**\" mentioned in paragraph 4?",
+    "text": "What can be inferred about the future of human labor in an AI-driven economy?",
     "options": [
       {
         "key": "A",
-        "text": "It is a technique used to ignore the negative consequences of our actions."
+        "text": "Human workers will only succeed if they focus exclusively on learning advanced computer programming languages."
       },
       {
         "key": "B",
-        "text": "It is more effective than time management tools in reducing procrastination."
+        "text": "Empathy and ethical decision-making will become less important as AI systems become more mathematically accurate."
       },
       {
         "key": "C",
-        "text": "It helps break the cycle of avoidance by reducing guilt and negative emotions."
+        "text": "Adaptability and the willingness to continuously learn are more valuable than any fixed academic credential."
       },
       {
         "key": "D",
-        "text": "It is only useful for individuals who have already overcome their habits."
+        "text": "Laptops and automated virtual assistants will completely eliminate the need for workforce development."
       }
     ],
     "correct": "C",
-    "solution": "Tự tha thứ làm giảm đi các cảm xúc tiêu cực liên quan đến lỗi lầm trì hoãn trước đó, giúp giải tỏa tâm lý căng thẳng/tội lỗi để phá vỡ vòng lặp tiếp tục trốn tránh."
+    "solution": "Xuyên suốt đoạn 2 và đoạn 3, tác giả nhấn mạnh rằng các kỹ năng kỹ thuật cụ thể có thể lỗi thời nhanh chóng, và giá trị cốt lõi bền vững nhất là khả năng thích ứng linh hoạt và tinh thần học tập suốt đời ('continuous adaptability' và 'lifelong learning') chứ không phải một tấm bằng cố định nào."
   },
   {
     "id": 16,
@@ -452,54 +452,54 @@
     "leftItems": [
       {
         "id": "16_1",
-        "text": "How about going to the art gallery tomorrow?"
+        "text": "Do you think artificial intelligence will make human writers obsolete?"
       },
       {
         "id": "16_2",
-        "text": "I've passed my final exam with flying colors!"
+        "text": "Is it compulsory for all freshmen to enroll in the digital literacy seminar?"
       },
       {
         "id": "16_3",
-        "text": "Could you look after my cat while I'm away?"
+        "text": "I'm feeling immense frustration with this coding algorithm."
       },
       {
         "id": "16_4",
-        "text": "I'm really sorry for losing your favorite book."
+        "text": "Could we propose an alternative itinerary for our ecotourism project?"
       }
     ],
     "rightItems": [
       {
         "key": "A",
-        "text": "I'm afraid I can't. My camera is broken."
+        "text": "Not at all, but it is highly recommended to protect against digital security issues."
       },
       {
         "key": "B",
-        "text": "That sounds like a great idea! What time?"
+        "text": "Let's draft a new schedule tonight and present it to the coordinator."
       },
       {
         "key": "C",
-        "text": "Wow, congratulations! You deserve it."
+        "text": "Take a break! Exercises like mindfulness can help clear your mind."
       },
       {
         "key": "D",
-        "text": "Never mind. I can buy a new one later."
+        "text": "Hardly. AI lacks the genuine human empathy and creativity required for storytelling."
       },
       {
         "key": "E",
-        "text": "Not at all. I'll be happy to help."
+        "text": "Yes, it starts at 9:00 AM in the grand exhibition hall."
       },
       {
         "key": "F",
-        "text": "It's on the second floor, next to the lab."
+        "text": "It is located right behind the main university gymnasium."
       }
     ],
     "correctMap": {
-      "16_1": "B",
-      "16_2": "C",
-      "16_3": "E",
-      "16_4": "D"
+      "16_1": "D",
+      "16_2": "A",
+      "16_3": "C",
+      "16_4": "B"
     },
-    "solution": "1-B (Đồng ý lời gợi ý đi chơi); 2-C (Chúc mừng thi đỗ xuất sắc); 3-E (Đồng ý nhận lời giúp chăm mèo); 4-D (Tha lỗi khi làm mất sách)."
+    "solution": "16_1 nối D (Trả lời về việc AI có làm nhà văn lỗi thời không); 16_2 nối A (Hỏi về tính bắt buộc của chuyên đề phổ cập số); 16_3 nối C (Lời khuyên thư giãn chánh niệm khi bực bội vì thuật toán); 16_4 nối B (Đồng ý thảo luận phương án lịch trình thay thế cho chuyến du lịch sinh thái)."
   },
   {
     "id": 17,
@@ -508,54 +508,54 @@
     "leftItems": [
       {
         "id": "17_1",
-        "text": "Maintaining a balanced diet"
+        "text": "Consuming excessive amounts of processed food"
       },
       {
         "id": "17_2",
-        "text": "Lack of regular physical exercise"
+        "text": "Developing critical thinking and emotional intelligence"
       },
       {
         "id": "17_3",
-        "text": "Practicing mindfulness and meditation"
+        "text": "Implementing sustainable agricultural practices"
       },
       {
         "id": "17_4",
-        "text": "Consuming too much processed food"
+        "text": "Severe habitat destruction and glacier melting"
       }
     ],
     "rightItems": [
       {
         "key": "A",
-        "text": "leads to a decrease in face-to-face interaction."
+        "text": "can significantly reduce greenhouse gas emissions and protect local soils."
       },
       {
         "key": "B",
-        "text": "helps prevent chronic diseases and boosts energy."
+        "text": "lead to a dramatic decline in global biodiversity."
       },
       {
         "key": "C",
-        "text": "is critical to combat climate change and reduce emissions."
+        "text": "are crucial cognitive tools required to navigate the modern job market."
       },
       {
         "key": "D",
-        "text": "increases the risk of obesity and heart problems."
+        "text": "is highly linked to chronic obesity and cardiovascular diseases."
       },
       {
         "key": "E",
-        "text": "can significantly reduce stress and improve focus."
+        "text": "has resulted in a massive decrease in virtual reality applications."
       },
       {
         "key": "F",
-        "text": "results in poor digestion and low nutritional intake."
+        "text": "promotes digital divide issues among marginalized populations."
       }
     ],
     "correctMap": {
-      "17_1": "B",
-      "17_2": "D",
-      "17_3": "E",
-      "17_4": "F"
+      "17_1": "D",
+      "17_2": "C",
+      "17_3": "A",
+      "17_4": "B"
     },
-    "solution": "1-B (Ăn uống cân bằng giúp tăng năng lượng); 2-D (Lười vận động tăng nguy cơ béo phì); 3-E (Thiền định giúp giảm stress); 4-F (Ăn nhiều đồ chế biến sẵn dẫn đến thiếu chất)."
+    "solution": "Ghép theo quan hệ nguyên nhân - kết quả logic: 17_1 nối D (Ăn nhiều đồ chế biến sẵn gây béo phì và bệnh tim mạch); 17_2 nối C (Phát triển tư duy phản biện là công cụ nhận thức thiết yếu); 17_3 nối A (Nông nghiệp bền vững giúp giảm phát thải nhà kính); 17_4 nối B (Phá hủy môi trường sống và băng tan làm sụt giảm đa dạng sinh học)."
   },
   {
     "id": 18,
@@ -564,54 +564,54 @@
     "leftItems": [
       {
         "id": "18_1",
-        "text": "This is the historic city"
+        "text": "The environmental activist,"
       },
       {
         "id": "18_2",
-        "text": "I have a close friend"
+        "text": "The smart city project,"
       },
       {
         "id": "18_3",
-        "text": "The newly opened company,"
+        "text": "The young entrepreneur,"
       },
       {
         "id": "18_4",
-        "text": "The research paper,"
+        "text": "The academic paper,"
       }
     ],
     "rightItems": [
       {
         "key": "A",
-        "text": "who was awarded the 'Employee of the Month'."
+        "text": "whose campaign focused on climate mitigation, received global recognition."
       },
       {
         "key": "B",
-        "text": "that specializes in sustainable energy solutions."
+        "text": "whose startup specializes in cloud computing, has successfully raised crowdfunding."
       },
       {
         "key": "C",
-        "text": "the name of which I can never remember."
+        "text": "the findings of which were highly controversial, analyzed the student dropout rate."
       },
       {
         "key": "D",
-        "text": "which is famous for its ancient canals and bridges."
+        "text": "that utilizes advanced algorithms for zoning, has reduced rush-hour gridlock."
       },
       {
         "key": "E",
-        "text": "whose passion is collecting rare vinyl records."
+        "text": "who is a famous author, wrote an inspiring book on natural selection."
       },
       {
         "key": "F",
-        "text": "the findings of which were published, is very complex."
+        "text": "in which case his only son will take over the family business."
       }
     ],
     "correctMap": {
-      "18_1": "D",
-      "18_2": "E",
+      "18_1": "A",
+      "18_2": "D",
       "18_3": "B",
-      "18_4": "F"
+      "18_4": "C"
     },
-    "solution": "1-D (Thành phố cổ kính nổi tiếng với kênh đào); 2-E (Người bạn có niềm đam mê đĩa than); 3-B (Công ty chuyên về năng lượng bền vững); 4-F (Bài nghiên cứu có kết quả vừa được xuất bản)."
+    "solution": "Ghép các mệnh đề quan hệ phù hợp về cả mặt ngữ pháp và ngữ nghĩa: 18_1 nối A (Nhà hoạt động môi trường mà chiến dịch của họ...); 18_2 nối D (Dự án thành phố thông minh sử dụng thuật toán...); 18_3 nối B (Doanh nhân trẻ có công ty khởi nghiệp chuyên về điện toán đám mây...); 18_4 nối C (Bài viết học thuật mà kết quả nghiên cứu của nó...)."
   },
   {
     "id": 19,
@@ -620,54 +620,54 @@
     "leftItems": [
       {
         "id": "19_1",
-        "text": "Should the weather improve by tomorrow morning,"
+        "text": "Should we fail to implement strict cyber security regulations,"
       },
       {
         "id": "19_2",
-        "text": "Had the firefighters not arrived so quickly,"
+        "text": "Had the climatologist warned the municipality earlier,"
       },
       {
         "id": "19_3",
-        "text": "If I were taller and more athletic,"
+        "text": "If citizens were more aware of their carbon footprint,"
       },
       {
         "id": "19_4",
-        "text": "Unless we take action to protect the environment,"
+        "text": "Unless the government provides tuition assistance,"
       }
     ],
     "rightItems": [
       {
         "key": "A",
-        "text": "I would have gone abroad with my parents yesterday."
+        "text": "they would adopt more eco-friendly habits in their daily routines."
       },
       {
         "key": "B",
-        "text": "the forest fire would have spread to the village."
+        "text": "we will face frequent data breaches and digital identity theft."
       },
       {
         "key": "C",
-        "text": "we will proceed with our hiking trip as planned."
+        "text": "they would have evacuated the low-lying areas before the flood."
       },
       {
         "key": "D",
-        "text": "I would be selected for the basketball team."
+        "text": "many marginalized students will not be able to enroll in tertiary education."
       },
       {
         "key": "E",
-        "text": "they would have been lost yesterday."
+        "text": "there would have been a significant decrease in renewable energy costs."
       },
       {
         "key": "F",
-        "text": "climate change will get worse and worse."
+        "text": "the company would have declared bankruptcy last year."
       }
     ],
     "correctMap": {
-      "19_1": "C",
-      "19_2": "B",
-      "19_3": "D",
-      "19_4": "F"
+      "19_1": "B",
+      "19_2": "C",
+      "19_3": "A",
+      "19_4": "D"
     },
-    "solution": "1-C (Đảo ngữ loại 1: Thể hiện khả năng ở tương lai); 2-B (Đảo ngữ loại 3: Giả định quá khứ); 3-D (Câu điều kiện loại 2 giả định hiện tại trái thực tế); 4-F (Cấu trúc Unless loại 1 chỉ hệ quả tương lai)."
+    "solution": "Ghép các cấu trúc câu điều kiện đảo ngữ nâng cao và liên từ phủ định: 19_1 nối B (Đảo ngữ điều kiện loại 1: nói về nguy cơ rò rỉ dữ liệu trong tương lai); 19_2 nối C (Đảo ngữ điều kiện loại 3: giả định quá khứ về cảnh báo lũ lụt); 19_3 nối A (Câu điều kiện loại 2: giả định hiện tại trái thực tế về ý thức bảo vệ môi trường); 19_4 nối D (Cấu trúc Unless loại 1: nếu chính phủ không hỗ trợ học phí thì học sinh yếu thế không thể đi học đại học)."
   },
   {
     "id": 20,
@@ -676,15 +676,15 @@
     "leftItems": [
       {
         "id": "20_1",
-        "text": "It was his outstanding performance"
+        "text": "It was her impressive portfolio in digital literacy"
       },
       {
         "id": "20_2",
-        "text": "Not until the middle of the night"
+        "text": "Not until the company faced a severe recession"
       },
       {
         "id": "20_3",
-        "text": "I am looking forward to the holiday,"
+        "text": "I am looking forward to the internship,"
       },
       {
         "id": "20_4",
@@ -694,71 +694,71 @@
     "rightItems": [
       {
         "key": "A",
-        "text": "that students don't need to go to school for classes."
+        "text": "did they realize that outsourcing routine tasks was a necessity."
       },
       {
         "key": "B",
-        "text": "that convinced the judges to give him the first prize."
+        "text": "such a sophisticated level of sportsmanship in a high-stakes tournament."
       },
       {
         "key": "C",
-        "text": "did the storm finally begin to subside."
+        "text": "that secured her the competitive job at the tech startup."
       },
       {
         "key": "D",
-        "text": "such a magnificent sunset in my entire life."
+        "text": "which is famous for its ancient canals and historical monuments."
       },
       {
         "key": "E",
-        "text": "when occurs by far the most accidents during the year."
+        "text": "during which I can gain valuable hands-on experience in market research."
       },
       {
         "key": "F",
-        "text": "when we can travel to the countryside."
+        "text": "that helps me overcome many personal challenges."
       }
     ],
     "correctMap": {
-      "20_1": "B",
-      "20_2": "C",
-      "20_3": "F",
-      "20_4": "D"
+      "20_1": "C",
+      "20_2": "A",
+      "20_3": "E",
+      "20_4": "B"
     },
-    "solution": "20_1 nối B (Câu chẻ It was... that nhấn mạnh); 20_2 nối C (Đảo ngữ với Not until... did + S + V); 20_3 nối F (Trạng từ liên kết thời gian); 20_4 nối D (Đảo ngữ với trạng từ phủ định đứng đầu câu)."
+    "solution": "Ghép các cấu trúc nhấn mạnh và đảo ngữ nâng cao: 20_1 nối C (Cấu trúc câu chẻ nhấn mạnh: It was... that... giúp cô ấy có được công việc cạnh tranh); 20_2 nối A (Đảo ngữ với Not until... did + S + V: mãi đến khi suy thoái mới nhận ra sự cần thiết của thuê ngoài); 20_3 nối E (Giới từ đi kèm đại từ quan hệ chỉ thời gian/quá trình thực tập); 20_4 nối B (Đảo ngữ với trạng từ phủ định đứng đầu câu: Never have I witnessed + such a + danh từ)."
   },
   {
     "id": 21,
     "type": "SHORT",
-    "passage": "  The global transition to renewable energy is no longer just a trend; it has become a necessity for our planet's survival. **(21) ______** fossil fuels, which release harmful carbon emissions, solar and wind energy provide a clean and sustainable alternative. Many countries are now investing a **(22) ______** amount of money into developing massive offshore wind farms. These projects, **(23) ______** by advanced engineering, are capable of powering millions of homes simultaneously.\n\n  However, the intermittent nature of sunlight and wind remains a challenge. To solve this, scientists are working on better battery storage systems so that energy can be **(24) ______** for use during cloudy or calm days. As technology evolves, the cost of green energy will continue to **(25) ______** steadily, making it more accessible to developing nations.",
+    "passage": "The rapid pace of global **(21) ______** has transformed quiet suburbs into bustling metropolitan areas. However, this growth has also introduced severe challenges, particularly regarding transportation and **(22) ______** during rush hours. Every day, millions of commuters spend hours trapped in gridlock, contributing to high greenhouse gas emissions. To address this, smart cities are investing in public transport and creating pedestrian zones to encourage cleaner, healthier habits.\n\nYet, a successful **(23) ______** to sustainable living requires more than just better roads; it necessitates access to **(24) ______** housing near transit hubs. Without this, workers are forced to live far from city centers, making long daily commutes inevitable. As urban planners propose alternative zoning policies, they must prioritize ecological balance **(25) ______** that city growth does not lead to habitat destruction.",
     "text": "Fill in ONE word which best fits gap (21):",
-    "correct": "Unlike|unlike|Besides|besides",
-    "solution": "Cần một giới từ mang ý nghĩa 'Không giống như' hoặc đặt lên bàn cân đối lập để làm nổi bật tính chất sạch của năng lượng mới so với nhiên liệu hóa thạch truyền thống."
+    "correct": "urbanization|Urbanization",
+    "solution": "Cần điền danh từ chỉ quá trình đô thị hóa toàn cầu ('global urbanization') đã biến các vùng ngoại ô yên bình thành các thành phố lớn sầm uất."
   },
   {
     "id": 22,
     "type": "SHORT",
     "text": "Fill in ONE word which best fits gap (22):",
-    "correct": "huge|large|vast|massive|significant|great",
-    "solution": "Cần một tính từ đứng trước 'amount of money' để chỉ số lượng tiền cực lớn/khổng lồ mà các quốc gia đang đầu tư vào trang trại gió."
+    "correct": "congestion|traffic|gridlock",
+    "solution": "Dựa trên ngữ cảnh nói về việc di chuyển khó khăn trong giờ cao điểm, từ cần điền là danh từ chỉ sự tắc nghẽn giao thông ('traffic congestion' hoặc 'gridlock')."
   },
   {
     "id": 23,
     "type": "SHORT",
     "text": "Fill in ONE word which best fits gap (23):",
-    "correct": "supported|backed|powered|driven",
-    "solution": "Rút gọn mệnh đề quan hệ dạng bị động mang nghĩa 'được hậu thuẫn/hỗ trợ/vận hành bởi kỹ thuật tiên tiến'."
+    "correct": "transition|shift",
+    "solution": "Cần danh từ mang ý nghĩa là quá trình chuyển giao, chuyển đổi ('transition' hoặc 'shift') sang lối sống xanh bền vững."
   },
   {
     "id": 24,
     "type": "SHORT",
     "text": "Fill in ONE word which best fits gap (24):",
-    "correct": "stored|saved|kept|reserved",
-    "solution": "Động từ thể bị động sau 'can be', mang ý nghĩa năng lượng được 'tích trữ/lưu trữ' vào hệ thống pin để dùng cho những ngày lặng gió."
+    "correct": "affordable|cheap",
+    "solution": "Cần một tính từ đi liền với 'housing' tạo thành cụm từ 'affordable housing' (nhà ở giá cả phải chăng, hợp túi tiền) để công nhân có thể sống gần các đầu mối trung chuyển giao thông."
   },
   {
     "id": 25,
     "type": "SHORT",
     "text": "Fill in ONE word which best fits gap (25):",
-    "correct": "fall|drop|decrease|decline|reduce",
-    "solution": "Khi công nghệ phát triển, giá thành của năng lượng xanh sẽ tiếp tục 'giảm xuống' một cách đều đặn, giúp các nước đang phát triển dễ tiếp cận hơn."
+    "correct": "so",
+    "solution": "Cần điền liên từ 'so' để kết hợp với từ 'that' đứng sau tạo thành cụm liên từ 'so that' chỉ mục đích (để đảm bảo sự phát triển đô thị không dẫn tới tàn phá môi trường sinh thái)."
   }
 ]
