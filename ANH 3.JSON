@@ -3,31 +3,31 @@
     "id": 1,
     "type": "TF",
     "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "<div class=\"text-center\"><b>NOTICE: FLU VACCINATION DRIVE</b></div>\n<div class=\"text-left\">Free flu shots are available for staff and students this week. Please book your slot via the clinic app.</div>\n<div class=\"text-left\"><i><b>Note:</b> You should avoid strenuous exercise for 24 hours after the injection to minimize potential side effects.</i></div>",
+    "notice": "<div class=\"text-center\"><b>FREE FLU SHOTS</b></div>\n<div class=\"text-center\">Staff & Students Only</div>\n<div class=\"text-center\">Book via Clinic App</div>",
     "parts": [
       {
         "id": "1_1",
-        "text": "Only students are eligible for the free vaccination program.",
+        "text": "Only students can receive the free flu shots.",
         "correct": "F",
-        "solution": "Thông báo ghi rõ chương trình áp dụng cho cả nhân viên và học sinh ('staff and students')."
+        "solution": "Thông báo ghi 'Staff & Students Only' nghĩa là cả nhân viên và học sinh đều được tiêm miễn phí."
       },
       {
         "id": "1_2",
-        "text": "Appointments must be made through a digital platform.",
+        "text": "Appointments must be booked through an app.",
         "correct": "T",
-        "solution": "Người tham gia bắt buộc phải đặt lịch hẹn thông qua ứng dụng di động của phòng khám ('via the clinic app')."
+        "solution": "Người tham gia bắt buộc phải đặt lịch thông qua ứng dụng di động ('Book via Clinic App')."
       },
       {
         "id": "1_3",
-        "text": "It is recommended to rest from heavy physical activities post-injection.",
+        "text": "The flu vaccination drive is completely free for eligible groups.",
         "correct": "T",
-        "solution": "Thông báo khuyên nên tránh các bài tập thể dục cường độ cao ('avoid strenuous exercise') sau khi tiêm."
+        "solution": "Thông báo ghi rõ đây là chương trình tiêm phòng miễn phí ('FREE FLU SHOTS')."
       },
       {
         "id": "1_4",
-        "text": "Side effects will definitely occur if you exercise right after the shot.",
+        "text": "Staff and students can get vaccinated without prior booking.",
         "correct": "F",
-        "solution": "Việc tránh tập thể dục chỉ nhằm 'giảm thiểu khả năng' bị tác dụng phụ ('minimize potential side effects'), không có nghĩa là tác dụng phụ chắc chắn sẽ xảy ra."
+        "solution": "Thông báo ghi 'Book via Clinic App', yêu cầu phải đăng ký trước thông qua ứng dụng chứ không thể tự ý đến tiêm."
       }
     ],
     "points": 1.0
@@ -36,31 +36,31 @@
     "id": 2,
     "type": "TF",
     "text": "Based on the message, decide whether the following statements are True (T) or False (F):",
-    "notice": "<div class=\"text-left\">Dear Mr. Smith,</div>\n<div class=\"text-left\">We've had your laptop's motherboard replaced as requested. However, our technician noticed the battery is also failing. Shall we have a new one installed for an additional $50 before you collect the device?</div>\n<div class=\"text-right\">TechFix Support</div>",
+    "notice": "<div class=\"text-left\">TechFix: Motherboard replaced.</div>\n<div class=\"text-left\">Battery also failing.</div>\n<div class=\"text-left\">Replace battery for $50?</div>",
     "parts": [
       {
         "id": "2_1",
-        "text": "The technician has already finished all necessary repairs on the laptop.",
-        "correct": "F",
-        "solution": "Kỹ thuật viên phát hiện thêm lỗi pin đang hỏng ('battery is also failing') nên máy vẫn chưa hoàn toàn sẵn sàng nếu chưa xử lý dứt điểm."
+        "text": "The motherboard repair requested by the customer has been completed.",
+        "correct": "T",
+        "solution": "Cửa hàng thông báo bo mạch chủ đã được thay thế xong ('Motherboard replaced')."
       },
       {
         "id": "2_2",
-        "text": "TechFix is asking for permission to perform a secondary repair.",
+        "text": "TechFix is asking for permission to perform an additional repair.",
         "correct": "T",
-        "solution": "Cửa hàng hỏi ý kiến khách hàng bằng câu đề nghị 'Shall we have a new one installed...?' để tiến hành sửa chữa thêm phần pin."
+        "solution": "Cửa hàng đề xuất thay thế thêm phần pin và hỏi ý kiến khách hàng ('Replace battery for $50?')."
       },
       {
         "id": "2_3",
-        "text": "Mr. Smith can get his battery fixed without any extra charges.",
-        "correct": "F",
-        "solution": "Việc thay pin mới sẽ tốn thêm khoản phí phụ thu là 50 đô la ('for an additional $50')."
+        "text": "The customer must pay an extra $50 to have the battery replaced.",
+        "correct": "T",
+        "solution": "Chi phí phụ thu thêm để thay pin mới là 50 đô la ('Replace battery for $50')."
       },
       {
         "id": "2_4",
-        "text": "The customer had someone at TechFix change the motherboard earlier.",
-        "correct": "T",
-        "solution": "Cấu trúc 'We've had your laptop's motherboard replaced as requested' xác nhận khách hàng đã yêu cầu nhân viên tại đây thay bo mạch chủ trước đó."
+        "text": "The technician replaced the battery before sending the message.",
+        "correct": "F",
+        "solution": "Cửa hàng đang hỏi ý kiến chứ chưa tiến hành thay pin mới."
       }
     ],
     "points": 1.0
@@ -69,31 +69,31 @@
     "id": 3,
     "type": "TF",
     "text": "Based on the policy notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "<div class=\"text-center\"><b>RETURN POLICY</b></div>\n<div class=\"text-left\">Items must be returned in their original packaging within 30 days of purchase for a full refund.</div>\n<div class=\"text-left\"><b>Please note:</b> Clearance items are final sale and cannot be exchanged or returned under any circumstances.</div>",
+    "notice": "<div class=\"text-center\"><b>RETURN POLICY</b></div>\n<div class=\"text-center\">Full Refund: Within 30 days in original box.</div>\n<div class=\"text-center\">Clearance Items: Final sale (No returns).</div>",
     "parts": [
       {
         "id": "3_1",
-        "text": "You can get your money back even if you lost the original box.",
+        "text": "You can get your money back even without the original box.",
         "correct": "F",
-        "solution": "Chính sách bắt buộc hàng trả lại phải nằm trong bao bì/hộp gốc của sản phẩm ('in their original packaging')."
+        "solution": "Để nhận hoàn tiền đầy đủ, sản phẩm bắt buộc phải được trả trong hộp/bao bì gốc của sản phẩm ('in original box')."
       },
       {
         "id": "3_2",
-        "text": "Standard items can be returned up to a month after being bought.",
+        "text": "Customers have up to 30 days to return standard items for a refund.",
         "correct": "T",
-        "solution": "Thời hạn hoàn tiền đầy đủ là trong vòng 30 ngày kể từ ngày mua hàng ('within 30 days of purchase')."
+        "solution": "Thời hạn tối đa để trả lại hàng nhận hoàn tiền là trong vòng 30 ngày kể từ ngày mua ('Within 30 days')."
       },
       {
         "id": "3_3",
-        "text": "All products sold at this store are eligible for an exchange.",
+        "text": "All products sold are eligible for return under this policy.",
         "correct": "F",
-        "solution": "Các mặt hàng thanh lý cuối cùng ('Clearance items') hoàn toàn không được áp dụng đổi hoặc trả dưới bất kỳ hình thức nào."
+        "solution": "Hàng thanh lý ('Clearance Items') không được áp dụng chính sách đổi trả."
       },
       {
         "id": "3_4",
-        "text": "'Clearance items' refers to goods that are sold at a discount and are non-returnable.",
-        "correct": "T",
-        "solution": "Hàng thanh lý là nhóm hàng bán đợt cuối và không thể hoàn trả hoặc đổi mẫu khác ('final sale and cannot be exchanged or returned')."
+        "text": "Clearance items can only be exchanged but not refunded.",
+        "correct": "F",
+        "solution": "Thông báo ghi 'Final sale (No returns)' đối với hàng thanh lý, nghĩa là không được đổi hoặc trả dưới bất kỳ hình thức nào."
       }
     ],
     "points": 1.0
