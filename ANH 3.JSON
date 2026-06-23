@@ -3,7 +3,7 @@
     "id": 1,
     "type": "TF",
     "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "NOTICE: FLU VACCINATION DRIVE\nFree flu shots are available for staff and students this week. Please book your slot via the clinic app.\nNote: You should avoid strenuous exercise for 24 hours after the injection to minimize potential side effects.",
+    "notice": "<div class=\"text-center\"><b>NOTICE: FLU VACCINATION DRIVE</b></div>\n<div class=\"text-left\">Free flu shots are available for staff and students this week. Please book your slot via the clinic app.</div>\n<div class=\"text-left\"><i><b>Note:</b> You should avoid strenuous exercise for 24 hours after the injection to minimize potential side effects.</i></div>",
     "parts": [
       {
         "id": "1_1",
@@ -36,7 +36,7 @@
     "id": 2,
     "type": "TF",
     "text": "Based on the message, decide whether the following statements are True (T) or False (F):",
-    "notice": "Dear Mr. Smith,\nWe've had your laptop's motherboard replaced as requested. However, our technician noticed the battery is also failing. Shall we have a new one installed for an additional $50 before you collect the device?\nTechFix Support.",
+    "notice": "<div class=\"text-left\">Dear Mr. Smith,</div>\n<div class=\"text-left\">We've had your laptop's motherboard replaced as requested. However, our technician noticed the battery is also failing. Shall we have a new one installed for an additional $50 before you collect the device?</div>\n<div class=\"text-right\">TechFix Support.</div>",
     "parts": [
       {
         "id": "2_1",
@@ -69,7 +69,7 @@
     "id": 3,
     "type": "TF",
     "text": "Based on the policy, decide whether the following statements are True (T) or False (F):",
-    "notice": "RETURN POLICY\nItems must be returned in their original packaging within 30 days of purchase for a full refund.\nPlease note: Clearance items are final sale and cannot be exchanged or returned under any circumstances.",
+    "notice": "<div class=\"text-center\"><b>RETURN POLICY</b></div>\n<div class=\"text-left\">Items must be returned in their original packaging within 30 days of purchase for a full refund.</div>\n<div class=\"text-left\"><b>Please note:</b> Clearance items are final sale and cannot be exchanged or returned under any circumstances.</div>",
     "parts": [
       {
         "id": "3_1",
@@ -102,7 +102,7 @@
     "id": 4,
     "type": "TF",
     "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "URBAN CLEAN AIR ZONE\nVehicles entering this zone between 7 AM and 6 PM must meet emission standards. Drivers of non-compliant cars will be fined unless they have registered for a daily exemption pass 24 hours in advance.",
+    "notice": "<div class=\"text-center\"><b>URBAN CLEAN AIR ZONE</b></div>\n<div class=\"text-left\">Vehicles entering this zone between 7 AM and 6 PM must meet emission standards. Drivers of non-compliant cars will be fined unless they have registered for a daily exemption pass 24 hours in advance.</div>",
     "parts": [
       {
         "id": "4_1",
@@ -135,7 +135,7 @@
     "id": 5,
     "type": "TF",
     "text": "Based on the email, decide whether the following statements are True (T) or False (F):",
-    "notice": "Hi Jane,\nThe manager might be late for the interview. Could you have the candidates wait in the briefing room and provide them with the company profile? I'll get the HR assistant to bring the evaluation forms shortly.\nMark.",
+    "notice": "<div class=\"text-left\">Hi Jane,</div>\n<div class=\"text-left\">The manager might be late for the interview. Could you have the candidates wait in the briefing room and provide them with the company profile? I'll get the HR assistant to bring the evaluation forms shortly.</div>\n<div class=\"text-right\">Mark.</div>",
     "parts": [
       {
         "id": "5_1",
@@ -168,7 +168,7 @@
     "id": 6,
     "type": "TF",
     "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "ATTENTION CUSTOMERS\nOur kitchen handles nuts, dairy, and gluten. While we take precautions to prevent cross-contamination, we cannot guarantee any dish is completely allergen-free. Please inform our staff of any allergies before ordering.",
+    "notice": "<div class=\"text-center\"><b>ATTENTION CUSTOMERS</b></div>\n<div class=\"text-left\">Our kitchen handles nuts, dairy, and gluten. While we take precautions to prevent cross-contamination, we cannot guarantee any dish is completely allergen-free. Please inform our staff of any allergies before ordering.</div>",
     "parts": [
       {
         "id": "6_1",
@@ -201,7 +201,7 @@
     "id": 7,
     "type": "TF",
     "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "Residency Inn: Breakfast is served in the lounge from 6:30 to 10:30 AM. For those departing before dawn, we can have a breakfast box prepared for you. Please notify the front desk by 8 PM the night before.",
+    "notice": "<div class=\"text-center\"><b>Residency Inn</b></div>\n<div class=\"text-left\">Breakfast is served in the lounge from 6:30 to 10:30 AM. For those departing before dawn, we can have a breakfast box prepared for you. Please notify the front desk by 8 PM the night before.</div>",
     "parts": [
       {
         "id": "7_1",
