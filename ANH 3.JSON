@@ -3,13 +3,13 @@
     "id": 1,
     "type": "TF",
     "text": "Based on the transit notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "<div class=\"text-center\"><b>METROPOLITAN TRANSIT NOTICE</b></div>\n<div class=\"text-left\">To combat rush-hour congestion, commuter lanes are reserved solely for high-occupancy vehicles entering this zone between 7:00 AM and 9:00 AM. Violators will face fines unless they switch to public transport or choose to commute outside this time window.</div>",
+    "notice": "<div class=\"text-center\"><b>COMMUTER LANES ONLY</b></div>\n<div class=\"text-center\">7:00 AM - 9:00 AM</div>\n<div class=\"text-center\">High-Occupancy Vehicles Only</div>",
     "parts": [
       {
         "id": "1_1",
         "text": "All drivers entering commuter lanes during rush hour must pay a mandatory fee.",
         "correct": "F",
-        "solution": "Bẫy logic từ 'All': Chỉ những phương tiện không đạt chuẩn số lượng người ngồi (low-occupancy) và vi phạm mới bị phạt tiền ('Violators will face fines'), còn xe chở nhiều người (high-occupancy) được đi miễn phí."
+        "solution": "Bẫy logic từ 'All': Chỉ những phương tiện chở ít người (low-occupancy) đi sai làn mới bị phạt, còn xe chở nhiều người (high-occupancy) được đi miễn phí."
       },
       {
         "id": "1_2",
@@ -19,15 +19,15 @@
       },
       {
         "id": "1_3",
-        "text": "Taking the bus or subway is one way to avoid penalties for low-occupancy vehicle drivers.",
+        "text": "Only high-occupancy vehicles can use these lanes between 7:00 AM and 9:00 AM.",
         "correct": "T",
-        "solution": "Đúng theo thông báo: Việc chuyển sang sử dụng phương tiện công cộng ('switch to public transport') như xe buýt hoặc tàu điện ngầm sẽ giúp tránh được hình phạt tiền."
+        "solution": "Đúng theo thông tin biển báo: Làn đường này chỉ dành riêng cho xe chở nhiều người ('High-Occupancy Vehicles Only') trong khung giờ từ 7:00 đến 9:00 sáng."
       },
       {
         "id": "1_4",
         "text": "Solo drivers can freely use commuter lanes if they travel at 8:00 AM.",
         "correct": "F",
-        "solution": "Sai vì 8:00 AM nằm trong khung giờ cấm (7:00 AM - 9:00 AM) và lái xe một mình (solo driver = low-occupancy) sẽ bị phạt tiền."
+        "solution": "Lái xe một mình (solo driver) di chuyển lúc 8:00 AM là vi phạm vì khung giờ cấm áp dụng từ 7:00 AM đến 9:00 AM."
       }
     ],
     "points": 1.0
@@ -36,7 +36,7 @@
     "id": 2,
     "type": "TF",
     "text": "Based on the campaign notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "<div class=\"text-center\"><b>GREEN CAMPUS INITIATIVE</b></div>\n<div class=\"text-left\">Our campus cafeteria has achieved a carbon-neutral status. While we only distribute biodegradable food containers now, students are strongly encouraged to bring reusable boxes to minimize waste disposal.</div>",
+    "notice": "<div class=\"text-center\"><b>CARBON-NEUTRAL CAFETERIA</b></div>\n<div class=\"text-center\">We only use biodegradable containers.</div>\n<div class=\"text-center\">Please bring reusable boxes!</div>",
     "parts": [
       {
         "id": "2_1",
@@ -48,19 +48,19 @@
         "id": "2_2",
         "text": "Students will be penalized if they do not bring their own reusable boxes.",
         "correct": "F",
-        "solution": "Bẫy từ 'penalized': Nhà ăn chỉ khuyến khích mạnh mẽ ('strongly encouraged') học sinh mang hộp cá nhân chứ không đưa ra bất kỳ hình phạt nào."
+        "solution": "Bẫy từ 'penalized': Nhà ăn chỉ đưa ra lời khuyên/khuyến khích lịch sự ('Please bring...') chứ không có hình phạt nào áp dụng."
       },
       {
         "id": "2_3",
         "text": "The cafeteria no longer provides single-use plastic food containers.",
         "correct": "T",
-        "solution": "Suy luận logic: Nhà ăn hiện nay chỉ phát hộp đựng tự phân hủy sinh học ('only distribute biodegradable food containers now'), đồng nghĩa với việc các hộp nhựa dùng một lần không còn được phát nữa."
+        "solution": "Suy luận logic: Nhà ăn hiện nay chỉ dùng hộp đựng tự phân hủy sinh học ('only use biodegradable containers'), đồng nghĩa với việc các hộp nhựa dùng một lần thông thường đã bị loại bỏ."
       },
       {
         "id": "2_4",
-        "text": "Biodegradable containers do not generate any waste that requires disposal.",
+        "text": "Biodegradable containers do not generate any waste.",
         "correct": "F",
-        "solution": "Bẫy logic: Việc nhà ăn khuyến khích mang hộp cá nhân để 'giảm thiểu việc xử lý rác thải' ('minimize waste disposal') chứng tỏ các hộp tự phân hủy sinh học vẫn tạo ra rác và cần được xử lý."
+        "solution": "Bẫy logic: Việc nhà ăn vẫn kêu gọi mang hộp cá nhân tái sử dụng ('reusable boxes') chứng tỏ hộp tự phân hủy sinh học vẫn tạo ra rác và cần được xử lý."
       }
     ],
     "points": 1.0
@@ -68,20 +68,20 @@
   {
     "id": 3,
     "type": "TF",
-    "text": "Based on the e-commerce policy, decide whether the following statements are True (T) or False (F):",
-    "notice": "<div class=\"text-center\"><b>E-COMMERCE RETURN UPDATE</b></div>\n<div class=\"text-left\">We are currently in transition to a fully automated return process. For a transparent experience, refunds are processed instantly online, but only if items are sent back in their original condition within 14 days.</div>",
+    "text": "Based on the return policy, decide whether the following statements are True (T) or False (F):",
+    "notice": "<div class=\"text-center\"><b>RETURN UPDATE</b></div>\n<div class=\"text-center\">Transitioning to Automated Returns.</div>\n<div class=\"text-center\">Instant refund within 14 days (original condition).</div>",
     "parts": [
       {
         "id": "3_1",
         "text": "The online return system is already fully automated.",
         "correct": "F",
-        "solution": "Bẫy trạng thái/thì: Cửa hàng đang 'trong giai đoạn chuyển đổi' ('in transition to...') chứ chưa hoàn thành hệ thống tự động hoàn toàn."
+        "solution": "Bẫy trạng thái/thì: Cửa hàng đang 'trong giai đoạn chuyển dịch' ('Transitioning to...') chứ chưa hoàn thành hệ thống tự động hoàn toàn."
       },
       {
         "id": "3_2",
         "text": "Customers can get an instant refund even if they return an item on the 15th day.",
         "correct": "F",
-        "solution": "Quy định nêu rõ việc hoàn tiền ngay lập tức chỉ áp dụng cho sản phẩm gửi trả trong vòng 14 ngày ('within 14 days'). Gửi vào ngày thứ 15 là quá hạn."
+        "solution": "Quy định nêu rõ việc hoàn tiền ngay lập tức chỉ áp dụng cho sản phẩm gửi trả trong vòng 14 ngày ('within 14 days')."
       },
       {
         "id": "3_3",
@@ -91,9 +91,9 @@
       },
       {
         "id": "3_4",
-        "text": "The current return policy transition aims to make the refund steps clearer to track.",
+        "text": "Instant refunds are offered only for items returned within two weeks.",
         "correct": "T",
-        "solution": "Suy luận từ vựng: Mục tiêu của cuộc chuyển đổi là đem lại một trải nghiệm 'transparent' (minh bạch, rõ ràng, dễ theo dõi)."
+        "solution": "Suy luận từ đồng nghĩa: Thời hạn hoàn tiền 14 ngày tương ứng với hai tuần ('within two weeks')."
       }
     ],
     "points": 1.0
@@ -234,7 +234,7 @@
     "id": 8,
     "type": "TF",
     "text": "Question 8 is based on the information in the passage. Decide if the statements are True (T) or False (F):",
-    "passage": "The rapid integration of <b>artificial intelligence</b> (AI) into the global economy has sparked an intense debate regarding the future of work and the value of modern <b>tertiary education</b>. Traditionally, obtaining a university degree was viewed as a guaranteed <b>career path</b> that shielded individuals from economic instability. However, as advanced algorithms begin to automate not only manual labor but also complex cognitive tasks—ranging from legal analysis to software development—the conventional boundary between intellectual and routine work has blurred. Consequently, academic institutions are facing a critical turning point: they must either adapt their curricula or risk producing graduates whose skills are already <b>obsolete</b> upon graduation. [A]\n\nThis technological shift has led to a noticeable rise in <b>underemployment</b> among recent university graduates, many of whom find themselves overqualified for their positions yet lacking the practical, job-ready skills demanded by modern employers. In response, some educational experts advocate for a stronger focus on <b>vocational</b> training and technical certifications, which offer direct routes to high-demand technical roles. However, focusing solely on specialized technical skills can be short-sighted. Because technology evolves at an exponential rate, specific coding languages or software tools learned today may become irrelevant tomorrow. Thus, the most resilient asset in the modern job market is not highly specialized technical knowledge, but rather a combination of <b>critical thinking</b>, emotional intelligence, and cognitive flexibility. [B]\n\nFurthermore, the distinction between hard skills and <b>soft skills</b> is becoming increasingly vital. While AI can process vast amounts of data and identify patterns with unmatched speed, it lacks the human capacity for empathy, ethical judgment, and complex negotiation. Therefore, roles that rely heavily on interpersonal interaction and social cohesion are the least likely to be automated. Professional success in this new landscape requires a commitment to <b>lifelong learning</b> and continuous <b>adaptability</b>. Workers must view their education not as a single, finite phase of life completed in their early twenties, but as a continuous, dynamic process of upskilling and reskilling. [C]\n\nUltimately, the <b>transition</b> to an AI-driven economy does not spell the end of human labor, but rather its redefinition. By fostering a learning ecosystem that blends foundational academic inquiry with hands-on technical training, society can bridge the gap between human potential and machine efficiency. In doing so, we can ensure that technology serves as a tool for human <b>empowerment</b> rather than displacement. [D]",
+    "passage": "The rapid pace of global urbanization has transformed quiet suburbs into bustling metropolitan areas. However, this growth has also introduced severe challenges, particularly regarding transportation and congestion during rush hours. Every day, millions of commuters spend hours trapped in gridlock, contributing to high greenhouse gas emissions. To address this, academic institutions are facing a critical turning point: **they** must either adapt their curricula or risk producing graduates whose skills are already **obsolete** upon graduation. **[A]**\n\nThis technological shift has led to a noticeable rise in underemployment among recent university graduates, many of whom find themselves overqualified for their positions yet lacking the practical, job-ready skills demanded by modern employers. In response, some educational experts advocate for a stronger focus on vocational training and technical certifications, which offer direct routes to high-demand technical roles. However, focusing solely on specialized technical skills can be short-sighted. Because technology evolves at an exponential rate, specific coding languages or software tools learned today may become irrelevant tomorrow. Thus, the most resilient asset in the modern job market is not highly specialized technical knowledge, but rather a combination of critical thinking, emotional intelligence, and cognitive flexibility. **[B]**\n\nFurthermore, the distinction between hard skills and soft skills is becoming increasingly vital. While AI can process vast amounts of data and identify patterns with unmatched speed, it lacks the human capacity for empathy, ethical judgment, and complex negotiation. Therefore, roles that rely heavily on interpersonal interaction and social cohesion are the least likely to be automated. Professional success in this new landscape requires a commitment to lifelong learning and continuous adaptability. Workers must view their education not as a single, finite phase of life completed in their early twenties, but as a continuous, dynamic process of upskilling and reskilling. **[C]**\n\nUltimately, the transition to an AI-driven economy does not spell the end of human labor, but rather its redefinition. By fostering a learning ecosystem that blends foundational academic inquiry with hands-on technical training, society can bridge the gap between human potential and machine efficiency. In doing so, we can ensure that technology serves as a tool for human empowerment rather than displacement. **[D]**",
     "parts": [
       {
         "id": "8_1",
@@ -752,7 +752,7 @@
     "type": "SHORT",
     "text": "Fill in ONE word which best fits gap (24):",
     "correct": "affordable|cheap",
-    "solution": "Cần một tính từ đi liền với 'housing' tạo thành cụm từ 'affordable housing' (nhà ở giá cả phải chăng, hợp túi tiền) để công nhân có thể sống gần các đầu mối trung chuyển giao thông."
+    "solution": "Cần một tính từ đi liền with 'housing' tạo thành cụm từ 'affordable housing' (nhà ở giá cả phải chăng, hợp túi tiền) để công nhân có thể sống gần các đầu mối trung chuyển giao thông."
   },
   {
     "id": 25,
