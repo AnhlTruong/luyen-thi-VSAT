@@ -1,0 +1,764 @@
+[
+  {
+    "id": 1,
+    "type": "TF",
+    "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
+    "notice": "SCHOOL GATE\nParents collecting children may enter after 4.00 p.m. Before then, please use the visitor car park.",
+    "parts": [
+      {
+        "id": "1_1",
+        "text": "Parents may drive through the school gate at 4.30 p.m.",
+        "correct": "T",
+        "solution": "Phụ huynh được phép vào sau 4.00 p.m., nên vào lúc 4.30 p.m. là hợp lệ."
+      },
+      {
+        "id": "1_2",
+        "text": "Parents are never permitted to enter through this gate.",
+        "correct": "F",
+        "solution": "Biển báo chỉ yêu cầu dùng bãi đỗ xe trước 4.00 p.m., không cấm hoàn toàn."
+      },
+      {
+        "id": "1_3",
+        "text": "Before 4.00 p.m., parents should park elsewhere.",
+        "correct": "T",
+        "solution": "Trước 4.00 p.m., phụ huynh phải dùng bãi đỗ xe của khách."
+      },
+      {
+        "id": "1_4",
+        "text": "The notice says the gate itself is closed before 4.00 p.m.",
+        "correct": "F",
+        "solution": "Không có thông tin nào nói bản thân cổng trường bị khóa."
+      }
+    ],
+    "points": 1.0
+  },
+  {
+    "id": 2,
+    "type": "TF",
+    "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
+    "notice": "DENTAL CLINIC\nYour Tuesday appointment has been moved to Thursday at 3.30 p.m. Call 0786 452 190 before Wednesday noon if you cannot attend.",
+    "parts": [
+      {
+        "id": "2_1",
+        "text": "The appointment will now take place later in the week.",
+        "correct": "T",
+        "solution": "Lịch hẹn dời từ Thứ Ba sang Thứ Năm, tức là muộn hơn trong tuần."
+      },
+      {
+        "id": "2_2",
+        "text": "The patient must phone the clinic before Tuesday.",
+        "correct": "F",
+        "solution": "Phải gọi trước trưa Thứ Tư, không phải trước Thứ Ba."
+      },
+      {
+        "id": "2_3",
+        "text": "A phone call is necessary only if the new appointment is unsuitable.",
+        "correct": "T",
+        "solution": "Bệnh nhân chỉ cần gọi nếu không thể tham dự."
+      },
+      {
+        "id": "2_4",
+        "text": "The appointment has been cancelled.",
+        "correct": "F",
+        "solution": "Lịch hẹn chỉ bị dời đi, không bị hủy."
+      }
+    ],
+    "points": 1.0
+  },
+  {
+    "id": 3,
+    "type": "TF",
+    "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
+    "notice": "PARK CAFÉ\nBreakfast served until 10.30 a.m. Hot lunches from 11.30 a.m., except Sundays.",
+    "parts": [
+      {
+        "id": "3_1",
+        "text": "Breakfast can be ordered at 10.15 a.m.",
+        "correct": "T",
+        "solution": "Bữa sáng phục vụ đến 10.30 a.m., nên có thể gọi món lúc 10.15 a.m."
+      },
+      {
+        "id": "3_2",
+        "text": "Lunch is available every day.",
+        "correct": "F",
+        "solution": "Bữa trưa nóng không phục vụ vào Chủ nhật."
+      },
+      {
+        "id": "3_3",
+        "text": "Customers cannot order a hot meal at 11.00 a.m.",
+        "correct": "T",
+        "solution": "Bữa trưa nóng bắt đầu từ 11.30 a.m., nên 11.00 a.m. không thể gọi."
+      },
+      {
+        "id": "3_4",
+        "text": "The café closes when breakfast service finishes.",
+        "correct": "F",
+        "solution": "Quán vẫn phục vụ bữa trưa, không đóng cửa sau bữa sáng."
+      }
+    ],
+    "points": 1.0
+  },
+  {
+    "id": 4,
+    "type": "TF",
+    "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
+    "notice": "ROUTE 18\nThe 7.20 a.m. bus will use the temporary stop outside the bank this week. Later services remain unchanged.",
+    "parts": [
+      {
+        "id": "4_1",
+        "text": "No Route 18 buses will use the usual stop this week.",
+        "correct": "F",
+        "solution": "Các chuyến muộn hơn vẫn giữ nguyên lộ trình, nên vẫn dùng trạm cũ."
+      },
+      {
+        "id": "4_2",
+        "text": "Passengers taking the 7.20 bus should wait outside the bank.",
+        "correct": "T",
+        "solution": "Chuyến 7.20 a.m. dùng trạm tạm thời bên ngoài ngân hàng."
+      },
+      {
+        "id": "4_3",
+        "text": "Services after 7.20 will operate as usual.",
+        "correct": "T",
+        "solution": "Các chuyến sau 7.20 vẫn hoạt động như thường lệ."
+      },
+      {
+        "id": "4_4",
+        "text": "The temporary stop is located inside the bank.",
+        "correct": "F",
+        "solution": "Trạm nằm \"outside\" (bên ngoài) ngân hàng, không phải bên trong."
+      }
+    ],
+    "points": 1.0
+  },
+  {
+    "id": 5,
+    "type": "TF",
+    "text": "Based on the message, decide whether the following statements are True (T) or False (F):",
+    "notice": "From: Leo To: Sam I’ll finish work at 6.15. Meet me outside the cinema at 6.45, not at the café. Call 0917 625 804 if the film has already started.",
+    "parts": [
+      {
+        "id": "5_1",
+        "text": "Leo and Sam originally planned to meet at the café.",
+        "correct": "T",
+        "solution": "Lời nhắn \"not at the café\" cho thấy ban đầu họ định hẹn ở quán cà phê."
+      },
+      {
+        "id": "5_2",
+        "text": "Leo expects to meet Sam before leaving work.",
+        "correct": "F",
+        "solution": "Leo hẹn lúc 6.45 sau khi tan làm lúc 6.15, không phải gặp trước khi rời nơi làm việc."
+      },
+      {
+        "id": "5_3",
+        "text": "Their new meeting place is outside the cinema.",
+        "correct": "T",
+        "solution": "Địa điểm mới là bên ngoài rạp phim."
+      },
+      {
+        "id": "5_4",
+        "text": "Sam should phone Leo as soon as he reaches the cinema.",
+        "correct": "F",
+        "solution": "Sam chỉ nên gọi nếu phim đã bắt đầu."
+      }
+    ],
+    "points": 1.0
+  },
+  {
+    "id": 6,
+    "type": "TF",
+    "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
+    "notice": "FOOTBALL TRAINING\nFriday’s session starts at 6.30 p.m., not 6.00. Players must arrive by 6.15 p.m. No entry after training begins.",
+    "parts": [
+      {
+        "id": "6_1",
+        "text": "Training will begin thirty minutes later than originally planned.",
+        "correct": "T",
+        "solution": "Tập luyện bắt đầu lúc 6.30 thay vì 6.00, trễ hơn 30 phút."
+      },
+      {
+        "id": "6_2",
+        "text": "Players may arrive at any time before 6.30 p.m.",
+        "correct": "F",
+        "solution": "Người chơi phải đến trước 6.15, không phải bất kỳ lúc nào trước 6.30."
+      },
+      {
+        "id": "6_3",
+        "text": "A player arriving at 6.20 p.m. is late for the requested arrival time.",
+        "correct": "T",
+        "solution": "Đến lúc 6.20 p.m. là muộn so với yêu cầu 6.15 p.m.."
+      },
+      {
+        "id": "6_4",
+        "text": "A player arriving at 6.35 p.m. may still join the session.",
+        "correct": "F",
+        "solution": "Không ai được vào sau khi buổi tập bắt đầu lúc 6.30."
+      }
+    ],
+    "points": 1.0
+  },
+  {
+    "id": 7,
+    "type": "TF",
+    "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
+    "notice": "HISTORY MUSEUM\nLast entry: 4.30 p.m. Visitors inside may remain until 5.00 p.m. Under-12s enter free with a paying adult.",
+    "parts": [
+      {
+        "id": "7_1",
+        "text": "Visitors may enter the museum at 4.45 p.m.",
+        "correct": "F",
+        "solution": "Lượt vào cuối là 4.30 p.m., nên 4.45 p.m. không được vào."
+      },
+      {
+        "id": "7_2",
+        "text": "Someone admitted at 4.20 p.m. may stay until 5.00 p.m.",
+        "correct": "T",
+        "solution": "Người vào lúc 4.20 p.m. có thể ở lại đến 5.00 p.m.."
+      },
+      {
+        "id": "7_3",
+        "text": "All children under twelve enter free, even when alone.",
+        "correct": "F",
+        "solution": "Trẻ dưới 12 tuổi chỉ được miễn phí khi đi kèm người lớn mua vé."
+      },
+      {
+        "id": "7_4",
+        "text": "An eleven-year-old with a paying adult does not need a ticket.",
+        "correct": "T",
+        "solution": "Trẻ 11 tuổi đi cùng người lớn đã mua vé sẽ không cần mua vé."
+      }
+    ],
+    "points": 1.0
+  },
+  {
+    "id": 8,
+    "type": "TF",
+    "text": "Question 8 is based on paragraph 1. Decide if the statements are TRUE or FALSE.",
+    "passage": "For many epochs, the augmentation of human intellect was inextricably bound to biological evolution and pedagogical refinement. Today, however, the proliferation of Artificial Neural Networks (ANNs) and symbiotic brain-computer interfaces has precipitated an unprecedented paradigm shift in cognitive development. Ostensibly, these techno-cognitive augmentations offer an unequivocal panacea for intellectual limitations, promising to eradicate neurodegenerative afflictions and catapult human computational prowess to dizzying heights. Nevertheless, the intrinsic value of such advancements is not exclusively encapsulated within their computational dividends. A meticulously integrated cognitive prosthesis can theoretically engender profound epistemological insights, fortify neural plasticity and allow individuals to navigate an increasingly labyrinthine informational landscape with renewed perspicacity.\n\nYet, the contemporary landscape of augmented intelligence is not devoid of perilous undercurrents, often manifesting as diametrically opposed to the anticipated utopian cognitive emancipation. The ubiquity of algorithmic outsourcing, for example, has fundamentally metamorphosed how humanity conceptualizes knowledge retention. Instead of fostering rigorous critical thinking or profound contemplative experiences, a substantial demographic of users has become disproportionately fixated on the instantaneous retrieval of superficial data, ostensibly to project an aura of omniscience rather than cultivating genuine erudition. Others frequently devote an inordinate quantum of their cognitive bandwidth to micromanaging the parameters of their AI assistants, thereby leaving infinitesimal room for organic, unprompted cerebral synthesis or spontaneous intellectual serendipity. As a result, an innovation heralded as the ultimate cognitive emancipator may inadvertently precipitate profound intellectual complacency and cognitive atrophy.\n\n[A] A corollary predicament is the encroaching commodification of neuro-technological enhancements. In an increasingly monopolistic ecosystem, proprietary algorithms and neural interfaces have inexorably transitioned into highly lucrative corporate assets. Tech conglomerates and monolithic data brokers reap exorbitant dividends from this trajectory, and macro-economic indices may undeniably reflect robust growth. However, when the maximization of shareholder yield supersedes ethical considerations, the fundamental democratizing ethos of artificial intelligence is profoundly compromised. Users may revel in the ephemeral convenience of augmented processing capabilities without fully comprehending the insidious erosion of their cognitive autonomy and data sovereignty.\n\n[B] This assertion does not intrinsically condemn the pursuit of neuro-technological symbiosis.\n[C] Conversely, these innovations can catalyze unprecedented collaborative synergy, provided that developers adhere to stringent ethical paradigms and users are empowered to safeguard their neural privacy. A framework of techno-regulation, which incentivizes algorithm transparency and actively mitigates the exacerbation of socioeconomic disparities, emerges as an imperative solution. [D] It serves as a stark admonition that the pursuit of artificial superintelligence should not necessitate the disenfranchisement or exploitation of the very biological entities it was engineered to elevate.\n\nUltimately, the zenith of human-AI integration may not be characterized by the most computationally exorbitant or visually arresting neural interface. Rather, the optimal synthesis is one that empowers individuals to introspect authentically, cultivate empathetic connections with their contemporaries and decipher novel phenomena without obfuscating the quintessential elements of human consciousness. Should humanity navigate this technological precipice with heightened equilibrium and vigilance, we stand to inherit not merely a repository of infinite processing power, but a profoundly enriched comprehension of both our internal cognitive architecture and the world around us.",
+    "parts": [
+      {
+        "id": "8_1",
+        "text": "The passage asserts that the sole merit of techno-cognitive augmentations lies in their capacity to provide computational dividends.",
+        "correct": "F",
+        "solution": "Bài đọc khẳng định giá trị của công nghệ không chỉ nằm ở lợi ích tính toán."
+      },
+      {
+        "id": "8_2",
+        "text": "Historically, the enhancement of human intelligence was strictly tied to biological progression and educational methodologies.",
+        "correct": "T",
+        "solution": "Sự gia tăng trí tuệ con người gắn bó với tiến hóa sinh học và cải tiến giáo dục."
+      },
+      {
+        "id": "8_3",
+        "text": "The author insinuates that integrating cognitive prostheses could potentially ameliorate the resilience of the brain's neural networks.",
+        "correct": "T",
+        "solution": "Công nghệ có thể củng cố độ dẻo dai của hệ thần kinh."
+      },
+      {
+        "id": "8_4",
+        "text": "Paragraph 1 categorically guarantees that all individuals will inevitably achieve computational supremacy without encountering neurodegenerative afflictions.",
+        "correct": "F",
+        "solution": "Đoạn 1 chỉ dùng các từ \"có vẻ như\" và \"hứa hẹn\", không đảm bảo tuyệt đối."
+      }
+    ],
+    "points": 1.0
+  },
+  {
+    "id": 9,
+    "type": "TF",
+    "text": "Question 9 is based on paragraph 2. Decide if the statements are TRUE or FALSE.",
+    "parts": [
+      {
+        "id": "9_1",
+        "text": "The pervasive reliance on algorithmic assistance has fundamentally altered humanity’s approach to preserving and understanding knowledge.",
+        "correct": "T",
+        "solution": "Việc lạm dụng thuật toán đã làm thay đổi cách nhân loại ghi nhớ kiến thức."
+      },
+      {
+        "id": "9_2",
+        "text": "The author postulates that meticulously configuring the parameters of AI assistants invariably leads to a state of profound intellectual serendipity.",
+        "correct": "F",
+        "solution": "Quản lý vi mô AI để lại rất ít không gian cho sự tình cờ tri thức."
+      },
+      {
+        "id": "9_3",
+        "text": "A significant proportion of users prioritize the facade of infinite knowledge over the authentic cultivation of deep, scholarly understanding.",
+        "correct": "T",
+        "solution": "Người dùng muốn tạo vẻ toàn tri hơn là uyên bác thực sự."
+      },
+      {
+        "id": "9_4",
+        "text": "According to the text, the technological innovations designed to liberate human cognition usually make modern intellectual life more stressful than working life.",
+        "correct": "F",
+        "solution": "Bài không so sánh căng thẳng giữa đời sống trí thức và công việc."
+      }
+    ],
+    "points": 1.0
+  },
+  {
+    "id": 10,
+    "type": "MCQ",
+    "text": "In paragraph 2, the word “erudition” is closest in meaning to ______.",
+    "options": [
+      {
+        "key": "A",
+        "text": "the superficial accumulation of ephemeral digital data"
+      },
+      {
+        "key": "B",
+        "text": "the profound, scholarly knowledge acquired through rigorous study"
+      },
+      {
+        "key": "C",
+        "text": "the innate biological capacity to interface with neural networks"
+      },
+      {
+        "key": "D",
+        "text": "the unavoidable deterioration of human cognitive faculties"
+      }
+    ],
+    "correct": "B",
+    "solution": "\"Erudition\" (sự uyên bác) trái ngược với việc thu thập dữ liệu nông cạn (\"superficial data\")."
+  },
+  {
+    "id": 11,
+    "type": "MCQ",
+    "text": "In paragraph 3, the phrase “this trajectory” refers to ______.",
+    "options": [
+      {
+        "key": "A",
+        "text": "the unhindered democratization of artificial intelligence across all socioeconomic strata"
+      },
+      {
+        "key": "B",
+        "text": "the phenomenon whereby neural interfaces and algorithms are transformed into profit-driven corporate commodities"
+      },
+      {
+        "key": "C",
+        "text": "the macro-economic decline caused by the over-reliance on artificial neural networks"
+      },
+      {
+        "key": "D",
+        "text": "the insidious erosion of users' cognitive autonomy and data sovereignty"
+      }
+    ],
+    "correct": "B",
+    "solution": "\"This trajectory\" thay thế cho việc thuật toán và giao diện thần kinh chuyển đổi thành tài sản doanh nghiệp ngay câu trước đó."
+  },
+  {
+    "id": 12,
+    "type": "MCQ",
+    "text": "Which of the following is TRUE according to paragraph 3?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The macro-economic indices reflect robust growth solely because ethical considerations have completely superseded the maximization of shareholder yield."
+      },
+      {
+        "key": "B",
+        "text": "Users are consistently hyper-aware of the insidious ways in which augmented processing capabilities erode their data sovereignty."
+      },
+      {
+        "key": "C",
+        "text": "The democratizing spirit of artificial intelligence may be inevitably undermined when the pursuit of financial maximization is prioritized over moral integrity."
+      },
+      {
+        "key": "D",
+        "text": "Techno-regulation is described as a detrimental force that actively exacerbates existing socioeconomic disparities and stifles algorithmic transparency."
+      }
+    ],
+    "correct": "C",
+    "solution": "Tinh thần dân chủ hóa của AI bị tổn hại khi lợi ích cổ đông được ưu tiên hơn đạo đức."
+  },
+  {
+    "id": 13,
+    "type": "MCQ",
+    "text": "In which position in the passage would the following sentence best fit?\nConsequently, the profound epistemological value of human intellect is at risk of being eclipsed by a superficial engagement with a colourful digital veneer.",
+    "options": [
+      {
+        "key": "A",
+        "text": "[A]"
+      },
+      {
+        "key": "B",
+        "text": "[B]"
+      },
+      {
+        "key": "C",
+        "text": "[C]"
+      },
+      {
+        "key": "D",
+        "text": "[D]"
+      }
+    ],
+    "correct": "A",
+    "solution": "Câu nêu hậu quả của sự suy giảm nhận thức phù hợp nhất khi đặt ngay sau câu nói về sự tự mãn và \"cognitive atrophy\"."
+  },
+  {
+    "id": 14,
+    "type": "MCQ",
+    "text": "Which of the following can be inferred from the passage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The ultimate manifestation of human-AI synergy relies strictly on the continuous deployment of increasingly exorbitant and visually imposing neural hardware."
+      },
+      {
+        "key": "B",
+        "text": "Technological advancements in artificial intelligence are intrinsically malevolent and systematically engineered to orchestrate the obsolescence of biological entities."
+      },
+      {
+        "key": "C",
+        "text": "Achieving a harmonious coexistence with artificial intelligence requires humanity to eschew the pursuit of computational power in favor of returning to purely biological pedagogical methods."
+      },
+      {
+        "key": "D",
+        "text": "The true efficacy of neuro-technological advancements is contingent upon humanity's ability to leverage them for profound introspection rather than allowing them to precipitate cognitive subservience."
+      }
+    ],
+    "correct": "D",
+    "solution": "Sự tích hợp tối ưu là giúp cá nhân tự vấn nội tâm một cách chân thực, thay vì phụ thuộc công nghệ."
+  },
+  {
+    "id": 15,
+    "type": "MCQ",
+    "text": "Which of the following best summarises the passage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The integration of neural interfaces offers an unprecedented panacea for all diseases, guaranteeing that humanity will inevitably reach a utopian zenith of computational supremacy without any ethical repercussions."
+      },
+      {
+        "key": "B",
+        "text": "Despite possessing the potential to ameliorate cognitive limitations and foster collaborative synergy, augmented intelligence is fraught with perils—such as cognitive atrophy and corporate commodification—which necessitate ethical frameworks and heightened human vigilance."
+      },
+      {
+        "key": "C",
+        "text": "The pervasive commercialization of neuro-technological enhancements has irrefutably proven that tech conglomerates are the sole beneficiaries of AI, rendering any attempt at establishing techno-regulation completely futile."
+      },
+      {
+        "key": "D",
+        "text": "Because algorithmic outsourcing invariably leads to the total eradication of spontaneous intellectual serendipity, developers must immediately halt the proliferation of symbiotic neural interfaces to preserve human consciousness."
+      }
+    ],
+    "correct": "B",
+    "solution": "Tóm tắt đủ cấu trúc: Tiềm năng của AI, các mối nguy (suy giảm nhận thức, thương mại hóa) và giải pháp."
+  },
+  {
+    "id": 16,
+    "type": "MATCH",
+    "text": "Match each number (1-4) with a suitable letter (A-F) to make an appropriate exchange.",
+    "leftItems": [
+      {
+        "id": "16_1",
+        "text": "I’m afraid the parcel won’t reach you before Friday."
+      },
+      {
+        "id": "16_2",
+        "text": "You really needn’t have covered the entire repair bill."
+      },
+      {
+        "id": "16_3",
+        "text": "Would you mind if I closed the window?"
+      },
+      {
+        "id": "16_4",
+        "text": "You look as though you hadn’t slept all night."
+      }
+    ],
+    "rightItems": [
+      {
+        "key": "A",
+        "text": "Not at all. It’s getting rather cold in here anyway."
+      },
+      {
+        "key": "B",
+        "text": "Never mind. It had already arrived by then."
+      },
+      {
+        "key": "C",
+        "text": "It was the least I could do after causing the damage."
+      },
+      {
+        "key": "D",
+        "text": "Yes, I would. Please leave it exactly where it is."
+      },
+      {
+        "key": "E",
+        "text": "I was up preparing for this morning’s presentation."
+      },
+      {
+        "key": "F",
+        "text": "In that case, could you have it delivered to my office instead?"
+      }
+    ],
+    "correctMap": {
+      "16_1": "F",
+      "16_2": "C",
+      "16_3": "A",
+      "16_4": "E"
+    },
+    "solution": "16_1 ghép F (Bưu kiện trễ -> đổi địa điểm giao hàng); 16_2 ghép C (Biết ơn vì trả giúp hóa đơn sửa chữa); 16_3 ghép A (Cho phép đóng cửa sổ); 16_4 ghép E (Thức đêm chuẩn bị thuyết trình)."
+  },
+  {
+    "id": 17,
+    "type": "MATCH",
+    "text": "Match each sentence beginning (1-4) with its most suitable ending (A-F).",
+    "leftItems": [
+      {
+        "id": "17_1",
+        "text": "The sharp decline in local bee populations"
+      },
+      {
+        "id": "17_2",
+        "text": "Distorted perceptions of appearance among adolescents"
+      },
+      {
+        "id": "17_3",
+        "text": "The recurring failure of the hospital’s online booking system"
+      },
+      {
+        "id": "17_4",
+        "text": "A prolonged deficiency of vitamin B12"
+      }
+    ],
+    "rightItems": [
+      {
+        "key": "A",
+        "text": "are often traced partly to unrealistic standards promoted on social media."
+      },
+      {
+        "key": "B",
+        "text": "can result in fatigue, memory problems and permanent nerve damage."
+      },
+      {
+        "key": "C",
+        "text": "has repeatedly disrupted appointment scheduling across several departments."
+      },
+      {
+        "key": "D",
+        "text": "is thought to have been accelerated by habitat loss and pesticide use."
+      },
+      {
+        "key": "E",
+        "text": "are unlikely to be solved simply by replacing outdated computer equipment."
+      },
+      {
+        "key": "F",
+        "text": "may occasionally be mistaken for a temporary fall in agricultural productivity."
+      }
+    ],
+    "correctMap": {
+      "17_1": "D",
+      "17_2": "A",
+      "17_3": "C",
+      "17_4": "B"
+    },
+    "solution": "17_1 ghép D (Ong giảm -> mất sinh cảnh và thuốc trừ sâu); 17_2 ghép A (Mặc cảm ngoại hình -> tiêu chuẩn phi thực tế trên MXH); 17_3 ghép C (Sự cố hệ thống đặt lịch -> gián đoạn lịch hẹn); 17_4 ghép B (Thiếu hụt B12 -> tổn thương thần kinh)."
+  },
+  {
+    "id": 18,
+    "type": "MATCH",
+    "text": "Match each sentence beginning (1-4) with its most suitable ending (A-F).",
+    "leftItems": [
+      {
+        "id": "18_1",
+        "text": "Should the city extend the underground railway to the outer districts,"
+      },
+      {
+        "id": "18_2",
+        "text": "Were the witness’s account entirely accurate,"
+      },
+      {
+        "id": "18_3",
+        "text": "Had the laboratory followed the safety protocol last night,"
+      },
+      {
+        "id": "18_4",
+        "text": "Had it not been for the anonymous donor’s contribution,"
+      }
+    ],
+    "rightItems": [
+      {
+        "key": "A",
+        "text": "traffic would have fallen significantly before construction even began."
+      },
+      {
+        "key": "B",
+        "text": "the sequence of events would make considerably more sense."
+      },
+      {
+        "key": "C",
+        "text": "the community library might have been forced to close permanently."
+      },
+      {
+        "key": "D",
+        "text": "the investigators will have ignored several important contradictions."
+      },
+      {
+        "key": "E",
+        "text": "many residents may become less dependent on private vehicles."
+      },
+      {
+        "key": "F",
+        "text": "the samples would not have been contaminated during the experiment."
+      }
+    ],
+    "correctMap": {
+      "18_1": "E",
+      "18_2": "B",
+      "18_3": "F",
+      "18_4": "C"
+    },
+    "solution": "18_1 ghép E (Đảo ngữ điều kiện loại 1); 18_2 ghép B (Đảo ngữ điều kiện loại 2); 18_3 ghép F (Đảo ngữ điều kiện loại 3); 18_4 ghép C (Cấu trúc giả định Had it not been for...)."
+  },
+  {
+    "id": 19,
+    "type": "MATCH",
+    "text": "Match each sentence beginning (1-4) with its most suitable ending (A-F).",
+    "leftItems": [
+      {
+        "id": "19_1",
+        "text": "The software company released an urgent encryption update,"
+      },
+      {
+        "id": "19_2",
+        "text": "Professor Mai is a highly respected linguist,"
+      },
+      {
+        "id": "19_3",
+        "text": "The abandoned textile mill,"
+      },
+      {
+        "id": "19_4",
+        "text": "Mr. Nam runs a nationwide chain of cafés,"
+      }
+    ],
+    "rightItems": [
+      {
+        "key": "A",
+        "text": "much of which was damaged in a fire, will be converted into an arts centre."
+      },
+      {
+        "key": "B",
+        "text": "from whom several younger researchers have received valuable guidance."
+      },
+      {
+        "key": "C",
+        "text": "three of which branches have recently been renovated."
+      },
+      {
+        "key": "D",
+        "text": "whom the local council plans to preserve as an industrial monument."
+      },
+      {
+        "key": "E",
+        "text": "which addressed a vulnerability discovered earlier that week."
+      },
+      {
+        "key": "F",
+        "text": "three of whose branches have recently been renovated."
+      }
+    ],
+    "correctMap": {
+      "19_1": "E",
+      "19_2": "B",
+      "19_3": "A",
+      "19_4": "F"
+    },
+    "solution": "Mệnh đề quan hệ: 19_1 ghép E (encryption update -> which); 19_2 ghép B (linguist -> from whom); 19_3 ghép A (mill -> much of which); 19_4 ghép F (chain of cafés -> three of whose branches)."
+  },
+  {
+    "id": 20,
+    "type": "MATCH",
+    "text": "Match each sentence beginning (1-4) with its most suitable ending (A-F).",
+    "leftItems": [
+      {
+        "id": "20_1",
+        "text": "After reading the anonymous complaint, Nina looked at me"
+      },
+      {
+        "id": "20_2",
+        "text": "Although he had joined the company only that morning, the new employee discussed the merger"
+      },
+      {
+        "id": "20_3",
+        "text": "It was the editor’s last-minute intervention"
+      },
+      {
+        "id": "20_4",
+        "text": "What impressed the safety inspectors most was"
+      }
+    ],
+    "rightItems": [
+      {
+        "key": "A",
+        "text": "that prevented the false allegation from being published."
+      },
+      {
+        "key": "B",
+        "text": "as though I would write the entire letter myself."
+      },
+      {
+        "key": "C",
+        "text": "as though I had deliberately betrayed her confidence."
+      },
+      {
+        "key": "D",
+        "text": "the way the staff remained calm throughout the evacuation."
+      },
+      {
+        "key": "E",
+        "text": "how calmly did the staff respond to the emergency."
+      },
+      {
+        "key": "F",
+        "text": "as if he had been directly involved in the negotiations."
+      }
+    ],
+    "correctMap": {
+      "20_1": "C",
+      "20_2": "F",
+      "20_3": "A",
+      "20_4": "D"
+    },
+    "solution": "Cấu trúc nâng cao: 20_1 ghép C (looked at me as though...); 20_2 ghép F (discussed... as if...); 20_3 ghép A (Câu chẻ: It was... that...); 20_4 ghép D (Mệnh đề bổ ngữ: What impressed... was...)."
+  },
+  {
+    "id": 21,
+    "type": "SHORT",
+    "passage": "We know sleep is an activity we can’t do without, yet we let our hectic lifestyle wear us down until we can’t (21) ______ from bed in the morning. We know the longer we go without sleep, the more likely we are to have (22) ______ accident, and when that happens, this will be the unhappiest moment we’ve been through in our life. It’s safe to say that too many people have come up against this problem. But there’s no need for us to make ourselves tired over a lack of sleep. Now it seems as if people are bouncing back from this terrible (23) ______ torture by taking mid-day naps. Some may think it makes them look lazy to the boss, but these days aren’t as old-fashioned (24) ______ we might expect, and such ideas as napping at work are catching (25) ______. It’s been proven by researchers that a mid-day nap increases productivity, and more employees are changing their tune about the practice.",
+    "text": "Fill in ONE word which best fits gap (21):",
+    "correct": "rise|stir",
+    "solution": "Cụm từ \"rise/stir from bed\" mang ý nghĩa thức dậy/bật dậy khỏi giường."
+  },
+  {
+    "id": 22,
+    "type": "SHORT",
+    "text": "Fill in ONE word which best fits gap (22):",
+    "correct": "an",
+    "solution": "Mạo từ bất định \"an\" đứng trước danh từ số ít bắt đầu bằng nguyên âm \"accident\"."
+  },
+  {
+    "id": 23,
+    "type": "SHORT",
+    "text": "Fill in ONE word which best fits gap (23):",
+    "correct": "sleep|sleepless",
+    "solution": "Từ \"sleep/sleepless\" bổ nghĩa cho \"torture\" thành \"sleepless/sleep torture\" (sự tra tấn do mất ngủ)."
+  },
+  {
+    "id": 24,
+    "type": "SHORT",
+    "text": "Fill in ONE word which best fits gap (24):",
+    "correct": "as",
+    "solution": "Cấu trúc so sánh bằng: \"as + adj + as\" (as old-fashioned as)."
+  },
+  {
+    "id": 25,
+    "type": "SHORT",
+    "text": "Fill in ONE word which best fits gap (25):",
+    "correct": "on",
+    "solution": "Cụm động từ \"catch on\" có nghĩa là trở nên phổ biến, thịnh hành."
+  }
+]
