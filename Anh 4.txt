@@ -3,7 +3,7 @@
     "id": 1,
     "type": "TF",
     "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "SCHOOL GATE\nParents collecting children may enter after 4.00 p.m. Before then, please use the visitor car park.",
+    "notice": "<div class=\"text-center\"><b>NOTICE / MESSAGE</b></div>\n<div class=\"text-center\"><b>SCHOOL GATE</b></div>\n<div class=\"text-left\">Parents collecting children may enter after <b>4.00 p.m.</b> Before then, please use the visitor car park.</div>",
     "parts": [
       {
         "id": "1_1",
@@ -36,7 +36,7 @@
     "id": 2,
     "type": "TF",
     "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "DENTAL CLINIC\nYour Tuesday appointment has been moved to Thursday at 3.30 p.m. Call 0786 452 190 before Wednesday noon if you cannot attend.",
+    "notice": "<div class=\"text-center\"><b>NOTICE / MESSAGE</b></div>\n<div class=\"text-center\"><b>DENTAL CLINIC</b></div>\n<div class=\"text-left\">Your Tuesday appointment has been moved to <b>Thursday at 3.30 p.m.</b> Call <b>0786 452 190</b> before Wednesday noon if you cannot attend.</div>",
     "parts": [
       {
         "id": "2_1",
@@ -69,7 +69,7 @@
     "id": 3,
     "type": "TF",
     "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "PARK CAFÉ\nBreakfast served until 10.30 a.m. Hot lunches from 11.30 a.m., except Sundays.",
+    "notice": "<div class=\"text-center\"><b>NOTICE / MESSAGE</b></div>\n<div class=\"text-center\"><b>PARK CAFÉ</b></div>\n<div class=\"text-left\">Breakfast served until <b>10.30 a.m.</b> Hot lunches from <b>11.30 a.m.</b>, except Sundays.</div>",
     "parts": [
       {
         "id": "3_1",
@@ -102,7 +102,7 @@
     "id": 4,
     "type": "TF",
     "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "ROUTE 18\nThe 7.20 a.m. bus will use the temporary stop outside the bank this week. Later services remain unchanged.",
+    "notice": "<div class=\"text-center\"><b>NOTICE / MESSAGE</b></div>\n<div class=\"text-center\"><b>ROUTE 18</b></div>\n<div class=\"text-left\">The <b>7.20 a.m. bus</b> will use the temporary stop outside the bank this week. Later services remain unchanged.</div>",
     "parts": [
       {
         "id": "4_1",
@@ -135,7 +135,7 @@
     "id": 5,
     "type": "TF",
     "text": "Based on the message, decide whether the following statements are True (T) or False (F):",
-    "notice": "From: Leo To: Sam I’ll finish work at 6.15. Meet me outside the cinema at 6.45, not at the café. Call 0917 625 804 if the film has already started.",
+    "notice": "<div class=\"text-left\"><b>From:</b> Leo</div>\n<div class=\"text-left\"><b>To:</b> Sam</div>\n<div class=\"text-left\">I’ll finish work at 6.15. Meet me outside the cinema at 6.45, not at the café. Call 0917 625 804 if the film has already started.</div>",
     "parts": [
       {
         "id": "5_1",
@@ -168,7 +168,7 @@
     "id": 6,
     "type": "TF",
     "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "FOOTBALL TRAINING\nFriday’s session starts at 6.30 p.m., not 6.00. Players must arrive by 6.15 p.m. No entry after training begins.",
+    "notice": "<div class=\"text-center\"><b>NOTICE / MESSAGE</b></div>\n<div class=\"text-center\"><b>FOOTBALL TRAINING</b></div>\n<div class=\"text-left\">Friday’s session starts at <b>6.30 p.m.</b>, not 6.00. Players must arrive by <b>6.15 p.m.</b> No entry after training begins.</div>",
     "parts": [
       {
         "id": "6_1",
@@ -201,7 +201,7 @@
     "id": 7,
     "type": "TF",
     "text": "Based on the notice, decide whether the following statements are True (T) or False (F):",
-    "notice": "HISTORY MUSEUM\nLast entry: 4.30 p.m. Visitors inside may remain until 5.00 p.m. Under-12s enter free with a paying adult.",
+    "notice": "<div class=\"text-center\"><b>NOTICE / MESSAGE</b></div>\n<div class=\"text-center\"><b>HISTORY MUSEUM</b></div>\n<div class=\"text-left\">Last entry: <b>4.30 p.m.</b> Visitors inside may remain until <b>5.00 p.m.</b> Under-12s enter free with a paying adult.</div>",
     "parts": [
       {
         "id": "7_1",
@@ -234,7 +234,7 @@
     "id": 8,
     "type": "TF",
     "text": "Question 8 is based on paragraph 1. Decide if the statements are TRUE or FALSE.",
-    "passage": "For many epochs, the augmentation of human intellect was inextricably bound to biological evolution and pedagogical refinement. Today, however, the proliferation of Artificial Neural Networks (ANNs) and symbiotic brain-computer interfaces has precipitated an unprecedented paradigm shift in cognitive development. Ostensibly, these techno-cognitive augmentations offer an unequivocal panacea for intellectual limitations, promising to eradicate neurodegenerative afflictions and catapult human computational prowess to dizzying heights. Nevertheless, the intrinsic value of such advancements is not exclusively encapsulated within their computational dividends. A meticulously integrated cognitive prosthesis can theoretically engender profound epistemological insights, fortify neural plasticity and allow individuals to navigate an increasingly labyrinthine informational landscape with renewed perspicacity.\n\nYet, the contemporary landscape of augmented intelligence is not devoid of perilous undercurrents, often manifesting as diametrically opposed to the anticipated utopian cognitive emancipation. The ubiquity of algorithmic outsourcing, for example, has fundamentally metamorphosed how humanity conceptualizes knowledge retention. Instead of fostering rigorous critical thinking or profound contemplative experiences, a substantial demographic of users has become disproportionately fixated on the instantaneous retrieval of superficial data, ostensibly to project an aura of omniscience rather than cultivating genuine erudition. Others frequently devote an inordinate quantum of their cognitive bandwidth to micromanaging the parameters of their AI assistants, thereby leaving infinitesimal room for organic, unprompted cerebral synthesis or spontaneous intellectual serendipity. As a result, an innovation heralded as the ultimate cognitive emancipator may inadvertently precipitate profound intellectual complacency and cognitive atrophy.\n\n[A] A corollary predicament is the encroaching commodification of neuro-technological enhancements. In an increasingly monopolistic ecosystem, proprietary algorithms and neural interfaces have inexorably transitioned into highly lucrative corporate assets. Tech conglomerates and monolithic data brokers reap exorbitant dividends from this trajectory, and macro-economic indices may undeniably reflect robust growth. However, when the maximization of shareholder yield supersedes ethical considerations, the fundamental democratizing ethos of artificial intelligence is profoundly compromised. Users may revel in the ephemeral convenience of augmented processing capabilities without fully comprehending the insidious erosion of their cognitive autonomy and data sovereignty.\n\n[B] This assertion does not intrinsically condemn the pursuit of neuro-technological symbiosis.\n[C] Conversely, these innovations can catalyze unprecedented collaborative synergy, provided that developers adhere to stringent ethical paradigms and users are empowered to safeguard their neural privacy. A framework of techno-regulation, which incentivizes algorithm transparency and actively mitigates the exacerbation of socioeconomic disparities, emerges as an imperative solution. [D] It serves as a stark admonition that the pursuit of artificial superintelligence should not necessitate the disenfranchisement or exploitation of the very biological entities it was engineered to elevate.\n\nUltimately, the zenith of human-AI integration may not be characterized by the most computationally exorbitant or visually arresting neural interface. Rather, the optimal synthesis is one that empowers individuals to introspect authentically, cultivate empathetic connections with their contemporaries and decipher novel phenomena without obfuscating the quintessential elements of human consciousness. Should humanity navigate this technological precipice with heightened equilibrium and vigilance, we stand to inherit not merely a repository of infinite processing power, but a profoundly enriched comprehension of both our internal cognitive architecture and the world around us.",
+    "passage": "For many epochs, the augmentation of human intellect was inextricably bound to biological evolution and pedagogical refinement. Today, however, the proliferation of Artificial Neural Networks (ANNs) and symbiotic brain-computer interfaces has precipitated an unprecedented paradigm shift in cognitive development. Ostensibly, these techno-cognitive augmentations offer an unequivocal panacea for intellectual limitations, promising to eradicate neurodegenerative afflictions and catapult human computational prowess to dizzying heights. Nevertheless, the intrinsic value of such advancements is not exclusively encapsulated within their computational dividends. A meticulously integrated cognitive prosthesis can theoretically engender profound epistemological insights, fortify neural plasticity and allow individuals to navigate an increasingly labyrinthine informational landscape with renewed perspicacity.\n\nYet, the contemporary landscape of augmented intelligence is not devoid of perilous undercurrents, often manifesting as diametrically opposed to the anticipated utopian cognitive emancipation. The ubiquity of algorithmic outsourcing, for example, has fundamentally metamorphosed how humanity conceptualizes knowledge retention. Instead of fostering rigorous critical thinking or profound contemplative experiences, a substantial demographic of users has become disproportionately fixated on the instantaneous retrieval of superficial data, ostensibly to project an aura of omniscience rather than cultivating genuine <b>erudition</b>. Others frequently devote an inordinate quantum of their cognitive bandwidth to micromanaging the parameters of their AI assistants, thereby leaving infinitesimal room for organic, unprompted cerebral synthesis or spontaneous intellectual serendipity. As a result, an innovation heralded as the ultimate cognitive emancipator may inadvertently precipitate profound intellectual complacency and cognitive atrophy.\n\n<b>[A]</b> A corollary predicament is the encroaching commodification of neuro-technological enhancements. In an increasingly monopolistic ecosystem, proprietary algorithms and neural interfaces have inexorably transitioned into highly lucrative corporate assets. Tech conglomerates and monolithic data brokers reap exorbitant dividends from <b>this trajectory</b>, and macro-economic indices may undeniably reflect robust growth. However, when the maximization of shareholder yield supersedes ethical considerations, the fundamental democratizing ethos of artificial intelligence is profoundly compromised. Users may revel in the ephemeral convenience of augmented processing capabilities without fully comprehending the insidious erosion of their cognitive autonomy and data sovereignty.\n\n<b>[B]</b> This assertion does not intrinsically condemn the pursuit of neuro-technological symbiosis.\n<b>[C]</b> Conversely, these innovations can catalyze unprecedented collaborative synergy, provided that developers adhere to stringent ethical paradigms and users are empowered to safeguard their neural privacy. A framework of techno-regulation, which incentivizes algorithm transparency and actively mitigates the exacerbation of socioeconomic disparities, emerges as an imperative solution. <b>[D]</b> It serves as a stark admonition that the pursuit of artificial superintelligence should not necessitate the disenfranchisement or exploitation of the very biological entities it was engineered to elevate.\n\nUltimately, the zenith of human-AI integration may not be characterized by the most computationally exorbitant or visually arresting neural interface. Rather, the optimal synthesis is one that empowers individuals to introspect authentically, cultivate empathetic connections with their contemporaries and decipher novel phenomena without obfuscating the quintessential elements of human consciousness. Should humanity navigate this technological precipice with heightened equilibrium and vigilance, we stand to inherit not merely a repository of infinite processing power, but a profoundly enriched comprehension of both our internal cognitive architecture and the world around us.",
     "parts": [
       {
         "id": "8_1",
